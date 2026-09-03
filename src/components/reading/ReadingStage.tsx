@@ -73,6 +73,7 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
   const [activeWord, setActiveWord] = useState<{ word: string, index: number } | null>(null);
   const [translation, setTranslation] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [popupPos, setPopupPos] = useState<'center' | 'left' | 'right'>('center');
   const containerRef = useRef<HTMLDivElement>(null);
 
   const tokens = text.split(/(\b[\w'-]+\b)/g);
@@ -89,12 +90,23 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleWordClick = async (word: string, index: number) => {
+  const handleWordClick = async (word: string, index: number, e: React.MouseEvent) => {
     if (activeWord?.index === index) {
       setActiveWord(null);
       setTranslation(null);
       return;
     }
+
+    const rect = (e.target as HTMLElement).getBoundingClientRect();
+    const windowWidth = window.innerWidth;
+    if (rect.left < 100) {
+      setPopupPos('left');
+    } else if (windowWidth - rect.right < 100) {
+      setPopupPos('right');
+    } else {
+      setPopupPos('center');
+    }
+
     setActiveWord({ word, index });
     setLoading(true);
     const trans = await translationEngine.translateWordOffline(word);
@@ -112,11 +124,13 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
           const isTarget = lowerTargets.some(t => 
             lowerToken === t || lowerToken === t + 's' || lowerToken === t + 'd' || lowerToken === t + 'ed' || lowerToken === t + 'ing'
           );
+          const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
+          const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
 
           return (
             <span key={i} className="relative inline-block">
               <span
-                onClick={() => handleWordClick(token, i)}
+                onClick={(e) => handleWordClick(token, i, e)}
                 className={`cursor-pointer transition-colors duration-200 ${
                   isActive 
                     ? 'bg-indigo-600 text-white rounded px-0.5' 
@@ -128,7 +142,7 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
                 {token}
               </span>
               {isActive && (
-                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default font-sans font-normal">
+                <span className={`absolute bottom-full ${posClass} mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default font-sans font-normal`}>
                   <div className="flex items-center justify-between border-b border-slate-100 pb-2 mb-2">
                     <span className="font-bold text-slate-900 text-base">{token}</span>
                     <div className="flex items-center gap-1">
@@ -148,7 +162,7 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
                   <span className="font-medium text-indigo-600 text-center text-base">
                     {loading ? '...' : (translation || 'No translation')}
                   </span>
-                  <span className="absolute top-full left-1/2 -translate-x-1/2 border-[8px] border-transparent border-t-white" />
+                  <span className={`absolute top-full ${arrowPosClass} border-[8px] border-transparent border-t-white`} />
                 </span>
               )}
             </span>

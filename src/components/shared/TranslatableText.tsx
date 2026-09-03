@@ -12,6 +12,7 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
   const [activeWord, setActiveWord] = useState<{ word: string, index: number } | null>(null);
   const [translation, setTranslation] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [popupPos, setPopupPos] = useState<'center' | 'left' | 'right'>('center');
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Split text by word boundaries, keeping punctuation
@@ -28,11 +29,21 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleWordClick = async (word: string, index: number) => {
+  const handleWordClick = async (word: string, index: number, e: React.MouseEvent) => {
     if (activeWord?.index === index) {
       setActiveWord(null);
       setTranslation(null);
       return;
+    }
+
+    const rect = (e.target as HTMLElement).getBoundingClientRect();
+    const windowWidth = window.innerWidth;
+    if (rect.left < 100) {
+      setPopupPos('left');
+    } else if (windowWidth - rect.right < 100) {
+      setPopupPos('right');
+    } else {
+      setPopupPos('center');
     }
 
     setActiveWord({ word, index });
@@ -49,16 +60,18 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
           // If token is a word
           if (/^[\w'-]+$/.test(token)) {
             const isActive = activeWord?.index === i;
+            const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
+            const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
             return (
               <span key={i} className="relative inline-block">
                 <span
-                  onClick={() => handleWordClick(token, i)}
+                  onClick={(e) => handleWordClick(token, i, e)}
                   className={`cursor-pointer transition-colors duration-200 ${isActive ? 'bg-indigo-100 text-indigo-900 rounded px-0.5' : 'hover:bg-slate-100 rounded px-0.5'}`}
                 >
                   {token}
                 </span>
                 {isActive && (
-                  <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default">
+                  <span className={`absolute bottom-full ${posClass} mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default`}>
                     <div className="flex items-center justify-between border-b border-slate-100 pb-2 mb-2">
                       <span className="font-bold text-slate-900 text-base">{token}</span>
                       <div className="flex items-center gap-1">
@@ -78,7 +91,7 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
                     <span className="font-medium text-indigo-600 text-center text-base">
                       {loading ? '...' : (translation || 'No translation')}
                     </span>
-                    <span className="absolute top-full left-1/2 -translate-x-1/2 border-[8px] border-transparent border-t-white" />
+                    <span className={`absolute top-full ${arrowPosClass} border-[8px] border-transparent border-t-white`} />
                   </span>
                 )}
               </span>
