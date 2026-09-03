@@ -1,6 +1,6 @@
 export type CEFRLevel = 'B2' | 'C1' | 'C2';
 
-export type LanguageCode = 'es' | 'ru' | 'zh' | 'fr' | 'de' | 'ja' | 'ko';
+export type LanguageCode = 'es' | 'ru' | 'zh' | 'fr' | 'de' | 'ja' | 'tr';
 
 export interface TranslationMap {
   [langCode: string]: string;

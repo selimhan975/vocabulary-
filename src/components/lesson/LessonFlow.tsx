@@ -70,10 +70,10 @@ export const LessonFlow: React.FC<LessonFlowProps> = ({ lesson, onExit }) => {
           <QuizEngine words={lesson.words} onComplete={handleQuizComplete} />
         )}
         {stage === 'reading' && (
-          <ReadingStage reading={lesson.reading} words={lesson.words} onComplete={handleReadingComplete} />
+          <ReadingStage reading={lesson.reading} words={lesson.words} onComplete={handleReadingComplete} onBack={() => setStage('quiz')} />
         )}
         {stage === 'comprehension' && (
-          <ComprehensionStage questions={lesson.reading.comprehensionQuestions} onComplete={handleComprehensionComplete} />
+          <ComprehensionStage questions={lesson.reading.comprehensionQuestions} onComplete={handleComprehensionComplete} onBack={() => setStage('reading')} />
         )}
         {stage === 'completion' && (
           <CompletionStage lesson={lesson} score={score} onFinish={onExit} />

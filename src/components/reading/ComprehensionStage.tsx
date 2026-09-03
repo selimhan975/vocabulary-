@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { ComprehensionQuestion } from '../../types';
 import { motion, AnimatePresence } from 'motion/react';
+import { ArrowLeft } from 'lucide-react';
 
 interface ComprehensionStageProps {
   questions: ComprehensionQuestion[];
   onComplete: (score: number, max: number) => void;
+  onBack: () => void;
 }
 
-export const ComprehensionStage: React.FC<ComprehensionStageProps> = ({ questions, onComplete }) => {
+export const ComprehensionStage: React.FC<ComprehensionStageProps> = ({ questions, onComplete, onBack }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
@@ -43,6 +45,15 @@ export const ComprehensionStage: React.FC<ComprehensionStageProps> = ({ question
 
   return (
     <div className="flex flex-col w-full max-w-3xl mx-auto min-h-[70vh]">
+      <div className="mb-4">
+        <button
+          onClick={onBack}
+          className="flex items-center space-x-2 text-slate-500 hover:text-slate-800 font-medium transition-colors"
+        >
+          <ArrowLeft size={20} />
+          <span>Back to Reading</span>
+        </button>
+      </div>
       <div className="w-full bg-slate-100 h-2 rounded-full mb-12 overflow-hidden">
         <motion.div 
           className="bg-indigo-600 h-full"

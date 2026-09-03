@@ -3,25 +3,36 @@ import { ReadingText, Word } from '../../types';
 import { translationEngine } from '../../engine/translation';
 import { TranslatableText } from '../shared/TranslatableText';
 import { TranslationToggle } from '../shared/TranslationToggle';
-import { CheckCircle2, X } from 'lucide-react';
+import { CheckCircle2, X, Play, Square, ArrowLeft } from 'lucide-react';
 import { motion } from 'motion/react';
 import { SpeakerButton } from '../shared/SpeakerButton';
+import { speak } from '../../engine/tts';
 
 interface ReadingStageProps {
   reading: ReadingText;
   words: Word[]; // Target words to highlight
   onComplete: () => void;
+  onBack: () => void;
 }
 
-export const ReadingStage: React.FC<ReadingStageProps> = ({ reading, words, onComplete }) => {
-  // Highlight target words. 
-  // We can do a simple CSS replace for target words, but TranslatableText already splits by words.
-  // We can pass a custom class map or just let the user read. 
-  // For highlighting, let's inject simple HTML or modify TranslatableText to accept highlighted words.
-  // Actually, modifying TranslatableText is cleaner. Let's update it later if needed.
-  // For now, let's just render the text. 
-  // Wait, prompt says: "Highlight the target vocabulary words visually."
-  // Let's create a specialized ReadingText component or just let TranslatableText handle it.
+export const ReadingStage: React.FC<ReadingStageProps> = ({ reading, words, onComplete, onBack }) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleListen = () => {
+    if (isPlaying) {
+      window.speechSynthesis.cancel();
+      setIsPlaying(false);
+    } else {
+      speak(reading.content, () => setIsPlaying(true), () => setIsPlaying(false));
+    }
+  };
+
+  useEffect(() => {
+    return () => {
+      // Cleanup speech on unmount
+      window.speechSynthesis.cancel();
+    };
+  }, []);
 
   const renderText = (content: string) => {
     // Split by paragraphs
@@ -36,15 +47,35 @@ export const ReadingStage: React.FC<ReadingStageProps> = ({ reading, words, onCo
 
   return (
     <div className="flex flex-col w-full max-w-3xl mx-auto min-h-[70vh]">
+      <div className="mb-4">
+        <button
+          onClick={onBack}
+          className="flex items-center space-x-2 text-slate-500 hover:text-slate-800 font-medium transition-colors"
+        >
+          <ArrowLeft size={20} />
+          <span>Back</span>
+        </button>
+      </div>
       <div className="flex-grow bg-white rounded-2xl shadow-sm border border-slate-100 p-8 md:p-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mb-8 border-b border-slate-100 pb-8">
-            {reading.title}
-          </h2>
+          <div className="flex justify-between items-start mb-8 border-b border-slate-100 pb-8">
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900">
+              {reading.title}
+            </h2>
+            <button
+              onClick={handleListen}
+              className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-colors ${
+                isPlaying ? 'bg-rose-100 text-rose-700 hover:bg-rose-200' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'
+              }`}
+            >
+              {isPlaying ? <Square size={18} /> : <Play size={18} />}
+              <span>{isPlaying ? 'Stop' : 'Listen'}</span>
+            </button>
+          </div>
           
           <div className="mb-10">
             {renderText(reading.content)}
@@ -54,7 +85,14 @@ export const ReadingStage: React.FC<ReadingStageProps> = ({ reading, words, onCo
             <TranslationToggle translations={reading.translations} buttonClassName="font-medium text-base" />
           </div>
 
-          <div className="flex justify-end pt-8 border-t border-slate-100">
+          <div className="flex justify-between items-center pt-8 border-t border-slate-100">
+            <button
+              onClick={onBack}
+              className="px-6 py-3 text-slate-600 font-medium rounded-lg hover:bg-slate-100 transition-all flex items-center space-x-2"
+            >
+              <ArrowLeft size={18} />
+              <span>Previous Stage</span>
+            </button>
             <button
               onClick={onComplete}
               className="px-8 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 shadow-sm flex items-center space-x-2 transition-all"

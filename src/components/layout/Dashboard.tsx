@@ -1,6 +1,6 @@
 import React from 'react';
 import { Lesson, LanguageCode } from '../../types';
-import { b2Lesson1 } from '../../data/b2-lesson-1';
+import { getLessonsByLevel } from '../../data/lessons';
 import { useAppContext } from '../../store/AppContext';
 import { PlayCircle, CheckCircle2, Settings } from 'lucide-react';
 
@@ -8,11 +8,9 @@ interface DashboardProps {
   onStartLesson: (lesson: Lesson) => void;
 }
 
-// Mock index of available lessons
-const availableLessons = [b2Lesson1];
-
 export const Dashboard: React.FC<DashboardProps> = ({ onStartLesson }) => {
   const { completedLessons, targetLang, setTargetLang } = useAppContext();
+  const availableLessons = getLessonsByLevel('B2');
 
   return (
     <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8 font-sans">
@@ -36,8 +34,8 @@ export const Dashboard: React.FC<DashboardProps> = ({ onStartLesson }) => {
               <option value="zh">Chinese</option>
               <option value="fr">French</option>
               <option value="de">German</option>
+              <option value="tr">Turkish</option>
               <option value="ja">Japanese</option>
-              <option value="ko">Korean</option>
             </select>
           </div>
         </header>
@@ -92,7 +90,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onStartLesson }) => {
             {/* Mock locked lesson to show scale */}
             <div className="p-6 rounded-2xl border border-slate-200 bg-slate-50 opacity-60">
               <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-4">
-                Lesson 2
+                Lesson {availableLessons.length + 1}
               </span>
               <h3 className="text-xl font-bold text-slate-500 mb-2">Society & Culture</h3>
               <p className="text-slate-400 text-sm">Coming soon</p>
