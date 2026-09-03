@@ -14,7 +14,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['tough', 'flexible', 'strong'],
       collocations: ['highly resilient', 'resilient nature'],
-      translations: { ru: 'стойкий', zh: '有韧性的', es: 'resiliente' },
+      translations: { ru: 'устойчивый / стойкий', zh: '有韧性的', es: 'resiliente', fr: 'résilient', de: 'belastbar / widerstandsfähig', tr: 'dirençli', ja: '回復力のある' },
       meanings: [
         {
           id: 'w1-m1',
@@ -38,7 +38,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['apply', 'execute', 'enact'],
       collocations: ['implement a policy', 'implement changes'],
-      translations: { ru: 'внедрять', zh: '实施', es: 'implementar' },
+      translations: { ru: 'внедрять', zh: '实施', es: 'implementar', fr: 'mettre en œuvre', de: 'implementieren', tr: 'uygulamak', ja: '実行する' },
       meanings: [
         {
           id: 'w2-m1',
@@ -62,7 +62,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['preserve', 'keep', 'sustain'],
       collocations: ['maintain standards', 'maintain balance'],
-      translations: { ru: 'поддерживать', zh: '保持', es: 'mantener' },
+      translations: { ru: 'поддерживать', zh: '保持', es: 'mantener', fr: 'maintenir', de: 'aufrechterhalten', tr: 'sürdürmek', ja: '維持する' },
       meanings: [
         {
           id: 'w3-m1',
@@ -86,7 +86,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['vital', 'essential', 'critical'],
       collocations: ['absolutely crucial', 'crucial role'],
-      translations: { ru: 'решающий', zh: '至关重要的', es: 'crucial' },
+      translations: { ru: 'ключевой / решающий', zh: '至关重要的', es: 'crucial', fr: 'crucial', de: 'entscheidend', tr: 'çok önemli', ja: '極めて重要な' },
       meanings: [
         {
           id: 'w4-m1',
@@ -110,7 +110,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['develop', 'progress', 'advance'],
       collocations: ['evolve rapidly', 'evolve into'],
-      translations: { ru: 'эволюционировать', zh: '进化 / 发展', es: 'evolucionar' },
+      translations: { ru: 'эволюционировать', zh: '进化 / 发展', es: 'evolucionar', fr: 'évoluer', de: 'sich entwickeln', tr: 'gelişmek', ja: '進化する' },
       meanings: [
         {
           id: 'w5-m1',
@@ -134,7 +134,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['continuous', 'unceasing'],
       collocations: ['constant supply', 'constant reminder'],
-      translations: { ru: 'постоянный', zh: '不断的', es: 'constante' },
+      translations: { ru: 'постоянный', zh: '不断的', es: 'constante', fr: 'constant', de: 'konstant', tr: 'sürekli', ja: '一定の' },
       meanings: [
         {
           id: 'w6-m1',
@@ -158,7 +158,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['notable', 'important', 'substantial'],
       collocations: ['significant impact', 'significant difference'],
-      translations: { ru: 'значительный', zh: '重大的', es: 'significativo' },
+      translations: { ru: 'значительный', zh: '重大的', es: 'significativo', fr: 'significatif', de: 'bedeutend', tr: 'önemli', ja: '重要な' },
       meanings: [
         {
           id: 'w7-m1',
@@ -182,7 +182,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['acquire', 'get', 'gain'],
       collocations: ['obtain permission', 'obtain information'],
-      translations: { ru: 'получать', zh: '获得', es: 'obtener' },
+      translations: { ru: 'получать', zh: '获得', es: 'obtener', fr: 'obtenir', de: 'erhalten', tr: 'elde etmek', ja: '得る' },
       meanings: [
         {
           id: 'w8-m1',
@@ -206,7 +206,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['adjust', 'modify', 'conform'],
       collocations: ['adapt to changes', 'adapt quickly'],
-      translations: { ru: 'адаптироваться', zh: '适应', es: 'adaptar' },
+      translations: { ru: 'адаптироваться', zh: '适应', es: 'adaptar', fr: 'adapter', de: 'anpassen', tr: 'uyum sağlamak', ja: '適応する' },
       meanings: [
         {
           id: 'w9-m1',
@@ -230,7 +230,7 @@ export const b2Lesson1: Lesson = {
       level: 'B2',
       synonyms: ['achieve', 'complete', 'satisfy'],
       collocations: ['fulfill a dream', 'fulfill a requirement'],
-      translations: { ru: 'выполнять', zh: '履行 / 实现', es: 'cumplir' },
+      translations: { ru: 'выполнять', zh: '履行 / 实现', es: 'cumplir', fr: 'accomplir / réaliser', de: 'erfüllen', tr: 'yerine getirmek', ja: '果たす / 満たす' },
       meanings: [
         {
           id: 'w10-m1',
