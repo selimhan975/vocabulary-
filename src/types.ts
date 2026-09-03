@@ -1,6 +1,13 @@
-export type CEFRLevel = 'B2' | 'C1' | 'C2';
+export type CEFRLevel = 'B1' | 'B2' | 'C1' | 'C2' | string;
 
-export type LanguageCode = 'es' | 'ru' | 'zh' | 'fr' | 'de' | 'ja' | 'tr';
+export type LanguageCode = 'es' | 'ru' | 'zh' | 'fr' | 'de' | 'ja' | 'tr' | 'en';
+
+export interface LevelConfig {
+  id: CEFRLevel;
+  name: string;
+  description: string;
+  available: boolean;
+}
 
 export interface TranslationMap {
   [langCode: string]: string;

@@ -1,5 +1,6 @@
 import { LanguageCode, TranslationMap } from '../types';
 import { availableLessons } from '../data/lessons';
+import { globalDictionary } from '../data/dictionary';
 
 export class TranslationEngine {
   private currentLang: LanguageCode = 'es';
@@ -60,8 +61,29 @@ export class TranslationEngine {
       }
     }
 
+    // Second, scan the global offline dictionary
+    if (globalDictionary[cleanWord] && globalDictionary[cleanWord][this.currentLang]) {
+      return globalDictionary[cleanWord][this.currentLang];
+    }
+
+    // Try stem match against global dictionary
+    for (const key of Object.keys(globalDictionary)) {
+      if (
+        key + 's' === cleanWord ||
+        key + 'es' === cleanWord ||
+        key + 'd' === cleanWord ||
+        key + 'ed' === cleanWord ||
+        key + 'ing' === cleanWord ||
+        key.replace(/e$/, 'ing') === cleanWord
+      ) {
+        if (globalDictionary[key][this.currentLang]) {
+          return globalDictionary[key][this.currentLang];
+        }
+      }
+    }
+
     // Fallback if unavailable
-    return `[Offline unavailable: ${cleanWord}]`;
+    return `Translation unavailable offline`;
   }
 }
 
