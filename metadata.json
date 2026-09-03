@@ -1,0 +1,8 @@
+{
+  "name": "B2 English Vocabulary",
+  "description": "A modern, modular English vocabulary learning application focusing on context, reading, and quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
