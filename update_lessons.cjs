@@ -1,4 +1,6 @@
-import { Lesson } from '../types';
+const fs = require('fs');
+
+const content = `import { Lesson } from '../types';
 import { b2Lesson1 } from './b2-lesson-1';
 import { b2Lesson2 } from './b2-lesson-2';
 import { b2Lesson3 } from './b2-lesson-3';
@@ -21,3 +23,5 @@ export const availableLessons: Lesson[] = [
 export function getLessonsByLevel(level: string): Lesson[] {
   return availableLessons.filter(l => l.level === level);
 }
+`;
+fs.writeFileSync('src/data/lessons.ts', content);
