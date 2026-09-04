@@ -20,7 +20,8 @@ export class ProgressEngine {
     }
     return {
       completedLessons: [],
-      scores: {}
+      scores: {},
+      mastery: {}
     };
   }
 
@@ -54,6 +55,52 @@ export class ProgressEngine {
   
   getLessonScore(lessonId: string): LessonScore | undefined {
     return this.progress.scores[lessonId];
+  }
+
+  getLessonMastery(lessonId: string) {
+    if (!this.progress.mastery) {
+      this.progress.mastery = {};
+    }
+    if (!this.progress.mastery[lessonId]) {
+      this.progress.mastery[lessonId] = {
+        lessonId,
+        words: {}
+      };
+    }
+    return this.progress.mastery[lessonId];
+  }
+
+  updateWordMastery(lessonId: string, wordId: string, updates: Partial<import('../types').WordMastery>) {
+    const lessonMastery = this.getLessonMastery(lessonId);
+    if (!lessonMastery.words[wordId]) {
+      lessonMastery.words[wordId] = {
+        wordId,
+        state: 'NEW',
+        correctAnswers: 0,
+        incorrectAnswers: 0,
+        quizAttempts: 0
+      };
+    }
+    lessonMastery.words[wordId] = {
+      ...lessonMastery.words[wordId],
+      ...updates,
+      lastReviewed: Date.now()
+    };
+    
+    // Evaluate mastery state
+    const wm = lessonMastery.words[wordId];
+    if (wm.state !== 'MASTERED') {
+      if (wm.incorrectAnswers > 0 && wm.correctAnswers < 2) {
+        wm.state = 'NEEDS_REVIEW';
+      } else if (wm.correctAnswers >= 2) {
+        wm.state = 'MASTERED';
+      } else {
+        wm.state = 'PRACTICING';
+      }
+    }
+    
+    lessonMastery.lastQuizDate = Date.now();
+    this.save();
   }
 }
 

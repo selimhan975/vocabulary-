@@ -69,7 +69,29 @@ export interface LessonScore {
   comprehensionMax: number;
 }
 
+export type MasteryState = 'NEW' | 'PRACTICING' | 'NEEDS_REVIEW' | 'MASTERED';
+
+export interface WordMastery {
+  wordId: string;
+  state: MasteryState;
+  correctAnswers: number;
+  incorrectAnswers: number;
+  quizAttempts: number;
+  // Future spaced review
+  lastReviewed?: number;
+  reviewCount?: number;
+  masteryLevel?: number;
+  nextReview?: number;
+}
+
+export interface LessonMastery {
+  lessonId: string;
+  words: Record<string, WordMastery>;
+  lastQuizDate?: number;
+}
+
 export interface Progress {
   completedLessons: string[];
   scores: Record<string, LessonScore>;
+  mastery?: Record<string, LessonMastery>;
 }

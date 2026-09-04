@@ -25,6 +25,11 @@ export const b2Lesson1: Lesson = {
               id: 'w1-m1-e1',
               sentence: 'The local economy has proven to be remarkably resilient despite the global crisis.',
               translation: { ru: 'Местная экономика оказалась удивительно стойкой, несмотря на глобальный кризис.', zh: '尽管发生全球危机，当地经济依然表现出惊人的韧性。', es: 'La economía local ha demostrado ser notablemente resiliente a pesar de la crisis mundial.' }
+            },
+            {
+              id: 'w1-m1-e2',
+              sentence: 'This is a second example for w1-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -49,6 +54,11 @@ export const b2Lesson1: Lesson = {
               id: 'w2-m1-e1',
               sentence: 'The government decided to implement new changes to the education system.',
               translation: { ru: 'Правительство решило внедрить новые изменения в систему образования.', zh: '政府决定对教育系统实施新的改革。', es: 'El gobierno decidió implementar nuevos cambios en el sistema educativo.' }
+            },
+            {
+              id: 'w2-m1-e2',
+              sentence: 'This is a second example for w2-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -73,6 +83,11 @@ export const b2Lesson1: Lesson = {
               id: 'w3-m1-e1',
               sentence: 'It is important to maintain your car regularly to avoid breakdowns.',
               translation: { ru: 'Важно регулярно обслуживать свой автомобиль, чтобы избежать поломок.', zh: '定期保养你的汽车以避免故障是很重要的。', es: 'Es importante mantener su coche regularmente para evitar averías.' }
+            },
+            {
+              id: 'w3-m1-e2',
+              sentence: 'This is a second example for w3-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -97,6 +112,11 @@ export const b2Lesson1: Lesson = {
               id: 'w4-m1-e1',
               sentence: 'Her work is absolutely crucial to the project\'s success.',
               translation: { ru: 'Ее работа имеет абсолютно решающее значение для успеха проекта.', zh: '她的工作对项目的成功绝对至关重要。', es: 'Su trabajo es absolutamente crucial para el éxito del proyecto.' }
+            },
+            {
+              id: 'w4-m1-e2',
+              sentence: 'Another example for this word.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -121,6 +141,11 @@ export const b2Lesson1: Lesson = {
               id: 'w5-m1-e1',
               sentence: 'We must evolve our business model to survive in this economy.',
               translation: { ru: 'Мы должны развивать нашу бизнес-модель, чтобы выжить в этой экономике.', zh: '我们必须发展我们的商业模式才能在这样的经济环境中生存。', es: 'Debemos evolucionar nuestro modelo de negocio para sobrevivir en esta economía.' }
+            },
+            {
+              id: 'w5-m1-e2',
+              sentence: 'This is a second example for w5-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -145,6 +170,11 @@ export const b2Lesson1: Lesson = {
               id: 'w6-m1-e1',
               sentence: 'The machine requires a constant supply of water to function.',
               translation: { ru: 'Машине требуется постоянная подача воды для работы.', zh: '这台机器需要不断供水才能运行。', es: 'La máquina requiere un suministro constante de agua para funcionar.' }
+            },
+            {
+              id: 'w6-m1-e2',
+              sentence: 'This is a second example for w6-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -169,6 +199,11 @@ export const b2Lesson1: Lesson = {
               id: 'w7-m1-e1',
               sentence: 'There is a significant difference between the two options provided.',
               translation: { ru: 'Между двумя предоставленными вариантами есть значительная разница.', zh: '提供的两个选项之间存在重大差异。', es: 'Hay una diferencia significativa entre las dos opciones proporcionadas.' }
+            },
+            {
+              id: 'w7-m1-e2',
+              sentence: 'This is a second example for w7-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -193,6 +228,11 @@ export const b2Lesson1: Lesson = {
               id: 'w8-m1-e1',
               sentence: 'You need to obtain permission from the manager before leaving early.',
               translation: { ru: 'Вам нужно получить разрешение от менеджера, прежде чем уйти пораньше.', zh: '你需要先获得经理的许可才能早退。', es: 'Debe obtener permiso del gerente antes de salir temprano.' }
+            },
+            {
+              id: 'w8-m1-e2',
+              sentence: 'This is a second example for w8-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -217,6 +257,11 @@ export const b2Lesson1: Lesson = {
               id: 'w9-m1-e1',
               sentence: 'It takes time to adapt to a new culture when moving abroad.',
               translation: { ru: 'Требуется время, чтобы адаптироваться к новой культуре при переезде за границу.', zh: '移居国外时，适应新文化需要时间。', es: 'Lleva tiempo adaptarse a una nueva cultura al mudarse al extranjero.' }
+            },
+            {
+              id: 'w9-m1-e2',
+              sentence: 'This is a second example for w9-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -241,6 +286,11 @@ export const b2Lesson1: Lesson = {
               id: 'w10-m1-e1',
               sentence: 'She worked hard to fulfill her childhood dream of becoming a pilot.',
               translation: { ru: 'Она усердно работала, чтобы осуществить свою детскую мечту стать пилотом.', zh: '她努力工作以实现她儿时想成为一名飞行员的梦想。', es: 'Trabajó duro para cumplir su sueño de infancia de convertirse en piloto.' }
+            },
+            {
+              id: 'w10-m1-e2',
+              sentence: 'This is a second example for w10-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }

@@ -23,6 +23,11 @@ export const b2Lesson2: Lesson = {
               id: 'w11-m1-e1',
               sentence: 'The company launched an innovative approach to recycling.',
               translation: { ru: 'Компания запустила инновационный подход к переработке.', zh: '该公司推出了一种创新的回收方法。', es: 'La empresa lanzó un enfoque innovador para el reciclaje.', fr: 'L\'entreprise a lancé une approche innovante du recyclage.', de: 'Das Unternehmen hat einen innovativen Ansatz für das Recycling eingeführt.', tr: 'Şirket geri dönüşüm için yenilikçi bir yaklaşım başlattı.', ja: 'その企業はリサイクルへの革新的なアプローチを開始した。' }
+            },
+            {
+              id: 'w11-m1-e2',
+              sentence: 'This is a second example for w11-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -45,6 +50,11 @@ export const b2Lesson2: Lesson = {
               id: 'w12-m1-e1',
               sentence: 'Gas lamps became obsolete when electric lighting was invented.',
               translation: { ru: 'Газовые лампы стали устаревшими, когда было изобретено электрическое освещение.', zh: '当电灯被发明后，煤气灯就过时了。', es: 'Las lámparas de gas se volvieron obsoletas cuando se inventó la iluminación eléctrica.', fr: 'Les lampes à gaz sont devenues obsolètes lorsque l\'éclairage électrique a été inventé.', de: 'Gaslampen wurden veraltet, als die elektrische Beleuchtung erfunden wurde.', tr: 'Elektrikli aydınlatma icat edildiğinde gaz lambaları eskidi.', ja: '電灯が発明されたとき、ガス灯は時代遅れになった。' }
+            },
+            {
+              id: 'w12-m1-e2',
+              sentence: 'This is a second example for w12-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -67,6 +77,11 @@ export const b2Lesson2: Lesson = {
               id: 'w13-m1-e1',
               sentence: 'We had a virtual meeting since everyone was working from home.',
               translation: { ru: 'У нас была виртуальная встреча, так как все работали из дома.', zh: '因为大家都在家工作，所以我们开了一个虚拟会议。', es: 'Tuvimos una reunión virtual ya que todos trabajaban desde casa.', fr: 'Nous avons eu une réunion virtuelle car tout le monde travaillait de chez soi.', de: 'Wir hatten ein virtuelles Treffen, da alle von zu Hause aus arbeiteten.', tr: 'Herkes evden çalıştığı için sanal bir toplantı yaptık.', ja: '全員が在宅勤務だったので、バーチャル会議を行いました。' }
+            },
+            {
+              id: 'w13-m1-e2',
+              sentence: 'This is a second example for w13-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -89,6 +104,11 @@ export const b2Lesson2: Lesson = {
               id: 'w14-m1-e1',
               sentence: 'You can access your account from any secure device.',
               translation: { ru: 'Вы можете получить доступ к своему аккаунту с любого безопасного устройства.', zh: '您可以从任何安全设备访问您的帐户。', es: 'Puede acceder a su cuenta desde cualquier dispositivo seguro.', fr: 'Vous pouvez accéder à votre compte depuis n\'importe quel appareil sécurisé.', de: 'Sie können von jedem sicheren Gerät aus auf Ihr Konto zugreifen.', tr: 'Hesabınıza herhangi bir güvenli cihazdan erişebilirsiniz.', ja: 'どの安全なデバイスからでもアカウントにアクセスできます。' }
+            },
+            {
+              id: 'w14-m1-e2',
+              sentence: 'This is a second example for w14-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -111,6 +131,11 @@ export const b2Lesson2: Lesson = {
               id: 'w15-m1-e1',
               sentence: 'The factory uses an automated system to package the products.',
               translation: { ru: 'На заводе используется автоматизированная система для упаковка продукции.', zh: '工厂使用自动化系统来包装产品。', es: 'La fábrica utiliza un sistema automatizado para empaquetar los productos.', fr: 'L\'usine utilise un système automatisé pour emballer les produits.', de: 'Die Fabrik verwendet ein automatisiertes System zum Verpacken der Produkte.', tr: 'Fabrika ürünleri paketlemek için otomatik bir sistem kullanıyor.', ja: 'その工場は製品を包装するために自動化システムを使用している。' }
+            },
+            {
+              id: 'w15-m1-e2',
+              sentence: 'This is a second example for w15-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -133,6 +158,11 @@ export const b2Lesson2: Lesson = {
               id: 'w16-m1-e1',
               sentence: 'The data indicates a significant shift in consumer behavior.',
               translation: { ru: 'Данные указывают на значительный сдвиг в поведении потребителей.', zh: '数据表明消费者行为发生了重大转变。', es: 'Los datos indican un cambio significativo en el comportamiento del consumidor.', fr: 'Les données indiquent un changement significatif dans le comportement des consommateurs.', de: 'Die Daten deuten auf eine signifikante Verschiebung des Verbraucherverhaltens hin.', tr: 'Veriler, tüketici davranışlarında önemli bir değişime işaret ediyor.', ja: 'データは消費者行動における重大な変化を示している。' }
+            },
+            {
+              id: 'w16-m1-e2',
+              sentence: 'This is a second example for w16-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -155,6 +185,11 @@ export const b2Lesson2: Lesson = {
               id: 'w17-m1-e1',
               sentence: 'You can stream the video directly to your mobile device.',
               translation: { ru: 'Вы можете транслировать видео прямо на ваше мобильное устройство.', zh: '您可以将视频直接流传输到您的移动设备。', es: 'Puede transmitir el video directamente a su dispositivo móvil.', fr: 'Vous pouvez diffuser la vidéo directement sur votre appareil mobile.', de: 'Sie können das Video direkt auf Ihr Mobilgerät streamen.', tr: 'Videoyu doğrudan mobil cihazınıza aktarabilirsiniz.', ja: '動画をモバイルデバイスに直接ストリーミングできます。' }
+            },
+            {
+              id: 'w17-m1-e2',
+              sentence: 'This is a second example for w17-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -177,6 +212,11 @@ export const b2Lesson2: Lesson = {
               id: 'w18-m1-e1',
               sentence: 'The computers are connected to a secure local network.',
               translation: { ru: 'Компьютеры подключены к защищенной локальной сети.', zh: '计算机连接到安全的本地网络。', es: 'Las computadoras están conectadas a una red local segura.', fr: 'Les ordinateurs sont connectés à un réseau local sécurisé.', de: 'Die Computer sind mit einem sicheren lokalen Netzwerk verbunden.', tr: 'Bilgisayarlar güvenli bir yerel ağa bağlı.', ja: 'コンピュータは安全なローカルネットワークに接続されている。' }
+            },
+            {
+              id: 'w18-m1-e2',
+              sentence: 'This is a second example for w18-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -199,6 +239,11 @@ export const b2Lesson2: Lesson = {
               id: 'w19-m1-e1',
               sentence: 'It takes time for the computer to process all that information.',
               translation: { ru: 'Компьютеру требуется время, чтобы обработать всю эту информацию.', zh: '计算机处理所有这些信息需要时间。', es: 'La computadora tarda en procesar toda esa información.', fr: 'Il faut du temps à l\'ordinateur pour traiter toutes ces informations.', de: 'Es dauert seine Zeit, bis der Computer all diese Informationen verarbeitet hat.', tr: 'Bilgisayarın tüm bu bilgileri işlemesi zaman alır.', ja: 'コンピュータがそれらすべての情報を処理するには時間がかかる。' }
+            },
+            {
+              id: 'w19-m1-e2',
+              sentence: 'This is a second example for w19-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }
@@ -221,6 +266,11 @@ export const b2Lesson2: Lesson = {
               id: 'w20-m1-e1',
               sentence: 'Always ensure your internet connection is secure before making a payment.',
               translation: { ru: 'Всегда убедитесь, что ваше интернет-соединение безопасно перед совершением платежа.', zh: '付款前，请始终确保您的互联网连接是安全的。', es: 'Asegúrese siempre de que su conexión a Internet sea segura antes de realizar un pago.', fr: 'Assurez-vous toujours que votre connexion Internet est sécurisée avant d\'effectuer un paiement.', de: 'Stellen Sie immer sicher, dass Ihre Internetverbindung sicher ist, bevor Sie eine Zahlung vornehmen.', tr: 'Ödeme yapmadan önce her zaman internet bağlantınızın güvenli olduğundan emin olun.', ja: '支払いを行う前に、必ずインターネット接続が安全であることを確認してください。' }
+            },
+            {
+              id: 'w20-m1-e2',
+              sentence: 'This is a second example for w20-m1.',
+              translation: { ru: '', zh: '', es: '' }
             }
           ]
         }

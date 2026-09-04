@@ -3,55 +3,89 @@ import { Word } from '../../types';
 import { QuizMultipleChoice } from './QuizMultipleChoice';
 import { QuizContext } from './QuizContext';
 import { QuizMatching } from './QuizMatching';
+import { QuizActiveRecall } from './QuizActiveRecall';
+import { QuizSynonym } from './QuizSynonym';
+import { progressEngine } from '../../engine/progress';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface QuizEngineProps {
+  lessonId: string;
   words: Word[];
   onComplete: (score: number, max: number) => void;
 }
 
-type QuizStage = 
-  | { type: 'mc', wordIndex: number }
-  | { type: 'match' }
-  | { type: 'context', wordIndex: number };
+type StageType = 'mc' | 'match' | 'context' | 'active_recall' | 'synonym';
 
-export const QuizEngine: React.FC<QuizEngineProps> = ({ words, onComplete }) => {
+type QuizStage = 
+  | { type: StageType, wordIndex: number }
+  | { type: 'match', words: number[] };
+
+export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onComplete }) => {
   const [stages, setStages] = useState<QuizStage[]>([]);
   const [currentStageIndex, setCurrentStageIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [maxScore, setMaxScore] = useState(0);
+  
+  const [mode, setMode] = useState<'core' | 'review_intro' | 'review'>('core');
+  const [masteryData, setMasteryData] = useState<Record<string, import('../../types').WordMastery>>({});
 
   useEffect(() => {
-    // Generate quiz sequence
+    // Generate CORE quiz sequence
     const shuffledIndices = Array.from({ length: words.length }, (_, i) => i).sort(() => Math.random() - 0.5);
     
     const newStages: QuizStage[] = [];
     
-    // 3 Multiple choice
-    for(let i=0; i<3 && i < shuffledIndices.length; i++) {
+    // ROUND 1: Recognition (4 questions)
+    for(let i=0; i<4 && i < shuffledIndices.length; i++) {
       newStages.push({ type: 'mc', wordIndex: shuffledIndices[i] });
     }
     
-    // 1 Matching (covers 4 words)
-    newStages.push({ type: 'match' });
-
-    // 3 Context
-    for(let i=3; i<6 && i < shuffledIndices.length; i++) {
+    // MATCHING (1 game, uses 4 words)
+    newStages.push({ type: 'match', words: shuffledIndices.slice(0, 4) });
+    
+    // ROUND 2: Active Recall (3 questions)
+    for(let i=4; i<7 && i < shuffledIndices.length; i++) {
+      newStages.push({ type: 'active_recall', wordIndex: shuffledIndices[i] });
+    }
+    
+    // ROUND 3: Context (3 questions)
+    for(let i=7; i<10 && i < shuffledIndices.length; i++) {
       newStages.push({ type: 'context', wordIndex: shuffledIndices[i] });
     }
+    
+    // ROUND 4: Meaning/Usage (Synonyms) (2 questions, re-using indices 0 and 1)
+    newStages.push({ type: 'synonym', wordIndex: shuffledIndices[0] });
+    newStages.push({ type: 'synonym', wordIndex: shuffledIndices[1] });
 
     setStages(newStages);
-    // Max score: 3 (mc) + 4 (match) + 3 (context) = 10
-    setMaxScore(10); 
+    // Core max score
+    setMaxScore(newStages.length + 3); // match is worth 4 (1 stage + 3 extra)
   }, [words]);
 
+  const updateMastery = (wordId: string, isCorrect: boolean) => {
+    const current = progressEngine.getLessonMastery(lessonId).words[wordId];
+    progressEngine.updateWordMastery(lessonId, wordId, {
+      quizAttempts: (current?.quizAttempts || 0) + 1,
+      correctAnswers: (current?.correctAnswers || 0) + (isCorrect ? 1 : 0),
+      incorrectAnswers: (current?.incorrectAnswers || 0) + (isCorrect ? 0 : 1)
+    });
+    setMasteryData(progressEngine.getLessonMastery(lessonId).words);
+  };
+
   const handleMCContextAnswer = (isCorrect: boolean) => {
+    const currentStage = stages[currentStageIndex];
+    if (currentStage.type !== 'match') {
+      const wordId = words[currentStage.wordIndex].id;
+      updateMastery(wordId, isCorrect);
+    }
+    
     const newScore = isCorrect ? score + 1 : score;
     if (isCorrect) setScore(newScore);
     advanceStage(newScore);
   };
 
   const handleMatchComplete = (matchScore: number, matchMax: number) => {
+    // For matching, we simplify mastery update (just boost score for now)
     const newScore = score + matchScore;
     setScore(newScore);
     advanceStage(newScore);
@@ -61,7 +95,39 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ words, onComplete }) => 
     if (currentStageIndex + 1 < stages.length) {
       setCurrentStageIndex(i => i + 1);
     } else {
-      // Small delay before finishing to let animations settle
+      // End of current stages list
+      checkMasteryAndProceed(currentScore);
+    }
+  };
+
+  const checkMasteryAndProceed = (currentScore: number) => {
+    const currentMastery = progressEngine.getLessonMastery(lessonId).words;
+    
+    // Find words that need review
+    const needsReviewIndices = words
+      .map((w, index) => ({ w, index }))
+      .filter(({ w }) => {
+        const m = currentMastery[w.id];
+        return !m || m.state === 'NEEDS_REVIEW' || m.state === 'NEW' || m.state === 'PRACTICING';
+      })
+      .map(({ index }) => index);
+
+    if (needsReviewIndices.length > 0 && mode !== 'review_intro') {
+      // Setup review round
+      setMode('review_intro');
+      
+      const reviewStages: QuizStage[] = [];
+      needsReviewIndices.sort(() => Math.random() - 0.5).forEach(idx => {
+        // Vary the type
+        const types: StageType[] = ['mc', 'active_recall', 'context', 'synonym'];
+        const randomType = types[Math.floor(Math.random() * types.length)];
+        reviewStages.push({ type: randomType, wordIndex: idx });
+      });
+      
+      setStages(reviewStages);
+      setCurrentStageIndex(0);
+    } else {
+      // Finished completely
       setTimeout(() => {
         onComplete(currentScore, maxScore);
       }, 500);
@@ -70,9 +136,28 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ words, onComplete }) => 
 
   if (stages.length === 0) return null;
 
+  if (mode === 'review_intro') {
+    return (
+      <div className="flex flex-col w-full max-w-4xl mx-auto min-h-[70vh] items-center justify-center">
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
+          className="bg-white p-12 rounded-2xl shadow-sm border border-slate-100 text-center"
+        >
+          <h2 className="text-3xl font-extrabold text-slate-900 mb-4">Let's review your difficult words.</h2>
+          <p className="text-slate-500 mb-8 text-lg">You missed a few words. Let's practice them again to make sure you've got them.</p>
+          <button 
+            onClick={() => setMode('review')}
+            className="bg-indigo-600 text-white font-bold py-4 px-8 rounded-xl hover:bg-indigo-700 transition-colors"
+          >
+            Start Focused Review
+          </button>
+        </motion.div>
+      </div>
+    );
+  }
+
   const currentStage = stages[currentStageIndex];
 
-  // Distractors logic
   const getDistractors = (wordIndex: number) => {
     return words.filter((_, i) => i !== wordIndex).sort(() => Math.random() - 0.5);
   };
@@ -80,16 +165,22 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ words, onComplete }) => 
   return (
     <div className="flex flex-col w-full max-w-4xl mx-auto min-h-[70vh]">
       {/* Progress Bar */}
-      <div className="w-full bg-slate-100 h-2 rounded-full mb-12 overflow-hidden">
+      <div className="w-full bg-slate-100 h-2 rounded-full mb-12 overflow-hidden flex">
         <motion.div 
-          className="bg-indigo-600 h-full"
+          className={mode === 'core' ? "bg-indigo-600 h-full" : "bg-amber-500 h-full"}
           initial={{ width: 0 }}
           animate={{ width: `${(currentStageIndex / stages.length) * 100}%` }}
           transition={{ duration: 0.3 }}
         />
       </div>
 
-      <div className="flex-grow bg-white rounded-2xl shadow-sm border border-slate-100 p-8 md:p-12 flex flex-col items-center justify-center">
+      <div className="flex-grow bg-white rounded-2xl shadow-sm border border-slate-100 p-8 md:p-12 flex flex-col items-center justify-center relative overflow-hidden">
+        {mode === 'review' && (
+          <div className="absolute top-0 left-0 w-full bg-amber-50 text-amber-700 text-center py-2 text-sm font-bold uppercase tracking-wider">
+            Focused Review
+          </div>
+        )}
+        
         <AnimatePresence mode="wait">
           <motion.div
             key={currentStageIndex}
@@ -101,6 +192,22 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ words, onComplete }) => 
           >
             {currentStage.type === 'mc' && (
               <QuizMultipleChoice 
+                word={words[currentStage.wordIndex]} 
+                distractors={getDistractors(currentStage.wordIndex)}
+                onAnswer={handleMCContextAnswer} 
+              />
+            )}
+            
+            {currentStage.type === 'active_recall' && (
+              <QuizActiveRecall 
+                word={words[currentStage.wordIndex]} 
+                distractors={getDistractors(currentStage.wordIndex)}
+                onAnswer={handleMCContextAnswer} 
+              />
+            )}
+
+            {currentStage.type === 'synonym' && (
+              <QuizSynonym 
                 word={words[currentStage.wordIndex]} 
                 distractors={getDistractors(currentStage.wordIndex)}
                 onAnswer={handleMCContextAnswer} 

@@ -67,7 +67,7 @@ export const LessonFlow: React.FC<LessonFlowProps> = ({ lesson, onExit }) => {
           <VocabularyStage words={lesson.words} onComplete={handleVocabComplete} />
         )}
         {stage === 'quiz' && (
-          <QuizEngine words={lesson.words} onComplete={handleQuizComplete} />
+          <QuizEngine lessonId={lesson.id} words={lesson.words} onComplete={handleQuizComplete} />
         )}
         {stage === 'reading' && (
           <ReadingStage reading={lesson.reading} words={lesson.words} onComplete={handleReadingComplete} onBack={() => setStage('quiz')} />
