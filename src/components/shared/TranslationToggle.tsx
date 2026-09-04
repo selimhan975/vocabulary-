@@ -8,9 +8,11 @@ interface TranslationToggleProps {
   translations: TranslationMap;
   className?: string;
   buttonClassName?: string;
+  labelShow?: string;
+  labelHide?: string;
 }
 
-export const TranslationToggle: React.FC<TranslationToggleProps> = ({ translations, className = '', buttonClassName = '' }) => {
+export const TranslationToggle: React.FC<TranslationToggleProps> = ({ translations, className = '', buttonClassName = '', labelShow = 'Show translation', labelHide = 'Hide translation' }) => {
   const [isOpen, setIsOpen] = useState(false);
   const translation = translationEngine.getAuthoredTranslation(translations);
 
@@ -23,7 +25,7 @@ export const TranslationToggle: React.FC<TranslationToggleProps> = ({ translatio
         className={buttonClassName || "flex items-center space-x-2 text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors"}
       >
         <Languages size={16} />
-        <span>{isOpen ? 'Hide translation' : 'Show translation'}</span>
+        <span>{isOpen ? labelHide : labelShow}</span>
       </button>
       
       <AnimatePresence>

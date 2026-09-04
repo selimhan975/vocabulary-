@@ -29,7 +29,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w1-m1-e2',
               sentence: 'She proved to be highly resilient, quickly bouncing back after the injury.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Она оказалась очень стойкой, быстро восстановившись после травмы.',zh:'她证明了自己非常有韧性，受伤后很快就恢复了。',es:'Demostró ser muy resiliente, recuperándose rápidamente después de la lesión.',fr:'Elle s\'est avérée très résiliente, se remettant rapidement après la blessure.',de:'Sie erwies sich als sehr belastbar und erholte sich schnell nach der Verletzung.',tr:'Sakatlıktan sonra hızla iyileşerek oldukça dirençli olduğunu kanıtladı.',ja:'彼女は非常に回復力があることを証明し、怪我の後にすぐに立ち直った。'}
             }
           ]
         }
@@ -58,7 +58,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w2-m1-e2',
               sentence: 'The manager plans to implement a new dress code by next month.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Менеджер планирует внедрить новый дресс-код к следующему месяцу.',zh:'经理计划在下个月前实施新的着装要求。',es:'El gerente planea implementar un nuevo código de vestimenta para el próximo mes.',fr:'Le directeur prévoit de mettre en œuvre un nouveau code vestimentaire d\'ici le mois prochain.',de:'Der Manager plant, bis nächsten Monat eine neue Kleiderordnung einzuführen.',tr:'Yönetici önümüzdeki aya kadar yeni bir kıyafet kuralı uygulamayı planlıyor.',ja:'マネージャーは来月までに新しい服装規定を導入する予定です。'}
             }
           ]
         }
@@ -87,7 +87,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w3-m1-e2',
               sentence: 'You must maintain a steady speed while driving on the highway.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Вы должны поддерживать постоянную скорость при движении по шоссе.',zh:'在高速公路上行驶时，您必须保持稳定的速度。',es:'Debe mantener una velocidad constante mientras conduce por la autopista.',fr:'Vous devez maintenir une vitesse constante lorsque vous conduisez sur l\'autoroute.',de:'Sie müssen auf der Autobahn eine konstante Geschwindigkeit beibehalten.',tr:'Otoyolda araç kullanırken sabit bir hızı korumalısınız.',ja:'高速道路を運転するときは、一定の速度を維持する必要があります。'}
             }
           ]
         }
@@ -116,7 +116,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w4-m1-e2',
               sentence: 'It is crucial to wear a seatbelt when driving.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'При вождении крайне важно пристегиваться ремнем безопасности.',zh:'开车时系好安全带至关重要。',es:'Es crucial usar el cinturón de seguridad al conducir.',fr:'Il est crucial de porter la ceinture de sécurité au volant.',de:'Es ist entscheidend, beim Fahren einen Sicherheitsgurt zu tragen.',tr:'Araç kullanırken emniyet kemeri takmak çok önemlidir.',ja:'運転時にシートベルトを着用することは極めて重要です。'}
             }
           ]
         }
@@ -145,7 +145,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w5-m1-e2',
               sentence: 'The software has continued to evolve since its first release.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Программное обеспечение продолжало развиваться с момента первого выпуска.',zh:'该软件自首次发布以来不断发展。',es:'El software ha continuado evolucionando desde su primer lanzamiento.',fr:'Le logiciel a continué d\'évoluer depuis sa première version.',de:'Die Software hat sich seit ihrer ersten Veröffentlichung weiterentwickelt.',tr:'Yazılım ilk sürümünden bu yana gelişmeye devam etti.',ja:'ソフトウェアは最初のリリース以来進化し続けています。'}
             }
           ]
         }
@@ -174,7 +174,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w6-m1-e2',
               sentence: 'He suffered from constant headaches due to stress.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Он страдал от постоянных головных болей из-за стресса.',zh:'由于压力，他经常头痛。',es:'Sufría de dolores de cabeza constantes debido al estrés.',fr:'Il souffrait de maux de tête constants dus au stress.',de:'Er litt unter ständigen Kopfschmerzen aufgrund von Stress.',tr:'Stres nedeniyle sürekli baş ağrısı çekiyordu.',ja:'彼はストレスによる絶え間ない頭痛に苦しんでいた。'}
             }
           ]
         }
@@ -203,7 +203,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w7-m1-e2',
               sentence: 'There was a significant improvement in her test scores.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Произошло значительное улучшение ее результатов тестов.',zh:'她的考试成绩有了显著提高。',es:'Hubo una mejora significativa en las calificaciones de sus exámenes.',fr:'Il y a eu une amélioration significative de ses résultats aux tests.',de:'Es gab eine signifikante Verbesserung ihrer Testergebnisse.',tr:'Sınav puanlarında önemli bir gelişme oldu.',ja:'彼女のテストの点数には有意な改善が見られました。'}
             }
           ]
         }
@@ -232,7 +232,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w8-m1-e2',
               sentence: 'She was finally able to obtain her drivers license.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Наконец-то она смогла получить водительские права.',zh:'她终于拿到了驾照。',es:'Finalmente pudo obtener su licencia de conducir.',fr:'Elle a finalement pu obtenir son permis de conduire.',de:'Sie konnte endlich ihren Führerschein erhalten.',tr:'Sonunda ehliyetini alabildi.',ja:'彼女はついに運転免許証を取得することができました。'}
             }
           ]
         }
@@ -261,7 +261,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w9-m1-e2',
               sentence: 'It took him a while to adapt to the colder climate.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Ему потребовалось время, чтобы адаптироваться к более холодному климату.',zh:'他花了一段时间才适应较冷的气候。',es:'Le tomó un tiempo adaptarse al clima más frío.',fr:'Il lui a fallu un certain temps pour s\'adapter au climat plus froid.',de:'Er brauchte eine Weile, um sich an das kältere Klima anzupassen.',tr:'Daha soğuk iklime uyum sağlaması biraz zaman aldı.',ja:'彼がより寒い気候に順応するにはしばらく時間がかかりました。'}
             }
           ]
         }
@@ -290,7 +290,7 @@ export const b2Lesson1: Lesson = {
             {
               id: 'w10-m1-e2',
               sentence: 'He worked hard to fulfill his promise to his parents.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Он усердно работал, чтобы выполнить обещание, данное родителям.',zh:'他努力工作以兑现对他父母的承诺。',es:'Trabajó duro para cumplir la promesa que les hizo a sus padres.',fr:'Il a travaillé dur pour tenir la promesse faite à ses parents.',de:'Er arbeitete hart, um sein Versprechen gegenüber seinen Eltern zu erfüllen.',tr:'Ailesine verdiği sözü yerine getirmek için çok çalıştı.',ja:'彼は両親への約束を果たすために一生懸命働いた。'}
             }
           ]
         }

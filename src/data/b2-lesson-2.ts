@@ -27,7 +27,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w11-m1-e2',
               sentence: 'The company released an innovative product that changed the market.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Компания выпустила инновационный продукт, который изменил рынок.',zh:'公司发布了一款改变市场的创新产品。',es:'La empresa lanzó un producto innovador que cambió el mercado.',fr:'L\'entreprise a lancé un produit innovant qui a changé le marché.',de:'Das Unternehmen brachte ein innovatives Produkt auf den Markt, das den Markt veränderte.',tr:'Şirket piyasayı değiştiren yenilikçi bir ürün piyasaya sürdü.',ja:'同社は市場を変える革新的な製品を発売した。'}
             }
           ]
         }
@@ -54,7 +54,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w12-m1-e2',
               sentence: 'Many old cell phones have become completely obsolete.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Многие старые сотовые телефоны стали полностью устаревшими.',zh:'许多旧手机已经完全过时了。',es:'Muchos teléfonos celulares viejos se han vuelto completamente obsoletos.',fr:'De nombreux vieux téléphones portables sont devenus complètement obsolètes.',de:'Viele alte Handys sind völlig veraltet.',tr:'Birçok eski cep telefonu tamamen modası geçmiş hale geldi.',ja:'多くの古い携帯電話は完全に時代遅れになっています。'}
             }
           ]
         }
@@ -81,7 +81,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w13-m1-e2',
               sentence: 'They organized a virtual meeting because the team was working remotely.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Они организовали виртуальную встречу, потому что команда работала удаленно.',zh:'他们组织了一次虚拟会议，因为团队是远程工作的。',es:'Organizaron una reunión virtual porque el equipo estaba trabajando de forma remota.',fr:'Ils ont organisé une réunion virtuelle car l\'équipe travaillait à distance.',de:'Sie organisierten ein virtuelles Meeting, da das Team remote arbeitete.',tr:'Ekip uzaktan çalıştığı için sanal bir toplantı düzenlediler.',ja:'チームがリモートで作業していたため、彼らは仮想会議を開催しました。'}
             }
           ]
         }
@@ -108,7 +108,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w14-m1-e2',
               sentence: 'Only authorized personnel can access the secure building.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Только уполномоченный персонал может получить доступ в охраняемое здание.',zh:'只有授权人员才能进入安全大楼。',es:'Solo el personal autorizado puede acceder al edificio seguro.',fr:'Seul le personnel autorisé peut accéder au bâtiment sécurisé.',de:'Nur autorisiertes Personal hat Zugang zum gesicherten Gebäude.',tr:'Güvenli binaya sadece yetkili personel erişebilir.',ja:'許可された人員のみが安全な建物にアクセスできます。'}
             }
           ]
         }
@@ -135,7 +135,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w15-m1-e2',
               sentence: 'The factory uses an automated system to package the goods.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'На фабрике используется автоматизированная система для упаковки товаров.',zh:'工厂使用自动化系统包装货物。',es:'La fábrica utiliza un sistema automatizado para empaquetar los productos.',fr:'L\'usine utilise un système automatisé pour emballer les marchandises.',de:'Die Fabrik verwendet ein automatisiertes System zum Verpacken der Waren.',tr:'Fabrika malları paketlemek için otomatik bir sistem kullanıyor.',ja:'工場では商品を梱包するために自動化システムを使用しています。'}
             }
           ]
         }
@@ -162,7 +162,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w16-m1-e2',
               sentence: 'The scientists collected new data during their experiment.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Во время эксперимента ученые собрали новые данные.',zh:'科学家们在实验过程中收集了新数据。',es:'Los científicos recopilaron nuevos datos durante su experimento.',fr:'Les scientifiques ont collecté de nouvelles données lors de leur expérience.',de:'Die Wissenschaftler sammelten während ihres Experiments neue Daten.',tr:'Bilim adamları deneyleri sırasında yeni veriler topladılar.',ja:'科学者たちは実験中に新しいデータを収集しました。'}
             }
           ]
         }
@@ -189,7 +189,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w17-m1-e2',
               sentence: 'This electronic device helps track your daily steps.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Это электронное устройство помогает отслеживать ваши ежедневные шаги.',zh:'这款电子设备可帮助追踪您的日常步数。',es:'Este dispositivo electrónico ayuda a rastrear sus pasos diarios.',fr:'Cet appareil électronique permet de suivre vos pas quotidiens.',de:'Dieses elektronische Gerät hilft dabei, Ihre täglichen Schritte zu verfolgen.',tr:'Bu elektronik cihaz günlük adımlarınızı takip etmenize yardımcı olur.',ja:'この電子デバイスは、毎日の歩数を追跡するのに役立ちます。'}
             }
           ]
         }
@@ -216,7 +216,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w18-m1-e2',
               sentence: 'We experienced a temporary failure in our computer network.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'В нашей компьютерной сети произошел временный сбой.',zh:'我们的计算机网络出现了暂时性故障。',es:'Experimentamos una falla temporal en nuestra red informática.',fr:'Nous avons connu une panne temporaire sur notre réseau informatique.',de:'Wir hatten einen vorübergehenden Ausfall in unserem Computernetzwerk.',tr:'Bilgisayar ağımızda geçici bir arıza yaşadık.',ja:'コンピュータネットワークで一時的な障害が発生しました。'}
             }
           ]
         }
@@ -243,7 +243,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w19-m1-e2',
               sentence: 'Applying for a visa can be a very long process.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Подача заявления на получение визы может быть очень долгим процессом.',zh:'申请签证可能是一个非常漫长的过程。',es:'Solicitar una visa puede ser un proceso muy largo.',fr:'Demander un visa peut être un processus très long.',de:'Die Beantragung eines Visums kann ein sehr langer Prozess sein.',tr:'Vize başvurusu yapmak çok uzun bir süreç olabilir.',ja:'ビザの申請は非常に長いプロセスになる場合があります。'}
             }
           ]
         }
@@ -270,7 +270,7 @@ export const b2Lesson2: Lesson = {
             {
               id: 'w20-m1-e2',
               sentence: 'Make sure to secure the doors before leaving the house.',
-              translation: { ru: '', zh: '', es: '' }
+              translation: {ru:'Обязательно заприте двери перед уходом из дома.',zh:'出门前一定要锁好门。',es:'Asegúrese de asegurar las puertas antes de salir de la casa.',fr:'Assurez-vous de sécuriser les portes avant de quitter la maison.',de:'Stellen Sie sicher, dass Sie die Türen sichern, bevor Sie das Haus verlassen.',tr:'Evden çıkmadan önce kapıları güvenceye aldığınızdan emin olun.',ja:'家を出る前に必ずドアを施錠してください。'}
             }
           ]
         }

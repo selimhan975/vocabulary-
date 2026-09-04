@@ -117,7 +117,7 @@ export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onCompl
                               <TranslatableText text={example.sentence} className="text-slate-800 text-lg leading-snug flex-1" />
                               <SpeakerButton text={example.sentence} className="w-8 h-8 flex-shrink-0 -mt-1" />
                             </div>
-                            <TranslationToggle translations={example.translation} buttonClassName="text-indigo-500 text-xs font-bold opacity-0 group-hover:opacity-100 flex items-center gap-1 transition-opacity" />
+                            <TranslationToggle translations={example.translation} buttonClassName="text-indigo-500 text-xs font-bold mt-2 flex items-center gap-1 transition-opacity hover:text-indigo-700" labelShow="Translate sentence" />
                           </div>
                         ))}
                       </div>
