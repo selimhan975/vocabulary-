@@ -89,7 +89,9 @@ export class ProgressEngine {
     
     // Evaluate mastery state
     const wm = lessonMastery.words[wordId];
-    if (wm.state !== 'MASTERED') {
+    if (updates.state) {
+      wm.state = updates.state;
+    } else if (wm.state !== 'MASTERED') {
       if (wm.incorrectAnswers > 0 && wm.correctAnswers < 2) {
         wm.state = 'NEEDS_REVIEW';
       } else if (wm.correctAnswers >= 2) {

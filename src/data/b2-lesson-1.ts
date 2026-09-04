@@ -28,7 +28,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w1-m1-e2',
-              sentence: 'This is a second example for w1-m1.',
+              sentence: 'She proved to be highly resilient, quickly bouncing back after the injury.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -57,7 +57,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w2-m1-e2',
-              sentence: 'This is a second example for w2-m1.',
+              sentence: 'The manager plans to implement a new dress code by next month.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -86,7 +86,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w3-m1-e2',
-              sentence: 'This is a second example for w3-m1.',
+              sentence: 'You must maintain a steady speed while driving on the highway.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -115,7 +115,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w4-m1-e2',
-              sentence: 'Another example for this word.',
+              sentence: 'It is crucial to wear a seatbelt when driving.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -144,7 +144,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w5-m1-e2',
-              sentence: 'This is a second example for w5-m1.',
+              sentence: 'The software has continued to evolve since its first release.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -173,7 +173,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w6-m1-e2',
-              sentence: 'This is a second example for w6-m1.',
+              sentence: 'He suffered from constant headaches due to stress.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -202,7 +202,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w7-m1-e2',
-              sentence: 'This is a second example for w7-m1.',
+              sentence: 'There was a significant improvement in her test scores.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -231,7 +231,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w8-m1-e2',
-              sentence: 'This is a second example for w8-m1.',
+              sentence: 'She was finally able to obtain her drivers license.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -260,7 +260,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w9-m1-e2',
-              sentence: 'This is a second example for w9-m1.',
+              sentence: 'It took him a while to adapt to the colder climate.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -289,7 +289,7 @@ export const b2Lesson1: Lesson = {
             },
             {
               id: 'w10-m1-e2',
-              sentence: 'This is a second example for w10-m1.',
+              sentence: 'He worked hard to fulfill his promise to his parents.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]

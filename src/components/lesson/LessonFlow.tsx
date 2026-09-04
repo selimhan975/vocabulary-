@@ -17,6 +17,7 @@ interface LessonFlowProps {
 
 export const LessonFlow: React.FC<LessonFlowProps> = ({ lesson, onExit }) => {
   const [stage, setStage] = useState<Stage>('vocabulary');
+  const [sessionMistakes, setSessionMistakes] = useState<Record<string, number>>({});
   const [score, setScore] = useState<LessonScore>({ vocabQuiz: 0, vocabQuizMax: 0, comprehension: 0, comprehensionMax: 0 });
   const { refreshProgress } = useAppContext();
 

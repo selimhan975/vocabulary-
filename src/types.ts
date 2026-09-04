@@ -69,7 +69,7 @@ export interface LessonScore {
   comprehensionMax: number;
 }
 
-export type MasteryState = 'NEW' | 'PRACTICING' | 'NEEDS_REVIEW' | 'MASTERED';
+export type MasteryState = 'NEW' | 'PRACTICING' | 'NEEDS_REVIEW' | 'MASTERED' | 'UNRESOLVED';
 
 export interface WordMastery {
   wordId: string;

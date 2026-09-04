@@ -26,7 +26,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w11-m1-e2',
-              sentence: 'This is a second example for w11-m1.',
+              sentence: 'The company released an innovative product that changed the market.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -53,7 +53,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w12-m1-e2',
-              sentence: 'This is a second example for w12-m1.',
+              sentence: 'Many old cell phones have become completely obsolete.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -80,7 +80,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w13-m1-e2',
-              sentence: 'This is a second example for w13-m1.',
+              sentence: 'They organized a virtual meeting because the team was working remotely.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -107,7 +107,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w14-m1-e2',
-              sentence: 'This is a second example for w14-m1.',
+              sentence: 'Only authorized personnel can access the secure building.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -134,7 +134,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w15-m1-e2',
-              sentence: 'This is a second example for w15-m1.',
+              sentence: 'The factory uses an automated system to package the goods.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -161,7 +161,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w16-m1-e2',
-              sentence: 'This is a second example for w16-m1.',
+              sentence: 'The scientists collected new data during their experiment.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -188,7 +188,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w17-m1-e2',
-              sentence: 'This is a second example for w17-m1.',
+              sentence: 'This electronic device helps track your daily steps.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -215,7 +215,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w18-m1-e2',
-              sentence: 'This is a second example for w18-m1.',
+              sentence: 'We experienced a temporary failure in our computer network.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -242,7 +242,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w19-m1-e2',
-              sentence: 'This is a second example for w19-m1.',
+              sentence: 'Applying for a visa can be a very long process.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]
@@ -269,7 +269,7 @@ export const b2Lesson2: Lesson = {
             },
             {
               id: 'w20-m1-e2',
-              sentence: 'This is a second example for w20-m1.',
+              sentence: 'Make sure to secure the doors before leaving the house.',
               translation: { ru: '', zh: '', es: '' }
             }
           ]

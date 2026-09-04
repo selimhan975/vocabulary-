@@ -21,7 +21,7 @@ export const QuizContext: React.FC<QuizContextProps> = ({ word, distractors, onA
     let example: Example | null = null;
     for (const meaning of word.meanings) {
       if (meaning.examples.length > 0) {
-        example = meaning.examples[0];
+        example = meaning.examples[Math.floor(Math.random() * meaning.examples.length)];
         break;
       }
     }

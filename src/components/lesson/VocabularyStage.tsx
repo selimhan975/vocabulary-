@@ -18,6 +18,10 @@ export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onCompl
   const currentWord = words[currentIndex];
   const allViewed = viewedWords.size === words.length;
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentIndex]);
+
   const navigateTo = (index: number) => {
     setCurrentIndex(index);
     setViewedWords(prev => new Set(prev).add(index));
