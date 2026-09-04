@@ -43,6 +43,17 @@ jobs:
           cat dist/index.html
           echo "=== DIST FILES ==="
           find dist -maxdepth 2 -type f | sort
+
+      - name: Extended Diagnostics
+        run: |
+          echo "=== COMMIT SHA ==="
+          git rev-parse HEAD || echo "Not a git repo locally"
+          echo "=== GENERATED DIST INDEX.HTML ==="
+          cat dist/index.html
+          echo "=== DIST TREE ==="
+          find dist -maxdepth 3 -type f | sort
+          echo "=== DIST CHECKSUMS ==="
+          find dist -type f -print0 | sort -z | xargs -0 sha256sum
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
