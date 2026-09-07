@@ -6,9 +6,10 @@ import { SpeakerButton } from './SpeakerButton';
 interface TranslatableTextProps {
   text: string;
   className?: string;
+  targetWord?: string;
 }
 
-export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, className = '' }) => {
+export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, className = '', targetWord }) => {
   const [activeWord, setActiveWord] = useState<{ word: string, index: number } | null>(null);
   const [translation, setTranslation] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -62,11 +63,18 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
             const isActive = activeWord?.index === i;
             const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
             const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
+            const isTarget = targetWord && token.toLowerCase() === targetWord.toLowerCase();
             return (
               <span key={i} className="relative inline-block">
                 <span
                   onClick={(e) => handleWordClick(token, i, e)}
-                  className={`cursor-pointer transition-colors duration-200 ${isActive ? 'bg-indigo-100 text-indigo-900 rounded px-0.5' : 'hover:bg-slate-100 rounded px-0.5'}`}
+                  className={`cursor-pointer transition-colors duration-200 ${
+                    isActive 
+                      ? 'bg-indigo-100 text-indigo-900 rounded px-0.5' 
+                      : isTarget
+                        ? 'border-b-2 border-indigo-300 font-semibold hover:bg-slate-100 rounded px-0.5'
+                        : 'hover:bg-slate-100 rounded px-0.5'
+                  }`}
                 >
                   {token}
                 </span>
