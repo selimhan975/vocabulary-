@@ -38,52 +38,64 @@ export class TranslationEngine {
   }
 
   async translateWordOffline(word: string, contextSentence?: string): Promise<string | null> {
-    const cleanWord = word.replace(/[^\w\s-]/g, '').toLowerCase().trim();
+    // Strip leading/trailing punctuation but preserve internal hyphens and apostrophes
+    const cleanWord = word.replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, '').toLowerCase().trim();
     
-    // First, scan available lessons for an exact or stem match
-    for (const lesson of availableLessons) {
-      for (const w of lesson.words) {
-        const targetWord = w.word.toLowerCase();
-        // Basic stemming check
-        if (
-          targetWord === cleanWord ||
-          targetWord + 's' === cleanWord ||
-          targetWord + 'es' === cleanWord ||
-          targetWord + 'd' === cleanWord ||
-          targetWord + 'ed' === cleanWord ||
-          targetWord + 'ing' === cleanWord ||
-          targetWord.replace(/e$/, 'ing') === cleanWord
-        ) {
-          if (w.translations && w.translations[this.currentLang]) {
-            return w.translations[this.currentLang];
+    if (!cleanWord) {
+      return `Translation unavailable offline`;
+    }
+
+    try {
+      // First, scan available lessons for an exact or stem match
+      for (const lesson of availableLessons) {
+        for (const w of lesson.words) {
+          const targetWord = w.word.toLowerCase();
+          // Basic stemming check
+          if (
+            targetWord === cleanWord ||
+            targetWord + 's' === cleanWord ||
+            targetWord + 'es' === cleanWord ||
+            targetWord + 'd' === cleanWord ||
+            targetWord + 'ed' === cleanWord ||
+            targetWord + 'ing' === cleanWord ||
+            targetWord.replace(/e$/, 'ing') === cleanWord ||
+            targetWord.replace(/y$/, 'ies') === cleanWord
+          ) {
+            if (w.translations && w.translations[this.currentLang]) {
+              return w.translations[this.currentLang];
+            }
           }
         }
       }
-    }
 
-    // Second, scan the global offline dictionary
-    if (globalDictionary[cleanWord] && globalDictionary[cleanWord][this.currentLang]) {
-      return globalDictionary[cleanWord][this.currentLang];
-    }
+      // Second, scan the global offline dictionary
+      if (globalDictionary[cleanWord] && globalDictionary[cleanWord][this.currentLang]) {
+        return globalDictionary[cleanWord][this.currentLang];
+      }
 
-    // Try stem match against global dictionary
-    for (const key of Object.keys(globalDictionary)) {
-      if (
-        key + 's' === cleanWord ||
-        key + 'es' === cleanWord ||
-        key + 'd' === cleanWord ||
-        key + 'ed' === cleanWord ||
-        key + 'ing' === cleanWord ||
-        key.replace(/e$/, 'ing') === cleanWord
-      ) {
-        if (globalDictionary[key][this.currentLang]) {
-          return globalDictionary[key][this.currentLang];
+      // Try stem match against global dictionary
+      for (const key of Object.keys(globalDictionary)) {
+        if (
+          key + 's' === cleanWord ||
+          key + 'es' === cleanWord ||
+          key + 'd' === cleanWord ||
+          key + 'ed' === cleanWord ||
+          key + 'ing' === cleanWord ||
+          key.replace(/e$/, 'ing') === cleanWord ||
+          key.replace(/y$/, 'ies') === cleanWord
+        ) {
+          if (globalDictionary[key][this.currentLang]) {
+            return globalDictionary[key][this.currentLang];
+          }
         }
       }
-    }
 
-    // Fallback if unavailable
-    return `Translation unavailable offline`;
+      // Fallback if unavailable
+      return `Translation unavailable offline`;
+    } catch (error) {
+      console.error("Error during offline translation:", error);
+      return `Translation unavailable offline`;
+    }
   }
 }
 
