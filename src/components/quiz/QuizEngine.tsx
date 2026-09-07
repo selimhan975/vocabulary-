@@ -5,6 +5,7 @@ import { QuizContext } from './QuizContext';
 import { QuizMatching } from './QuizMatching';
 import { QuizActiveRecall } from './QuizActiveRecall';
 import { QuizSynonym } from './QuizSynonym';
+import { QuizListening } from './QuizListening';
 import { progressEngine } from '../../engine/progress';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -14,7 +15,7 @@ interface QuizEngineProps {
   onComplete: (score: number, max: number, sessionMistakes?: Record<string, number>) => void;
 }
 
-type StageType = 'mc' | 'match' | 'context' | 'active_recall' | 'synonym';
+type StageType = 'mc' | 'match' | 'context' | 'active_recall' | 'synonym' | 'listening';
 
 type QuizStage = 
   | { type: StageType, wordIndex: number }
@@ -36,9 +37,12 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
     
     const newStages: QuizStage[] = [];
     
-    // ROUND 1: Recognition (4 questions)
-    for(let i=0; i<4 && i < shuffledIndices.length; i++) {
+    // ROUND 1: Recognition (3 MC, 1 Listening)
+    for(let i=0; i<3 && i < shuffledIndices.length; i++) {
       newStages.push({ type: 'mc', wordIndex: shuffledIndices[i] });
+    }
+    if (shuffledIndices.length > 3) {
+      newStages.push({ type: 'listening', wordIndex: shuffledIndices[3] });
     }
     
     // MATCHING (1 game, uses 4 words)
@@ -137,7 +141,7 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
       const reviewStages: QuizStage[] = [];
       needsReviewIndices.sort(() => Math.random() - 0.5).forEach(idx => {
         // Vary the type
-        const types: StageType[] = ['mc', 'active_recall', 'context', 'synonym'];
+        const types: StageType[] = ['mc', 'active_recall', 'context', 'synonym', 'listening'];
         const randomType = types[Math.floor(Math.random() * types.length)];
         reviewStages.push({ type: randomType, wordIndex: idx });
       });
@@ -213,6 +217,14 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
                 word={words[currentStage.wordIndex]} 
                 distractors={getDistractors(currentStage.wordIndex)}
                 onAnswer={handleMCContextAnswer} 
+              />
+            )}
+
+            {currentStage.type === 'listening' && (
+              <QuizListening
+                word={words[currentStage.wordIndex]}
+                distractors={getDistractors(currentStage.wordIndex)}
+                onAnswer={handleMCContextAnswer}
               />
             )}
             
