@@ -10,9 +10,10 @@ interface TranslationToggleProps {
   buttonClassName?: string;
   labelShow?: string;
   labelHide?: string;
+  hideTextOnMobile?: boolean;
 }
 
-export const TranslationToggle: React.FC<TranslationToggleProps> = ({ translations, className = '', buttonClassName = '', labelShow = 'Show translation', labelHide = 'Hide translation' }) => {
+export const TranslationToggle: React.FC<TranslationToggleProps> = ({ translations, className = '', buttonClassName = '', labelShow = 'Show translation', labelHide = 'Hide translation', hideTextOnMobile = false }) => {
   const [isOpen, setIsOpen] = useState(false);
   const translation = translationEngine.getAuthoredTranslation(translations);
 
@@ -23,9 +24,11 @@ export const TranslationToggle: React.FC<TranslationToggleProps> = ({ translatio
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={buttonClassName || "flex items-center space-x-2 text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors"}
+        aria-label={isOpen ? labelHide : labelShow}
+        title={isOpen ? labelHide : labelShow}
       >
         <Languages size={16} />
-        <span>{isOpen ? labelHide : labelShow}</span>
+        <span className={hideTextOnMobile ? "hidden sm:inline" : ""}>{isOpen ? labelHide : labelShow}</span>
       </button>
       
       <AnimatePresence>
