@@ -6,9 +6,8 @@ import { LessonFlow } from './components/lesson/LessonFlow';
 import { Lesson, CEFRLevel } from './types';
 
 export default function App() {
-  const [activeLevel, setActiveLevel] = useState<CEFRLevel | null>(() => {
-    return localStorage.getItem('vocab_app_level') as CEFRLevel || null;
-  });
+  const [activeLevel, setActiveLevel] = useState<CEFRLevel | null>(null);
+
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
 
   const handleSelectLevel = (level: CEFRLevel) => {

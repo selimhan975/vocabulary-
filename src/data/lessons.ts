@@ -15,11 +15,15 @@ import { b2Lesson13 } from "./b2-lesson-13";
 import { b2Lesson14 } from "./b2-lesson-14";
 import { b2Lesson15 } from "./b2-lesson-15";
 import { b2Lesson16 } from "./b2-lesson-16";
-
 import { b2Lesson17 } from "./b2-lesson-17";
 import { b2Lesson18 } from "./b2-lesson-18";
 import { b2Lesson19 } from "./b2-lesson-19";
 import { b2Lesson20 } from "./b2-lesson-20";
+import { b2Lesson21 } from "./b2-lesson-21";
+import { b2Lesson22 } from "./b2-lesson-22";
+import { b2Lesson23 } from "./b2-lesson-23";
+import { b2Lesson24 } from "./b2-lesson-24";
+
 // We will add more lessons here
 export const availableLessons: Lesson[] = [
   b2Lesson1,
@@ -42,6 +46,10 @@ export const availableLessons: Lesson[] = [
   b2Lesson18,
   b2Lesson19,
   b2Lesson20,
+  b2Lesson21,
+  b2Lesson22,
+  b2Lesson23,
+  b2Lesson24,
 ];
 
 export function getLessonsByLevel(level: string): Lesson[] {
