@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Lesson, CEFRLevel, LanguageCode } from '../../types';
 import { getLessonsByLevel } from '../../data/lessons';
 import { useAppContext } from '../../store/AppContext';
@@ -15,10 +15,25 @@ const LESSONS_PER_RANGE = 10;
 export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, onBack }) => {
   const { completedLessons, targetLang, setTargetLang } = useAppContext();
   const availableLessons = getLessonsByLevel(level);
-  const [selectedRangeIndex, setSelectedRangeIndex] = useState(0);
+  
+  const [selectedRangeIndex, setSelectedRangeIndex] = useState(() => {
+    const saved = sessionStorage.getItem(`vocab_app_range_${level}`);
+    return saved ? parseInt(saved, 10) : 0;
+  });
+
+  useEffect(() => {
+    sessionStorage.setItem(`vocab_app_range_${level}`, selectedRangeIndex.toString());
+  }, [selectedRangeIndex, level]);
 
   const totalLessons = availableLessons.length;
   const totalRanges = Math.ceil(totalLessons / LESSONS_PER_RANGE);
+
+  // If the stored index is out of bounds (e.g., lessons were removed), reset to 0
+  useEffect(() => {
+    if (selectedRangeIndex >= totalRanges && totalRanges > 0) {
+      setSelectedRangeIndex(0);
+    }
+  }, [totalRanges, selectedRangeIndex]);
 
   const ranges = Array.from({ length: totalRanges }, (_, i) => {
     const start = i * LESSONS_PER_RANGE + 1;
@@ -32,28 +47,28 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
   );
 
   return (
-    <div className="min-h-screen bg-slate-50 py-8 px-4 sm:px-6 lg:px-8 font-sans">
+    <div className="min-h-screen bg-slate-50 py-4 px-3 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-5xl mx-auto">
         <button
           onClick={onBack}
-          className="flex items-center space-x-2 text-slate-500 hover:text-slate-800 font-medium transition-colors mb-6"
+          className="flex items-center space-x-1.5 text-slate-500 hover:text-slate-800 font-medium transition-colors mb-3 text-sm"
         >
-          <ArrowLeft size={20} />
+          <ArrowLeft size={16} />
           <span>Back to Levels</span>
         </button>
 
-        <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
+        <header className="flex flex-row justify-between items-center mb-4 gap-2">
           <div>
-            <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 mb-1">{level} Lessons</h1>
-            <p className="text-slate-500 text-base">Select a lesson to begin.</p>
+            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 leading-tight">{level} Lessons</h1>
+            <p className="text-slate-500 text-xs sm:text-sm">Select a lesson to begin.</p>
           </div>
           
-          <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-slate-200">
-            <Settings size={16} className="text-slate-400" />
+          <div className="flex items-center gap-1.5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg shadow-sm border border-slate-200 shrink-0">
+            <Settings size={14} className="text-slate-400" />
             <select 
               value={targetLang}
               onChange={(e) => setTargetLang(e.target.value as LanguageCode)}
-              className="bg-transparent border-none text-sm text-slate-700 font-medium focus:ring-0 cursor-pointer outline-none"
+              className="bg-transparent border-none text-xs sm:text-sm text-slate-700 font-medium focus:ring-0 cursor-pointer outline-none p-0 pr-1"
             >
               <option value="en">English</option>
               <option value="es">Spanish</option>
@@ -75,12 +90,12 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
           ) : (
             <>
               {totalRanges > 1 && (
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex overflow-x-auto gap-2 mb-4 pb-1 no-scrollbar">
                   {ranges.map((range) => (
                     <button
                       key={range.index}
                       onClick={() => setSelectedRangeIndex(range.index)}
-                      className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${
+                      className={`whitespace-nowrap px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
                         selectedRangeIndex === range.index 
                           ? 'bg-slate-800 text-white' 
                           : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300'
@@ -92,10 +107,7 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
                 </div>
               )}
 
-              <div 
-                className="grid gap-3 sm:gap-4"
-                style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(110px, 1fr))' }}
-              >
+              <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 gap-2 sm:gap-3">
                 {currentRangeLessons.map((lesson) => {
                   const isCompleted = completedLessons.includes(lesson.id);
                   
@@ -103,7 +115,7 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
                     <button
                       key={lesson.id}
                       onClick={() => onStartLesson(lesson)}
-                      className={`relative flex flex-col items-center justify-center p-3 aspect-square rounded-2xl border transition-all text-center focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 ${
+                      className={`relative flex flex-col items-center justify-center p-2 aspect-square rounded-xl border transition-all text-center focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 ${
                         isCompleted 
                           ? 'bg-white border-green-200 hover:border-green-400 shadow-sm' 
                           : 'bg-white border-slate-200 hover:border-indigo-400 hover:shadow-md'
@@ -111,16 +123,16 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
                       aria-label={`Lesson ${lesson.number}: ${lesson.title}${isCompleted ? ', Completed' : ''}`}
                     >
                       {isCompleted && (
-                        <div className="absolute top-2 right-2">
-                          <CheckCircle2 className="text-green-500" size={18} />
+                        <div className="absolute top-1.5 right-1.5">
+                          <CheckCircle2 className="text-green-500" size={14} />
                         </div>
                       )}
                       
-                      <span className={`text-3xl font-black mb-2 ${isCompleted ? 'text-slate-800' : 'text-slate-800'}`}>
+                      <span className={`text-2xl sm:text-3xl font-black mb-1 leading-none ${isCompleted ? 'text-slate-800' : 'text-slate-800'}`}>
                         {String(lesson.number).padStart(2, '0')}
                       </span>
                       
-                      <span className="text-xs font-semibold text-slate-600 line-clamp-2 leading-tight px-1">
+                      <span className="text-[10px] sm:text-xs font-semibold text-slate-600 line-clamp-2 leading-tight px-1">
                         {lesson.title}
                       </span>
                     </button>

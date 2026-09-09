@@ -33,7 +33,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "They decided to purchase a new car after their old one broke down.",
               "translation": {
                 "ru": "как старая сломалась.",
-                "de": "nachdem ihr altes kaputt gegangen war."
+                "de": "nachdem ihr altes kaputt gegangen war.",
+                "es": "Decidieron comprar un coche nuevo después de que el viejo se averiara.",
+                "zh": "在旧车抛锚后，他们决定购买一辆新车。",
+                "fr": "Ils ont décidé d'acheter une nouvelle voiture après que l'ancienne soit tombée en panne.",
+                "tr": "Eski arabaları bozulduktan sonra yeni bir araba satın almaya karar verdiler.",
+                "ja": "古い車が故障した後、彼らは新しい車を購入することに決めました。"
               }
             },
             {
@@ -41,7 +46,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "Keep your receipt as proof of purchase in case you need to return the item.",
               "translation": {
                 "ru": "если вам понадобится вернуть товар.",
-                "de": "falls Sie den Artikel zurückgeben müssen."
+                "de": "falls Sie den Artikel zurückgeben müssen.",
+                "es": "Conserve su recibo como comprobante de compra en caso de que necesite devolver el artículo.",
+                "zh": "请保留您的收据作为购买凭证，以防您需要退货。",
+                "fr": "Conservez votre reçu comme preuve d'achat au cas où vous auriez besoin de retourner l'article.",
+                "tr": "Ürünü iade etmeniz gerekebileceği ihtimaline karşı fişinizi satın alma kanıtı olarak saklayın.",
+                "ja": "商品を返品する必要がある場合に備えて、購入の証明としてレシートを保管しておいてください。"
               }
             }
           ]
@@ -75,7 +85,13 @@ export const b2Lesson29: Lesson = {
               "id": "w29-2-m1-e1",
               "sentence": "This jacket was a real bargain; I bought it for half the original price.",
               "translation": {
-                "ru": "Эта куртка была настоящей находкой; я купил ее за половину первоначальной цены."
+                "ru": "Эта куртка была настоящей находкой; я купил ее за половину первоначальной цены.",
+                "es": "Esta chaqueta fue una verdadera ganga; la compré por la mitad del precio original.",
+                "zh": "这件夹克真的很划算；我以原价的一半买下了它。",
+                "fr": "Cette veste était une vraie bonne affaire ; je l'ai achetée à la moitié du prix initial.",
+                "de": "Diese Jacke war ein echtes Schnäppchen; ich habe sie für die Hälfte des ursprünglichen Preises gekauft.",
+                "tr": "Bu ceket tam bir kelepir; orijinal fiyatının yarısına satın aldım.",
+                "ja": "このジャケットは本当にお買い得でした。元の価格の半額で買いました。"
               }
             },
             {
@@ -85,7 +101,10 @@ export const b2Lesson29: Lesson = {
                 "ru": "Во многих традиционных рынках принято торговаться с продавцами.",
                 "es": "es común regatear con los vendedores.",
                 "fr": "il est courant de négocier avec les vendeurs.",
-                "de": "mit den Verkäufern zu feilschen."
+                "de": "mit den Verkäufern zu feilschen.",
+                "zh": "在许多传统市场，与卖家讨价还价是很常见的。",
+                "tr": "Çoğu geleneksel pazarda satıcılarla pazarlık yapmak yaygındır.",
+                "ja": "多くの伝統的な市場では、売り手と価格交渉をするのが一般的です。"
               }
             }
           ]
@@ -121,7 +140,11 @@ export const b2Lesson29: Lesson = {
               "translation": {
                 "ru": "чтобы получить возврат средств.",
                 "es": "presente su recibo al cajero para reclamar su reembolso.",
-                "de": "um Ihre Rückerstattung zu beantragen."
+                "de": "um Ihre Rückerstattung zu beantragen.",
+                "zh": "请向收银员出示您的收据以要求退款。",
+                "fr": "Veuillez présenter votre reçu au caissier pour demander votre remboursement.",
+                "tr": "İadenizi almak için lütfen fişinizi kasiyere ibraz edin.",
+                "ja": "返金を請求するには、レジ係にレシートを提示してください。"
               }
             },
             {
@@ -129,7 +152,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "I threw away the receipt before realizing the product was defective.",
               "translation": {
                 "ru": "что товар бракованный.",
-                "de": "dass das Produkt fehlerhaft war."
+                "de": "dass das Produkt fehlerhaft war.",
+                "es": "Tiré el recibo antes de darme cuenta de que el producto era defectuoso.",
+                "zh": "我在意识到产品有缺陷之前就把收据扔掉了。",
+                "fr": "J'ai jeté le reçu avant de me rendre compte que le produit était défectueux.",
+                "tr": "Ürünün kusurlu olduğunu fark etmeden önce fişi çöpe attım.",
+                "ja": "製品に欠陥があることに気づく前に、レシートを捨ててしまいました。"
               }
             }
           ]
@@ -164,7 +192,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "The television comes with a two-year guarantee against major defects.",
               "translation": {
                 "ru": "Телевизор продается с двухлетней гарантией от серьезных дефектов.",
-                "tr": "büyük kusurlara karşı iki yıllık garanti ile birlikte gelir."
+                "tr": "büyük kusurlara karşı iki yıllık garanti ile birlikte gelir.",
+                "es": "La televisión viene con una garantía de dos años contra defectos mayores.",
+                "zh": "这台电视机带有两年的针对重大缺陷的保修。",
+                "fr": "La télévision est livrée avec une garantie de deux ans contre les défauts majeurs.",
+                "de": "Der Fernseher wird mit einer zweijährigen Garantie gegen größere Mängel geliefert.",
+                "ja": "そのテレビには主要な欠陥に対する2年間の保証が付いています。"
               }
             },
             {
@@ -172,7 +205,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "We cannot guarantee that the flight will arrive on time due to the bad weather.",
               "translation": {
                 "ru": "что рейс прибудет вовремя из-за плохой погоды.",
-                "de": "dass der Flug pünktlich ankommt."
+                "de": "dass der Flug pünktlich ankommt.",
+                "es": "No podemos garantizar que el vuelo llegue a tiempo debido al mal tiempo.",
+                "zh": "由于天气恶劣，我们无法保证航班会准时到达。",
+                "fr": "Nous ne pouvons pas garantir que le vol arrivera à l'heure en raison du mauvais temps.",
+                "tr": "Kötü hava koşulları nedeniyle uçuşun zamanında varacağını garanti edemeyiz.",
+                "ja": "悪天候のため、フライトが定刻に到着することは保証できません。"
               }
             }
           ]
@@ -210,7 +248,9 @@ export const b2Lesson29: Lesson = {
                 "es": "puede devolverlos para obtener un reembolso completo dentro de los treinta días.",
                 "fr": "vous pouvez les retourner pour un remboursement complet dans les trente jours.",
                 "de": "können Sie sie innerhalb von dreißig Tagen gegen volle Rückerstattung zurückgeben.",
-                "tr": "otuz gün içinde tam para iadesi için iade edebilirsiniz."
+                "tr": "otuz gün içinde tam para iadesi için iade edebilirsiniz.",
+                "zh": "如果鞋子不合脚，您可以在三十天内退货并获得全额退款。",
+                "ja": "靴のサイズが合わない場合は、30日以内であれば返品して全額返金を受けることができます。"
               }
             },
             {
@@ -218,7 +258,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "The airline refused to refund my ticket because I missed the departure time.",
               "translation": {
                 "ru": "так как я опоздал ко времени отправления.",
-                "de": "weil ich die Abflugzeit verpasst hatte."
+                "de": "weil ich die Abflugzeit verpasst hatte.",
+                "es": "La aerolínea se negó a reembolsar mi boleto porque perdí la hora de salida.",
+                "zh": "航空公司拒绝退还我的机票钱，因为我错过了起飞时间。",
+                "fr": "La compagnie aérienne a refusé de rembourser mon billet car j'ai raté l'heure de départ.",
+                "tr": "Havayolu şirketi kalkış saatini kaçırdığım için biletimi iade etmeyi reddetti.",
+                "ja": "出発時間に遅れたため、航空会社は私のチケットの払い戻しを拒否しました。"
               }
             }
           ]
@@ -256,7 +301,9 @@ export const b2Lesson29: Lesson = {
                 "es": "apenas puedo permitirme comer en restaurantes todas las semanas.",
                 "fr": "je peux à peine me permettre de manger au restaurant chaque semaine.",
                 "de": "jede Woche in Restaurants zu essen.",
-                "tr": "her hafta restoranlarda yemek yemeye gücüm yetmiyor."
+                "tr": "her hafta restoranlarda yemek yemeye gücüm yetmiyor.",
+                "zh": "作为一名学生，我几乎负担不起每周在外面餐厅吃饭。",
+                "ja": "学生である私は、毎週レストランで食事をする余裕はほとんどありません。"
               }
             },
             {
@@ -264,7 +311,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "They could finally afford a holiday abroad after saving money for a year.",
               "translation": {
                 "ru": "копив деньги целый год.",
-                "de": "nachdem sie ein Jahr lang gespart hatten."
+                "de": "nachdem sie ein Jahr lang gespart hatten.",
+                "es": "Finalmente pudieron permitirse unas vacaciones en el extranjero después de ahorrar dinero durante un año.",
+                "zh": "存了一年钱后，他们终于负担得起出国度假了。",
+                "fr": "Ils ont enfin pu s'offrir des vacances à l'étranger après avoir économisé pendant un an.",
+                "tr": "Bir yıl para biriktirdikten sonra nihayet yurtdışında bir tatili karşılayabildiler.",
+                "ja": "1年間お金を貯めた後、彼らはついに海外旅行をする余裕ができました。"
               }
             }
           ]
@@ -298,7 +350,13 @@ export const b2Lesson29: Lesson = {
               "id": "w29-7-m1-e1",
               "sentence": "The retail price of the software is much higher than the wholesale price.",
               "translation": {
-                "ru": "Розничная цена программного обеспечения намного выше оптовой."
+                "ru": "Розничная цена программного обеспечения намного выше оптовой.",
+                "es": "El precio minorista del software es mucho más alto que el precio mayorista.",
+                "zh": "该软件的零售价远高于批发价。",
+                "fr": "Le prix de détail du logiciel est beaucoup plus élevé que le prix de gros.",
+                "de": "Der Einzelhandelspreis der Software ist viel höher als der Großhandelspreis.",
+                "tr": "Yazılımın perakende satış fiyatı toptan satış fiyatından çok daha yüksektir.",
+                "ja": "ソフトウェアの小売価格は卸売価格よりもはるかに高くなっています。"
               }
             },
             {
@@ -308,7 +366,10 @@ export const b2Lesson29: Lesson = {
                 "ru": "в основном управляя магазинами одежды.",
                 "es": "sobre todo dirigiendo tiendas de ropa.",
                 "fr": "gérant principalement des magasins de vêtements.",
-                "tr": "çoğunlukla giyim mağazalarını yöneterek çalışıyor."
+                "tr": "çoğunlukla giyim mağazalarını yöneterek çalışıyor.",
+                "zh": "她在零售业工作了五年多，主要是管理服装店。",
+                "de": "Sie arbeitet seit über fünf Jahren im Einzelhandel und leitet hauptsächlich Bekleidungsgeschäfte.",
+                "ja": "彼女は小売業界で5年以上働いており、主に衣料品店を管理しています。"
               }
             }
           ]
@@ -342,7 +403,13 @@ export const b2Lesson29: Lesson = {
               "id": "w29-8-m1-e1",
               "sentence": "Students usually get a ten percent discount on public transport tickets.",
               "translation": {
-                "ru": "Студенты обычно получают десятипроцентную скидку на билеты в общественном транспорте."
+                "ru": "Студенты обычно получают десятипроцентную скидку на билеты в общественном транспорте.",
+                "es": "Los estudiantes generalmente obtienen un diez por ciento de descuento en los boletos de transporte público.",
+                "zh": "学生购买公共交通车票通常可享受九折优惠。",
+                "fr": "Les étudiants bénéficient généralement d'une réduction de dix pour cent sur les billets de transports en commun.",
+                "de": "Studenten erhalten in der Regel zehn Prozent Rabatt auf Fahrkarten für öffentliche Verkehrsmittel.",
+                "tr": "Öğrenciler genellikle toplu taşıma biletlerinde yüzde on indirim alırlar.",
+                "ja": "学生は通常、公共交通機関のチケットが10パーセント割引になります。"
               }
             },
             {
@@ -351,7 +418,11 @@ export const b2Lesson29: Lesson = {
               "translation": {
                 "ru": "чтобы распродать запасы прошлого сезона.",
                 "de": "um den Bestand der letzten Saison zu räumen.",
-                "tr": "geçen sezonun envanterini temizlemek için büyük bir indirim yaptı."
+                "tr": "geçen sezonun envanterini temizlemek için büyük bir indirim yaptı.",
+                "es": "La tienda ofreció un gran descuento para liquidar el inventario de la temporada pasada.",
+                "zh": "这家商店提供了大幅折扣以清理上一季的库存。",
+                "fr": "Le magasin a offert une remise importante pour écouler les stocks de la saison dernière.",
+                "ja": "その店は昨シーズンの在庫を処分するために大幅な割引を提供しました。"
               }
             }
           ]
@@ -387,14 +458,24 @@ export const b2Lesson29: Lesson = {
               "translation": {
                 "ru": "Для многих работающих семей отпуск за границей считается роскошью.",
                 "es": "unas vacaciones en el extranjero se consideran un lujo.",
-                "fr": "des vacances à l'étranger sont considérées comme un luxe."
+                "fr": "des vacances à l'étranger sont considérées comme un luxe.",
+                "zh": "对于许多工薪家庭来说，出国度假被视为一种奢侈。",
+                "de": "Für viele Arbeiterfamilien gilt ein Urlaub im Ausland als Luxus.",
+                "tr": "Birçok çalışan aile için yurtdışında tatil yapmak lüks sayılmaktadır.",
+                "ja": "多くの労働者階級の家族にとって、海外旅行は贅沢と考えられています。"
               }
             },
             {
               "id": "w29-9-m1-e2",
               "sentence": "She bought a luxury handbag with her first major bonus.",
               "translation": {
-                "ru": "Она купила роскошную сумочку на свою первую крупную премию."
+                "ru": "Она купила роскошную сумочку на свою первую крупную премию.",
+                "es": "Ella compró un bolso de lujo con su primer gran bono.",
+                "zh": "她用她的第一笔大额奖金买了一个奢侈品手提包。",
+                "fr": "Elle s'est acheté un sac à main de luxe avec sa première grosse prime.",
+                "de": "Mit ihrem ersten großen Bonus kaufte sie sich eine Luxushandtasche.",
+                "tr": "İlk büyük ikramiyesiyle lüks bir el çantası satın aldı.",
+                "ja": "彼女は初めての大きなボーナスで高級ハンドバッグを買いました。"
               }
             }
           ]
@@ -430,7 +511,11 @@ export const b2Lesson29: Lesson = {
               "translation": {
                 "ru": "что каждая онлайн-транзакция полностью безопасна.",
                 "de": "dass jede Online-Transaktion absolut sicher ist.",
-                "tr": "her çevrimiçi işlemin tamamen güvenli olduğunu garanti eder."
+                "tr": "her çevrimiçi işlemin tamamen güvenli olduğunu garanti eder.",
+                "es": "El banco garantiza que cada transacción en línea es totalmente segura.",
+                "zh": "银行保证每一笔在线交易都是绝对安全的。",
+                "fr": "La banque garantit que chaque transaction en ligne est entièrement sécurisée.",
+                "ja": "銀行はすべてのオンライン取引が完全に安全であることを保証します。"
               }
             },
             {
@@ -438,7 +523,12 @@ export const b2Lesson29: Lesson = {
               "sentence": "The real estate transaction took over two months to finalize.",
               "translation": {
                 "ru": "На завершение сделки с недвижимостью ушло более двух месяцев.",
-                "de": "bis die Immobilientransaktion abgeschlossen war."
+                "de": "bis die Immobilientransaktion abgeschlossen war.",
+                "es": "La transacción inmobiliaria tardó más de dos meses en finalizarse.",
+                "zh": "这笔房地产交易花了两个月多的时间才完成。",
+                "fr": "La transaction immobilière a mis plus de deux mois à être finalisée.",
+                "tr": "Gayrimenkul işleminin tamamlanması iki aydan fazla sürdü.",
+                "ja": "その不動産取引が完了するまでに2ヶ月以上かかりました。"
               }
             }
           ]

@@ -1,625 +1,709 @@
 import { Lesson } from "../types";
 
 export const b2Lesson1: Lesson = {
-  id: "b2-l1",
-  level: "B2",
-  number: 1,
-  title: "Resilience & Growth",
-  words: [
+  "id": "b2-l1",
+  "level": "B2",
+  "number": 1,
+  "title": "Resilience & Growth",
+  "words": [
     {
-      id: "w1",
-      word: "resilient",
-      pronunciation: "/rɪˈzɪl.jənt/",
-      partOfSpeech: "adjective",
-      level: "B2",
-      synonyms: ["tough", "flexible", "strong"],
-      collocations: ["highly resilient", "resilient nature"],
-      translations: {
-        ru: "устойчивый / стойкий",
-        zh: "有韧性的",
-        es: "resiliente",
-        fr: "résilient",
-        de: "belastbar / widerstandsfähig",
-        tr: "dirençli",
-        ja: "回復力のある",
-      },
-      meanings: [
-        {
-          id: "w1-m1",
-          definition:
-            "able to withstand or recover quickly from difficult conditions",
-          translation: {
-            ru: "способный противостоять или быстро восстанавливаться после трудностей",
-            zh: "能够经受困难情况或从中迅速恢复",
-            es: "capaz de resistir o recuperarse rápidamente de condiciones difíciles",
-          },
-          examples: [
-            {
-              id: "w1-m1-e1",
-              sentence:
-                "The local economy has proven to be remarkably resilient despite the global crisis.",
-              translation: {
-                ru: "Местная экономика оказалась удивительно стойкой, несмотря на глобальный кризис.",
-                zh: "尽管发生全球危机，当地经济依然表现出惊人的韧性。",
-                es: "La economía local ha demostrado ser notablemente resiliente a pesar de la crisis mundial.",
-              },
-            },
-            {
-              id: "w1-m1-e2",
-              sentence:
-                "She proved to be highly resilient, quickly bouncing back after the injury.",
-              translation: {
-                ru: "Она оказалась очень стойкой, быстро восстановившись после травмы.",
-                zh: "她证明了自己非常有韧性，受伤后很快就恢复了。",
-                es: "Demostró ser muy resiliente, recuperándose rápidamente después de la lesión.",
-                fr: "Elle s'est avérée très résiliente, se remettant rapidement après la blessure.",
-                de: "Sie erwies sich als sehr belastbar und erholte sich schnell nach der Verletzung.",
-                tr: "Sakatlıktan sonra hızla iyileşerek oldukça dirençli olduğunu kanıtladı.",
-                ja: "彼女は非常に回復力があることを証明し、怪我の後にすぐに立ち直った。",
-              },
-            },
-          ],
-        },
+      "id": "w1",
+      "word": "resilient",
+      "pronunciation": "/rɪˈzɪl.jənt/",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "synonyms": [
+        "tough",
+        "flexible",
+        "strong"
       ],
+      "collocations": [
+        "highly resilient",
+        "resilient nature"
+      ],
+      "translations": {
+        "ru": "устойчивый / стойкий",
+        "zh": "有韧性的",
+        "es": "resiliente",
+        "fr": "résilient",
+        "de": "belastbar / widerstandsfähig",
+        "tr": "dirençli",
+        "ja": "回復力のある"
+      },
+      "meanings": [
+        {
+          "id": "w1-m1",
+          "definition": "able to withstand or recover quickly from difficult conditions",
+          "translation": {
+            "ru": "способный противостоять или быстро восстанавливаться после трудностей",
+            "zh": "能够经受困难情况或从中迅速恢复",
+            "es": "capaz de resistir o recuperarse rápidamente de condiciones difíciles"
+          },
+          "examples": [
+            {
+              "id": "w1-m1-e1",
+              "sentence": "The local economy has proven to be remarkably resilient despite the global crisis.",
+              "translation": {
+                "ru": "Местная экономика оказалась удивительно стойкой, несмотря на глобальный кризис.",
+                "zh": "尽管发生全球危机，当地经济依然表现出惊人的韧性。",
+                "es": "La economía local ha demostrado ser notablemente resiliente a pesar de la crisis mundial.",
+                "fr": "L'économie locale s'est avérée remarquablement résiliente malgré la crise mondiale.",
+                "de": "Die lokale Wirtschaft hat sich trotz der globalen Krise als bemerkenswert widerstandsfähig erwiesen.",
+                "tr": "Yerel ekonomi, küresel krize rağmen oldukça dirençli olduğunu kanıtlamıştır.",
+                "ja": "世界的な危機にもかかわらず、地域経済は驚くほどの回復力があることが証明されました。"
+              }
+            },
+            {
+              "id": "w1-m1-e2",
+              "sentence": "She proved to be highly resilient, quickly bouncing back after the injury.",
+              "translation": {
+                "ru": "Она оказалась очень стойкой, быстро восстановившись после травмы.",
+                "zh": "她证明了自己非常有韧性，受伤后很快就恢复了。",
+                "es": "Demostró ser muy resiliente, recuperándose rápidamente después de la lesión.",
+                "fr": "Elle s'est avérée très résiliente, se remettant rapidement après la blessure.",
+                "de": "Sie erwies sich als sehr belastbar und erholte sich schnell nach der Verletzung.",
+                "tr": "Sakatlıktan sonra hızla iyileşerek oldukça dirençli olduğunu kanıtladı.",
+                "ja": "彼女は非常に回復力があることを証明し、怪我の後にすぐに立ち直った。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w2",
-      word: "implement",
-      pronunciation: "/ˈɪm.plɪ.ment/",
-      partOfSpeech: "verb",
-      level: "B2",
-      synonyms: ["apply", "execute", "enact"],
-      collocations: ["implement a policy", "implement changes"],
-      translations: {
-        ru: "внедрять",
-        zh: "实施",
-        es: "implementar",
-        fr: "mettre en œuvre",
-        de: "implementieren",
-        tr: "uygulamak",
-        ja: "実行する",
-      },
-      meanings: [
-        {
-          id: "w2-m1",
-          definition: "to start using a plan, system, or law",
-          translation: {
-            ru: "начать использовать план, систему или закон",
-            zh: "开始使用计划、系统或法律",
-            es: "empezar a usar un plan, sistema o ley",
-          },
-          examples: [
-            {
-              id: "w2-m1-e1",
-              sentence:
-                "The government decided to implement new changes to the education system.",
-              translation: {
-                ru: "Правительство решило внедрить новые изменения в систему образования.",
-                zh: "政府决定对教育系统实施新的改革。",
-                es: "El gobierno decidió implementar nuevos cambios en el sistema educativo.",
-              },
-            },
-            {
-              id: "w2-m1-e2",
-              sentence:
-                "The manager plans to implement a new dress code by next month.",
-              translation: {
-                ru: "Менеджер планирует внедрить новый дресс-код к следующему месяцу.",
-                zh: "经理计划在下个月前实施新的着装要求。",
-                es: "El gerente planea implementar un nuevo código de vestimenta para el próximo mes.",
-                fr: "Le directeur prévoit de mettre en œuvre un nouveau code vestimentaire d'ici le mois prochain.",
-                de: "Der Manager plant, bis nächsten Monat eine neue Kleiderordnung einzuführen.",
-                tr: "Yönetici önümüzdeki aya kadar yeni bir kıyafet kuralı uygulamayı planlıyor.",
-                ja: "マネージャーは来月までに新しい服装規定を導入する予定です。",
-              },
-            },
-          ],
-        },
+      "id": "w2",
+      "word": "implement",
+      "pronunciation": "/ˈɪm.plɪ.ment/",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "synonyms": [
+        "apply",
+        "execute",
+        "enact"
       ],
+      "collocations": [
+        "implement a policy",
+        "implement changes"
+      ],
+      "translations": {
+        "ru": "внедрять",
+        "zh": "实施",
+        "es": "implementar",
+        "fr": "mettre en œuvre",
+        "de": "implementieren",
+        "tr": "uygulamak",
+        "ja": "実行する"
+      },
+      "meanings": [
+        {
+          "id": "w2-m1",
+          "definition": "to start using a plan, system, or law",
+          "translation": {
+            "ru": "начать использовать план, систему или закон",
+            "zh": "开始使用计划、系统或法律",
+            "es": "empezar a usar un plan, sistema o ley"
+          },
+          "examples": [
+            {
+              "id": "w2-m1-e1",
+              "sentence": "The government decided to implement new changes to the education system.",
+              "translation": {
+                "ru": "Правительство решило внедрить новые изменения в систему образования.",
+                "zh": "政府决定对教育系统实施新的改革。",
+                "es": "El gobierno decidió implementar nuevos cambios en el sistema educativo.",
+                "fr": "Le gouvernement a décidé de mettre en œuvre de nouveaux changements dans le système éducatif.",
+                "de": "Die Regierung beschloss, neue Änderungen am Bildungssystem umzusetzen.",
+                "tr": "Hükümet eğitim sisteminde yeni değişiklikler uygulamaya karar verdi.",
+                "ja": "政府は教育システムに新たな変更を導入することを決定しました。"
+              }
+            },
+            {
+              "id": "w2-m1-e2",
+              "sentence": "The manager plans to implement a new dress code by next month.",
+              "translation": {
+                "ru": "Менеджер планирует внедрить новый дресс-код к следующему месяцу.",
+                "zh": "经理计划在下个月前实施新的着装要求。",
+                "es": "El gerente planea implementar un nuevo código de vestimenta para el próximo mes.",
+                "fr": "Le directeur prévoit de mettre en œuvre un nouveau code vestimentaire d'ici le mois prochain.",
+                "de": "Der Manager plant, bis nächsten Monat eine neue Kleiderordnung einzuführen.",
+                "tr": "Yönetici önümüzdeki aya kadar yeni bir kıyafet kuralı uygulamayı planlıyor.",
+                "ja": "マネージャーは来月までに新しい服装規定を導入する予定です。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w3",
-      word: "maintain",
-      pronunciation: "/meɪnˈteɪn/",
-      partOfSpeech: "verb",
-      level: "B2",
-      synonyms: ["preserve", "keep", "sustain"],
-      collocations: ["maintain standards", "maintain balance"],
-      translations: {
-        ru: "поддерживать",
-        zh: "保持",
-        es: "mantener",
-        fr: "maintenir",
-        de: "aufrechterhalten",
-        tr: "sürdürmek",
-        ja: "維持する",
-      },
-      meanings: [
-        {
-          id: "w3-m1",
-          definition:
-            "to continue to have; to keep in existence, or not allow to become less",
-          translation: {
-            ru: "продолжать иметь; сохранять в существовании",
-            zh: "继续拥有；保持存在",
-            es: "continuar teniendo; mantener en existencia",
-          },
-          examples: [
-            {
-              id: "w3-m1-e1",
-              sentence:
-                "It is important to maintain your car regularly to avoid breakdowns.",
-              translation: {
-                ru: "Важно регулярно обслуживать свой автомобиль, чтобы избежать поломок.",
-                zh: "定期保养你的汽车以避免故障是很重要的。",
-                es: "Es importante mantener su coche regularmente para evitar averías.",
-              },
-            },
-            {
-              id: "w3-m1-e2",
-              sentence:
-                "You must maintain a steady speed while driving on the highway.",
-              translation: {
-                ru: "Вы должны поддерживать постоянную скорость при движении по шоссе.",
-                zh: "在高速公路上行驶时，您必须保持稳定的速度。",
-                es: "Debe mantener una velocidad constante mientras conduce por la autopista.",
-                fr: "Vous devez maintenir une vitesse constante lorsque vous conduisez sur l'autoroute.",
-                de: "Sie müssen auf der Autobahn eine konstante Geschwindigkeit beibehalten.",
-                tr: "Otoyolda araç kullanırken sabit bir hızı korumalısınız.",
-                ja: "高速道路を運転するときは、一定の速度を維持する必要があります。",
-              },
-            },
-          ],
-        },
+      "id": "w3",
+      "word": "maintain",
+      "pronunciation": "/meɪnˈteɪn/",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "synonyms": [
+        "preserve",
+        "keep",
+        "sustain"
       ],
+      "collocations": [
+        "maintain standards",
+        "maintain balance"
+      ],
+      "translations": {
+        "ru": "поддерживать",
+        "zh": "保持",
+        "es": "mantener",
+        "fr": "maintenir",
+        "de": "aufrechterhalten",
+        "tr": "sürdürmek",
+        "ja": "維持する"
+      },
+      "meanings": [
+        {
+          "id": "w3-m1",
+          "definition": "to continue to have; to keep in existence, or not allow to become less",
+          "translation": {
+            "ru": "продолжать иметь; сохранять в существовании",
+            "zh": "继续拥有；保持存在",
+            "es": "continuar teniendo; mantener en existencia"
+          },
+          "examples": [
+            {
+              "id": "w3-m1-e1",
+              "sentence": "It is important to maintain your car regularly to avoid breakdowns.",
+              "translation": {
+                "ru": "Важно регулярно обслуживать свой автомобиль, чтобы избежать поломок.",
+                "zh": "定期保养你的汽车以避免故障是很重要的。",
+                "es": "Es importante mantener su coche regularmente para evitar averías.",
+                "fr": "Il est important d'entretenir régulièrement votre voiture pour éviter les pannes.",
+                "de": "Es ist wichtig, Ihr Auto regelmäßig zu warten, um Pannen zu vermeiden.",
+                "tr": "Arızaları önlemek için arabanızın bakımını düzenli olarak yapmak önemlidir.",
+                "ja": "故障を防ぐためには、車を定期的にメンテナンスすることが重要です。"
+              }
+            },
+            {
+              "id": "w3-m1-e2",
+              "sentence": "You must maintain a steady speed while driving on the highway.",
+              "translation": {
+                "ru": "Вы должны поддерживать постоянную скорость при движении по шоссе.",
+                "zh": "在高速公路上行驶时，您必须保持稳定的速度。",
+                "es": "Debe mantener una velocidad constante mientras conduce por la autopista.",
+                "fr": "Vous devez maintenir une vitesse constante lorsque vous conduisez sur l'autoroute.",
+                "de": "Sie müssen auf der Autobahn eine konstante Geschwindigkeit beibehalten.",
+                "tr": "Otoyolda araç kullanırken sabit bir hızı korumalısınız.",
+                "ja": "高速道路を運転するときは、一定の速度を維持する必要があります。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w4",
-      word: "crucial",
-      pronunciation: "/ˈkruː.ʃəl/",
-      partOfSpeech: "adjective",
-      level: "B2",
-      synonyms: ["vital", "essential", "critical"],
-      collocations: ["absolutely crucial", "crucial role"],
-      translations: {
-        ru: "ключевой / решающий",
-        zh: "至关重要的",
-        es: "crucial",
-        fr: "crucial",
-        de: "entscheidend",
-        tr: "çok önemli",
-        ja: "極めて重要な",
-      },
-      meanings: [
-        {
-          id: "w4-m1",
-          definition: "extremely important or necessary",
-          translation: {
-            ru: "чрезвычайно важный или необходимый",
-            zh: "极其重要的或必要的",
-            es: "extremadamente importante o necesario",
-          },
-          examples: [
-            {
-              id: "w4-m1-e1",
-              sentence:
-                "Her work is absolutely crucial to the project's success.",
-              translation: {
-                ru: "Ее работа имеет абсолютно решающее значение для успеха проекта.",
-                zh: "她的工作对项目的成功绝对至关重要。",
-                es: "Su trabajo es absolutamente crucial para el éxito del proyecto.",
-              },
-            },
-            {
-              id: "w4-m1-e2",
-              sentence: "It is crucial to wear a seatbelt when driving.",
-              translation: {
-                ru: "При вождении крайне важно пристегиваться ремнем безопасности.",
-                zh: "开车时系好安全带至关重要。",
-                es: "Es crucial usar el cinturón de seguridad al conducir.",
-                fr: "Il est crucial de porter la ceinture de sécurité au volant.",
-                de: "Es ist entscheidend, beim Fahren einen Sicherheitsgurt zu tragen.",
-                tr: "Araç kullanırken emniyet kemeri takmak çok önemlidir.",
-                ja: "運転時にシートベルトを着用することは極めて重要です。",
-              },
-            },
-          ],
-        },
+      "id": "w4",
+      "word": "crucial",
+      "pronunciation": "/ˈkruː.ʃəl/",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "synonyms": [
+        "vital",
+        "essential",
+        "critical"
       ],
+      "collocations": [
+        "absolutely crucial",
+        "crucial role"
+      ],
+      "translations": {
+        "ru": "ключевой / решающий",
+        "zh": "至关重要的",
+        "es": "crucial",
+        "fr": "crucial",
+        "de": "entscheidend",
+        "tr": "çok önemli",
+        "ja": "極めて重要な"
+      },
+      "meanings": [
+        {
+          "id": "w4-m1",
+          "definition": "extremely important or necessary",
+          "translation": {
+            "ru": "чрезвычайно важный или необходимый",
+            "zh": "极其重要的或必要的",
+            "es": "extremadamente importante o necesario"
+          },
+          "examples": [
+            {
+              "id": "w4-m1-e1",
+              "sentence": "Her work is absolutely crucial to the project's success.",
+              "translation": {
+                "ru": "Ее работа имеет абсолютно решающее значение для успеха проекта.",
+                "zh": "她的工作对项目的成功绝对至关重要。",
+                "es": "Su trabajo es absolutamente crucial para el éxito del proyecto.",
+                "fr": "Son travail est absolument crucial pour le succès du projet.",
+                "de": "Ihre Arbeit ist absolut entscheidend für den Erfolg des Projekts.",
+                "tr": "Onun çalışması projenin başarısı için kesinlikle çok önemlidir.",
+                "ja": "彼女の仕事はプロジェクトの成功に絶対に不可欠です。"
+              }
+            },
+            {
+              "id": "w4-m1-e2",
+              "sentence": "It is crucial to wear a seatbelt when driving.",
+              "translation": {
+                "ru": "При вождении крайне важно пристегиваться ремнем безопасности.",
+                "zh": "开车时系好安全带至关重要。",
+                "es": "Es crucial usar el cinturón de seguridad al conducir.",
+                "fr": "Il est crucial de porter la ceinture de sécurité au volant.",
+                "de": "Es ist entscheidend, beim Fahren einen Sicherheitsgurt zu tragen.",
+                "tr": "Araç kullanırken emniyet kemeri takmak çok önemlidir.",
+                "ja": "運転時にシートベルトを着用することは極めて重要です。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w5",
-      word: "evolve",
-      pronunciation: "/ɪˈvɒlv/",
-      partOfSpeech: "verb",
-      level: "B2",
-      synonyms: ["develop", "progress", "advance"],
-      collocations: ["evolve rapidly", "evolve into"],
-      translations: {
-        ru: "эволюционировать",
-        zh: "进化 / 发展",
-        es: "evolucionar",
-        fr: "évoluer",
-        de: "sich entwickeln",
-        tr: "gelişmek",
-        ja: "進化する",
-      },
-      meanings: [
-        {
-          id: "w5-m1",
-          definition:
-            "to develop gradually, or to cause something or someone to develop gradually",
-          translation: {
-            ru: "развиваться постепенно",
-            zh: "逐渐发展",
-            es: "desarrollarse gradualmente",
-          },
-          examples: [
-            {
-              id: "w5-m1-e1",
-              sentence:
-                "We must evolve our business model to survive in this economy.",
-              translation: {
-                ru: "Мы должны развивать нашу бизнес-модель, чтобы выжить в этой экономике.",
-                zh: "我们必须发展我们的商业模式才能在这样的经济环境中生存。",
-                es: "Debemos evolucionar nuestro modelo de negocio para sobrevivir en esta economía.",
-              },
-            },
-            {
-              id: "w5-m1-e2",
-              sentence:
-                "The software has continued to evolve since its first release.",
-              translation: {
-                ru: "Программное обеспечение продолжало развиваться с момента первого выпуска.",
-                zh: "该软件自首次发布以来不断发展。",
-                es: "El software ha continuado evolucionando desde su primer lanzamiento.",
-                fr: "Le logiciel a continué d'évoluer depuis sa première version.",
-                de: "Die Software hat sich seit ihrer ersten Veröffentlichung weiterentwickelt.",
-                tr: "Yazılım ilk sürümünden bu yana gelişmeye devam etti.",
-                ja: "ソフトウェアは最初のリリース以来進化し続けています。",
-              },
-            },
-          ],
-        },
+      "id": "w5",
+      "word": "evolve",
+      "pronunciation": "/ɪˈvɒlv/",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "synonyms": [
+        "develop",
+        "progress",
+        "advance"
       ],
+      "collocations": [
+        "evolve rapidly",
+        "evolve into"
+      ],
+      "translations": {
+        "ru": "эволюционировать",
+        "zh": "进化 / 发展",
+        "es": "evolucionar",
+        "fr": "évoluer",
+        "de": "sich entwickeln",
+        "tr": "gelişmek",
+        "ja": "進化する"
+      },
+      "meanings": [
+        {
+          "id": "w5-m1",
+          "definition": "to develop gradually, or to cause something or someone to develop gradually",
+          "translation": {
+            "ru": "развиваться постепенно",
+            "zh": "逐渐发展",
+            "es": "desarrollarse gradualmente"
+          },
+          "examples": [
+            {
+              "id": "w5-m1-e1",
+              "sentence": "We must evolve our business model to survive in this economy.",
+              "translation": {
+                "ru": "Мы должны развивать нашу бизнес-модель, чтобы выжить в этой экономике.",
+                "zh": "我们必须发展我们的商业模式才能在这样的经济环境中生存。",
+                "es": "Debemos evolucionar nuestro modelo de negocio para sobrevivir en esta economía.",
+                "fr": "Nous devons faire évoluer notre modèle commercial pour survivre dans cette économie.",
+                "de": "Wir müssen unser Geschäftsmodell weiterentwickeln, um in dieser Wirtschaft zu überleben.",
+                "tr": "Bu ekonomide hayatta kalmak için iş modelimizi geliştirmeliyiz.",
+                "ja": "この経済状況で生き残るために、ビジネスモデルを進化させなければなりません。"
+              }
+            },
+            {
+              "id": "w5-m1-e2",
+              "sentence": "The software has continued to evolve since its first release.",
+              "translation": {
+                "ru": "Программное обеспечение продолжало развиваться с момента первого выпуска.",
+                "zh": "该软件自首次发布以来不断发展。",
+                "es": "El software ha continuado evolucionando desde su primer lanzamiento.",
+                "fr": "Le logiciel a continué d'évoluer depuis sa première version.",
+                "de": "Die Software hat sich seit ihrer ersten Veröffentlichung weiterentwickelt.",
+                "tr": "Yazılım ilk sürümünden bu yana gelişmeye devam etti.",
+                "ja": "ソフトウェアは最初のリリース以来進化し続けています。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w6",
-      word: "constant",
-      pronunciation: "/ˈkɒn.stənt/",
-      partOfSpeech: "adjective",
-      level: "B2",
-      synonyms: ["continuous", "unceasing"],
-      collocations: ["constant supply", "constant reminder"],
-      translations: {
-        ru: "постоянный",
-        zh: "不断的",
-        es: "constante",
-        fr: "constant",
-        de: "konstant",
-        tr: "sürekli",
-        ja: "一定の",
-      },
-      meanings: [
-        {
-          id: "w6-m1",
-          definition: "happening a lot or all the time",
-          translation: {
-            ru: "происходящий часто или все время",
-            zh: "经常或一直发生的",
-            es: "que ocurre mucho o todo el tiempo",
-          },
-          examples: [
-            {
-              id: "w6-m1-e1",
-              sentence:
-                "The machine requires a constant supply of water to function.",
-              translation: {
-                ru: "Машине требуется постоянная подача воды для работы.",
-                zh: "这台机器需要不断供水才能运行。",
-                es: "La máquina requiere un suministro constante de agua para funcionar.",
-              },
-            },
-            {
-              id: "w6-m1-e2",
-              sentence: "He suffered from constant headaches due to stress.",
-              translation: {
-                ru: "Он страдал от постоянных головных болей из-за стресса.",
-                zh: "由于压力，他经常头痛。",
-                es: "Sufría de dolores de cabeza constantes debido al estrés.",
-                fr: "Il souffrait de maux de tête constants dus au stress.",
-                de: "Er litt unter ständigen Kopfschmerzen aufgrund von Stress.",
-                tr: "Stres nedeniyle sürekli baş ağrısı çekiyordu.",
-                ja: "彼はストレスによる絶え間ない頭痛に苦しんでいた。",
-              },
-            },
-          ],
-        },
+      "id": "w6",
+      "word": "constant",
+      "pronunciation": "/ˈkɒn.stənt/",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "synonyms": [
+        "continuous",
+        "unceasing"
       ],
+      "collocations": [
+        "constant supply",
+        "constant reminder"
+      ],
+      "translations": {
+        "ru": "постоянный",
+        "zh": "不断的",
+        "es": "constante",
+        "fr": "constant",
+        "de": "konstant",
+        "tr": "sürekli",
+        "ja": "一定の"
+      },
+      "meanings": [
+        {
+          "id": "w6-m1",
+          "definition": "happening a lot or all the time",
+          "translation": {
+            "ru": "происходящий часто или все время",
+            "zh": "经常或一直发生的",
+            "es": "que ocurre mucho o todo el tiempo"
+          },
+          "examples": [
+            {
+              "id": "w6-m1-e1",
+              "sentence": "The machine requires a constant supply of water to function.",
+              "translation": {
+                "ru": "Машине требуется постоянная подача воды для работы.",
+                "zh": "这台机器需要不断供水才能运行。",
+                "es": "La máquina requiere un suministro constante de agua para funcionar.",
+                "fr": "La machine nécessite une alimentation constante en eau pour fonctionner.",
+                "de": "Die Maschine benötigt eine konstante Wasserversorgung, um zu funktionieren.",
+                "tr": "Makinenin çalışması için sürekli su kaynağına ihtiyacı vardır.",
+                "ja": "その機械が機能するためには、継続的な水の供給が必要です。"
+              }
+            },
+            {
+              "id": "w6-m1-e2",
+              "sentence": "He suffered from constant headaches due to stress.",
+              "translation": {
+                "ru": "Он страдал от постоянных головных болей из-за стресса.",
+                "zh": "由于压力，他经常头痛。",
+                "es": "Sufría de dolores de cabeza constantes debido al estrés.",
+                "fr": "Il souffrait de maux de tête constants dus au stress.",
+                "de": "Er litt unter ständigen Kopfschmerzen aufgrund von Stress.",
+                "tr": "Stres nedeniyle sürekli baş ağrısı çekiyordu.",
+                "ja": "彼はストレスによる絶え間ない頭痛に苦しんでいた。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w7",
-      word: "significant",
-      pronunciation: "/sɪɡˈnɪf.ɪ.kənt/",
-      partOfSpeech: "adjective",
-      level: "B2",
-      synonyms: ["notable", "important", "substantial"],
-      collocations: ["significant impact", "significant difference"],
-      translations: {
-        ru: "значительный",
-        zh: "重大的",
-        es: "significativo",
-        fr: "significatif",
-        de: "bedeutend",
-        tr: "önemli",
-        ja: "重要な",
-      },
-      meanings: [
-        {
-          id: "w7-m1",
-          definition:
-            "important, large, or great, especially in leading to a different result",
-          translation: {
-            ru: "важный, большой или великий, особенно приводящий к другому результату",
-            zh: "重要的、大量的或巨大的，尤其是导致不同结果的",
-            es: "importante o notable",
-          },
-          examples: [
-            {
-              id: "w7-m1-e1",
-              sentence:
-                "There is a significant difference between the two options provided.",
-              translation: {
-                ru: "Между двумя предоставленными вариантами есть значительная разница.",
-                zh: "提供的两个选项之间存在重大差异。",
-                es: "Hay una diferencia significativa entre las dos opciones proporcionadas.",
-              },
-            },
-            {
-              id: "w7-m1-e2",
-              sentence:
-                "There was a significant improvement in her test scores.",
-              translation: {
-                ru: "Произошло значительное улучшение ее результатов тестов.",
-                zh: "她的考试成绩有了显著提高。",
-                es: "Hubo una mejora significativa en las calificaciones de sus exámenes.",
-                fr: "Il y a eu une amélioration significative de ses résultats aux tests.",
-                de: "Es gab eine signifikante Verbesserung ihrer Testergebnisse.",
-                tr: "Sınav puanlarında önemli bir gelişme oldu.",
-                ja: "彼女のテストの点数には有意な改善が見られました。",
-              },
-            },
-          ],
-        },
+      "id": "w7",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪf.ɪ.kənt/",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "synonyms": [
+        "notable",
+        "important",
+        "substantial"
       ],
+      "collocations": [
+        "significant impact",
+        "significant difference"
+      ],
+      "translations": {
+        "ru": "значительный",
+        "zh": "重大的",
+        "es": "significativo",
+        "fr": "significatif",
+        "de": "bedeutend",
+        "tr": "önemli",
+        "ja": "重要な"
+      },
+      "meanings": [
+        {
+          "id": "w7-m1",
+          "definition": "important, large, or great, especially in leading to a different result",
+          "translation": {
+            "ru": "важный, большой или великий, особенно приводящий к другому результату",
+            "zh": "重要的、大量的或巨大的，尤其是导致不同结果的",
+            "es": "importante o notable"
+          },
+          "examples": [
+            {
+              "id": "w7-m1-e1",
+              "sentence": "There is a significant difference between the two options provided.",
+              "translation": {
+                "ru": "Между двумя предоставленными вариантами есть значительная разница.",
+                "zh": "提供的两个选项之间存在重大差异。",
+                "es": "Hay una diferencia significativa entre las dos opciones proporcionadas.",
+                "fr": "Il y a une différence significative entre les deux options proposées.",
+                "de": "Es gibt einen signifikanten Unterschied zwischen den beiden angebotenen Optionen.",
+                "tr": "Sunulan iki seçenek arasında önemli bir fark vardır.",
+                "ja": "提供された2つの選択肢の間には大きな違いがあります。"
+              }
+            },
+            {
+              "id": "w7-m1-e2",
+              "sentence": "There was a significant improvement in her test scores.",
+              "translation": {
+                "ru": "Произошло значительное улучшение ее результатов тестов.",
+                "zh": "她的考试成绩有了显著提高。",
+                "es": "Hubo una mejora significativa en las calificaciones de sus exámenes.",
+                "fr": "Il y a eu une amélioration significative de ses résultats aux tests.",
+                "de": "Es gab eine signifikante Verbesserung ihrer Testergebnisse.",
+                "tr": "Sınav puanlarında önemli bir gelişme oldu.",
+                "ja": "彼女のテストの点数には有意な改善が見られました。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w8",
-      word: "obtain",
-      pronunciation: "/əbˈteɪn/",
-      partOfSpeech: "verb",
-      level: "B2",
-      synonyms: ["acquire", "get", "gain"],
-      collocations: ["obtain permission", "obtain information"],
-      translations: {
-        ru: "получать",
-        zh: "获得",
-        es: "obtener",
-        fr: "obtenir",
-        de: "erhalten",
-        tr: "elde etmek",
-        ja: "得る",
-      },
-      meanings: [
-        {
-          id: "w8-m1",
-          definition:
-            "to get something, especially by asking for it, buying it, or working for it",
-          translation: {
-            ru: "получить что-то, особенно прося об этом, покупая или работая ради этого",
-            zh: "获得某物，特别是通过请求、购买或努力工作",
-            es: "conseguir algo, especialmente pidiéndolo, comprándolo o trabajando por ello",
-          },
-          examples: [
-            {
-              id: "w8-m1-e1",
-              sentence:
-                "You need to obtain permission from the manager before leaving early.",
-              translation: {
-                ru: "Вам нужно получить разрешение от менеджера, прежде чем уйти пораньше.",
-                zh: "你需要先获得经理的许可才能早退。",
-                es: "Debe obtener permiso del gerente antes de salir temprano.",
-              },
-            },
-            {
-              id: "w8-m1-e2",
-              sentence: "She was finally able to obtain her drivers license.",
-              translation: {
-                ru: "Наконец-то она смогла получить водительские права.",
-                zh: "她终于拿到了驾照。",
-                es: "Finalmente pudo obtener su licencia de conducir.",
-                fr: "Elle a finalement pu obtenir son permis de conduire.",
-                de: "Sie konnte endlich ihren Führerschein erhalten.",
-                tr: "Sonunda ehliyetini alabildi.",
-                ja: "彼女はついに運転免許証を取得することができました。",
-              },
-            },
-          ],
-        },
+      "id": "w8",
+      "word": "obtain",
+      "pronunciation": "/əbˈteɪn/",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "synonyms": [
+        "acquire",
+        "get",
+        "gain"
       ],
+      "collocations": [
+        "obtain permission",
+        "obtain information"
+      ],
+      "translations": {
+        "ru": "получать",
+        "zh": "获得",
+        "es": "obtener",
+        "fr": "obtenir",
+        "de": "erhalten",
+        "tr": "elde etmek",
+        "ja": "得る"
+      },
+      "meanings": [
+        {
+          "id": "w8-m1",
+          "definition": "to get something, especially by asking for it, buying it, or working for it",
+          "translation": {
+            "ru": "получить что-то, особенно прося об этом, покупая или работая ради этого",
+            "zh": "获得某物，特别是通过请求、购买或努力工作",
+            "es": "conseguir algo, especialmente pidiéndolo, comprándolo o trabajando por ello"
+          },
+          "examples": [
+            {
+              "id": "w8-m1-e1",
+              "sentence": "You need to obtain permission from the manager before leaving early.",
+              "translation": {
+                "ru": "Вам нужно получить разрешение от менеджера, прежде чем уйти пораньше.",
+                "zh": "你需要先获得经理的许可才能早退。",
+                "es": "Debe obtener permiso del gerente antes de salir temprano.",
+                "fr": "Vous devez obtenir la permission du responsable avant de partir tôt.",
+                "de": "Sie müssen die Erlaubnis des Managers einholen, bevor Sie früher gehen.",
+                "tr": "Erken çıkmadan önce yöneticiden izin almanız gerekir.",
+                "ja": "早退する前にマネージャーの許可を得る必要があります。"
+              }
+            },
+            {
+              "id": "w8-m1-e2",
+              "sentence": "She was finally able to obtain her drivers license.",
+              "translation": {
+                "ru": "Наконец-то она смогла получить водительские права.",
+                "zh": "她终于拿到了驾照。",
+                "es": "Finalmente pudo obtener su licencia de conducir.",
+                "fr": "Elle a finalement pu obtenir son permis de conduire.",
+                "de": "Sie konnte endlich ihren Führerschein erhalten.",
+                "tr": "Sonunda ehliyetini alabildi.",
+                "ja": "彼女はついに運転免許証を取得することができました。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w9",
-      word: "adapt",
-      pronunciation: "/əˈdæpt/",
-      partOfSpeech: "verb",
-      level: "B2",
-      synonyms: ["adjust", "modify", "conform"],
-      collocations: ["adapt to changes", "adapt quickly"],
-      translations: {
-        ru: "адаптироваться",
-        zh: "适应",
-        es: "adaptar",
-        fr: "adapter",
-        de: "anpassen",
-        tr: "uyum sağlamak",
-        ja: "適応する",
-      },
-      meanings: [
-        {
-          id: "w9-m1",
-          definition:
-            "to change, or to change something, to suit different conditions or uses",
-          translation: {
-            ru: "изменять или изменяться, чтобы соответствовать различным условиям",
-            zh: "改变或改变某物，以适应不同的条件或用途",
-            es: "cambiar, o cambiar algo, para adaptarse a diferentes condiciones o usos",
-          },
-          examples: [
-            {
-              id: "w9-m1-e1",
-              sentence:
-                "It takes time to adapt to a new culture when moving abroad.",
-              translation: {
-                ru: "Требуется время, чтобы адаптироваться к новой культуре при переезде за границу.",
-                zh: "移居国外时，适应新文化需要时间。",
-                es: "Lleva tiempo adaptarse a una nueva cultura al mudarse al extranjero.",
-              },
-            },
-            {
-              id: "w9-m1-e2",
-              sentence: "It took him a while to adapt to the colder climate.",
-              translation: {
-                ru: "Ему потребовалось время, чтобы адаптироваться к более холодному климату.",
-                zh: "他花了一段时间才适应较冷的气候。",
-                es: "Le tomó un tiempo adaptarse al clima más frío.",
-                fr: "Il lui a fallu un certain temps pour s'adapter au climat plus froid.",
-                de: "Er brauchte eine Weile, um sich an das kältere Klima anzupassen.",
-                tr: "Daha soğuk iklime uyum sağlaması biraz zaman aldı.",
-                ja: "彼がより寒い気候に順応するにはしばらく時間がかかりました。",
-              },
-            },
-          ],
-        },
+      "id": "w9",
+      "word": "adapt",
+      "pronunciation": "/əˈdæpt/",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "synonyms": [
+        "adjust",
+        "modify",
+        "conform"
       ],
+      "collocations": [
+        "adapt to changes",
+        "adapt quickly"
+      ],
+      "translations": {
+        "ru": "адаптироваться",
+        "zh": "适应",
+        "es": "adaptar",
+        "fr": "adapter",
+        "de": "anpassen",
+        "tr": "uyum sağlamak",
+        "ja": "適応する"
+      },
+      "meanings": [
+        {
+          "id": "w9-m1",
+          "definition": "to change, or to change something, to suit different conditions or uses",
+          "translation": {
+            "ru": "изменять или изменяться, чтобы соответствовать различным условиям",
+            "zh": "改变或改变某物，以适应不同的条件或用途",
+            "es": "cambiar, o cambiar algo, para adaptarse a diferentes condiciones o usos"
+          },
+          "examples": [
+            {
+              "id": "w9-m1-e1",
+              "sentence": "It takes time to adapt to a new culture when moving abroad.",
+              "translation": {
+                "ru": "Требуется время, чтобы адаптироваться к новой культуре при переезде за границу.",
+                "zh": "移居国外时，适应新文化需要时间。",
+                "es": "Lleva tiempo adaptarse a una nueva cultura al mudarse al extranjero.",
+                "fr": "Il faut du temps pour s'adapter à une nouvelle culture lors d'un déménagement à l'étranger.",
+                "de": "Es braucht Zeit, sich an eine neue Kultur anzupassen, wenn man ins Ausland zieht.",
+                "tr": "Yurtdışına taşınırken yeni bir kültüre uyum sağlamak zaman alır.",
+                "ja": "海外に移住する場合、新しい文化に適応するには時間がかかります。"
+              }
+            },
+            {
+              "id": "w9-m1-e2",
+              "sentence": "It took him a while to adapt to the colder climate.",
+              "translation": {
+                "ru": "Ему потребовалось время, чтобы адаптироваться к более холодному климату.",
+                "zh": "他花了一段时间才适应较冷的气候。",
+                "es": "Le tomó un tiempo adaptarse al clima más frío.",
+                "fr": "Il lui a fallu un certain temps pour s'adapter au climat plus froid.",
+                "de": "Er brauchte eine Weile, um sich an das kältere Klima anzupassen.",
+                "tr": "Daha soğuk iklime uyum sağlaması biraz zaman aldı.",
+                "ja": "彼がより寒い気候に順応するにはしばらく時間がかかりました。"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "w10",
-      word: "fulfill",
-      pronunciation: "/fʊlˈfɪl/",
-      partOfSpeech: "verb",
-      level: "B2",
-      synonyms: ["achieve", "complete", "satisfy"],
-      collocations: ["fulfill a dream", "fulfill a requirement"],
-      translations: {
-        ru: "выполнять",
-        zh: "履行 / 实现",
-        es: "cumplir",
-        fr: "accomplir / réaliser",
-        de: "erfüllen",
-        tr: "yerine getirmek",
-        ja: "果たす / 満たす",
-      },
-      meanings: [
-        {
-          id: "w10-m1",
-          definition:
-            "to do something that is expected, hoped for, or promised",
-          translation: {
-            ru: "сделать то, что ожидается, на что надеются или что обещано",
-            zh: "做期望、希望或承诺做的事",
-            es: "hacer algo que se espera, se espera o se promete",
-          },
-          examples: [
-            {
-              id: "w10-m1-e1",
-              sentence:
-                "She worked hard to fulfill her childhood dream of becoming a pilot.",
-              translation: {
-                ru: "Она усердно работала, чтобы осуществить свою детскую мечту стать пилотом.",
-                zh: "她努力工作以实现她儿时想成为一名飞行员的梦想。",
-                es: "Trabajó duro para cumplir su sueño de infancia de convertirse en piloto.",
-              },
-            },
-            {
-              id: "w10-m1-e2",
-              sentence: "He worked hard to fulfill his promise to his parents.",
-              translation: {
-                ru: "Он усердно работал, чтобы выполнить обещание, данное родителям.",
-                zh: "他努力工作以兑现对他父母的承诺。",
-                es: "Trabajó duro para cumplir la promesa que les hizo a sus padres.",
-                fr: "Il a travaillé dur pour tenir la promesse faite à ses parents.",
-                de: "Er arbeitete hart, um sein Versprechen gegenüber seinen Eltern zu erfüllen.",
-                tr: "Ailesine verdiği sözü yerine getirmek için çok çalıştı.",
-                ja: "彼は両親への約束を果たすために一生懸命働いた。",
-              },
-            },
-          ],
-        },
+      "id": "w10",
+      "word": "fulfill",
+      "pronunciation": "/fʊlˈfɪl/",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "synonyms": [
+        "achieve",
+        "complete",
+        "satisfy"
       ],
-    },
+      "collocations": [
+        "fulfill a dream",
+        "fulfill a requirement"
+      ],
+      "translations": {
+        "ru": "выполнять",
+        "zh": "履行 / 实现",
+        "es": "cumplir",
+        "fr": "accomplir / réaliser",
+        "de": "erfüllen",
+        "tr": "yerine getirmek",
+        "ja": "果たす / 満たす"
+      },
+      "meanings": [
+        {
+          "id": "w10-m1",
+          "definition": "to do something that is expected, hoped for, or promised",
+          "translation": {
+            "ru": "сделать то, что ожидается, на что надеются или что обещано",
+            "zh": "做期望、希望或承诺做的事",
+            "es": "hacer algo que se espera, se espera o se promete"
+          },
+          "examples": [
+            {
+              "id": "w10-m1-e1",
+              "sentence": "She worked hard to fulfill her childhood dream of becoming a pilot.",
+              "translation": {
+                "ru": "Она усердно работала, чтобы осуществить свою детскую мечту стать пилотом.",
+                "zh": "她努力工作以实现她儿时想成为一名飞行员的梦想。",
+                "es": "Trabajó duro para cumplir su sueño de infancia de convertirse en piloto.",
+                "fr": "Elle a travaillé dur pour réaliser son rêve d'enfance de devenir pilote.",
+                "de": "Sie hat hart gearbeitet, um ihren Kindheitstraum, Pilotin zu werden, zu verwirklichen.",
+                "tr": "Çocukluk hayali olan pilot olmayı gerçekleştirmek için çok çalıştı.",
+                "ja": "彼女はパイロットになるという子供の頃の夢を叶えるために懸命に努力しました。"
+              }
+            },
+            {
+              "id": "w10-m1-e2",
+              "sentence": "He worked hard to fulfill his promise to his parents.",
+              "translation": {
+                "ru": "Он усердно работал, чтобы выполнить обещание, данное родителям.",
+                "zh": "他努力工作以兑现对他父母的承诺。",
+                "es": "Trabajó duro para cumplir la promesa que les hizo a sus padres.",
+                "fr": "Il a travaillé dur pour tenir la promesse faite à ses parents.",
+                "de": "Er arbeitete hart, um sein Versprechen gegenüber seinen Eltern zu erfüllen.",
+                "tr": "Ailesine verdiği sözü yerine getirmek için çok çalıştı.",
+                "ja": "彼は両親への約束を果たすために一生懸命働いた。"
+              }
+            }
+          ]
+        }
+      ]
+    }
   ],
-  reading: {
-    id: "r1",
-    title: "Navigating the Changing Workspace",
-    content: `Over the past few years, the way our company operates has had to evolve rapidly. We started as a small team, but we soon realized that to survive in a competitive market, it is crucial to adapt to new challenges. Last year, we decided to implement a new remote work policy. At first, there was a constant stream of minor technical issues, and some employees found it difficult to maintain their usual level of productivity.
-
-However, our team proved to be incredibly resilient. Instead of giving up, they worked together to overcome these obstacles. By the end of the year, we saw a significant improvement in employee satisfaction. We were also able to obtain better software tools to support our daily communication. Ultimately, this change allowed us to fulfill our long-term goals much faster than we originally anticipated. It taught us that embracing change, rather than fighting it, is the key to lasting success.`,
-    translations: {
-      es: "En los últimos años, la forma en que opera nuestra empresa ha tenido que evolucionar rápidamente. Comenzamos como un equipo pequeño, pero pronto nos dimos cuenta de que para sobrevivir en un mercado competitivo, es crucial adaptarse a los nuevos desafíos. El año pasado, decidimos implementar una nueva política de trabajo remoto. Al principio, hubo un flujo constante de problemas técnicos menores y a algunos empleados les resultó difícil mantener su nivel habitual de productividad.\n\nSin embargo, nuestro equipo demostró ser increíblemente resiliente. En lugar de darse por vencidos, trabajaron juntos para superar estos obstáculos. Para fin de año, vimos una mejora significativa en la satisfacción de los empleados. También pudimos obtener mejores herramientas de software para apoyar nuestra comunicación diaria. En última instancia, este cambio nos permitió cumplir nuestros objetivos a largo plazo mucho más rápido de lo que habíamos anticipado. Nos enseñó que aceptar el cambio, en lugar de combatirlo, es la clave para un éxito duradero.",
-      ru: "За последние несколько лет методы работы нашей компании должны были быстро эволюционировать. Мы начинали как небольшая команда, но вскоре поняли, что для выживания на конкурентном рынке крайне важно адаптироваться к новым вызовам. В прошлом году мы решили внедрить новую политику удаленной работы. Поначалу был постоянный поток мелких технических проблем, и некоторым сотрудникам было трудно поддерживать свой обычный уровень продуктивности.\n\nОднако наша команда оказалась невероятно стойкой. Вместо того, чтобы сдаваться, они работали вместе, чтобы преодолеть эти препятствия. К концу года мы увидели значительное улучшение удовлетворенности сотрудников. Мы также смогли получить лучшие программные инструменты для поддержки нашего ежедневного общения. В конечном итоге это изменение позволило нам достичь наших долгосрочных целей намного быстрее, чем мы предполагали изначально. Это научило нас тому, что принятие перемен, а не борьба с ними, является ключом к прочному успеху.",
-      zh: "在过去的几年里，我们公司的运营方式必须迅速发展。我们最初是一个小团队，但很快我们意识到，为了在竞争激烈的市场中生存，适应新挑战是至关重要的。去年，我们决定实施一项新的远程工作政策。起初，不断出现一些小技术问题，一些员工发现很难保持通常的生产力水平。\n\n然而，我们的团队证明了他们有着惊人的韧性。他们没有放弃，而是齐心协力克服了这些障碍。到年底，我们看到员工满意度有了显著提高。我们还获得了更好的软件工具来支持我们的日常沟通。最终，这一改变让我们比原计划更快地实现了我们的长期目标。它教会我们，拥抱变化而不是抗拒变化，才是取得持久成功的关键。",
-      fr: "Au cours des dernières années, le mode de fonctionnement de notre entreprise a dû évoluer rapidement. Nous avons commencé comme une petite équipe, mais nous avons vite compris que pour survivre sur un marché concurrentiel, il est crucial de s'adapter aux nouveaux défis. L'année dernière, nous avons décidé de mettre en œuvre une nouvelle politique de télétravail. Au début, il y a eu un flux constant de problèmes techniques mineurs, et certains employés ont eu du mal à maintenir leur niveau de productivité habituel.\n\nCependant, notre équipe s'est avérée incroyablement résiliente. Au lieu d'abandonner, ils ont travaillé ensemble pour surmonter ces obstacles. À la fin de l'année, nous avons constaté une amélioration significative de la satisfaction des employés. Nous avons également pu obtenir de meilleurs outils logiciels pour soutenir notre communication quotidienne. En fin de compte, ce changement nous a permis d'atteindre nos objectifs à long terme beaucoup plus rapidement que nous ne l'avions prévu. Cela nous a appris qu'accepter le changement, plutôt que de le combattre, est la clé d'un succès durable.",
-      de: "In den letzten Jahren musste sich die Arbeitsweise unseres Unternehmens schnell entwickeln. Wir begannen als kleines Team, aber wir erkannten bald, dass es überlebenswichtig in einem wettbewerbsintensiven Markt ist, sich an neue Herausforderungen anzupassen. Letztes Jahr beschlossen wir, eine neue Richtlinie für Fernarbeit umzusetzen. Zunächst gab es einen ständigen Strom kleinerer technischer Probleme, und einige Mitarbeiter fanden es schwierig, ihr übliches Produktivitätsniveau aufrechtzuerhalten.\n\nUnser Team erwies sich jedoch als unglaublich belastbar. Anstatt aufzugeben, arbeiteten sie zusammen, um diese Hindernisse zu überwinden. Bis Ende des Jahres sahen wir eine deutliche Verbesserung der Mitarbeiterzufriedenheit. Wir konnten auch bessere Software-Tools erhalten, um unsere tägliche Kommunikation zu unterstützen. Letztendlich ermöglichte uns diese Änderung, unsere langfristigen Ziele viel schneller zu erreichen, als wir ursprünglich erwartet hatten. Es hat uns gelehrt, dass die Annahme von Veränderungen, anstatt sie zu bekämpfen, der Schlüssel zu dauerhaftem Erfolg ist.",
-      tr: "Son birkaç yılda, şirketimizin işleyiş şekli hızla gelişmek zorunda kaldı. Küçük bir ekip olarak başladık, ancak rekabetçi bir pazarda hayatta kalmak için yeni zorluklara uyum sağlamanın çok önemli olduğunu kısa sürede anladık. Geçen yıl yeni bir uzaktan çalışma politikası uygulamaya karar verdik. Başlangıçta sürekli küçük teknik sorunlar yaşandı ve bazı çalışanlar normal üretkenlik seviyelerini korumakta zorlandılar.\n\nAncak ekibimiz inanılmaz derecede dayanıklı olduğunu kanıtladı. Pes etmek yerine bu engellerin üstesinden gelmek için birlikte çalıştılar. Yıl sonuna gelindiğinde, çalışan memnuniyetinde önemli bir iyileşme gördük. Ayrıca günlük iletişimimizi desteklemek için daha iyi yazılım araçları elde edebildik. Sonuç olarak, bu değişiklik uzun vadeli hedeflerimize başlangıçta öngördüğümüzden çok daha hızlı ulaşmamızı sağladı. Bize değişime karşı savaşmak yerine onu kucaklamanın kalıcı başarının anahtarı olduğunu öğretti.",
-      ja: "過去数年間で、当社の運営方法は急速に進化する必要がありました。私たちは小さなチームとしてスタートしましたが、競争の激しい市場で生き残るためには、新しい課題に適応することが不可欠であることにすぐに気づきました。昨年、私たちは新しいリモートワークポリシーを導入することを決定しました。最初は小さな技術的な問題が絶えず発生し、一部の従業員は通常の生産性レベルを維持するのに苦労しました。\n\nしかし、私たちのチームは信じられないほどの回復力があることを証明しました。彼らはあきらめるのではなく、これらの障害を克服するために協力しました。年末までに、従業員の満足度が大幅に向上したことがわかりました。また、日々のコミュニケーションをサポートするためのより優れたソフトウェアツールを入手することもできました。最終的に、この変更により、当初の予想よりもはるかに早く長期的な目標を達成することができました。それは、変化と戦うのではなく変化を受け入れることが、永続的な成功の鍵であることを私たちに教えてくれました。",
+  "reading": {
+    "id": "r1",
+    "title": "Navigating the Changing Workspace",
+    "content": "Over the past few years, the way our company operates has had to evolve rapidly. We started as a small team, but we soon realized that to survive in a competitive market, it is crucial to adapt to new challenges. Last year, we decided to implement a new remote work policy. At first, there was a constant stream of minor technical issues, and some employees found it difficult to maintain their usual level of productivity.\n\nHowever, our team proved to be incredibly resilient. Instead of giving up, they worked together to overcome these obstacles. By the end of the year, we saw a significant improvement in employee satisfaction. We were also able to obtain better software tools to support our daily communication. Ultimately, this change allowed us to fulfill our long-term goals much faster than we originally anticipated. It taught us that embracing change, rather than fighting it, is the key to lasting success.",
+    "translations": {
+      "es": "En los últimos años, la forma en que opera nuestra empresa ha tenido que evolucionar rápidamente. Comenzamos como un equipo pequeño, pero pronto nos dimos cuenta de que para sobrevivir en un mercado competitivo, es crucial adaptarse a los nuevos desafíos. El año pasado, decidimos implementar una nueva política de trabajo remoto. Al principio, hubo un flujo constante de problemas técnicos menores y a algunos empleados les resultó difícil mantener su nivel habitual de productividad.\n\nSin embargo, nuestro equipo demostró ser increíblemente resiliente. En lugar de darse por vencidos, trabajaron juntos para superar estos obstáculos. Para fin de año, vimos una mejora significativa en la satisfacción de los empleados. También pudimos obtener mejores herramientas de software para apoyar nuestra comunicación diaria. En última instancia, este cambio nos permitió cumplir nuestros objetivos a largo plazo mucho más rápido de lo que habíamos anticipado. Nos enseñó que aceptar el cambio, en lugar de combatirlo, es la clave para un éxito duradero.",
+      "ru": "За последние несколько лет методы работы нашей компании должны были быстро эволюционировать. Мы начинали как небольшая команда, но вскоре поняли, что для выживания на конкурентном рынке крайне важно адаптироваться к новым вызовам. В прошлом году мы решили внедрить новую политику удаленной работы. Поначалу был постоянный поток мелких технических проблем, и некоторым сотрудникам было трудно поддерживать свой обычный уровень продуктивности.\n\nОднако наша команда оказалась невероятно стойкой. Вместо того, чтобы сдаваться, они работали вместе, чтобы преодолеть эти препятствия. К концу года мы увидели значительное улучшение удовлетворенности сотрудников. Мы также смогли получить лучшие программные инструменты для поддержки нашего ежедневного общения. В конечном итоге это изменение позволило нам достичь наших долгосрочных целей намного быстрее, чем мы предполагали изначально. Это научило нас тому, что принятие перемен, а не борьба с ними, является ключом к прочному успеху.",
+      "zh": "在过去的几年里，我们公司的运营方式必须迅速发展。我们最初是一个小团队，但很快我们意识到，为了在竞争激烈的市场中生存，适应新挑战是至关重要的。去年，我们决定实施一项新的远程工作政策。起初，不断出现一些小技术问题，一些员工发现很难保持通常的生产力水平。\n\n然而，我们的团队证明了他们有着惊人的韧性。他们没有放弃，而是齐心协力克服了这些障碍。到年底，我们看到员工满意度有了显著提高。我们还获得了更好的软件工具来支持我们的日常沟通。最终，这一改变让我们比原计划更快地实现了我们的长期目标。它教会我们，拥抱变化而不是抗拒变化，才是取得持久成功的关键。",
+      "fr": "Au cours des dernières années, le mode de fonctionnement de notre entreprise a dû évoluer rapidement. Nous avons commencé comme une petite équipe, mais nous avons vite compris que pour survivre sur un marché concurrentiel, il est crucial de s'adapter aux nouveaux défis. L'année dernière, nous avons décidé de mettre en œuvre une nouvelle politique de télétravail. Au début, il y a eu un flux constant de problèmes techniques mineurs, et certains employés ont eu du mal à maintenir leur niveau de productivité habituel.\n\nCependant, notre équipe s'est avérée incroyablement résiliente. Au lieu d'abandonner, ils ont travaillé ensemble pour surmonter ces obstacles. À la fin de l'année, nous avons constaté une amélioration significative de la satisfaction des employés. Nous avons également pu obtenir de meilleurs outils logiciels pour soutenir notre communication quotidienne. En fin de compte, ce changement nous a permis d'atteindre nos objectifs à long terme beaucoup plus rapidement que nous ne l'avions prévu. Cela nous a appris qu'accepter le changement, plutôt que de le combattre, est la clé d'un succès durable.",
+      "de": "In den letzten Jahren musste sich die Arbeitsweise unseres Unternehmens schnell entwickeln. Wir begannen als kleines Team, aber wir erkannten bald, dass es überlebenswichtig in einem wettbewerbsintensiven Markt ist, sich an neue Herausforderungen anzupassen. Letztes Jahr beschlossen wir, eine neue Richtlinie für Fernarbeit umzusetzen. Zunächst gab es einen ständigen Strom kleinerer technischer Probleme, und einige Mitarbeiter fanden es schwierig, ihr übliches Produktivitätsniveau aufrechtzuerhalten.\n\nUnser Team erwies sich jedoch als unglaublich belastbar. Anstatt aufzugeben, arbeiteten sie zusammen, um diese Hindernisse zu überwinden. Bis Ende des Jahres sahen wir eine deutliche Verbesserung der Mitarbeiterzufriedenheit. Wir konnten auch bessere Software-Tools erhalten, um unsere tägliche Kommunikation zu unterstützen. Letztendlich ermöglichte uns diese Änderung, unsere langfristigen Ziele viel schneller zu erreichen, als wir ursprünglich erwartet hatten. Es hat uns gelehrt, dass die Annahme von Veränderungen, anstatt sie zu bekämpfen, der Schlüssel zu dauerhaftem Erfolg ist.",
+      "tr": "Son birkaç yılda, şirketimizin işleyiş şekli hızla gelişmek zorunda kaldı. Küçük bir ekip olarak başladık, ancak rekabetçi bir pazarda hayatta kalmak için yeni zorluklara uyum sağlamanın çok önemli olduğunu kısa sürede anladık. Geçen yıl yeni bir uzaktan çalışma politikası uygulamaya karar verdik. Başlangıçta sürekli küçük teknik sorunlar yaşandı ve bazı çalışanlar normal üretkenlik seviyelerini korumakta zorlandılar.\n\nAncak ekibimiz inanılmaz derecede dayanıklı olduğunu kanıtladı. Pes etmek yerine bu engellerin üstesinden gelmek için birlikte çalıştılar. Yıl sonuna gelindiğinde, çalışan memnuniyetinde önemli bir iyileşme gördük. Ayrıca günlük iletişimimizi desteklemek için daha iyi yazılım araçları elde edebildik. Sonuç olarak, bu değişiklik uzun vadeli hedeflerimize başlangıçta öngördüğümüzden çok daha hızlı ulaşmamızı sağladı. Bize değişime karşı savaşmak yerine onu kucaklamanın kalıcı başarının anahtarı olduğunu öğretti.",
+      "ja": "過去数年間で、当社の運営方法は急速に進化する必要がありました。私たちは小さなチームとしてスタートしましたが、競争の激しい市場で生き残るためには、新しい課題に適応することが不可欠であることにすぐに気づきました。昨年、私たちは新しいリモートワークポリシーを導入することを決定しました。最初は小さな技術的な問題が絶えず発生し、一部の従業員は通常の生産性レベルを維持するのに苦労しました。\n\nしかし、私たちのチームは信じられないほどの回復力があることを証明しました。彼らはあきらめるのではなく、これらの障害を克服するために協力しました。年末までに、従業員の満足度が大幅に向上したことがわかりました。また、日々のコミュニケーションをサポートするためのより優れたソフトウェアツールを入手することもできました。最終的に、この変更により、当初の予想よりもはるかに早く長期的な目標を達成することができました。それは、変化と戦うのではなく変化を受け入れることが、永続的な成功の鍵であることを私たちに教えてくれました。"
     },
-    comprehensionQuestions: [
+    "comprehensionQuestions": [
       {
-        id: "q1",
-        question: "Why did the company decide to change the way it operates?",
-        options: [
+        "id": "q1",
+        "question": "Why did the company decide to change the way it operates?",
+        "options": [
           "Because employees wanted to commute less.",
           "To survive in a competitive market.",
           "To save money on office rent.",
-          "Because they lost a lot of clients.",
+          "Because they lost a lot of clients."
         ],
-        correctAnswerIndex: 1,
+        "correctAnswerIndex": 1
       },
       {
-        id: "q2",
-        question:
-          "What was the initial reaction to the new remote work policy?",
-        options: [
+        "id": "q2",
+        "question": "What was the initial reaction to the new remote work policy?",
+        "options": [
           "The team immediately became much more productive.",
           "Everyone refused to use the new software.",
           "There were minor technical issues and productivity challenges.",
-          "The company had to fire some employees.",
+          "The company had to fire some employees."
         ],
-        correctAnswerIndex: 2,
+        "correctAnswerIndex": 2
       },
       {
-        id: "q3",
-        question: "How did the employees handle the challenges they faced?",
-        options: [
+        "id": "q3",
+        "question": "How did the employees handle the challenges they faced?",
+        "options": [
           "They showed resilience and worked together to overcome them.",
           "They complained to the management constantly.",
           "They decided to return to the office.",
-          "They obtained new jobs at different companies.",
+          "They obtained new jobs at different companies."
         ],
-        correctAnswerIndex: 0,
+        "correctAnswerIndex": 0
       },
       {
-        id: "q4",
-        question: "What was the final result of implementing the changes?",
-        options: [
+        "id": "q4",
+        "question": "What was the final result of implementing the changes?",
+        "options": [
           "Employee satisfaction decreased significantly.",
           "They failed to obtain the software they needed.",
           "The company had to evolve into a completely different business.",
-          "The company fulfilled its long-term goals faster than expected.",
+          "The company fulfilled its long-term goals faster than expected."
         ],
-        correctAnswerIndex: 3,
-      },
-    ],
-  },
+        "correctAnswerIndex": 3
+      }
+    ]
+  }
 };
