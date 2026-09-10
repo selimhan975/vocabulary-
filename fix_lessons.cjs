@@ -1,87 +1,66 @@
 const fs = require('fs');
+let content = fs.readFileSync('src/data/lessons.ts', 'utf8');
 
-const lessons = [29, 30, 31, 32];
+const regex = /export const availableLessons: Lesson\[[\s\S]*?;/g;
 
-function extractLangs(str) {
-  // e.g. "покупка / покупать (ru), 购买 (zh), compra / comprar (es)..."
-  const parts = str.split(', ');
-  const map = {};
-  parts.forEach(p => {
-    const match = p.match(/(.+?)\s*\((\w{2})\)/);
-    if(match) {
-      map[match[2]] = match[1].trim();
-    }
-  });
-  return map;
-}
+const newArray = `export const availableLessons: Lesson[] = [
+  b2Lesson56,
+  b2Lesson55,
+  b2Lesson54,
+  b2Lesson53,
+  b2Lesson52,
+  b2Lesson51,
+  b2Lesson50,
+  b2Lesson49,
+  b2Lesson48,
+  b2Lesson47,
+  b2Lesson46,
+  b2Lesson45,
+  b2Lesson1,
+  b2Lesson2,
+  b2Lesson3,
+  b2Lesson4,
+  b2Lesson5,
+  b2Lesson6,
+  b2Lesson7,
+  b2Lesson8,
+  b2Lesson9,
+  b2Lesson10,
+  b2Lesson11,
+  b2Lesson12,
+  b2Lesson13,
+  b2Lesson14,
+  b2Lesson15,
+  b2Lesson16,
+  b2Lesson17,
+  b2Lesson18,
+  b2Lesson19,
+  b2Lesson20,
+  b2Lesson21,
+  b2Lesson22,
+  b2Lesson23,
+  b2Lesson24,
+  b2Lesson25,
+  b2Lesson26,
+  b2Lesson27,
+  b2Lesson28,
+  b2Lesson29,
+  b2Lesson30,
+  b2Lesson31,
+  b2Lesson32,
+  b2Lesson33,
+  b2Lesson34,
+  b2Lesson35,
+  b2Lesson36,
+  b2Lesson37,
+  b2Lesson38,
+  b2Lesson39,
+  b2Lesson40,
+  b2Lesson41,
+  b2Lesson42,
+  b2Lesson43,
+  b2Lesson44,
+];`;
 
-function fixLessonFile(num) {
-  const filePath = `src/data/b2-lesson-${num}.ts`;
-  let content = fs.readFileSync(filePath, 'utf8');
-  
-  // Extract the object part
-  let objStr = content.replace(/^import.*?export const.*?=\s*/s, '').replace(/;\s*$/, '');
-  
-  let lessonObj;
-  try {
-    lessonObj = eval('(' + objStr + ')');
-  } catch(e) {
-    console.error("Error evaluating lesson " + num, e);
-    return;
-  }
-  
-  lessonObj.number = num;
-  lessonObj.id = `b2-l${num}`;
-  
-  lessonObj.words = lessonObj.words.map((w, wIndex) => {
-    const wId = `w${num}-${wIndex+1}`;
-    
-    let meanings = [];
-    if (w.definition) {
-      const examples = w.examples.map((ex, exIndex) => {
-        return {
-          id: `${wId}-m1-e${exIndex+1}`,
-          sentence: ex.sentence,
-          translation: extractLangs(ex.translation)
-        };
-      });
-      meanings.push({
-        id: `${wId}-m1`,
-        definition: w.definition,
-        translation: {},
-        examples: examples
-      });
-    }
-
-    return {
-      id: wId,
-      word: w.word,
-      pronunciation: w.pronunciation,
-      partOfSpeech: w.partOfSpeech,
-      level: "B2",
-      synonyms: [],
-      collocations: [],
-      translations: extractLangs(w.translation),
-      meanings: meanings
-    };
-  });
-  
-  lessonObj.reading.id = `r${num}`;
-  lessonObj.reading.content = lessonObj.reading.text;
-  delete lessonObj.reading.text;
-  
-  lessonObj.reading.questions = lessonObj.reading.questions.map((q, qIndex) => {
-    return {
-      id: `r${num}-q${qIndex+1}`,
-      question: q.question,
-      options: q.options,
-      correctAnswer: q.correctAnswer
-    };
-  });
-  
-  const newContent = `import { Lesson } from "../types";\n\nexport const b2Lesson${num}: Lesson = ` + JSON.stringify(lessonObj, null, 2) + `;\n`;
-  
-  fs.writeFileSync(filePath, newContent);
-}
-
-lessons.forEach(fixLessonFile);
+content = content.replace(regex, newArray);
+fs.writeFileSync('src/data/lessons.ts', content);

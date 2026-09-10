@@ -10,7 +10,9 @@ const files = [
 for (let i = 0; i < files.length; i++) {
   const file = files[i];
   let content = fs.readFileSync(file, 'utf-8');
-  content = content.replace(/readingText: {/, `reading: {\n    id: "r${41+i}",`);
+  content = content.replace(/number: 4[1-4],/, (match) => {
+    return `${match}\n  level: "B2",`;
+  });
   fs.writeFileSync(file, content);
 }
-console.log('Fixed readingText.');
+console.log('Fixed level.');

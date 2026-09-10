@@ -25,8 +25,8 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
     sessionStorage.setItem(`vocab_app_range_${level}`, selectedRangeIndex.toString());
   }, [selectedRangeIndex, level]);
 
-  const totalLessons = availableLessons.length;
-  const totalRanges = Math.ceil(totalLessons / LESSONS_PER_RANGE);
+  const maxLessonNumber = availableLessons.reduce((max, lesson) => Math.max(max, lesson.number), 0);
+  const totalRanges = Math.ceil(maxLessonNumber / LESSONS_PER_RANGE);
 
   // If the stored index is out of bounds (e.g., lessons were removed), reset to 0
   useEffect(() => {
@@ -37,14 +37,15 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
 
   const ranges = Array.from({ length: totalRanges }, (_, i) => {
     const start = i * LESSONS_PER_RANGE + 1;
-    const end = Math.min((i + 1) * LESSONS_PER_RANGE, totalLessons);
+    const end = Math.min((i + 1) * LESSONS_PER_RANGE, maxLessonNumber);
     return { start, end, index: i };
   });
 
-  const currentRangeLessons = availableLessons.slice(
-    selectedRangeIndex * LESSONS_PER_RANGE,
-    (selectedRangeIndex + 1) * LESSONS_PER_RANGE
-  );
+  const activeRange = ranges[selectedRangeIndex] || { start: 1, end: LESSONS_PER_RANGE };
+
+  const currentRangeLessons = availableLessons
+    .filter(lesson => lesson.number >= activeRange.start && lesson.number <= activeRange.end)
+    .sort((a, b) => a.number - b.number);
 
   return (
     <div className="min-h-screen bg-slate-50 py-4 px-3 sm:px-6 lg:px-8 font-sans">

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { translationEngine } from '../../engine/translation';
+import { isInflectionOf } from '../../utils/wordRecognition';
 import { X } from 'lucide-react';
 import { SpeakerButton } from './SpeakerButton';
 
@@ -10,7 +11,7 @@ interface TranslatableTextProps {
 }
 
 export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, className = '', targetWord }) => {
-  const [activeWord, setActiveWord] = useState<{ word: string, index: number } | null>(null);
+  const [activeWord, setActiveWord] = useState<{ word: string, index: number, canonical: string } | null>(null);
   const [translation, setTranslation] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [popupPos, setPopupPos] = useState<'center' | 'left' | 'right'>('center');
@@ -47,10 +48,13 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
       setPopupPos('center');
     }
 
-    setActiveWord({ word, index });
+    setActiveWord({ word, index, canonical: word });
     setLoading(true);
-    const trans = await translationEngine.translateWordOffline(word);
-    setTranslation(trans);
+    const result = await translationEngine.translateWordOffline(word);
+    
+    // Update active word with canonical to ensure popup header and TTS use it
+    setActiveWord({ word, index, canonical: result.canonical });
+    setTranslation(result.translation);
     setLoading(false);
   };
 
@@ -63,7 +67,7 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
             const isActive = activeWord?.index === i;
             const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
             const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
-            const isTarget = targetWord && token.toLowerCase() === targetWord.toLowerCase();
+            const isTarget = targetWord && isInflectionOf(token, targetWord);
             return (
               <span key={i} className="relative inline-block">
                 <span
@@ -81,9 +85,9 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
                 {isActive && (
                   <span className={`absolute bottom-full ${posClass} mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default`}>
                     <div className="flex items-center justify-between border-b border-slate-100 pb-2 mb-2">
-                      <span className="font-bold text-slate-900 text-base">{token}</span>
+                      <span className="font-bold text-slate-900 text-base">{activeWord.canonical}</span>
                       <div className="flex items-center gap-1">
-                        <SpeakerButton text={token} className="w-7 h-7" />
+                        <SpeakerButton text={activeWord.canonical} className="w-7 h-7" />
                         <button 
                           onClick={(e) => {
                             e.stopPropagation();

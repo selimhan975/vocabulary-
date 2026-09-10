@@ -4284,5 +4284,1751 @@ export const globalDictionary: Record<string, TranslationMap> = {
     "de": "einsetzen / stationieren",
     "tr": "konuşlandırmak / görevlendirmek",
     "ja": "配置する / 展開する"
+  },
+  "internship": {
+    "es": "prácticas",
+    "ru": "стажировка",
+    "zh": "实习",
+    "fr": "stage",
+    "de": "Praktikum",
+    "tr": "staj",
+    "ja": "インターンシップ"
+  },
+  "mentor": {
+    "es": "mentor",
+    "ru": "наставник",
+    "zh": "导师",
+    "fr": "mentor",
+    "de": "Mentor",
+    "tr": "akıl hocası",
+    "ja": "メンター"
+  },
+  "collaborate": {
+    "es": "colaborar",
+    "ru": "сотрудничать",
+    "zh": "合作",
+    "fr": "collaborer",
+    "de": "zusammenarbeiten",
+    "tr": "işbirliği yapmak",
+    "ja": "協力する"
+  },
+  "specialize": {
+    "es": "especializarse",
+    "ru": "специализироваться",
+    "zh": "专门研究",
+    "fr": "se spécialiser",
+    "de": "sich spezialisieren",
+    "tr": "uzmanlaşmak",
+    "ja": "専門とする"
+  },
+  "reliable": {
+    "es": "fiable",
+    "ru": "надежный",
+    "zh": "可靠的",
+    "fr": "fiable",
+    "de": "zuverlässig",
+    "tr": "güvenilir",
+    "ja": "信頼できる"
+  },
+  "applicant": {
+    "es": "candidato",
+    "ru": "кандидат",
+    "zh": "申请人",
+    "fr": "candidat",
+    "de": "Bewerber",
+    "tr": "başvuru sahibi",
+    "ja": "応募者"
+  },
+  "rewarding": {
+    "es": "gratificante",
+    "ru": "стоящий",
+    "zh": "有意义的",
+    "fr": "gratifiant",
+    "de": "lohnend",
+    "tr": "tatmin edici",
+    "ja": "やりがいのある"
+  },
+  "flexible": {
+    "es": "flexible",
+    "ru": "гибкий",
+    "zh": "灵活的",
+    "fr": "flexible",
+    "de": "flexibel",
+    "tr": "esnek",
+    "ja": "柔軟な"
+  },
+  "freelance": {
+    "es": "independiente",
+    "ru": "внештатный",
+    "zh": "自由职业的",
+    "fr": "indépendant",
+    "de": "freiberuflich",
+    "tr": "serbest",
+    "ja": "フリーランスの"
+  },
+  "lucrative": {
+    "es": "lucrativo",
+    "ru": "прибыльный",
+    "zh": "有利可图的",
+    "fr": "lucratif",
+    "de": "lukrativ",
+    "tr": "kazançlı",
+    "ja": "儲かる"
+  },
+  "allowance": {
+    "es": "subsidio / paga",
+    "ru": "пособие / карманные деньги",
+    "zh": "津贴 / 零花钱",
+    "fr": "allocation / indemnité",
+    "de": "Zulage / Taschengeld",
+    "tr": "ödenek / harçlık",
+    "ja": "手当 / お小遣い"
+  },
+  "calculate": {
+    "es": "calcular",
+    "ru": "вычислять",
+    "zh": "计算",
+    "fr": "calculer",
+    "de": "berechnen",
+    "tr": "hesaplamak",
+    "ja": "計算する"
+  },
+  "compensate": {
+    "es": "compensar",
+    "ru": "компенсировать",
+    "zh": "补偿",
+    "fr": "dédommager / compenser",
+    "de": "entschädigen",
+    "tr": "telafi etmek",
+    "ja": "補償する"
+  },
+  "deposit": {
+    "es": "depositar",
+    "ru": "вносить (деньги)",
+    "zh": "存入",
+    "fr": "déposer",
+    "de": "einzahlen",
+    "tr": "para yatırmak",
+    "ja": "預金する"
+  },
+  "estimate": {
+    "es": "estimar",
+    "ru": "оценивать",
+    "zh": "估算",
+    "fr": "estimer",
+    "de": "schätzen",
+    "tr": "tahmin etmek",
+    "ja": "見積もる"
+  },
+  "inherit": {
+    "es": "heredar",
+    "ru": "унаследовать",
+    "zh": "继承",
+    "fr": "hériter",
+    "de": "erben",
+    "tr": "miras almak",
+    "ja": "受け継ぐ"
+  },
+  "insurance": {
+    "es": "seguro",
+    "ru": "страховка",
+    "zh": "保险",
+    "fr": "assurance",
+    "de": "Versicherung",
+    "tr": "sigorta",
+    "ja": "保険"
+  },
+  "mortgage": {
+    "es": "hipoteca",
+    "ru": "ипотека",
+    "zh": "抵押贷款",
+    "fr": "hypothèque",
+    "de": "Hypothek",
+    "tr": "ipotek / konut kredisi",
+    "ja": "住宅ローン"
+  },
+  "withdraw": {
+    "es": "retirar",
+    "ru": "снимать (деньги)",
+    "zh": "提取 / 撤回",
+    "fr": "retirer",
+    "de": "abheben",
+    "tr": "çekmek (para)",
+    "ja": "引き出す"
+  },
+  "certificate": {
+    "es": "certificado",
+    "ru": "сертификат",
+    "zh": "证书",
+    "fr": "certificat",
+    "de": "Zertifikat",
+    "tr": "sertifika",
+    "ja": "証明書"
+  },
+  "expire": {
+    "es": "caducar",
+    "ru": "истекать",
+    "zh": "到期",
+    "fr": "expirer",
+    "de": "ablaufen",
+    "tr": "süresi dolmak",
+    "ja": "有効期限が切れる"
+  },
+  "identity": {
+    "es": "identidad",
+    "ru": "личность",
+    "zh": "身份",
+    "fr": "identité",
+    "de": "Identität",
+    "tr": "kimlik",
+    "ja": "身元 / アイデンティティ"
+  },
+  "license": {
+    "es": "licencia",
+    "ru": "лицензия / права",
+    "zh": "执照 / 许可证",
+    "fr": "licence / permis",
+    "de": "Lizenz / Führerschein",
+    "tr": "ehliyet / ruhsat",
+    "ja": "免許 / ライセンス"
+  },
+  "mandatory": {
+    "es": "obligatorio",
+    "ru": "обязательный",
+    "zh": "强制性的",
+    "fr": "obligatoire",
+    "de": "verpflichtend",
+    "tr": "zorunlu",
+    "ja": "義務的な"
+  },
+  "official": {
+    "es": "oficial",
+    "ru": "официальный",
+    "zh": "官方的",
+    "fr": "officiel",
+    "de": "offiziell",
+    "tr": "resmi",
+    "ja": "公式の"
+  },
+  "permit": {
+    "es": "permitir",
+    "ru": "разрешать",
+    "zh": "允许",
+    "fr": "permettre",
+    "de": "erlauben",
+    "tr": "izin vermek",
+    "ja": "許可する"
+  },
+  "register": {
+    "es": "registrar / inscribirse",
+    "ru": "регистрировать",
+    "zh": "注册 / 登记",
+    "fr": "enregistrer / s'inscrire",
+    "de": "registrieren",
+    "tr": "kayıt olmak",
+    "ja": "登録する"
+  },
+  "authorize": {
+    "es": "autorizar",
+    "ru": "уполномочивать / одобрять",
+    "zh": "授权 / 批准",
+    "fr": "autoriser",
+    "de": "autorisieren / genehmigen",
+    "tr": "yetkilendirmek / onaylamak",
+    "ja": "権限を与える / 承認する"
+  },
+  "signature": {
+    "es": "firma",
+    "ru": "подпись",
+    "zh": "签名",
+    "fr": "signature",
+    "de": "Unterschrift",
+    "tr": "imza",
+    "ja": "署名"
+  },
+  "accent": {
+    "es": "acento",
+    "ru": "акцент",
+    "zh": "口音",
+    "fr": "accent",
+    "de": "Akzent",
+    "tr": "aksan",
+    "ja": "アクセント / 訛り"
+  },
+  "bilingual": {
+    "es": "bilingüe",
+    "ru": "двуязычный",
+    "zh": "双语的",
+    "fr": "bilingue",
+    "de": "zweisprachig",
+    "tr": "iki dilli",
+    "ja": "バイリンガルの / 2か国語を話す"
+  },
+  "dialect": {
+    "es": "dialecto",
+    "ru": "диалект",
+    "zh": "方言",
+    "fr": "dialecte",
+    "de": "Dialekt",
+    "tr": "lehçe / şive",
+    "ja": "方言"
+  },
+  "fluency": {
+    "es": "fluidez",
+    "ru": "беглость (речи)",
+    "zh": "流利度",
+    "fr": "aisance / fluidité",
+    "de": "Flüssigkeit",
+    "tr": "akıcılık",
+    "ja": "流暢さ"
+  },
+  "irony": {
+    "es": "ironía",
+    "ru": "ирония",
+    "zh": "讽刺 / 具有讽刺意味的事",
+    "fr": "ironie",
+    "de": "Ironie",
+    "tr": "ironi",
+    "ja": "皮肉 / アイロニー"
+  },
+  "metaphor": {
+    "es": "metáfora",
+    "ru": "метафора",
+    "zh": "暗喻",
+    "fr": "métaphore",
+    "de": "Metapher",
+    "tr": "metafor",
+    "ja": "隠喩 / メタファー"
+  },
+  "slang": {
+    "es": "jerga / argot",
+    "ru": "сленг",
+    "zh": "俚语",
+    "fr": "argot",
+    "de": "Slang / Umgangssprache",
+    "tr": "argo",
+    "ja": "俗語 / スラング"
+  },
+  "rumor": {
+    "es": "rumor",
+    "ru": "слух",
+    "zh": "谣言 / 传闻",
+    "fr": "rumeur",
+    "de": "Gerücht",
+    "tr": "söylenti",
+    "ja": "噂"
+  },
+  "whisper": {
+    "es": "susurrar",
+    "ru": "шептать",
+    "zh": "耳语 / 窃窃私语",
+    "fr": "chuchoter",
+    "de": "flüstern",
+    "tr": "fısıldamak",
+    "ja": "ささやく"
+  },
+  "sarcasm": {
+    "es": "sarcasmo",
+    "ru": "сарказм",
+    "zh": "挖苦 / 讽刺",
+    "fr": "sarcasme",
+    "de": "Sarkasmus",
+    "tr": "iğneleme / kinaye",
+    "ja": "嫌味 / 皮肉"
+  },
+  "anxiety": {
+    "ru": "тревога",
+    "zh": "焦虑",
+    "es": "ansiedad",
+    "fr": "anxiété",
+    "de": "Angst",
+    "tr": "endişe",
+    "ja": "不安",
+  },
+  "sympathy": {
+    "ru": "сочувствие",
+    "zh": "同情",
+    "es": "simpatía",
+    "fr": "sympathie",
+    "de": "Mitgefühl",
+    "tr": "sempati",
+    "ja": "同情",
+  },
+  "frustration": {
+    "ru": "разочарование",
+    "zh": "挫折感",
+    "es": "frustración",
+    "fr": "frustration",
+    "de": "Frustration",
+    "tr": "hüsran",
+    "ja": "欲求不満",
+  },
+  "eager": {
+    "ru": "нетерпеливый",
+    "zh": "渴望的",
+    "es": "ansioso",
+    "fr": "impatient",
+    "de": "eifrig",
+    "tr": "istekli",
+    "ja": "熱望して",
+  },
+  "hostile": {
+    "ru": "враждебный",
+    "zh": "敌对的",
+    "es": "hostil",
+    "fr": "hostile",
+    "de": "feindselig",
+    "tr": "düşmanca",
+    "ja": "敵対的な",
+  },
+  "insecure": {
+    "ru": "неуверенный",
+    "zh": "缺乏安全的",
+    "es": "inseguro",
+    "fr": "peu sûr",
+    "de": "unsicher",
+    "tr": "güvensiz",
+    "ja": "不安な",
+  },
+  "resent": {
+    "ru": "негодовать",
+    "zh": "怨恨",
+    "es": "resentir",
+    "fr": "en vouloir",
+    "de": "übelnehmen",
+    "tr": "içerlemek",
+    "ja": "憤慨する",
+  },
+  "content": {
+    "ru": "довольный",
+    "zh": "满足的",
+    "es": "contento",
+    "fr": "content",
+    "de": "zufrieden",
+    "tr": "hoşnut",
+    "ja": "満足して",
+  },
+  "miserable": {
+    "ru": "несчастный",
+    "zh": "悲惨的",
+    "es": "miserable",
+    "fr": "misérable",
+    "de": "elend",
+    "tr": "sefil",
+    "ja": "惨めな",
+  },
+  "suspicious": {
+    "ru": "подозрительный",
+    "zh": "可疑的",
+    "es": "sospechoso",
+    "fr": "suspect",
+    "de": "verdächtig",
+    "tr": "şüpheli",
+    "ja": "疑わしい",
+  },
+  "campus": {
+    "ru": "кампус",
+    "zh": "校园",
+    "es": "campus",
+    "fr": "campus",
+    "de": "Campus",
+    "tr": "kampüs",
+    "ja": "キャンパス",
+  },
+  "faculty": {
+    "ru": "факультет (состав преподавателей)",
+    "zh": "全体教员",
+    "es": "profesorado",
+    "fr": "corps professoral",
+    "de": "Fakultät (Lehrkörper)",
+    "tr": "öğretim üyeleri",
+    "ja": "教職員",
+  },
+  "curriculum": {
+    "ru": "учебная программа",
+    "zh": "课程",
+    "es": "plan de estudios",
+    "fr": "programme d'études",
+    "de": "Lehrplan",
+    "tr": "müfredat",
+    "ja": "カリキュラム",
+  },
+  "thesis": {
+    "ru": "диссертация",
+    "zh": "论文",
+    "es": "tesis",
+    "fr": "thèse",
+    "de": "Abschlussarbeit",
+    "tr": "tez",
+    "ja": "論文",
+  },
+  "seminar": {
+    "ru": "семинар",
+    "zh": "研讨会",
+    "es": "seminario",
+    "fr": "séminaire",
+    "de": "Seminar",
+    "tr": "seminer",
+    "ja": "ゼミ",
+  },
+  "scholarship": {
+    "ru": "стипендия",
+    "zh": "奖学金",
+    "es": "beca",
+    "fr": "bourse d'études",
+    "de": "Stipendium",
+    "tr": "burs",
+    "ja": "奨学金",
+  },
+  "tuition": {
+    "ru": "плата за обучение",
+    "zh": "学费",
+    "es": "matrícula",
+    "fr": "frais de scolarité",
+    "de": "Studiengebühren",
+    "tr": "okul harcı",
+    "ja": "授業料",
+  },
+  "enroll": {
+    "ru": "записываться (на курс)",
+    "zh": "注册",
+    "es": "inscribirse",
+    "fr": "s'inscrire",
+    "de": "sich einschreiben",
+    "tr": "kaydolmak",
+    "ja": "登録する",
+  },
+  "academic": {
+    "ru": "академический",
+    "zh": "学术的",
+    "es": "académico",
+    "fr": "académique",
+    "de": "akademisch",
+    "tr": "akademik",
+    "ja": "学術的な",
+  },
+  "plagiarism": {
+    "ru": "плагиат",
+    "zh": "剽窃",
+    "es": "plagio",
+    "fr": "plagiat",
+    "de": "Plagiat",
+    "tr": "intihal",
+    "ja": "盗作",
+  },
+  "crop": {
+    "ru": "урожай (культура)",
+    "zh": "庄稼",
+    "es": "cultivo",
+    "fr": "culture",
+    "de": "Ernte (Pflanze)",
+    "tr": "mahsul",
+    "ja": "農作物",
+  },
+  "harvest": {
+    "ru": "урожай (сбор)",
+    "zh": "收获",
+    "es": "cosecha",
+    "fr": "récolte",
+    "de": "Ernte (Vorgang)",
+    "tr": "hasat",
+    "ja": "収穫",
+  },
+  "livestock": {
+    "ru": "домашний скот",
+    "zh": "牲畜",
+    "es": "ganado",
+    "fr": "bétail",
+    "de": "Vieh",
+    "tr": "çiftlik hayvanları",
+    "ja": "家畜",
+  },
+  "soil": {
+    "ru": "почва",
+    "zh": "土壤",
+    "es": "suelo",
+    "fr": "sol",
+    "de": "Boden",
+    "tr": "toprak",
+    "ja": "土壌",
+  },
+  "cultivate": {
+    "ru": "культивировать",
+    "zh": "培育",
+    "es": "cultivar",
+    "fr": "cultiver",
+    "de": "kultivieren",
+    "tr": "yetiştirmek",
+    "ja": "栽培する",
+  },
+  "fertile": {
+    "ru": "плодородный",
+    "zh": "肥沃的",
+    "es": "fértil",
+    "fr": "fertile",
+    "de": "fruchtbar",
+    "tr": "verimli",
+    "ja": "肥沃な",
+  },
+  "pesticide": {
+    "ru": "пестицид",
+    "zh": "杀虫剂",
+    "es": "pesticida",
+    "fr": "pesticide",
+    "de": "Pestizid",
+    "tr": "böcek ilacı",
+    "ja": "農薬",
+  },
+  "irrigation": {
+    "ru": "орошение",
+    "zh": "灌溉",
+    "es": "irrigación",
+    "fr": "irrigation",
+    "de": "Bewässerung",
+    "tr": "sulama",
+    "ja": "灌漑",
+  },
+  "grain": {
+    "ru": "зерно",
+    "zh": "谷物",
+    "es": "grano",
+    "fr": "céréale",
+    "de": "Getreide",
+    "tr": "tahıl",
+    "ja": "穀物",
+  },
+  "yield": {
+    "ru": "давать (урожай, результат)",
+    "zh": "产量/出产",
+    "es": "rendimiento",
+    "fr": "rendement",
+    "de": "Ertrag",
+    "tr": "verim",
+    "ja": "産出する/収穫量",
+  },
+  "election": {
+    "ru": "выборы",
+    "zh": "选举",
+    "es": "elección",
+    "fr": "élection",
+    "de": "Wahl",
+    "tr": "seçim",
+    "ja": "選挙",
+  },
+  "parliament": {
+    "ru": "парламент",
+    "zh": "议会",
+    "es": "parlamento",
+    "fr": "parlement",
+    "de": "Parlament",
+    "tr": "parlamento",
+    "ja": "議会",
+  },
+  "minister": {
+    "ru": "министр",
+    "zh": "部长/大臣",
+    "es": "ministro",
+    "fr": "ministre",
+    "de": "Minister",
+    "tr": "bakan",
+    "ja": "大臣",
+  },
+  "democracy": {
+    "ru": "демократия",
+    "zh": "民主",
+    "es": "democracia",
+    "fr": "démocratie",
+    "de": "Demokratie",
+    "tr": "demokrasi",
+    "ja": "民主主義",
+  },
+  "citizen": {
+    "ru": "гражданин",
+    "zh": "公民",
+    "es": "ciudadano",
+    "fr": "citoyen",
+    "de": "Bürger",
+    "tr": "vatandaş",
+    "ja": "市民",
+  },
+  "constitution": {
+    "ru": "конституция",
+    "zh": "宪法",
+    "es": "constitución",
+    "fr": "constitution",
+    "de": "Verfassung",
+    "tr": "anayasa",
+    "ja": "憲法",
+  },
+  "mayor": {
+    "ru": "мэр",
+    "zh": "市长",
+    "es": "alcalde",
+    "fr": "maire",
+    "de": "Bürgermeister",
+    "tr": "belediye başkanı",
+    "ja": "市長",
+  },
+  "policy": {
+    "ru": "политика (правила, курс)",
+    "zh": "政策",
+    "es": "política",
+    "fr": "politique",
+    "de": "Politik/Richtlinie",
+    "tr": "politika",
+    "ja": "政策/方針",
+  },
+  "prosecute": {
+        "ru": "преследовать в судебном порядке",
+        "zh": "起诉",
+        "es": "procesar",
+        "fr": "poursuivre",
+        "de": "strafrechtlich verfolgen",
+        "tr": "dava açmak",
+        "ja": "起訴する"
+      },
+  "convict": {
+        "ru": "осуждать / признавать виновным",
+        "zh": "定罪",
+        "es": "condenar",
+        "fr": "condamner",
+        "de": "verurteilen",
+        "tr": "suçlu bulmak",
+        "ja": "有罪を宣告する"
+      },
+  "testify": {
+        "ru": "давать показания",
+        "zh": "作证",
+        "es": "testificar",
+        "fr": "témoigner",
+        "de": "aussagen",
+        "tr": "tanıklık etmek",
+        "ja": "証言する"
+      },
+  "offense": {
+        "ru": "правонарушение / преступление",
+        "zh": "违法行为 / 罪行",
+        "es": "delito / ofensa",
+        "fr": "délit / infraction",
+        "de": "Vergehen / Straftat",
+        "tr": "suç / ihlal",
+        "ja": "違反 / 犯罪"
+      },
+  "fraud": {
+        "ru": "мошенничество",
+        "zh": "欺诈",
+        "es": "fraude",
+        "fr": "fraude",
+        "de": "Betrug",
+        "tr": "dolandırıcılık",
+        "ja": "詐欺"
+      },
+  "smuggle": {
+        "ru": "заниматься контрабандой",
+        "zh": "走私",
+        "es": "contrabandear",
+        "fr": "faire de la contrebande",
+        "de": "schmuggeln",
+        "tr": "kaçakçılık yapmak",
+        "ja": "密輸する"
+      },
+  "vandalism": {
+        "ru": "вандализм",
+        "zh": "破坏公物",
+        "es": "vandalismo",
+        "fr": "vandalisme",
+        "de": "Vandalismus",
+        "tr": "vandalizm / yakıp yıkma",
+        "ja": "公共物破壊"
+      },
+  "assault": {
+        "ru": "нападение / нападать",
+        "zh": "攻击 / 袭击",
+        "es": "asalto / agresión",
+        "fr": "agression / assaut",
+        "de": "Körperverletzung / Angriff",
+        "tr": "saldırı / saldırmak",
+        "ja": "暴行 / 攻撃"
+      },
+  "bribe": {
+        "ru": "взятка / подкупать",
+        "zh": "贿赂",
+        "es": "soborno / sobornar",
+        "fr": "pot-de-vin / corrompre",
+        "de": "Bestechung / bestechen",
+        "tr": "rüşvet / rüşvet vermek",
+        "ja": "賄賂 / 買収する"
+      },
+  "custody": {
+        "ru": "опека / заключение под стражу",
+        "zh": "拘留 / 监护权",
+        "es": "custodia",
+        "fr": "garde (à vue ou d'enfants)",
+        "de": "Sorgerecht / Gewahrsam",
+        "tr": "gözaltı / velayet",
+        "ja": "拘留 / 親権"
+      },
+  "journalism": {
+        "ru": "журналистика",
+        "zh": "新闻业",
+        "es": "periodismo",
+        "fr": "journalisme",
+        "de": "Journalismus",
+        "tr": "gazetecilik",
+        "ja": "ジャーナリズム"
+      },
+  "publish": {
+        "ru": "публиковать / издавать",
+        "zh": "出版 / 发表",
+        "es": "publicar",
+        "fr": "publier",
+        "de": "veröffentlichen",
+        "tr": "yayınlamak",
+        "ja": "出版する / 発表する"
+      },
+  "censorship": {
+        "ru": "цензура",
+        "zh": "审查制度",
+        "es": "censura",
+        "fr": "censure",
+        "de": "Zensur",
+        "tr": "sansür",
+        "ja": "検閲"
+      },
+  "tabloid": {
+        "ru": "бульварная газета",
+        "zh": "小报",
+        "es": "tabloide / prensa sensacionalista",
+        "fr": "tabloïd / presse à scandale",
+        "de": "Boulevardzeitung",
+        "tr": "bulvar gazetesi",
+        "ja": "タブロイド紙"
+      },
+  "headline": {
+        "ru": "заголовок",
+        "zh": "头条新闻 / 标题",
+        "es": "titular",
+        "fr": "gros titre",
+        "de": "Schlagzeile",
+        "tr": "manşet / başlık",
+        "ja": "見出し"
+      },
+  "correspondent": {
+        "ru": "корреспондент",
+        "zh": "通讯员 / 记者",
+        "es": "corresponsal",
+        "fr": "correspondant",
+        "de": "Korrespondent",
+        "tr": "muhabir",
+        "ja": "特派員"
+      },
+  "integrity": {
+        "ru": "честность / принципиальность",
+        "zh": "正直 / 诚实",
+        "es": "integridad",
+        "fr": "intégrité",
+        "de": "Integrität",
+        "tr": "dürüstlük / bütünlük",
+        "ja": "誠実さ / 高潔さ"
+      },
+  "libel": {
+        "ru": "клевета / клеветать",
+        "zh": "诽谤",
+        "es": "difamación / calumnia",
+        "fr": "diffamation",
+        "de": "Verleumdung",
+        "tr": "iftira",
+        "ja": "名誉毀損"
+      },
+  "propaganda": {
+        "ru": "пропаганда",
+        "zh": "宣传",
+        "es": "propaganda",
+        "fr": "propagande",
+        "de": "Propaganda",
+        "tr": "propaganda",
+        "ja": "プロパガンダ / 宣伝"
+      },
+  "editorial": {
+        "ru": "редакционная статья",
+        "zh": "社论 / 编辑的",
+        "es": "editorial",
+        "fr": "éditorial",
+        "de": "Leitartikel / redaktionell",
+        "tr": "başyazı",
+        "ja": "社説 / 編集の"
+      },
+  "extrovert": {
+        "ru": "экстраверт",
+        "zh": "外向的人",
+        "es": "extrovertido",
+        "fr": "extraverti",
+        "de": "Extrovertierte",
+        "tr": "dışa dönük",
+        "ja": "外向的な人"
+      },
+  "introvert": {
+        "ru": "интроверт",
+        "zh": "内向的人",
+        "es": "introvertido",
+        "fr": "introverti",
+        "de": "Introvertierte",
+        "tr": "içine kapanık / içe dönük",
+        "ja": "内向的な人"
+      },
+  "optimism": {
+        "ru": "оптимизм",
+        "zh": "乐观",
+        "es": "optimismo",
+        "fr": "optimisme",
+        "de": "Optimismus",
+        "tr": "iyimserlik",
+        "ja": "楽観主義"
+      },
+  "pessimism": {
+        "ru": "пессимизм",
+        "zh": "悲观",
+        "es": "pesimismo",
+        "fr": "pessimisme",
+        "de": "Pessimismus",
+        "tr": "kötümserlik",
+        "ja": "悲観主義"
+      },
+  "arrogant": {
+        "ru": "высокомерный",
+        "zh": "傲慢的",
+        "es": "arrogante",
+        "fr": "arrogant",
+        "de": "arrogant",
+        "tr": "kibirli",
+        "ja": "傲慢な"
+      },
+  "humble": {
+        "ru": "скромный",
+        "zh": "谦虚的",
+        "es": "humilde",
+        "fr": "humble",
+        "de": "bescheiden",
+        "tr": "mütevazı",
+        "ja": "謙虚な"
+      },
+  "stubborn": {
+        "ru": "упрямый",
+        "zh": "固执的",
+        "es": "terco",
+        "fr": "têtu",
+        "de": "stur",
+        "tr": "inatçı",
+        "ja": "頑固な"
+      },
+  "compassion": {
+        "ru": "сострадание",
+        "zh": "同情",
+        "es": "compasión",
+        "fr": "compassion",
+        "de": "Mitgefühl",
+        "tr": "şefkat / merhamet",
+        "ja": "思いやり / 同情"
+      },
+  "hypocrite": {
+        "ru": "лицемер",
+        "zh": "伪君子",
+        "es": "hipócrita",
+        "fr": "hypocrite",
+        "de": "Heuchler",
+        "tr": "ikiyüzlü",
+        "ja": "偽善者"
+      },
+  "naive": {
+        "ru": "наивный",
+        "zh": "天真的",
+        "es": "ingenuo",
+        "fr": "naïf",
+        "de": "naiv",
+        "tr": "saf / toy",
+        "ja": "世間知らずの"
+      },
+  "itinerary": {
+        "ru": "маршрут / план поездки",
+        "zh": "行程 / 旅行计划",
+        "es": "itinerario",
+        "fr": "itinéraire",
+        "de": "Reiseroute / Reiseplan",
+        "tr": "seyahat programı",
+        "ja": "旅程 / 旅行計画"
+      },
+  "excursion": {
+        "ru": "экскурсия / вылазка",
+        "zh": "远足 / 短途旅行",
+        "es": "excursión",
+        "fr": "excursion",
+        "de": "Ausflug",
+        "tr": "kısa gezi / ekskürsiyon",
+        "ja": "小旅行 / 遠足"
+      },
+  "hospitality": {
+        "ru": "гостеприимство",
+        "zh": "好客 / 热情款待",
+        "es": "hospitalidad",
+        "fr": "hospitalité",
+        "de": "Gastfreundschaft",
+        "tr": "misafirperverlik",
+        "ja": "もてなし / ホスピタリティ"
+      },
+  "souvenir": {
+        "ru": "сувенир",
+        "zh": "纪念品",
+        "es": "recuerdo / souvenir",
+        "fr": "souvenir",
+        "de": "Andenken / Souvenir",
+        "tr": "hediyelik eşya / hatıra",
+        "ja": "お土産"
+      },
+  "cruise": {
+        "ru": "круиз / путешествовать морем",
+        "zh": "游轮旅行 / 巡航",
+        "es": "crucero / navegar",
+        "fr": "croisière / naviguer",
+        "de": "Kreuzfahrt / kreuzen",
+        "tr": "gemi seyahati / seyir",
+        "ja": "クルーズ / 巡航する"
+      },
+  "expedition": {
+        "ru": "экспедиция",
+        "zh": "探险队 / 考察",
+        "es": "expedición",
+        "fr": "expédition",
+        "de": "Expedition",
+        "tr": "keşif gezisi / sefer",
+        "ja": "探検 / 遠征"
+      },
+  "layover": {
+        "ru": "пересадка / остановка в пути",
+        "zh": "中途停留 / 转机",
+        "es": "escala",
+        "fr": "escale",
+        "de": "Zwischenstopp",
+        "tr": "aktarma / bekleme süresi",
+        "ja": "乗り継ぎ / 途中下車"
+      },
+  "cater": {
+        "ru": "обслуживать / поставлять питание",
+        "zh": "迎合 / 提供餐饮",
+        "es": "proveer comida / atender",
+        "fr": "restaurer / s'occuper de",
+        "de": "bewirten / versorgen",
+        "tr": "yemek sağlamak / hitap etmek",
+        "ja": "料理をまかなう / 欲求を満たす"
+      },
+  "resort": {
+        "ru": "курорт / прибегать (к чему-л.)",
+        "zh": "度假村 / 诉诸",
+        "es": "complejo turístico / recurrir",
+        "fr": "complexe hôtelier / recourir",
+        "de": "Ferienort / zurückgreifen",
+        "tr": "tatil beldesi / başvurmak",
+        "ja": "リゾート / 訴える"
+      },
+  "scenic": {
+        "ru": "живописный",
+        "zh": "风景优美的",
+        "es": "pintoresco / escénico",
+        "fr": "pittoresque",
+        "de": "malerisch",
+        "tr": "manzaralı / doğal",
+        "ja": "景色が良い"
+      },
+  "follow up": {
+        "ru": "последовать (за чем-то) / дополнительно связаться",
+        "zh": "跟进",
+        "es": "hacer un seguimiento",
+        "fr": "donner suite / relancer",
+        "de": "nachfassen / weiterverfolgen",
+        "tr": "takip etmek",
+        "ja": "フォローアップする / 追って連絡する"
+      },
+  "deal with": {
+        "ru": "иметь дело с / справляться",
+        "zh": "处理 / 应对",
+        "es": "lidiar con / ocuparse de",
+        "fr": "s'occuper de / gérer",
+        "de": "sich befassen mit / umgehen mit",
+        "tr": "başa çıkmak / ilgilenmek",
+        "ja": "対処する / 扱う"
+      },
+  "point out": {
+        "ru": "указывать / обращать внимание",
+        "zh": "指出",
+        "es": "señalar / apuntar",
+        "fr": "faire remarquer / souligner",
+        "de": "hinweisen auf / aufzeigen",
+        "tr": "belirtmek / dikkat çekmek",
+        "ja": "指摘する"
+      },
+  "outline": {
+        "ru": "излагать вкратце / намечать / план",
+        "zh": "概述 / 大纲",
+        "es": "esbozar / resumen",
+        "fr": "exposer dans les grandes lignes / plan",
+        "de": "skizzieren / Entwurf",
+        "tr": "özetlemek / taslak",
+        "ja": "概要を説明する / 概要"
+      },
+  "update": {
+        "ru": "обновлять / обновление (информации)",
+        "zh": "更新 / 最新消息",
+        "es": "actualizar / actualización",
+        "fr": "mettre à jour / mise à jour",
+        "de": "aktualisieren / Update",
+        "tr": "güncellemek / güncelleme",
+        "ja": "最新情報にする / アップデート"
+      },
+  "address": {
+        "ru": "решать (проблему) / обращаться к",
+        "zh": "着手解决 / 对...讲话",
+        "es": "abordar / dirigirse a",
+        "fr": "aborder / s'adresser à",
+        "de": "ansprechen / sich befassen mit",
+        "tr": "ele almak / hitap etmek",
+        "ja": "取り組む / 呼びかける"
+      },
+  "consequently": {
+        "ru": "следовательно / в результате",
+        "zh": "因此 / 结果",
+        "es": "en consecuencia / por consiguiente",
+        "fr": "par conséquent",
+        "de": "folglich / infolgedessen",
+        "tr": "sonuç olarak / dolayısıyla",
+        "ja": "その結果として / したがって"
+      },
+  "input": {
+        "ru": "вклад / мнение (совет)",
+        "zh": "投入 / 意见",
+        "es": "aporte / opinión",
+        "fr": "contribution / avis",
+        "de": "Beitrag / Input",
+        "tr": "katkı / görüş",
+        "ja": "意見 / 投入"
+      },
+  "query": {
+        "ru": "запрос / вопрос",
+        "zh": "疑问 / 查询",
+        "es": "consulta / duda",
+        "fr": "requête / question",
+        "de": "Anfrage / Rückfrage",
+        "tr": "sorgu / soru",
+        "ja": "質問 / 問い合わせ"
+      },
+  "schedule": {
+        "ru": "назначать / расписание",
+        "zh": "安排 / 日程表",
+        "es": "programar / horario",
+        "fr": "planifier / emploi du temps",
+        "de": "planen / Zeitplan",
+        "tr": "planlamak / program",
+        "ja": "スケジュールを組む / 予定"
+      },
+  "put off": {
+        "ru": "откладывать",
+        "zh": "推迟",
+        "es": "posponer / aplazar",
+        "fr": "repousser / remettre à plus tard",
+        "de": "verschieben / aufschieben",
+        "tr": "ertelemek",
+        "ja": "延期する / 後回しにする"
+      },
+  "workload": {
+        "ru": "рабочая нагрузка / объем работы",
+        "zh": "工作量",
+        "es": "carga de trabajo",
+        "fr": "charge de travail",
+        "de": "Arbeitspensum / Arbeitsbelastung",
+        "tr": "iş yükü",
+        "ja": "仕事量"
+      },
+  "tight": {
+        "ru": "жесткий / ограниченный / тесный",
+        "zh": "紧迫的 / 紧的",
+        "es": "apretado / ajustado",
+        "fr": "serré / strict",
+        "de": "knapp / eng",
+        "tr": "sıkı / kısıtlı",
+        "ja": "厳しい / きつい"
+      },
+  "fall behind": {
+        "ru": "отставать",
+        "zh": "落后",
+        "es": "quedarse atrás / retrasarse",
+        "fr": "prendre du retard / se laisser distancer",
+        "de": "in Rückstand geraten / zurückfallen",
+        "tr": "geride kalmak / gecikmek",
+        "ja": "遅れをとる"
+      },
+  "catch up": {
+        "ru": "догонять / наверстывать",
+        "zh": "赶上 / 弥补（落下的工作）",
+        "es": "ponerse al día / alcanzar",
+        "fr": "rattraper son retard / se tenir au courant",
+        "de": "aufholen / nacharbeiten",
+        "tr": "yetişmek / arayı kapatmak",
+        "ja": "追いつく / 遅れを取り戻す"
+      },
+  "sort out": {
+        "ru": "разбираться с (проблемой) / улаживать",
+        "zh": "解决 / 整理好",
+        "es": "resolver / solucionar",
+        "fr": "régler / résoudre",
+        "de": "klären / in Ordnung bringen",
+        "tr": "çözmek / halletmek",
+        "ja": "解決する / 整理する"
+      },
+  "milestone": {
+        "ru": "веха / важный этап",
+        "zh": "里程碑 / 重要阶段",
+        "es": "hito",
+        "fr": "étape importante / jalon",
+        "de": "Meilenstein",
+        "tr": "dönüm noktası / kilometre taşı",
+        "ja": "節目 / マイルストーン"
+      },
+  "whereas": {
+        "ru": "в то время как / тогда как",
+        "zh": "然而 / 相比之下",
+        "es": "mientras que",
+        "fr": "tandis que / alors que",
+        "de": "während / wohingegen",
+        "tr": "oysa / halbuki",
+        "ja": "～であるのに対し / その一方で"
+      },
+  "feasible": {
+        "ru": "осуществимый / возможный",
+        "zh": "可行的 / 行得通的",
+        "es": "factible / viable",
+        "fr": "réalisable / faisable",
+        "de": "machbar / durchführbar",
+        "tr": "uygulanabilir / yapılabilir",
+        "ja": "実現可能な / 実行可能な"
+      },
+  "work out": {
+        "ru": "разрабатывать / находить решение",
+        "zh": "解决 / 算出 / 制定出",
+        "es": "resolver / elaborar",
+        "fr": "trouver une solution / élaborer",
+        "de": "erarbeiten / eine Lösung finden",
+        "tr": "çözmek / halletmek",
+        "ja": "解決する / 案を練る"
+      },
+  "give in": {
+        "ru": "уступать / сдаваться",
+        "zh": "屈服 / 让步",
+        "es": "ceder / rendirse",
+        "fr": "céder / capituler",
+        "de": "nachgeben",
+        "tr": "pes etmek / boyun eğmek",
+        "ja": "屈する / 譲歩する"
+      },
+  "bring up": {
+        "ru": "поднимать (вопрос) / упоминать",
+        "zh": "提出 / 提及",
+        "es": "sacar a colación / mencionar",
+        "fr": "soulever (une question) / aborder",
+        "de": "zur Sprache bringen / erwähnen",
+        "tr": "gündeme getirmek / bahsetmek",
+        "ja": "話題に出す / 提起する"
+      },
+  "objection": {
+        "ru": "возражение / протест",
+        "zh": "反对 / 异议",
+        "es": "objeción / reparo",
+        "fr": "objection / opposition",
+        "de": "Einwand / Widerspruch",
+        "tr": "itiraz / karşı çıkma",
+        "ja": "異議 / 反対"
+      },
+  "concession": {
+        "ru": "уступка",
+        "zh": "让步 / 妥协",
+        "es": "concesión",
+        "fr": "concession",
+        "de": "Zugeständnis",
+        "tr": "ödün / taviz",
+        "ja": "譲歩 / 妥協"
+      },
+  "tentative": {
+        "ru": "предварительный / неуверенный",
+        "zh": "初步的 / 试探性的",
+        "es": "tentativo / provisional",
+        "fr": "provisoire / hésitant",
+        "de": "vorläufig / zaghaft",
+        "tr": "geçici / kesin olmayan",
+        "ja": "仮の / 暫定的な"
+      },
+  "viable": {
+        "ru": "жизнеспособный / реальный",
+        "zh": "切实可行的",
+        "es": "viable / factible",
+        "fr": "viable / réalisable",
+        "de": "rentabel / machbar",
+        "tr": "uygulanabilir / yaşayabilir",
+        "ja": "実行可能な / 実用的な"
+      },
+  "leverage": {
+        "ru": "рычаг давления / использовать с выгодой",
+        "zh": "影响力 / 利用",
+        "es": "ventaja (influencia) / aprovechar",
+        "fr": "moyen de pression / tirer parti de",
+        "de": "Druckmittel / wirksam einsetzen",
+        "tr": "koz / avantaj sağlamak",
+        "ja": "影響力 / 活用する"
+      },
+  "accordingly": {
+        "ru": "соответственно / должным образом",
+        "zh": "相应地",
+        "es": "en consecuencia / debidamente",
+        "fr": "en conséquence",
+        "de": "dementsprechend / entsprechend",
+        "tr": "buna göre / uygun şekilde",
+        "ja": "それに応じて"
+      },
+  "proposal": {
+        "ru": "предложение (проект, план)",
+        "zh": "提议 / 提案",
+        "es": "propuesta",
+        "fr": "proposition",
+        "de": "Vorschlag / Angebot",
+        "tr": "teklif / öneri",
+        "ja": "提案 / 企画案"
+      },
+  "elaborate": {
+        "ru": "вдаваться в подробности / продуманный",
+        "zh": "详尽说明 / 复杂的",
+        "es": "entrar en detalles / elaborado",
+        "fr": "développer (une idée) / élaboré",
+        "de": "näher ausführen / ausführlich",
+        "tr": "ayrıntıya girmek / detaylı",
+        "ja": "詳しく説明する / 念入りな"
+      },
+  "constructive": {
+        "ru": "конструктивный / созидательный",
+        "zh": "建设性的",
+        "es": "constructivo",
+        "fr": "constructif",
+        "de": "konstruktiv",
+        "tr": "yapıcı",
+        "ja": "建設的な"
+      },
+  "promptly": {
+        "ru": "быстро / без задержки / точно в срок",
+        "zh": "迅速地 / 准时地",
+        "es": "prontamente / rápidamente",
+        "fr": "rapidement / ponctuellement",
+        "de": "umgehend / pünktlich",
+        "tr": "derhal / anında",
+        "ja": "迅速に / 期限通りに"
+      },
+  "look into": {
+        "ru": "расследовать / изучать (вопрос)",
+        "zh": "调查 / 研究",
+        "es": "investigar / examinar",
+        "fr": "examiner / se renseigner sur",
+        "de": "untersuchen / prüfen",
+        "tr": "incelemek / araştırmak",
+        "ja": "調査する / 詳しく調べる"
+      },
+  "turn down": {
+        "ru": "отклонять (предложение) / отказывать",
+        "zh": "拒绝",
+        "es": "rechazar",
+        "fr": "rejeter / refuser",
+        "de": "ablehnen",
+        "tr": "reddetmek / geri çevirmek",
+        "ja": "断る / 却下する"
+      },
+  "get back": {
+        "ru": "связаться (позже) / ответить",
+        "zh": "回复 / 恢复联系",
+        "es": "responder / volver a contactar",
+        "fr": "recontacter / répondre",
+        "de": "sich wieder melden / zurückkommen auf",
+        "tr": "geri dönmek (cevap vermek)",
+        "ja": "返事をする / 後で連絡する"
+      },
+  "inquiry": {
+        "ru": "наведение справок / запрос / расследование",
+        "zh": "咨询 / 调查",
+        "es": "consulta / investigación",
+        "fr": "demande de renseignements / enquête",
+        "de": "Anfrage / Untersuchung",
+        "tr": "soruşturma / bilgi alma",
+        "ja": "問い合わせ / 調査"
+      },
+  "behalf": {
+        "ru": "от имени / ради (on behalf of)",
+        "zh": "代表",
+        "es": "en nombre de",
+        "fr": "au nom de",
+        "de": "im Namen von",
+        "tr": "adına",
+        "ja": "（〜の）代わりに / （〜を）代表して"
+      },
+  "assert": {
+    "ru": "утверждать, заявлять",
+    "zh": "断言，坚持",
+    "es": "afirmar, asegurar",
+    "fr": "affirmer, soutenir",
+    "de": "behaupten, versichern",
+    "tr": "iddia etmek, ileri sürmek",
+    "ja": "断言する、主張する"
+  },
+  "stance": {
+    "ru": "позиция, точка зрения",
+    "zh": "立场，态度",
+    "es": "postura, actitud",
+    "fr": "position, point de vue",
+    "de": "Haltung, Standpunkt",
+    "tr": "tutum, duruş",
+    "ja": "立場、態度"
+  },
+  "premise": {
+    "ru": "предпосылка",
+    "zh": "前提，假定",
+    "es": "premisa",
+    "fr": "prémisse",
+    "de": "Prämisse, Voraussetzung",
+    "tr": "öncül, temel dayanak",
+    "ja": "前提"
+  },
+  "contend": {
+    "ru": "утверждать, заявлять",
+    "zh": "声称，主张",
+    "es": "sostener, argumentar",
+    "fr": "soutenir, prétendre",
+    "de": "behaupten, verfechten",
+    "tr": "ileri sürmek, iddia etmek",
+    "ja": "強く主張する"
+  },
+  "put forward": {
+    "ru": "выдвигать (идею), предлагать",
+    "zh": "提出，提议",
+    "es": "proponer, plantear",
+    "fr": "avancer, proposer",
+    "de": "vorbringen, vorschlagen",
+    "tr": "öne sürmek, teklif etmek",
+    "ja": "提案する、提出する"
+  },
+  "viewpoint": {
+    "ru": "точка зрения",
+    "zh": "观点，看法",
+    "es": "punto de vista",
+    "fr": "point de vue",
+    "de": "Gesichtspunkt, Sichtweise",
+    "tr": "bakış açısı",
+    "ja": "観点、見解"
+  },
+  "advocate": {
+    "ru": "выступать за, отстаивать",
+    "zh": "提倡，主张",
+    "es": "abogar por, defender",
+    "fr": "prôner, défendre",
+    "de": "befürworten, sich einsetzen für",
+    "tr": "savunmak, desteklemek",
+    "ja": "提唱する、主張する"
+  },
+  "articulate": {
+    "ru": "четко формулировать, выражать",
+    "zh": "清楚地表达",
+    "es": "articular, expresar claramente",
+    "fr": "exprimer clairement, articuler",
+    "de": "deutlich formulieren",
+    "tr": "açıkça ifade etmek",
+    "ja": "明確に表現する"
+  },
+  "emphasize": {
+    "ru": "подчеркивать, акцентировать",
+    "zh": "强调，着重",
+    "es": "enfatizar, destacar",
+    "fr": "souligner, mettre en évidence",
+    "de": "betonen, hervorheben",
+    "tr": "vurgulamak, altını çizmek",
+    "ja": "強調する"
+  },
+  "essentially": {
+    "ru": "по сути, в сущности",
+    "zh": "本质上，基本上",
+    "es": "esencialmente, fundamentalmente",
+    "fr": "essentiellement, fondamentalement",
+    "de": "im Grunde, im Wesentlichen",
+    "tr": "aslında, temelde",
+    "ja": "本質的に、基本的には"
+  },
+  "reasoning": {
+    "ru": "рассуждение, аргументация",
+    "zh": "推理，推论",
+    "es": "razonamiento",
+    "fr": "raisonnement",
+    "de": "logisches Denken, Argumentation",
+    "tr": "akıl yürütme",
+    "ja": "推論、論理的思考"
+  },
+  "assumption": {
+    "ru": "предположение, допущение",
+    "zh": "假设，设想",
+    "es": "suposición, supuesto",
+    "fr": "hypothèse, supposition",
+    "de": "Annahme, Vermutung",
+    "tr": "varsayım",
+    "ja": "仮定、思い込み"
+  },
+  "implication": {
+    "ru": "скрытый смысл, последствие",
+    "zh": "暗示，可能的结果",
+    "es": "implicación, consecuencia",
+    "fr": "implication, conséquence",
+    "de": "Auswirkung, Andeutung",
+    "tr": "çıkarım, olası sonuç",
+    "ja": "暗示、影響"
+  },
+  "deduce": {
+    "ru": "делать вывод, выводить (заключение)",
+    "zh": "推断，推论",
+    "es": "deducir",
+    "fr": "déduire",
+    "de": "ableiten, schlussfolgern",
+    "tr": "sonuç çıkarmak",
+    "ja": "推論する、演繹する"
+  },
+  "correlation": {
+    "ru": "корреляция, взаимосвязь",
+    "zh": "相关性，关联",
+    "es": "correlación",
+    "fr": "corrélation",
+    "de": "Korrelation, Wechselbeziehung",
+    "tr": "korelasyon, ilişki",
+    "ja": "相関関係"
+  },
+  "merit": {
+    "ru": "заслуга, достоинство",
+    "zh": "价值，优点",
+    "es": "mérito, valor",
+    "fr": "mérite",
+    "de": "Verdienst, Wert",
+    "tr": "değer, erdem",
+    "ja": "価値、長所"
+  },
+  "back up": {
+    "ru": "подкреплять (доказательствами), поддерживать",
+    "zh": "支持，证实",
+    "es": "respaldar, apoyar",
+    "fr": "appuyer, soutenir",
+    "de": "untermauern, unterstützen",
+    "tr": "desteklemek (kanıtla)",
+    "ja": "（証拠などで）裏付ける"
+  },
+  "rule out": {
+    "ru": "исключать",
+    "zh": "排除，取消...的可能性",
+    "es": "descartar",
+    "fr": "exclure, écarter",
+    "de": "ausschließen",
+    "tr": "göz ardı etmek, elemek",
+    "ja": "除外する、排除する"
+  },
+  "subsequently": {
+    "ru": "впоследствии, затем",
+    "zh": "随后，后来",
+    "es": "posteriormente, consecuentemente",
+    "fr": "par la suite, ultérieurement",
+    "de": "anschließend, in der Folge",
+    "tr": "daha sonra, akabinde",
+    "ja": "その後、続いて"
+  },
+  "derive": {
+    "ru": "извлекать, выводить",
+    "zh": "源于，得出",
+    "es": "derivar, obtener",
+    "fr": "tirer, dériver",
+    "de": "ableiten, beziehen",
+    "tr": "türetmek, elde etmek",
+    "ja": "引き出す、由来する"
+  },
+  "contradict": {
+    "ru": "противоречить, возражать",
+    "zh": "反驳，与...矛盾",
+    "es": "contradecir",
+    "fr": "contredire",
+    "de": "widersprechen",
+    "tr": "çelişmek, aksini iddia etmek",
+    "ja": "矛盾する、反論する"
+  },
+  "discrepancy": {
+    "ru": "расхождение, несоответствие",
+    "zh": "差异，不一致",
+    "es": "discrepancia, diferencia",
+    "fr": "divergence, écart",
+    "de": "Unstimmigkeit, Abweichung",
+    "tr": "tutarsızlık, farklılık",
+    "ja": "相違、食い違い"
+  },
+  "flaw": {
+    "ru": "недостаток, изъян",
+    "zh": "缺陷，瑕疵",
+    "es": "defecto, fallo",
+    "fr": "défaut, faille",
+    "de": "Mangel, Fehler",
+    "tr": "kusur, hata",
+    "ja": "欠陥、欠点"
+  },
+  "limitation": {
+    "ru": "ограничение, недостаток",
+    "zh": "局限，限制",
+    "es": "limitación, límite",
+    "fr": "limitation, limite",
+    "de": "Einschränkung, Grenze",
+    "tr": "kısıtlama, sınırlama",
+    "ja": "制限、限界"
+  },
+  "subjective": {
+    "ru": "субъективный",
+    "zh": "主观的",
+    "es": "subjetivo",
+    "fr": "subjectif",
+    "de": "subjektiv",
+    "tr": "öznel",
+    "ja": "主観的な"
+  },
+  "dispute": {
+    "ru": "оспаривать, спорить",
+    "zh": "对...提出质疑，争论",
+    "es": "disputar, cuestionar",
+    "fr": "contester, disputer",
+    "de": "bestreiten, anfechten",
+    "tr": "itiraz etmek, tartışmak",
+    "ja": "異議を唱える、論争する"
+  },
+  "arguably": {
+    "ru": "возможно, вероятно (с полным основанием)",
+    "zh": "可以说是，大概",
+    "es": "podría decirse que, posiblemente",
+    "fr": "sans doute, on peut soutenir que",
+    "de": "wohl, vertretbarer Weise",
+    "tr": "tartışılabilir bir şekilde, muhtemelen",
+    "ja": "おそらく、間違いなく"
+  },
+  "refute": {
+    "ru": "опровергать",
+    "zh": "驳斥，反驳",
+    "es": "refutar",
+    "fr": "réfuter",
+    "de": "widerlegen",
+    "tr": "çürütmek, yalanlamak",
+    "ja": "論破する、反論する"
+  },
+  "critique": {
+    "ru": "критиковать, давать критическую оценку",
+    "zh": "批评，评论",
+    "es": "criticar (constructivamente), analizar",
+    "fr": "critiquer, faire la critique de",
+    "de": "kritisieren, bewerten",
+    "tr": "eleştirmek, eleştirel değerlendirmek",
+    "ja": "批評する、論評する"
+  },
+  "brush off": {
+    "ru": "отмахиваться (от кого-л./чего-л.), игнорировать",
+    "zh": "不理睬，对...不屑一顾",
+    "es": "no hacer caso, restar importancia",
+    "fr": "ignorer, balayer d'un revers de main",
+    "de": "abtun, abweisen",
+    "tr": "kulak ardı etmek, umursamamak",
+    "ja": "無視する、払い退ける"
+  },
+  "compelling": {
+    "ru": "убедительный, захватывающий",
+    "zh": "令人信服的，引人入胜的",
+    "es": "convincente, cautivador",
+    "fr": "convaincant, captivant",
+    "de": "überzeugend, fesselnd",
+    "tr": "ikna edici, ilgi çekici",
+    "ja": "説得力のある、人を惹きつける"
+  },
+  "sway": {
+    "ru": "влиять (на мнение), склонять",
+    "zh": "影响，使动摇",
+    "es": "influir, persuadir",
+    "fr": "influencer, faire pencher",
+    "de": "beeinflussen, umstimmen",
+    "tr": "etkilemek, fikrini değiştirmek",
+    "ja": "影響を与える、心を動かす"
+  },
+  "rationale": {
+    "ru": "обоснование, логика",
+    "zh": "基本理由，理论基础",
+    "es": "lógica, razón fundamental",
+    "fr": "justification, logique",
+    "de": "Begründung, Grundprinzip",
+    "tr": "gerekçe, mantık",
+    "ja": "根本的理由、論理的根拠"
+  },
+  "inevitably": {
+    "ru": "неизбежно",
+    "zh": "不可避免地，必然地",
+    "es": "inevitablemente",
+    "fr": "inévitablement",
+    "de": "zwangsläufig, unvermeidlich",
+    "tr": "kaçınılmaz olarak",
+    "ja": "必然的に、不可避的に"
+  },
+  "coherent": {
+    "ru": "связный, логичный",
+    "zh": "连贯的，条理清楚的",
+    "es": "coherente, lógico",
+    "fr": "cohérent, logique",
+    "de": "zusammenhängend, schlüssig",
+    "tr": "tutarlı, anlaşılır",
+    "ja": "筋の通った、首尾一貫した"
+  },
+  "plausible": {
+    "ru": "правдоподобный",
+    "zh": "貌似有理的，看似真实的",
+    "es": "plausible, verosímil",
+    "fr": "plausible, vraisemblable",
+    "de": "plausibel, glaubwürdig",
+    "tr": "makul, akla yatkın",
+    "ja": "もっともらしい、妥当な"
+  },
+  "win over": {
+    "ru": "склонить на свою сторону, завоевать",
+    "zh": "说服，把...争取过来",
+    "es": "convencer, ganarse a alguien",
+    "fr": "gagner à sa cause, convaincre",
+    "de": "für sich gewinnen, überzeugen",
+    "tr": "kendi tarafına çekmek, ikna etmek",
+    "ja": "味方につける、説得する"
+  },
+  "legitimate": {
+    "ru": "законный, обоснованный",
+    "zh": "合法的，合理的",
+    "es": "legítimo, razonable",
+    "fr": "légitime, justifié",
+    "de": "legitim, berechtigt",
+    "tr": "meşru, haklı",
+    "ja": "正当な、合法的な"
+  },
+  "ultimately": {
+    "ru": "в конечном счете, в конце концов",
+    "zh": "最终，归根结底",
+    "es": "en última instancia, finalmente",
+    "fr": "finalement, en fin de compte",
+    "de": "letztendlich, schließlich",
+    "tr": "nihayetinde, sonuç olarak",
+    "ja": "最終的に、結局のところ"
+  },
+  "reiterate": {
+    "ru": "повторять (снова и снова)",
+    "zh": "重申，反复地说",
+    "es": "reiterar, repetir",
+    "fr": "réitérer, répéter",
+    "de": "wiederholen, bekräftigen",
+    "tr": "tekrarlamak, yinelemek",
+    "ja": "繰り返して言う、反復する"
   }
 };

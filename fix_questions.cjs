@@ -10,7 +10,12 @@ const files = [
 for (let i = 0; i < files.length; i++) {
   const file = files[i];
   let content = fs.readFileSync(file, 'utf-8');
-  content = content.replace(/readingText: {/, `reading: {\n    id: "r${41+i}",`);
+  let qNum = 1;
+  content = content.replace(/{[\s\n]*question: "/g, (match) => {
+    const replacement = `{\n        id: "q${41+i}_${qNum}",\n        question: "`;
+    qNum++;
+    return replacement;
+  });
   fs.writeFileSync(file, content);
 }
-console.log('Fixed readingText.');
+console.log('Fixed questions.');

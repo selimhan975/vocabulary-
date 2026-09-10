@@ -3,6 +3,7 @@ import { ReadingText, Word } from '../../types';
 import { translationEngine } from '../../engine/translation';
 import { TranslatableText } from '../shared/TranslatableText';
 import { TranslationToggle } from '../shared/TranslationToggle';
+import { isInflectionOf } from '../../utils/wordRecognition';
 import { CheckCircle2, X, Play, Square, ArrowLeft } from 'lucide-react';
 import { motion } from 'motion/react';
 import { SpeakerButton } from '../shared/SpeakerButton';
@@ -108,7 +109,7 @@ export const ReadingStage: React.FC<ReadingStageProps> = ({ reading, words, onCo
 };
 
 const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[] }> = ({ text, targetWords }) => {
-  const [activeWord, setActiveWord] = useState<{ word: string, index: number } | null>(null);
+  const [activeWord, setActiveWord] = useState<{ word: string, index: number, canonical: string } | null>(null);
   const [translation, setTranslation] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [popupPos, setPopupPos] = useState<'center' | 'left' | 'right'>('center');
@@ -145,10 +146,12 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
       setPopupPos('center');
     }
 
-    setActiveWord({ word, index });
+    setActiveWord({ word, index, canonical: word });
     setLoading(true);
-    const trans = await translationEngine.translateWordOffline(word);
-    setTranslation(trans);
+    const result = await translationEngine.translateWordOffline(word);
+    
+    setActiveWord({ word, index, canonical: result.canonical });
+    setTranslation(result.translation);
     setLoading(false);
   };
 
@@ -157,11 +160,7 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
       {tokens.map((token, i) => {
         if (/^[\w'-]+$/.test(token)) {
           const isActive = activeWord?.index === i;
-          // Check if token matches any target word (basic stemming - just exact or +s/ed/ing for now)
-          const lowerToken = token.toLowerCase();
-          const isTarget = lowerTargets.some(t => 
-            lowerToken === t || lowerToken === t + 's' || lowerToken === t + 'd' || lowerToken === t + 'ed' || lowerToken === t + 'ing'
-          );
+          const isTarget = targetWords.some(t => isInflectionOf(token, t));
           const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
           const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
 
@@ -182,9 +181,9 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
               {isActive && (
                 <span className={`absolute bottom-full ${posClass} mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default font-sans font-normal`}>
                   <div className="flex items-center justify-between border-b border-slate-100 pb-2 mb-2">
-                    <span className="font-bold text-slate-900 text-base">{token}</span>
+                    <span className="font-bold text-slate-900 text-base">{activeWord.canonical}</span>
                     <div className="flex items-center gap-1">
-                      <SpeakerButton text={token} className="w-7 h-7" />
+                      <SpeakerButton text={activeWord.canonical} className="w-7 h-7" />
                       <button 
                         onClick={(e) => {
                           e.stopPropagation();

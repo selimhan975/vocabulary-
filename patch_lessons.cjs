@@ -7,10 +7,11 @@ const files = [
   'src/data/b2-lesson-44.ts'
 ];
 
-for (let i = 0; i < files.length; i++) {
-  const file = files[i];
+for (const file of files) {
   let content = fs.readFileSync(file, 'utf-8');
-  content = content.replace(/readingText: {/, `reading: {\n    id: "r${41+i}",`);
+  content = content.replace(/word: "(.*?)",/g, (match, p1) => {
+    return `${match}\n      pronunciation: "/.../",\n      partOfSpeech: "noun",\n      level: "B2",`;
+  });
   fs.writeFileSync(file, content);
 }
-console.log('Fixed readingText.');
+console.log('Lessons patched.');

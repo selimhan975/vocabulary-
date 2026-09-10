@@ -2,6 +2,8 @@ import { LanguageCode, TranslationMap } from '../types';
 import { availableLessons } from '../data/lessons';
 import { globalDictionary } from '../data/dictionary';
 
+import { isInflectionOf, cleanToken } from '../utils/wordRecognition';
+
 export class TranslationEngine {
   private currentLang: LanguageCode = 'es';
   private static STORAGE_KEY = 'vocab_app_lang';
@@ -37,32 +39,20 @@ export class TranslationEngine {
     return null;
   }
 
-  async translateWordOffline(word: string, contextSentence?: string): Promise<string | null> {
-    // Strip leading/trailing punctuation but preserve internal hyphens and apostrophes
-    const cleanWord = word.replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, '').toLowerCase().trim();
+  async translateWordOffline(word: string, contextSentence?: string): Promise<{ translation: string, canonical: string }> {
+    const cleanWord = cleanToken(word);
     
     if (!cleanWord) {
-      return `Translation unavailable offline`;
+      return { translation: `Translation unavailable offline`, canonical: word };
     }
 
     try {
-      // First, scan available lessons for an exact or stem match
+      // First, scan available lessons
       for (const lesson of availableLessons) {
         for (const w of lesson.words) {
-          const targetWord = w.word.toLowerCase();
-          // Basic stemming check
-          if (
-            targetWord === cleanWord ||
-            targetWord + 's' === cleanWord ||
-            targetWord + 'es' === cleanWord ||
-            targetWord + 'd' === cleanWord ||
-            targetWord + 'ed' === cleanWord ||
-            targetWord + 'ing' === cleanWord ||
-            targetWord.replace(/e$/, 'ing') === cleanWord ||
-            targetWord.replace(/y$/, 'ies') === cleanWord
-          ) {
+          if (isInflectionOf(cleanWord, w.word)) {
             if (w.translations && w.translations[this.currentLang]) {
-              return w.translations[this.currentLang];
+              return { translation: w.translations[this.currentLang], canonical: w.word };
             }
           }
         }
@@ -70,31 +60,23 @@ export class TranslationEngine {
 
       // Second, scan the global offline dictionary
       if (globalDictionary[cleanWord] && globalDictionary[cleanWord][this.currentLang]) {
-        return globalDictionary[cleanWord][this.currentLang];
+        return { translation: globalDictionary[cleanWord][this.currentLang], canonical: cleanWord };
       }
 
-      // Try stem match against global dictionary
+      // Try inflection match against global dictionary
       for (const key of Object.keys(globalDictionary)) {
-        if (
-          key + 's' === cleanWord ||
-          key + 'es' === cleanWord ||
-          key + 'd' === cleanWord ||
-          key + 'ed' === cleanWord ||
-          key + 'ing' === cleanWord ||
-          key.replace(/e$/, 'ing') === cleanWord ||
-          key.replace(/y$/, 'ies') === cleanWord
-        ) {
+        if (isInflectionOf(cleanWord, key)) {
           if (globalDictionary[key][this.currentLang]) {
-            return globalDictionary[key][this.currentLang];
+            return { translation: globalDictionary[key][this.currentLang], canonical: key };
           }
         }
       }
 
       // Fallback if unavailable
-      return `Translation unavailable offline`;
+      return { translation: `Translation unavailable offline`, canonical: cleanWord };
     } catch (error) {
       console.error("Error during offline translation:", error);
-      return `Translation unavailable offline`;
+      return { translation: `Translation unavailable offline`, canonical: cleanWord };
     }
   }
 }

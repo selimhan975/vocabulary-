@@ -9,8 +9,11 @@ const candidates = [
 ];
 
 for (const w of candidates) {
-  if (existing.includes(w.toLowerCase())) {
-    console.log('DUPLICATE:', w);
+  const stem = w.substring(0, 5);
+  for (const e of existing) {
+    if (e.startsWith(stem)) {
+      console.log(`Potential overlap: ${w} -> ${e}`);
+    }
   }
 }
 console.log('Done.');
