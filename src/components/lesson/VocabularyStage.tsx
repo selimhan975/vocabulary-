@@ -41,6 +41,31 @@ export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onCompl
     }
   });
 
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const activeElement = document.activeElement;
+      if (activeElement) {
+        const tag = activeElement.tagName.toLowerCase();
+        if (['input', 'textarea', 'select', 'button'].includes(tag)) {
+          return;
+        }
+      }
+
+      if (e.key === 'ArrowRight') {
+        if (currentIndex < words.length - 1) {
+          navigateTo(currentIndex + 1);
+        }
+      } else if (e.key === 'ArrowLeft') {
+        if (currentIndex > 0) {
+          navigateTo(currentIndex - 1);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, words.length]);
+
   return (
     <div className="flex flex-col w-full max-w-4xl mx-auto min-h-[70vh]">
       {/* Navigation Bar */}

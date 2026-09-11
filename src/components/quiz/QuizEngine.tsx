@@ -36,31 +36,25 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
     const shuffledIndices = Array.from({ length: words.length }, (_, i) => i).sort(() => Math.random() - 0.5);
     
     const newStages: QuizStage[] = [];
+    const nonMatchTypes: StageType[] = ['mc', 'active_recall', 'context', 'synonym', 'listening'];
     
-    // ROUND 1: Recognition (3 MC, 1 Listening)
-    for(let i=0; i<3 && i < shuffledIndices.length; i++) {
-      newStages.push({ type: 'mc', wordIndex: shuffledIndices[i] });
-    }
-    if (shuffledIndices.length > 3) {
-      newStages.push({ type: 'listening', wordIndex: shuffledIndices[3] });
-    }
+    let typeIndex = 0;
+    const addStagesForPass = () => {
+      const passIndices = [...shuffledIndices].sort(() => Math.random() - 0.5);
+      for (const idx of passIndices) {
+        newStages.push({ type: nonMatchTypes[typeIndex % nonMatchTypes.length], wordIndex: idx });
+        typeIndex++;
+      }
+    };
+    
+    // ROUND 1: First exposure for all 10 words
+    addStagesForPass();
     
     // MATCHING (1 game, uses 4 words)
     newStages.push({ type: 'match', words: shuffledIndices.slice(0, 4) });
     
-    // ROUND 2: Active Recall (3 questions)
-    for(let i=4; i<7 && i < shuffledIndices.length; i++) {
-      newStages.push({ type: 'active_recall', wordIndex: shuffledIndices[i] });
-    }
-    
-    // ROUND 3: Context (3 questions)
-    for(let i=7; i<10 && i < shuffledIndices.length; i++) {
-      newStages.push({ type: 'context', wordIndex: shuffledIndices[i] });
-    }
-    
-    // ROUND 4: Meaning/Usage (Synonyms) (2 questions, re-using indices 0 and 1)
-    newStages.push({ type: 'synonym', wordIndex: shuffledIndices[0] });
-    newStages.push({ type: 'synonym', wordIndex: shuffledIndices[1] });
+    // ROUND 2: Second exposure for all 10 words
+    addStagesForPass();
 
     setStages(newStages);
     // Core max score

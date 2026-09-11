@@ -10,24 +10,54 @@ export class ProgressEngine {
   }
 
   private load(): Progress {
-    try {
-      const stored = localStorage.getItem(ProgressEngine.STORAGE_KEY);
-      if (stored) {
-        return JSON.parse(stored);
-      }
-    } catch (e) {
-      console.error('Failed to load progress', e);
-    }
-    return {
+    const defaultProgress: Progress = {
       completedLessons: [],
       scores: {},
       mastery: {}
     };
+
+    try {
+      const stored = localStorage.getItem(ProgressEngine.STORAGE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        
+        if (!parsed || typeof parsed !== 'object') {
+          return defaultProgress;
+        }
+
+        // Check if versioned
+        if ('version' in parsed) {
+          if (parsed.version === 1) {
+            // Version 1
+            if (parsed.data && typeof parsed.data === 'object' && Array.isArray(parsed.data.completedLessons)) {
+              return parsed.data as Progress;
+            }
+          } else {
+             // Unknown future version
+             console.warn('Unknown progress version:', parsed.version);
+             return defaultProgress;
+          }
+        } else {
+          // Legacy unversioned format
+          if (Array.isArray(parsed.completedLessons)) {
+             return parsed as Progress;
+          }
+        }
+      }
+    } catch (e) {
+      console.error('Failed to load progress', e);
+    }
+    
+    return defaultProgress;
   }
 
   private save() {
     try {
-      localStorage.setItem(ProgressEngine.STORAGE_KEY, JSON.stringify(this.progress));
+      const versionedData = {
+        version: 1,
+        data: this.progress
+      };
+      localStorage.setItem(ProgressEngine.STORAGE_KEY, JSON.stringify(versionedData));
     } catch (e) {
       console.error('Failed to save progress', e);
     }
