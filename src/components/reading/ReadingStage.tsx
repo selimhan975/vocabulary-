@@ -3,7 +3,7 @@ import { ReadingText, Word } from '../../types';
 import { translationEngine } from '../../engine/translation';
 import { TranslatableText } from '../shared/TranslatableText';
 import { TranslationToggle } from '../shared/TranslationToggle';
-import { isInflectionOf } from '../../utils/wordRecognition';
+import { isInflectionOf, tokenizeText } from '../../utils/wordRecognition';
 import { CheckCircle2, X, Play, Square, ArrowLeft } from 'lucide-react';
 import { motion } from 'motion/react';
 import { SpeakerButton } from '../shared/SpeakerButton';
@@ -115,8 +115,7 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
   const [popupPos, setPopupPos] = useState<'center' | 'left' | 'right'>('center');
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const tokens = text.split(/(\b[\w'-]+\b)/g);
-  const lowerTargets = targetWords.map(w => w.toLowerCase());
+  const tokens = tokenizeText(text, targetWords);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -125,11 +124,12 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
         setTranslation(null);
       }
     };
+
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleWordClick = async (word: string, index: number, e: React.MouseEvent) => {
+  const handleWordClick = async (word: string, index: number, e: React.MouseEvent, canonical?: string) => {
     if (activeWord?.index === index) {
       setActiveWord(null);
       setTranslation(null);
@@ -138,6 +138,7 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
 
     const rect = (e.target as HTMLElement).getBoundingClientRect();
     const windowWidth = window.innerWidth;
+    
     if (rect.left < 100) {
       setPopupPos('left');
     } else if (windowWidth - rect.right < 100) {
@@ -146,9 +147,11 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
       setPopupPos('center');
     }
 
-    setActiveWord({ word, index, canonical: word });
+    const lookupWord = canonical || word;
+    setActiveWord({ word, index, canonical: lookupWord });
     setLoading(true);
-    const result = await translationEngine.translateWordOffline(word);
+
+    const result = await translationEngine.translateWordOffline(lookupWord);
     
     setActiveWord({ word, index, canonical: result.canonical });
     setTranslation(result.translation);
@@ -158,26 +161,26 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
   return (
     <div className="relative inline" ref={containerRef}>
       {tokens.map((token, i) => {
-        if (/^[\w'-]+$/.test(token)) {
+        if (token.isWord) {
           const isActive = activeWord?.index === i;
-          const isTarget = targetWords.some(t => isInflectionOf(token, t));
           const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
           const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
-
+          
           return (
             <span key={i} className="relative inline-block">
               <span
-                onClick={(e) => handleWordClick(token, i, e)}
+                onClick={(e) => handleWordClick(token.text, i, e, token.canonical)}
                 className={`cursor-pointer transition-colors duration-200 ${
                   isActive 
                     ? 'bg-indigo-600 text-white rounded px-0.5' 
-                    : isTarget 
-                      ? 'text-indigo-700 font-medium bg-indigo-50 hover:bg-indigo-100 rounded px-0.5' 
+                    : token.isTarget
+                      ? 'text-indigo-700 font-medium bg-indigo-50 hover:bg-indigo-100 rounded px-0.5'
                       : 'hover:bg-slate-100 rounded px-0.5'
                 }`}
               >
-                {token}
+                {token.text}
               </span>
+
               {isActive && (
                 <span className={`absolute bottom-full ${posClass} mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default font-sans font-normal`}>
                   <div className="flex items-center justify-between border-b border-slate-100 pb-2 mb-2">
@@ -196,16 +199,19 @@ const HighlightedTranslatableText: React.FC<{ text: string, targetWords: string[
                       </button>
                     </div>
                   </div>
+                  
                   <span className="font-medium text-indigo-600 text-center text-base">
                     {loading ? '...' : (translation || 'No translation')}
                   </span>
+
                   <span className={`absolute top-full ${arrowPosClass} border-[8px] border-transparent border-t-white`} />
                 </span>
               )}
             </span>
           );
         }
-        return <span key={i}>{token}</span>;
+        
+        return <span key={i}>{token.text}</span>;
       })}
     </div>
   );

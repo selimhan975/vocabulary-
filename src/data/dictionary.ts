@@ -5608,15 +5608,6 @@ export const globalDictionary: Record<string, TranslationMap> = {
         "tr": "ayrıntıya girmek / detaylı",
         "ja": "詳しく説明する / 念入りな"
       },
-  "constructive": {
-        "ru": "конструктивный / созидательный",
-        "zh": "建设性的",
-        "es": "constructivo",
-        "fr": "constructif",
-        "de": "konstruktiv",
-        "tr": "yapıcı",
-        "ja": "建設的な"
-      },
   "promptly": {
         "ru": "быстро / без задержки / точно в срок",
         "zh": "迅速地 / 准时地",
@@ -5625,15 +5616,6 @@ export const globalDictionary: Record<string, TranslationMap> = {
         "de": "umgehend / pünktlich",
         "tr": "derhal / anında",
         "ja": "迅速に / 期限通りに"
-      },
-  "look into": {
-        "ru": "расследовать / изучать (вопрос)",
-        "zh": "调查 / 研究",
-        "es": "investigar / examinar",
-        "fr": "examiner / se renseigner sur",
-        "de": "untersuchen / prüfen",
-        "tr": "incelemek / araştırmak",
-        "ja": "調査する / 詳しく調べる"
       },
   "turn down": {
         "ru": "отклонять (предложение) / отказывать",
@@ -6030,5 +6012,366 @@ export const globalDictionary: Record<string, TranslationMap> = {
     "de": "wiederholen, bekräftigen",
     "tr": "tekrarlamak, yinelemek",
     "ja": "繰り返して言う、反復する"
-  }
+  },
+  "troubleshoot": {
+    "ru": "устранять неполадки / диагностировать",
+    "zh": "解决问题 / 排除故障",
+    "es": "solucionar problemas / diagnosticar",
+    "fr": "dépanner / résoudre",
+    "de": "Fehler beheben / durchsuchen",
+    "tr": "sorun gidermek",
+    "ja": "トラブルシューティングする / 問題を解決する"
+  },
+  "root cause": {
+    "ru": "первопричина",
+    "zh": "根本原因",
+    "es": "causa principal / origen",
+    "fr": "cause profonde",
+    "de": "Grundursache",
+    "tr": "temel neden / kök neden",
+    "ja": "根本的な原因"
+  },
+  "workaround": {
+    "ru": "обходной путь / временное решение",
+    "zh": "变通方法",
+    "es": "solución alternativa",
+    "fr": "solution de contournement",
+    "de": "Notlösung / Workaround",
+    "tr": "geçici çözüm",
+    "ja": "回避策"
+  },
+  "look into": {
+    "ru": "изучать / расследовать",
+    "zh": "调查 / 研究",
+    "es": "investigar / examinar",
+    "fr": "examiner / enquêter sur",
+    "de": "untersuchen / prüfen",
+    "tr": "incelemek / araştırmak",
+    "ja": "調査する / 調べる"
+  },
+  "escalate": {
+    "ru": "обострять / передавать на более высокий уровень",
+    "zh": "升级 / 恶化",
+    "es": "intensificar / escalar (un problema)",
+    "fr": "escalader / s'aggraver",
+    "de": "eskalieren / ausweiten",
+    "tr": "tırmanmak / üst mercilere taşımak",
+    "ja": "エスカレートする / 悪化する"
+  },
+  "backfire": {
+    "ru": "иметь неприятные последствия / давать обратный эффект",
+    "zh": "产生反效果 / 适得其反",
+    "es": "salir el tiro por la culata / fracasar",
+    "fr": "se retourner contre / avoir l'effet inverse",
+    "de": "nach hinten losgehen",
+    "tr": "ters tepmek",
+    "ja": "裏目に出る"
+  },
+  "rectify": {
+    "ru": "исправлять / корректировать",
+    "zh": "纠正 / 改正",
+    "es": "rectificar / corregir",
+    "fr": "rectifier / corriger",
+    "de": "beheben / richtigstellen",
+    "tr": "düzeltmek",
+    "ja": "修正する / 是正する"
+  },
+  "accountable": {
+    "ru": "подотчетный / ответственный",
+    "zh": "负有责任的",
+    "es": "responsable / que debe rendir cuentas",
+    "fr": "responsable (qui doit rendre des comptes)",
+    "de": "verantwortlich / rechenschaftspflichtig",
+    "tr": "sorumlu / hesap verebilir",
+    "ja": "責任がある / 説明責任がある"
+  },
+  "mitigate": {
+    "ru": "смягчать / уменьшать",
+    "zh": "减轻 / 缓和",
+    "es": "mitigar / atenuar",
+    "fr": "atténuer / limiter",
+    "de": "mildern / abschwächen",
+    "tr": "hafifletmek / azaltmak",
+    "ja": "和らげる / 軽減する"
+  },
+  "contingency": {
+    "ru": "непредвиденное обстоятельство / случайность",
+    "zh": "突发事件 / 应急",
+    "es": "contingencia / imprevisto",
+    "fr": "imprévu / contingence",
+    "de": "unvorhergesehenes Ereignis / Notfall",
+    "tr": "beklenmedik durum",
+    "ja": "不測の事態"
+  },
+  "juggle": {
+    "ru": "совмещать / жонглировать (задачами)",
+    "zh": "兼顾 / 忙于应付",
+    "es": "hacer malabares (con) / compaginar",
+    "fr": "jongler (avec) / concilier",
+    "de": "jonglieren (mit Aufgaben)",
+    "tr": "bir arada yürütmek / idare etmek",
+    "ja": "両立させる / やりくりする"
+  },
+  "take on": {
+    "ru": "брать на себя",
+    "zh": "承担 / 接受",
+    "es": "asumir / encargarse de",
+    "fr": "assumer / se charger de",
+    "de": "übernehmen / sich annehmen",
+    "tr": "üstlenmek / kabul etmek",
+    "ja": "引き受ける"
+  },
+  "capacity": {
+    "ru": "вместимость / производительность",
+    "zh": "能力 / 容量",
+    "es": "capacidad / aforo",
+    "fr": "capacité",
+    "de": "Kapazität / Leistungsfähigkeit",
+    "tr": "kapasite / yetenek",
+    "ja": "容量 / 能力"
+  },
+  "bottleneck": {
+    "ru": "узкое место / затор",
+    "zh": "瓶颈",
+    "es": "cuello de botella / obstáculo",
+    "fr": "goulot d'étranglement",
+    "de": "Engpass",
+    "tr": "darboğaz / tıkanıklık",
+    "ja": "ボトルネック / 障害"
+  },
+  "backlog": {
+    "ru": "отставание / накопившаяся работа",
+    "zh": "积压的工作",
+    "es": "trabajo atrasado / acumulación",
+    "fr": "retard (de travail) / arriéré",
+    "de": "Rückstand / Backlog",
+    "tr": "birikmiş iş",
+    "ja": "未処理の仕事 / バックログ"
+  },
+  "benchmark": {
+    "ru": "ориентир / эталон",
+    "zh": "基准 / 标准",
+    "es": "punto de referencia / estándar",
+    "fr": "point de repère / référence",
+    "de": "Maßstab / Richtwert",
+    "tr": "kıstas / ölçüt",
+    "ja": "ベンチマーク / 基準"
+  },
+  "proactive": {
+    "ru": "инициативный / проактивный",
+    "zh": "积极主动的",
+    "es": "proactivo",
+    "fr": "proactif",
+    "de": "proaktiv / vorausschauend",
+    "tr": "proaktif / önleyici",
+    "ja": "先見の明のある / プロアクティブな"
+  },
+  "ongoing": {
+    "ru": "продолжающийся / текущий",
+    "zh": "进行中的 / 持续的",
+    "es": "en curso / continuo",
+    "fr": "en cours / continu",
+    "de": "laufend / andauernd",
+    "tr": "devam eden / süregelen",
+    "ja": "進行中の / 継続している"
+  },
+  "step up": {
+    "ru": "активизироваться / брать на себя инициативу",
+    "zh": "挺身而出 / 站出来",
+    "es": "dar un paso al frente / intensificar",
+    "fr": "s'investir / intensifier ses efforts",
+    "de": "einspringen / sich mehr anstrengen",
+    "tr": "öne çıkmak / sorumluluk almak",
+    "ja": "立ち上がる / 強化する"
+  },
+  "align": {
+    "ru": "согласовывать / выравнивать",
+    "zh": "使一致 / 结盟",
+    "es": "alinear / coordinar",
+    "fr": "aligner / coordonner",
+    "de": "abstimmen / ausrichten",
+    "tr": "hizalamak / uyumlu hale getirmek",
+    "ja": "一致させる / すり合わせる"
+  },
+  "constructive": {
+    "ru": "конструктивный",
+    "zh": "建设性的",
+    "es": "constructivo",
+    "fr": "constructif",
+    "de": "konstruktiv",
+    "tr": "yapıcı",
+    "ja": "建設的な"
+  },
+  "pushback": {
+    "ru": "отпор / сопротивление",
+    "zh": "阻力 / 反对",
+    "es": "resistencia / rechazo",
+    "fr": "résistance / opposition",
+    "de": "Widerstand / Gegenwind",
+    "tr": "tepki / direnç",
+    "ja": "反発 / 抵抗"
+  },
+  "clear up": {
+    "ru": "прояснять / разрешать (недоразумение)",
+    "zh": "澄清 / 解决",
+    "es": "aclarar / resolver",
+    "fr": "éclaircir / dissiper",
+    "de": "klären / aufklären",
+    "tr": "açıklığa kavuşturmak",
+    "ja": "明らかにする / 解決する"
+  },
+  "defensive": {
+    "ru": "оборонительный / защищающийся",
+    "zh": "戒备的 / 防御性的",
+    "es": "a la defensiva",
+    "fr": "sur la défensive",
+    "de": "defensiv / abwehrend",
+    "tr": "savunmacı",
+    "ja": "防御的な / 言い訳がましい"
+  },
+  "friction": {
+    "ru": "трения / разногласия",
+    "zh": "摩擦 / 冲突",
+    "es": "fricción / tensión",
+    "fr": "friction / tension",
+    "de": "Reibung / Spannungen",
+    "tr": "sürtüşme / anlaşmazlık",
+    "ja": "摩擦 / 不和"
+  },
+  "transparent": {
+    "ru": "прозрачный / открытый",
+    "zh": "透明的 / 公开的",
+    "es": "transparente",
+    "fr": "transparent",
+    "de": "transparent / durchschaubar",
+    "tr": "şeffaf",
+    "ja": "透明性のある / 隠し事のない"
+  },
+  "receptive": {
+    "ru": "восприимчивый / открытый (к идеям)",
+    "zh": "乐于接受的",
+    "es": "receptivo",
+    "fr": "réceptif",
+    "de": "aufgeschlossen / empfänglich",
+    "tr": "yeniliklere açık / alıcı",
+    "ja": "受け入れる / 寛容な"
+  },
+  "back down": {
+    "ru": "отступать / сдаваться",
+    "zh": "退让 / 放弃",
+    "es": "echarse atrás / ceder",
+    "fr": "reculer / céder",
+    "de": "nachgeben / einen Rückzieher machen",
+    "tr": "geri adım atmak",
+    "ja": "折れる / 撤回する"
+  },
+  "step in": {
+    "ru": "вмешиваться (чтобы помочь)",
+    "zh": "介入 / 干预",
+    "es": "intervenir",
+    "fr": "intervenir",
+    "de": "eingreifen / sich einschalten",
+    "tr": "müdahale etmek / araya girmek",
+    "ja": "介入する / 仲裁に入る"
+  },
+  "overstep": {
+    "ru": "переходить границы / превышать полномочия",
+    "zh": "逾越 / 越权",
+    "es": "sobrepasarse / excederse",
+    "fr": "dépasser les bornes / outrepasser",
+    "de": "überschreiten / zu weit gehen",
+    "tr": "haddini aşmak / sınırları aşmak",
+    "ja": "行き過ぎる / 権限を越える"
+  },
+  "roll out": {
+    "ru": "запускать / внедрять",
+    "zh": "推出 / 开展",
+    "es": "lanzar / implementar",
+    "fr": "déployer / lancer",
+    "de": "einführen / auf den Markt bringen",
+    "tr": "piyasaya sürmek / kullanıma sunmak",
+    "ja": "導入する / 展開する"
+  },
+  "phase out": {
+    "ru": "постепенно отказываться / выводить из употребления",
+    "zh": "逐步淘汰 / 逐步取消",
+    "es": "retirar gradualmente / eliminar progresivamente",
+    "fr": "supprimer progressivement",
+    "de": "schrittweise abschaffen / auslaufen lassen",
+    "tr": "aşamalı olarak kaldırmak",
+    "ja": "段階的に廃止する"
+  },
+  "setback": {
+    "ru": "неудача / задержка",
+    "zh": "挫折 / 倒退",
+    "es": "contratiempo / revés",
+    "fr": "revers / contretemps",
+    "de": "Rückschlag",
+    "tr": "aksilik / gerileme",
+    "ja": "挫折 / 妨げ"
+  },
+  "transition": {
+    "ru": "переход",
+    "zh": "过渡 / 转变",
+    "es": "transición",
+    "fr": "transition",
+    "de": "Übergang / Umstellung",
+    "tr": "geçiş",
+    "ja": "移行 / 変化"
+  },
+  "seamless": {
+    "ru": "плавный / бесшовный",
+    "zh": "无缝的 / 顺利的",
+    "es": "sin problemas / fluido",
+    "fr": "fluide / sans heurts",
+    "de": "reibungslos / nahtlos",
+    "tr": "sorunsuz / kesintisiz",
+    "ja": "シームレスな / 途切れのない"
+  },
+  "scale up": {
+    "ru": "расширять / увеличивать масштаб",
+    "zh": "扩大规模",
+    "es": "ampliar / aumentar la escala",
+    "fr": "développer / passer à l'échelle supérieure",
+    "de": "vergrößern / skalieren",
+    "tr": "ölçeğini büyütmek",
+    "ja": "規模を拡大する / スケールアップする"
+  },
+  "disruption": {
+    "ru": "нарушение / сбой",
+    "zh": "中断 / 扰乱",
+    "es": "interrupción / alteración",
+    "fr": "perturbation / interruption",
+    "de": "Störung / Unterbrechung",
+    "tr": "aksama / kesinti",
+    "ja": "混乱 / 中断"
+  },
+  "timeline": {
+    "ru": "график / сроки",
+    "zh": "时间表 / 时间线",
+    "es": "cronograma / línea de tiempo",
+    "fr": "calendrier / échéancier",
+    "de": "Zeitplan / Zeitstrahl",
+    "tr": "zaman çizelgesi / takvim",
+    "ja": "スケジュール / タイムライン"
+  },
+  "tweak": {
+    "ru": "слегка корректировать / вносить поправки",
+    "zh": "微调 / 稍作修改",
+    "es": "retocar / ajustar",
+    "fr": "ajuster / peaufiner",
+    "de": "optimieren / leicht anpassen",
+    "tr": "ince ayar yapmak",
+    "ja": "微調整する"
+  },
+  "resistant": {
+    "ru": "сопротивляющийся / устойчивый",
+    "zh": "抵制的 / 有抵抗力的",
+    "es": "resistente / reacio",
+    "fr": "réfractaire / résistant",
+    "de": "widerstrebend / resistent",
+    "tr": "dirençli / karşı çıkan",
+    "ja": "抵抗する / 抵抗力がある"
+  },
+
 };

@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight, CheckCircle2, Languages } from 'lucide-react
 import { motion, AnimatePresence } from 'motion/react';
 import { SpeakerButton } from '../shared/SpeakerButton';
 import { translationEngine } from '../../engine/translation';
+import { useSwipeNavigation } from '../../hooks/useSwipeNavigation';
 
 interface VocabularyStageProps {
   words: Word[];
@@ -26,9 +27,19 @@ export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onCompl
   }, [currentIndex]);
 
   const navigateTo = (index: number) => {
+    window.speechSynthesis.cancel();
     setCurrentIndex(index);
     setViewedWords(prev => new Set(prev).add(index));
   };
+
+  const swipeRef = useSwipeNavigation<HTMLDivElement>({
+    onSwipeLeft: () => {
+      if (currentIndex < words.length - 1) navigateTo(currentIndex + 1);
+    },
+    onSwipeRight: () => {
+      if (currentIndex > 0) navigateTo(currentIndex - 1);
+    }
+  });
 
   return (
     <div className="flex flex-col w-full max-w-4xl mx-auto min-h-[70vh]">
@@ -52,7 +63,7 @@ export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onCompl
       </div>
 
       {/* Main Content Area */}
-      <div className="flex-grow bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
+      <div className="flex-grow bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col" ref={swipeRef}>
         <AnimatePresence mode="wait">
           <motion.div
             key={currentIndex}

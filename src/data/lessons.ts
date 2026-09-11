@@ -1,4 +1,9 @@
 import { b2Lesson56 } from './b2-lesson-56';
+import { b2Lesson57 } from './b2-lesson-57';
+import { b2Lesson58 } from './b2-lesson-58';
+import { b2Lesson59 } from './b2-lesson-59';
+import { b2Lesson60 } from './b2-lesson-60';
+
 import { b2Lesson55 } from './b2-lesson-55';
 import { b2Lesson54 } from './b2-lesson-54';
 import { b2Lesson53 } from './b2-lesson-53';
@@ -63,6 +68,10 @@ import { b2Lesson44 } from './b2-lesson-44';
 // We will add more lessons here
 export const availableLessons: Lesson[] = [
   b2Lesson56,
+  b2Lesson57,
+  b2Lesson58,
+  b2Lesson59,
+  b2Lesson60,
   b2Lesson55,
   b2Lesson54,
   b2Lesson53,

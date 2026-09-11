@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { translationEngine } from '../../engine/translation';
-import { isInflectionOf } from '../../utils/wordRecognition';
+import { tokenizeText } from '../../utils/wordRecognition';
 import { X } from 'lucide-react';
 import { SpeakerButton } from './SpeakerButton';
 
@@ -17,8 +17,7 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
   const [popupPos, setPopupPos] = useState<'center' | 'left' | 'right'>('center');
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Split text by word boundaries, keeping punctuation
-  const tokens = text.split(/(\b[\w'-]+\b)/g);
+  const tokens = tokenizeText(text, targetWord ? [targetWord] : []);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -27,11 +26,12 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
         setTranslation(null);
       }
     };
+
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleWordClick = async (word: string, index: number, e: React.MouseEvent) => {
+  const handleWordClick = async (word: string, index: number, e: React.MouseEvent, canonical?: string) => {
     if (activeWord?.index === index) {
       setActiveWord(null);
       setTranslation(null);
@@ -40,6 +40,7 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
 
     const rect = (e.target as HTMLElement).getBoundingClientRect();
     const windowWidth = window.innerWidth;
+    
     if (rect.left < 100) {
       setPopupPos('left');
     } else if (windowWidth - rect.right < 100) {
@@ -48,11 +49,12 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
       setPopupPos('center');
     }
 
-    setActiveWord({ word, index, canonical: word });
+    const lookupWord = canonical || word;
+    setActiveWord({ word, index, canonical: lookupWord });
     setLoading(true);
-    const result = await translationEngine.translateWordOffline(word);
+
+    const result = await translationEngine.translateWordOffline(lookupWord);
     
-    // Update active word with canonical to ensure popup header and TTS use it
     setActiveWord({ word, index, canonical: result.canonical });
     setTranslation(result.translation);
     setLoading(false);
@@ -62,26 +64,26 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
     <div className={`relative ${className}`} ref={containerRef}>
       <div className="leading-relaxed">
         {tokens.map((token, i) => {
-          // If token is a word
-          if (/^[\w'-]+$/.test(token)) {
+          if (token.isWord) {
             const isActive = activeWord?.index === i;
             const posClass = popupPos === 'left' ? 'left-0' : popupPos === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2';
             const arrowPosClass = popupPos === 'left' ? 'left-4' : popupPos === 'right' ? 'right-6' : 'left-1/2 -translate-x-1/2';
-            const isTarget = targetWord && isInflectionOf(token, targetWord);
+            
             return (
               <span key={i} className="relative inline-block">
                 <span
-                  onClick={(e) => handleWordClick(token, i, e)}
+                  onClick={(e) => handleWordClick(token.text, i, e, token.canonical)}
                   className={`cursor-pointer transition-colors duration-200 ${
                     isActive 
                       ? 'bg-indigo-100 text-indigo-900 rounded px-0.5' 
-                      : isTarget
+                      : token.isTarget
                         ? 'border-b-2 border-indigo-300 font-semibold hover:bg-slate-100 rounded px-0.5'
                         : 'hover:bg-slate-100 rounded px-0.5'
                   }`}
                 >
-                  {token}
+                  {token.text}
                 </span>
+
                 {isActive && (
                   <span className={`absolute bottom-full ${posClass} mb-2 p-3 bg-white text-slate-800 text-sm rounded-xl shadow-xl z-50 border border-slate-200 min-w-[12rem] flex flex-col cursor-default`}>
                     <div className="flex items-center justify-between border-b border-slate-100 pb-2 mb-2">
@@ -100,17 +102,19 @@ export const TranslatableText: React.FC<TranslatableTextProps> = ({ text, classN
                         </button>
                       </div>
                     </div>
+                    
                     <span className="font-medium text-indigo-600 text-center text-base">
                       {loading ? '...' : (translation || 'No translation')}
                     </span>
+
                     <span className={`absolute top-full ${arrowPosClass} border-[8px] border-transparent border-t-white`} />
                   </span>
                 )}
               </span>
             );
           }
-          // Punctuation and spaces
-          return <span key={i}>{token}</span>;
+          
+          return <span key={i}>{token.text}</span>;
         })}
       </div>
     </div>
