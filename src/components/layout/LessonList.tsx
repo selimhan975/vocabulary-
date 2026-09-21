@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Lesson, CEFRLevel, LanguageCode } from '../../types';
 import { getLessonsByLevel } from '../../data/lessons';
 import { useAppContext } from '../../store/AppContext';
+import { DailyGoalIndicator } from './DailyGoalIndicator';
 import { CheckCircle2, Settings, ArrowLeft } from 'lucide-react';
 
 interface LessonListProps {
@@ -64,22 +65,25 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
             <p className="text-slate-500 text-xs sm:text-sm">Select a lesson to begin.</p>
           </div>
           
-          <div className="flex items-center gap-1.5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg shadow-sm border border-slate-200 shrink-0">
-            <Settings size={14} className="text-slate-400" />
-            <select 
-              value={targetLang}
-              onChange={(e) => setTargetLang(e.target.value as LanguageCode)}
-              className="bg-transparent border-none text-xs sm:text-sm text-slate-700 font-medium focus:ring-0 cursor-pointer outline-none p-0 pr-1"
-            >
-              <option value="en">English</option>
-              <option value="es">Spanish</option>
-              <option value="ru">Russian</option>
-              <option value="zh">Chinese</option>
-              <option value="fr">French</option>
-              <option value="de">German</option>
-              <option value="tr">Turkish</option>
-              <option value="ja">Japanese</option>
-            </select>
+          <div className="flex items-center gap-2 shrink-0">
+            <DailyGoalIndicator />
+            <div className="flex items-center gap-1.5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg shadow-sm border border-slate-200 shrink-0">
+              <Settings size={14} className="text-slate-400" />
+              <select 
+                value={targetLang}
+                onChange={(e) => setTargetLang(e.target.value as LanguageCode)}
+                className="bg-transparent border-none text-xs sm:text-sm text-slate-700 font-medium focus:ring-0 cursor-pointer outline-none p-0 pr-1"
+              >
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="ru">Russian</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="tr">Turkish</option>
+                <option value="ja">Japanese</option>
+              </select>
+            </div>
           </div>
         </header>
 
