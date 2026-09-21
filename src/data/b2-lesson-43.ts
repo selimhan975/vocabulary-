@@ -9,7 +9,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w421",
       word: "crop",
-      pronunciation: "/.../",
+      pronunciation: "/krɒp/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "урожай (культура)", zh: "庄稼", es: "cultivo", fr: "culture", de: "Ernte (Pflanze)", tr: "mahsul", ja: "農作物" },
@@ -38,7 +38,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w422",
       word: "harvest",
-      pronunciation: "/.../",
+      pronunciation: "/ˈhɑː.vɪst/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "урожай (сбор)", zh: "收获", es: "cosecha", fr: "récolte", de: "Ernte (Vorgang)", tr: "hasat", ja: "収穫" },
@@ -67,7 +67,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w423",
       word: "livestock",
-      pronunciation: "/.../",
+      pronunciation: "/ˈlaɪv.stɒk/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "домашний скот", zh: "牲畜", es: "ganado", fr: "bétail", de: "Vieh", tr: "çiftlik hayvanları", ja: "家畜" },
@@ -96,7 +96,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w424",
       word: "soil",
-      pronunciation: "/.../",
+      pronunciation: "/sɔɪl/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "почва", zh: "土壤", es: "suelo", fr: "sol", de: "Boden", tr: "toprak", ja: "土壌" },
@@ -125,7 +125,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w425",
       word: "cultivate",
-      pronunciation: "/.../",
+      pronunciation: "/ˈkʌl.tɪ.veɪt/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "культивировать", zh: "培育", es: "cultivar", fr: "cultiver", de: "kultivieren", tr: "yetiştirmek", ja: "栽培する" },
@@ -154,7 +154,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w426",
       word: "fertile",
-      pronunciation: "/.../",
+      pronunciation: "/ˈfɜː.taɪl/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "плодородный", zh: "肥沃的", es: "fértil", fr: "fertile", de: "fruchtbar", tr: "verimli", ja: "肥沃な" },
@@ -183,7 +183,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w427",
       word: "pesticide",
-      pronunciation: "/.../",
+      pronunciation: "/ˈpes.tɪ.saɪd/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "пестицид", zh: "杀虫剂", es: "pesticida", fr: "pesticide", de: "Pestizid", tr: "böcek ilacı", ja: "農薬" },
@@ -212,7 +212,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w428",
       word: "irrigation",
-      pronunciation: "/.../",
+      pronunciation: "/ˌɪr.ɪˈɡeɪ.ʃən/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "орошение", zh: "灌溉", es: "irrigación", fr: "irrigation", de: "Bewässerung", tr: "sulama", ja: "灌漑" },
@@ -241,7 +241,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w429",
       word: "grain",
-      pronunciation: "/.../",
+      pronunciation: "/ɡreɪn/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "зерно", zh: "谷物", es: "grano", fr: "céréale", de: "Getreide", tr: "tahıl", ja: "穀物" },
@@ -270,7 +270,7 @@ export const b2Lesson43: Lesson = {
     {
       id: "w430",
       word: "yield",
-      pronunciation: "/.../",
+      pronunciation: "/jiːld/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "давать (урожай, результат)", zh: "产量/出产", es: "rendimiento", fr: "rendement", de: "Ertrag", tr: "verim", ja: "産出する/収穫量" },

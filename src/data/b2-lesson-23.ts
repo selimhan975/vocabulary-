@@ -66,28 +66,28 @@ export const b2Lesson23: Lesson = {
     },
     {
       id: "w23-3",
-      word: "investigate",
-      pronunciation: "/ɪnˈves.tɪ.ɡeɪt/",
+      word: "interrogate",
+      pronunciation: "/ɪnˈter.ə.ɡeɪt/",
       partOfSpeech: "verb",
       level: "B2",
-      synonyms: ["examine", "explore", "inquire"],
-      collocations: ["investigate a crime", "thoroughly investigate"],
-      translations: { ru: "расследовать / исследовать", zh: "调查", es: "investigar", fr: "enquêter", de: "untersuchen / ermitteln", tr: "araştırmak / soruşturmak", ja: "調査する" },
+      synonyms: ["question","examine","grill"],
+      collocations: ["interrogate a suspect","interrogate thoroughly"],
+      translations: {"ru":"допрашивать","zh":"审问","es":"interrogar","fr":"interroger","de":"verhören","tr":"sorgulamak","ja":"尋問する"},
       meanings: [
         {
           id: "w23-3-m1",
-          definition: "to examine a crime, problem, statement, etc. carefully, especially to discover the truth",
-          translation: { ru: "внимательно изучать преступление, проблему, заявление и т.д., особенно для того, чтобы выяснить правду", zh: "仔细检查犯罪、问题、陈述等，尤指为了发现真相", es: "examinar cuidadosamente un delito, problema, declaración, etc., especialmente para descubrir la verdad" },
+          definition: "to ask someone a lot of questions for a long time in order to get information, sometimes using threats",
+          translation: {"ru":"задавать кому-либо много вопросов в течение длительного времени с целью получения информации","zh":"长时间询问某人许多问题以获取信息","es":"hacer a alguien muchas preguntas durante mucho tiempo para obtener información"},
           examples: [
             {
               id: "w23-3-m1-e1",
-              sentence: "The local authorities will investigate the cause of the sudden fire.",
-              translation: { ru: "Местные власти расследуют причину внезапного пожара.", zh: "地方当局将调查这场突发火灾的原因。", es: "Las autoridades locales investigarán la causa del incendio repentino.", fr: "Les autorités locales vont enquêter sur la cause de l'incendie soudain.", de: "Die örtlichen Behörden werden die Ursache des plötzlichen Brandes untersuchen.", tr: "Yerel makamlar ani yangının nedenini araştıracak.", ja: "地元当局は突然の火災の原因を調査します。" }
+              sentence: "The police took turns to interrogate the suspect.",
+              translation: {"ru":"Полицейские по очереди допрашивали подозреваемого.","zh":"警察轮流审问嫌疑人。","es":"La policía se turnó para interrogar al sospechoso.","fr":"La police s'est relayée pour interroger le suspect.","de":"Die Polizei verhörte den Verdächtigen abwechselnd.","tr":"Polis şüpheliyi sırayla sorguladı.","ja":"警察は交代で容疑者を尋問した。"}
             },
             {
               id: "w23-3-m1-e2",
-              sentence: "We need more time to properly investigate all the complaints we have received.",
-              translation: { ru: "Нам нужно больше времени, чтобы должным образом расследовать все полученные нами жалобы.", zh: "我们需要更多时间来妥善调查我们收到的所有投诉。", es: "Necesitamos más tiempo para investigar adecuadamente todas las quejas que hemos recibido.", fr: "Nous avons besoin de plus de temps pour enquêter correctement sur toutes les plaintes que nous avons reçues.", de: "Wir brauchen mehr Zeit, um alle Beschwerden, die wir erhalten haben, richtig zu untersuchen.", tr: "Aldığımız tüm şikayetleri düzgün bir şekilde soruşturmak için daha fazla zamana ihtiyacımız var.", ja: "私たちが受け取ったすべての苦情を適切に調査するためには、さらに時間が必要です。" }
+              sentence: "He was interrogated for hours about his whereabouts on the night of the crime.",
+              translation: {"ru":"Его часами допрашивали о его местонахождении в ночь преступления.","zh":"他因案发当晚的行踪被审问了几个小时。","es":"Fue interrogado durante horas sobre su paradero la noche del crimen.","fr":"Il a été interrogé pendant des heures sur l'endroit où il se trouvait la nuit du crime.","de":"Er wurde stundenlang über seinen Aufenthaltsort in der Tatnacht verhört.","tr":"Suç gecesi nerede olduğu hakkında saatlerce sorgulandı.","ja":"彼は事件の夜の居場所について何時間も尋問された。"}
             }
           ]
         }
@@ -95,28 +95,28 @@ export const b2Lesson23: Lesson = {
     },
     {
       id: "w23-4",
-      word: "witness",
-      pronunciation: "/ˈwɪt.nəs/",
+      word: "alibi",
+      pronunciation: "/ˈæl.ɪ.baɪ/",
       partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["observer", "onlooker"],
-      collocations: ["eye witness", "witness to a crime"],
-      translations: { ru: "свидетель", zh: "目击者 / 证人", es: "testigo", fr: "témoin", de: "Zeuge", tr: "tanık", ja: "目撃者 / 証人" },
+      synonyms: ["defense","excuse"],
+      collocations: ["have an alibi","provide an alibi"],
+      translations: {"ru":"алиби","zh":"不在场证明","es":"coartada","fr":"alibi","de":"Alibi","tr":"mazeret / alibi","ja":"アリバイ"},
       meanings: [
         {
           id: "w23-4-m1",
-          definition: "a person who sees an event happening, especially a crime or an accident",
-          translation: { ru: "человек, который видит происходящее событие, особенно преступление или несчастный случай", zh: "看到事件发生的人，尤指犯罪或事故", es: "una persona que ve que ocurre un evento, especialmente un crimen o un accidente" },
+          definition: "proof that someone who is thought to have committed a crime could not have done it",
+          translation: {"ru":"доказательство того, что человек, которого подозревают в преступлении, не мог его совершить","zh":"证明被认为犯了罪的人不可能犯罪的证据","es":"prueba de que alguien que se cree que ha cometido un delito no podría haberlo hecho"},
           examples: [
             {
               id: "w23-4-m1-e1",
-              sentence: "According to a witness, the thief escaped in a dark blue car.",
-              translation: { ru: "По словам свидетеля, вор скрылся на темно-синей машине.", zh: "据一名目击者称，小偷开着一辆深蓝色汽车逃跑了。", es: "Según un testigo, el ladrón escapó en un coche azul oscuro.", fr: "Selon un témoin, le voleur s'est échappé dans une voiture bleu foncé.", de: "Laut einem Zeugen entkam der Dieb in einem dunkelblauen Auto.", tr: "Bir tanığa göre hırsız lacivert bir arabayla kaçtı.", ja: "目撃者によると、泥棒は濃紺の車で逃げました。" }
+              sentence: "He had a solid alibi for the night of the murder.",
+              translation: {"ru":"У него было железное алиби на ночь убийства.","zh":"他在谋杀案当晚有可靠的不在场证明。","es":"Tenía una coartada sólida para la noche del asesinato.","fr":"Il avait un alibi solide pour la nuit du meurtre.","de":"Er hatte ein wasserdichtes Alibi für die Nacht des Mordes.","tr":"Cinayet gecesi için sağlam bir mazereti vardı.","ja":"彼には殺人の夜の確固たるアリバイがあった。"}
             },
             {
               id: "w23-4-m1-e2",
-              sentence: "The police are asking any witnesses to the accident to come forward.",
-              translation: { ru: "Полиция просит всех свидетелей аварии откликнуться.", zh: "警方要求任何事故目击者挺身而出。", es: "La policía está pidiendo a cualquier testigo del accidente que se presente.", fr: "La police demande à tout témoin de l'accident de se manifester.", de: "Die Polizei bittet alle Zeugen des Unfalls, sich zu melden.", tr: "Polis, kazayı gören herhangi bir tanığın öne çıkmasını istiyor.", ja: "警察は事故の目撃者に名乗り出るよう求めています。" }
+              sentence: "The suspect claimed his wife could provide an alibi.",
+              translation: {"ru":"Подозреваемый заявил, что его жена может подтвердить алиби.","zh":"嫌疑人声称他的妻子可以提供不在场证明。","es":"El sospechoso afirmó que su esposa podría proporcionar una coartada.","fr":"Le suspect a affirmé que sa femme pourrait fournir un alibi.","de":"Der Verdächtige behauptete, seine Frau könne ein Alibi liefern.","tr":"Şüpheli, karısının bir mazeret sağlayabileceğini iddia etti.","ja":"容疑者は妻がアリバイを証明できると主張した。"}
             }
           ]
         }
@@ -211,28 +211,28 @@ export const b2Lesson23: Lesson = {
     },
     {
       id: "w23-8",
-      word: "innocent",
-      pronunciation: "/ˈɪn.ə.sənt/",
-      partOfSpeech: "adjective",
+      word: "motive",
+      pronunciation: "/ˈməʊ.tɪv/",
+      partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["not guilty", "blameless"],
-      collocations: ["prove innocent", "innocent victim"],
-      translations: { ru: "невиновный", zh: "无辜的", es: "inocente", fr: "innocent", de: "unschuldig", tr: "masum", ja: "無実の" },
+      synonyms: ["reason","purpose","intention"],
+      collocations: ["establish a motive","ulterior motive"],
+      translations: {"ru":"мотив","zh":"动机","es":"motivo","fr":"motif","de":"Motiv","tr":"güdü / sebep","ja":"動機"},
       meanings: [
         {
           id: "w23-8-m1",
-          definition: "not guilty of a particular crime",
-          translation: { ru: "не виновен в конкретном преступлении", zh: "未犯特定罪行", es: "no culpable de un delito en particular" },
+          definition: "a reason for doing something, especially something that is hidden or not obvious",
+          translation: {"ru":"причина для совершения чего-либо, особенно скрытая или неочевидная","zh":"做某事的理由，尤指隐藏或不明显的理由","es":"una razón para hacer algo, especialmente algo que está oculto o no es obvio"},
           examples: [
             {
               id: "w23-8-m1-e1",
-              sentence: "He firmly believes that his friend is innocent and did not steal the money.",
-              translation: { ru: "Он твердо верит, что его друг невиновен и не крал деньги.", zh: "他坚信他的朋友是无辜的，没有偷钱。", es: "Él cree firmemente que su amigo es inocente y no robó el dinero.", fr: "Il croit fermement que son ami est innocent et n'a pas volé l'argent.", de: "Er glaubt fest daran, dass sein Freund unschuldig ist und das Geld nicht gestohlen hat.", tr: "Arkadaşının masum olduğuna ve parayı çalmadığına kesinlikle inanıyor.", ja: "彼は友人が無実であり、お金を盗んでいないと固く信じています。" }
+              sentence: "The police are still looking for a motive for the attack.",
+              translation: {"ru":"Полиция все еще ищет мотив нападения.","zh":"警方仍在寻找袭击的动机。","es":"La policía todavía está buscando un motivo para el ataque.","fr":"La police cherche encore un motif pour l'attaque.","de":"Die Polizei sucht noch immer nach einem Motiv für den Angriff.","tr":"Polis hala saldırı için bir sebep arıyor.","ja":"警察は依然としてその襲撃の動機を探している。"}
             },
             {
               id: "w23-8-m1-e2",
-              sentence: "Under the law, a person is considered innocent until proven guilty.",
-              translation: { ru: "По закону человек считается невиновным, пока не доказана его вина.", zh: "根据法律，一个人在被证明有罪之前被认为是无辜的。", es: "Según la ley, una persona se considera inocente hasta que se demuestre su culpabilidad.", fr: "Selon la loi, une personne est considérée comme innocente jusqu'à preuve du contraire.", de: "Nach dem Gesetz gilt eine Person als unschuldig, bis ihre Schuld bewiesen ist.", tr: "Yasaya göre, bir kişi suçu kanıtlanana kadar masum kabul edilir.", ja: "法律の下では、人は有罪が証明されるまで無実とみなされます。" }
+              sentence: "What could possibly be her motive for lying to us?",
+              translation: {"ru":"Каким вообще мог быть ее мотив лгать нам?","zh":"她对我们撒谎的动机可能是什么？","es":"¿Cuál podría ser su motivo para mentirnos?","fr":"Quel pourrait être son motif pour nous mentir?","de":"Was könnte ihr Motiv sein, uns anzulügen?","tr":"Bize yalan söylemek için sebebi ne olabilirdi?","ja":"私たちに嘘をつく彼女の動機は一体何だったのだろうか？"}
             }
           ]
         }
@@ -240,28 +240,28 @@ export const b2Lesson23: Lesson = {
     },
     {
       id: "w23-9",
-      word: "trial",
-      pronunciation: "/traɪəl/",
-      partOfSpeech: "noun",
+      word: "confess",
+      pronunciation: "/kənˈfes/",
+      partOfSpeech: "verb",
       level: "B2",
-      synonyms: ["hearing", "court case"],
-      collocations: ["fair trial", "murder trial"],
-      translations: { ru: "судебное разбирательство / суд", zh: "审判", es: "juicio", fr: "procès", de: "Prozess / Gerichtsverhandlung", tr: "duruşma / yargılama", ja: "裁判" },
+      synonyms: ["admit","acknowledge","own up"],
+      collocations: ["confess to a crime","confess everything"],
+      translations: {"ru":"признаваться","zh":"坦白 / 承认","es":"confesar","fr":"avouer","de":"gestehen","tr":"itiraf etmek","ja":"自白する"},
       meanings: [
         {
           id: "w23-9-m1",
-          definition: "the hearing of statements and showing of objects, etc. in a law court to judge if a person is guilty of a crime",
-          translation: { ru: "слушание заявлений и показ предметов и т.д. в суде, чтобы судить, виновен ли человек в преступлении", zh: "在法庭上听取陈述、展示物品等，以判断一个人是否有罪", es: "la audiencia de declaraciones y exhibición de objetos, etc. en un tribunal de justicia para juzgar si una persona es culpable de un delito" },
+          definition: "to admit that you have done something wrong or something that you feel guilty about",
+          translation: {"ru":"признать, что вы сделали что-то не так или в чем чувствуете себя виноватым","zh":"承认你做错了事或让你感到内疚的事","es":"admitir que has hecho algo malo o algo de lo que te sientes culpable"},
           examples: [
             {
               id: "w23-9-m1-e1",
-              sentence: "The trial is expected to last for several weeks before a verdict is reached.",
-              translation: { ru: "Ожидается, что суд продлится несколько недель, прежде чем будет вынесен вердикт.", zh: "预计审判将持续几周，然后才会得出裁决。", es: "Se espera que el juicio dure varias semanas antes de que se llegue a un veredicto.", fr: "Le procès devrait durer plusieurs semaines avant qu'un verdict ne soit rendu.", de: "Der Prozess wird voraussichtlich mehrere Wochen dauern, bevor ein Urteil gefällt wird.", tr: "Bir karara varılmadan önce duruşmanın birkaç hafta sürmesi bekleniyor.", ja: "評決が下されるまでに裁判は数週間続くと予想されます。" }
+              sentence: "After hours of questioning, he finally confessed to the crime.",
+              translation: {"ru":"После многочасовых допросов он наконец признался в преступлении.","zh":"经过几个小时的盘问，他终于对罪行供认不讳。","es":"Después de horas de interrogatorio, finalmente confesó el crimen.","fr":"Après des heures d'interrogatoire, il a finalement avoué le crime.","de":"Nach stundenlangem Verhör gestand er schließlich das Verbrechen.","tr":"Saatler süren sorgulamanın ardından nihayet suçunu itiraf etti.","ja":"何時間もの尋問の後、彼はついに罪を自白した。"}
             },
             {
               id: "w23-9-m1-e2",
-              sentence: "Everyone has the right to a fair trial, regardless of the accusations against them.",
-              translation: { ru: "Каждый имеет право на справедливое судебное разбирательство, независимо от выдвинутых против него обвинений.", zh: "每个人都有权获得公平审判，无论他们受到什么指控。", es: "Todos tienen derecho a un juicio justo, independientemente de las acusaciones en su contra.", fr: "Toute personne a droit à un procès équitable, quelles que soient les accusations portées contre elle.", de: "Jeder hat das Recht auf ein faires Verfahren, unabhängig von den Anschuldigungen gegen ihn.", tr: "Kendilerine yöneltilen suçlamalar ne olursa olsun herkes adil yargılanma hakkına sahiptir.", ja: "彼らに対する非難に関係なく、すべての人が公正な裁判を受ける権利を持っています。" }
+              sentence: "She confessed that she had stolen the money from the safe.",
+              translation: {"ru":"Она призналась, что украла деньги из сейфа.","zh":"她承认自己从保险箱里偷了钱。","es":"Confesó que había robado el dinero de la caja fuerte.","fr":"Elle a avoué qu'elle avait volé l'argent dans le coffre-fort.","de":"Sie gestand, dass sie das Geld aus dem Safe gestohlen hatte.","tr":"Parayı kasadan çaldığını itiraf etti.","ja":"彼女は金庫からお金を盗んだことを自白した。"}
             }
           ]
         }

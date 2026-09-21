@@ -5,6 +5,7 @@ import { useAppContext } from '../../store/AppContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { speak } from '../../engine/tts';
 import { Volume2 } from 'lucide-react';
+import { useQuizShortcuts } from '../../hooks/useQuizShortcuts';
 
 interface QuizListeningProps {
   word: Word;
@@ -20,6 +21,8 @@ export const QuizListening: React.FC<QuizListeningProps> = ({ word, distractors,
   const [isPlaying, setIsPlaying] = useState(false);
   
   const hasAttemptedAutoPlay = useRef(false);
+
+  useQuizShortcuts(options, (id, isCorrect) => handleSelect(id, isCorrect), !!selectedId);
 
   useEffect(() => {
     // Generate options: 1 correct meaning, 2 distractors

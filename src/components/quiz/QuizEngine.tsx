@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Word } from '../../types';
 import { QuizMultipleChoice } from './QuizMultipleChoice';
 import { QuizContext } from './QuizContext';
-import { QuizMatching } from './QuizMatching';
 import { QuizActiveRecall } from './QuizActiveRecall';
 import { QuizSynonym } from './QuizSynonym';
 import { QuizListening } from './QuizListening';
@@ -15,60 +14,38 @@ interface QuizEngineProps {
   onComplete: (score: number, max: number, sessionMistakes?: Record<string, number>) => void;
 }
 
-type StageType = 'mc' | 'match' | 'context' | 'active_recall' | 'synonym' | 'listening';
+type StageType = 'mc' | 'context' | 'active_recall' | 'synonym' | 'listening';
 
-type QuizStage = 
-  | { type: StageType, wordIndex: number }
-  | { type: 'match', words: number[] };
+interface QuizStage {
+  type: StageType;
+  wordIndex: number;
+  isRetry?: boolean;
+}
 
 export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onComplete }) => {
   const [stages, setStages] = useState<QuizStage[]>([]);
   const [currentStageIndex, setCurrentStageIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [maxScore, setMaxScore] = useState(0);
-  
-  const [mode, setMode] = useState<'core' | 'review_intro' | 'review'>('core');
-  const [masteryData, setMasteryData] = useState<Record<string, import('../../types').WordMastery>>({});
   const [sessionMistakes, setSessionMistakes] = useState<Record<string, number>>({});
 
   useEffect(() => {
-    // Generate CORE quiz sequence
+    // Generate initial quiz sequence: exactly 1 question per word (10 words total)
     const shuffledIndices = Array.from({ length: words.length }, (_, i) => i).sort(() => Math.random() - 0.5);
-    
-    const newStages: QuizStage[] = [];
     const nonMatchTypes: StageType[] = ['mc', 'active_recall', 'context', 'synonym', 'listening'];
     
-    let typeIndex = 0;
-    const addStagesForPass = () => {
-      const passIndices = [...shuffledIndices].sort(() => Math.random() - 0.5);
-      for (const idx of passIndices) {
-        newStages.push({ type: nonMatchTypes[typeIndex % nonMatchTypes.length], wordIndex: idx });
-        typeIndex++;
-      }
-    };
-    
-    // ROUND 1: First exposure for all 10 words
-    addStagesForPass();
-    
-    // MATCHING (1 game, uses 4 words)
-    newStages.push({ type: 'match', words: shuffledIndices.slice(0, 4) });
-    
-    // ROUND 2: Second exposure for all 10 words
-    addStagesForPass();
+    const initialStages: QuizStage[] = shuffledIndices.map((idx, i) => ({
+      type: nonMatchTypes[i % nonMatchTypes.length],
+      wordIndex: idx,
+      isRetry: false
+    }));
 
-    setStages(newStages);
-    // Core max score
-    setMaxScore(newStages.length + 3); // match is worth 4 (1 stage + 3 extra)
+    setStages(initialStages);
+    setCurrentStageIndex(0);
+    setScore(0);
   }, [words]);
 
-  const updateMastery = (wordId: string, isCorrect: boolean) => {
+  const updateMastery = (wordId: string, isCorrect: boolean, mistakesForWord: number) => {
     const current = progressEngine.getLessonMastery(lessonId).words[wordId];
-    
-    let currentMistakes = sessionMistakes[wordId] || 0;
-    if (!isCorrect) {
-      currentMistakes += 1;
-      setSessionMistakes(prev => ({ ...prev, [wordId]: currentMistakes }));
-    }
 
     const updates: Partial<import('../../types').WordMastery> = {
       quizAttempts: (current?.quizAttempts || 0) + 1,
@@ -76,103 +53,73 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
       incorrectAnswers: (current?.incorrectAnswers || 0) + (isCorrect ? 0 : 1)
     };
 
-    if (currentMistakes >= 3) {
+    if (mistakesForWord >= 3) {
       updates.state = 'UNRESOLVED';
+    } else if (mistakesForWord > 0) {
+      updates.state = 'NEEDS_REVIEW';
     } else if (isCorrect) {
-      // If they get it correct, we want to allow it to become MASTERED if conditions met
-      // The progressEngine will evaluate this naturally if we don't force it, 
-      // but let's let progress engine do it by not overriding state unless it's UNRESOLVED.
+      updates.state = 'MASTERED';
     }
 
     progressEngine.updateWordMastery(lessonId, wordId, updates);
-    setMasteryData(progressEngine.getLessonMastery(lessonId).words);
   };
 
   const handleMCContextAnswer = (isCorrect: boolean) => {
     const currentStage = stages[currentStageIndex];
-    if (currentStage.type !== 'match') {
-      const wordId = words[currentStage.wordIndex].id;
-      updateMastery(wordId, isCorrect);
-    }
+    if (!currentStage) return;
+
+    const wordId = words[currentStage.wordIndex].id;
     
-    const newScore = isCorrect ? score + 1 : score;
-    if (isCorrect) setScore(newScore);
-    advanceStage(newScore);
-  };
-
-  const handleMatchComplete = (matchScore: number, matchMax: number) => {
-    // For matching, we simplify mastery update (just boost score for now)
-    const newScore = score + matchScore;
-    setScore(newScore);
-    advanceStage(newScore);
-  };
-
-  const advanceStage = (currentScore: number) => {
-    if (currentStageIndex + 1 < stages.length) {
-      setCurrentStageIndex(i => i + 1);
-    } else {
-      // End of current stages list
-      checkMasteryAndProceed(currentScore);
+    let currentMistakes = sessionMistakes[wordId] || 0;
+    if (!isCorrect) {
+      currentMistakes += 1;
+      setSessionMistakes(prev => ({ ...prev, [wordId]: currentMistakes }));
     }
-  };
 
-  const checkMasteryAndProceed = (currentScore: number) => {
-    const currentMastery = progressEngine.getLessonMastery(lessonId).words;
-    
-    // Find words that need review
-    const needsReviewIndices = words
-      .map((w, index) => ({ w, index }))
-      .filter(({ w }) => {
-        const m = currentMastery[w.id];
-        return !m || m.state === 'NEEDS_REVIEW' || m.state === 'NEW' || m.state === 'PRACTICING';
-      })
-      .map(({ index }) => index);
+    updateMastery(wordId, isCorrect, currentMistakes);
 
-    if (needsReviewIndices.length > 0 && mode !== 'review_intro') {
-      // Setup review round
-      setMode('review_intro');
-      
-      const reviewStages: QuizStage[] = [];
-      needsReviewIndices.sort(() => Math.random() - 0.5).forEach(idx => {
-        // Vary the type
-        const types: StageType[] = ['mc', 'active_recall', 'context', 'synonym', 'listening'];
-        const randomType = types[Math.floor(Math.random() * types.length)];
-        reviewStages.push({ type: randomType, wordIndex: idx });
-      });
-      
-      setStages(reviewStages);
-      setCurrentStageIndex(0);
+    const newScore = isCorrect && !currentStage.isRetry ? score + 1 : score;
+    if (isCorrect && !currentStage.isRetry) {
+      setScore(newScore);
+    }
+
+    // Repetition logic:
+    // A question that the user answers CORRECTLY must NEVER appear again during the current Quiz session.
+    // A question that the user answers INCORRECTLY may appear ONE additional time later.
+    // Do not create additional attempts beyond this one retry.
+    let updatedStages = stages;
+    if (!isCorrect && !currentStage.isRetry) {
+      const nonMatchTypes: StageType[] = ['mc', 'active_recall', 'context', 'synonym', 'listening'];
+      const altTypes = nonMatchTypes.filter(t => t !== currentStage.type);
+      const retryType = altTypes[Math.floor(Math.random() * altTypes.length)] || 'mc';
+
+      const retryStage: QuizStage = {
+        type: retryType,
+        wordIndex: currentStage.wordIndex,
+        isRetry: true
+      };
+
+      updatedStages = [...stages, retryStage];
+      setStages(updatedStages);
+    }
+
+    const nextIndex = currentStageIndex + 1;
+    if (nextIndex < updatedStages.length) {
+      setCurrentStageIndex(nextIndex);
     } else {
-      // Finished completely
       setTimeout(() => {
-        onComplete(currentScore, maxScore, sessionMistakes);
+        const finalMistakes = !isCorrect 
+          ? { ...sessionMistakes, [wordId]: currentMistakes } 
+          : sessionMistakes;
+        onComplete(newScore, words.length, finalMistakes);
       }, 500);
     }
   };
 
   if (stages.length === 0) return null;
 
-  if (mode === 'review_intro') {
-    return (
-      <div className="flex flex-col w-full max-w-4xl mx-auto min-h-[70vh] items-center justify-center">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
-          className="bg-white p-12 rounded-2xl shadow-sm border border-slate-100 text-center"
-        >
-          <h2 className="text-3xl font-extrabold text-slate-900 mb-4">Let's review your difficult words.</h2>
-          <p className="text-slate-500 mb-8 text-lg">You missed a few words. Let's practice them again to make sure you've got them.</p>
-          <button 
-            onClick={() => setMode('review')}
-            className="bg-indigo-600 text-white font-bold py-4 px-8 rounded-xl hover:bg-indigo-700 transition-colors"
-          >
-            Start Focused Review
-          </button>
-        </motion.div>
-      </div>
-    );
-  }
-
   const currentStage = stages[currentStageIndex];
+  if (!currentStage) return null;
 
   const getDistractors = (wordIndex: number) => {
     return words.filter((_, i) => i !== wordIndex).sort(() => Math.random() - 0.5);
@@ -183,17 +130,17 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
       {/* Progress Bar */}
       <div className="w-full bg-slate-100 h-2 rounded-full mb-12 overflow-hidden flex">
         <motion.div 
-          className={mode === 'core' ? "bg-indigo-600 h-full" : "bg-amber-500 h-full"}
+          className={currentStage.isRetry ? "bg-amber-500 h-full" : "bg-indigo-600 h-full"}
           initial={{ width: 0 }}
-          animate={{ width: `${(currentStageIndex / stages.length) * 100}%` }}
+          animate={{ width: `${((currentStageIndex + 1) / stages.length) * 100}%` }}
           transition={{ duration: 0.3 }}
         />
       </div>
 
       <div className="flex-grow bg-white rounded-2xl shadow-sm border border-slate-100 p-8 md:p-12 flex flex-col items-center justify-center relative overflow-hidden">
-        {mode === 'review' && (
+        {currentStage.isRetry && (
           <div className="absolute top-0 left-0 w-full bg-amber-50 text-amber-700 text-center py-2 text-sm font-bold uppercase tracking-wider">
-            Focused Review
+            Review Practice
           </div>
         )}
         
@@ -243,13 +190,6 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({ lessonId, words, onCompl
                 word={words[currentStage.wordIndex]} 
                 distractors={getDistractors(currentStage.wordIndex)}
                 onAnswer={handleMCContextAnswer} 
-              />
-            )}
-            
-            {currentStage.type === 'match' && (
-              <QuizMatching 
-                words={words} 
-                onComplete={handleMatchComplete} 
               />
             )}
           </motion.div>

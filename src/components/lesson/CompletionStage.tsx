@@ -74,15 +74,17 @@ export const CompletionStage: React.FC<CompletionStageProps> = ({ lesson, score,
             )}
           </div>
           
-          <div className="bg-slate-50 rounded-2xl p-6 flex items-center justify-between">
-            <span className="text-slate-700 font-bold text-lg">Reading Comprehension</span>
-            <div className="flex items-center gap-4">
-              <span className="text-slate-500">{score.comprehension} / {score.comprehensionMax}</span>
-              <span className={`font-bold ${compPercent >= 80 ? 'text-green-600' : compPercent >= 60 ? 'text-yellow-600' : 'text-red-600'}`}>
-                {compPercent}%
-              </span>
+          {score.comprehensionMax > 0 && (
+            <div className="bg-slate-50 rounded-2xl p-6 flex items-center justify-between">
+              <span className="text-slate-700 font-bold text-lg">Reading Comprehension</span>
+              <div className="flex items-center gap-4">
+                <span className="text-slate-500">{score.comprehension} / {score.comprehensionMax}</span>
+                <span className={`font-bold ${compPercent >= 80 ? 'text-green-600' : compPercent >= 60 ? 'text-yellow-600' : 'text-red-600'}`}>
+                  {compPercent}%
+                </span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         <button

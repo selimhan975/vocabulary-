@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Word } from '../../types';
 import { motion, AnimatePresence } from 'motion/react';
+import { useQuizShortcuts } from '../../hooks/useQuizShortcuts';
 
 interface QuizSynonymProps {
   word: Word;
@@ -12,6 +13,8 @@ export const QuizSynonym: React.FC<QuizSynonymProps> = ({ word, distractors, onA
   const [options, setOptions] = useState<{ id: string, text: string, isCorrect: boolean }[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
+
+  useQuizShortcuts(options, (id, isCorrect) => handleSelect(id, isCorrect), !!selectedId);
 
   useEffect(() => {
     const synonym = word.synonyms?.[0] || word.word; // Fallback to word if no synonym

@@ -3,12 +3,11 @@ import { Lesson, LessonScore } from '../../types';
 import { VocabularyStage } from './VocabularyStage';
 import { QuizEngine } from '../quiz/QuizEngine';
 import { ReadingStage } from '../reading/ReadingStage';
-import { ComprehensionStage } from '../reading/ComprehensionStage';
 import { CompletionStage } from './CompletionStage';
 import { progressEngine } from '../../engine/progress';
 import { useAppContext } from '../../store/AppContext';
 
-type Stage = 'vocabulary' | 'quiz' | 'reading' | 'comprehension' | 'completion';
+type Stage = 'vocabulary' | 'quiz' | 'reading' | 'completion';
 
 interface LessonFlowProps {
   lesson: Lesson;
@@ -23,19 +22,17 @@ export const LessonFlow: React.FC<LessonFlowProps> = ({ lesson, onExit }) => {
 
   const handleVocabComplete = () => setStage('quiz');
   
-  const handleQuizComplete = (vocabScore: number, max: number) => {
+  const handleQuizComplete = (vocabScore: number, max: number, quizMistakes?: Record<string, number>) => {
+    if (quizMistakes) {
+      setSessionMistakes(quizMistakes);
+    }
     setScore(s => ({ ...s, vocabQuiz: vocabScore, vocabQuizMax: max }));
     setStage('reading');
   };
 
-  const handleReadingComplete = () => setStage('comprehension');
-
-  const handleComprehensionComplete = (compScore: number, max: number) => {
-    const finalScore = { ...score, comprehension: compScore, comprehensionMax: max };
-    setScore(finalScore);
-    
+  const handleReadingComplete = () => {
     // Save progress
-    progressEngine.saveLessonScore(lesson.id, finalScore);
+    progressEngine.saveLessonScore(lesson.id, score);
     progressEngine.markLessonComplete(lesson.id);
     refreshProgress();
 
@@ -72,11 +69,8 @@ export const LessonFlow: React.FC<LessonFlowProps> = ({ lesson, onExit }) => {
         {stage === 'reading' && (
           <ReadingStage reading={lesson.reading} words={lesson.words} onComplete={handleReadingComplete} onBack={() => setStage('quiz')} />
         )}
-        {stage === 'comprehension' && (
-          <ComprehensionStage questions={lesson.reading.comprehensionQuestions} onComplete={handleComprehensionComplete} onBack={() => setStage('reading')} />
-        )}
         {stage === 'completion' && (
-          <CompletionStage lesson={lesson} score={score} onFinish={onExit} />
+          <CompletionStage lesson={lesson} score={score} onFinish={onExit} sessionMistakes={sessionMistakes} />
         )}
       </div>
     </div>

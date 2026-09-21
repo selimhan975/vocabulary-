@@ -3,6 +3,7 @@ import { Word } from '../../types';
 import { translationEngine } from '../../engine/translation';
 import { useAppContext } from '../../store/AppContext';
 import { motion, AnimatePresence } from 'motion/react';
+import { useQuizShortcuts } from '../../hooks/useQuizShortcuts';
 
 interface QuizMultipleChoiceProps {
   word: Word;
@@ -15,6 +16,8 @@ export const QuizMultipleChoice: React.FC<QuizMultipleChoiceProps> = ({ word, di
   const [options, setOptions] = useState<{ id: string, text: string, isCorrect: boolean }[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
+
+  useQuizShortcuts(options, (id, isCorrect) => handleSelect(id, isCorrect), !!selectedId);
 
   useEffect(() => {
     // Generate options: 1 correct meaning, 2 distractors

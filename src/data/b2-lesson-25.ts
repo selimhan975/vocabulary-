@@ -37,28 +37,28 @@ export const b2Lesson25: Lesson = {
     },
     {
       id: "w25-2",
-      word: "rational",
-      pronunciation: "/ˈræʃ.ən.əl/",
-      partOfSpeech: "adj",
+      word: "subconscious",
+      pronunciation: "/ˌsʌbˈkɒn.ʃəs/",
+      partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["logical", "reasonable", "sensible"],
-      collocations: ["rational decision", "rational explanation"],
-      translations: { ru: "рациональный", zh: "理性的", es: "racional", fr: "rationnel", de: "rational", tr: "akılcı", ja: "合理的な" },
+      synonyms: ["unconscious mind","inner thoughts"],
+      collocations: ["subconscious mind","subconscious fears"],
+      translations: {"ru":"подсознание","zh":"潜意识","es":"subconsciente","fr":"subconscient","de":"Unterbewusstsein","tr":"bilinçaltı","ja":"潜在意識"},
       meanings: [
         {
           id: "w25-2-m1",
-          definition: "based on clear thought and reason rather than on emotions",
-          translation: { ru: "основанный на ясном мышлении и разуме, а не на эмоциях", zh: "基于清晰的思考和理性而不是情感", es: "basado en el pensamiento claro y la razón en lugar de en las emociones" },
+          definition: "the part of your mind that notices and remembers information when you are not actively trying to do so",
+          translation: {"ru":"часть вашего разума, которая замечает и запоминает информацию, когда вы не пытаетесь делать это активно","zh":"大脑中在你没有主动尝试时注意到并记住信息的部分","es":"la parte de tu mente que nota y recuerda información cuando no estás tratando activamente de hacerlo"},
           examples: [
             {
               id: "w25-2-m1-e1",
-              sentence: "When making a major financial investment, it is important to remain completely rational.",
-              translation: { ru: "При осуществлении крупных финансовых вложений важно оставаться полностью рациональным.", zh: "在进行重大财务投资时，保持完全理性非常重要。", es: "Al realizar una inversión financiera importante, es importante mantenerse completamente racional.", fr: "Lors d'un investissement financier majeur, il est important de rester totalement rationnel.", de: "Wenn man eine größere finanzielle Investition tätigt, ist es wichtig, völlig rational zu bleiben.", tr: "Büyük bir finansal yatırım yaparken tamamen mantıklı kalmak önemlidir.", ja: "大規模な金融投資を行う場合、完全に合理的であり続けることが重要です。" }
+              sentence: "The painful memory was buried deep in her subconscious.",
+              translation: {"ru":"Болезненное воспоминание было глубоко запрятано в ее подсознании.","zh":"痛苦的记忆深埋在她的潜意识里。","es":"El doloroso recuerdo estaba enterrado en lo más profundo de su subconsciente.","fr":"Le souvenir douloureux était enfoui au plus profond de son subconscient.","de":"Die schmerzhafte Erinnerung war tief in ihrem Unterbewusstsein vergraben.","tr":"Acı verici anı, bilinçaltının derinliklerine gömülmüştü.","ja":"その辛い記憶は彼女の潜在意識の奥深くに埋もれていた。"}
             },
             {
               id: "w25-2-m1-e2",
-              sentence: "There must be a rational explanation for why the experimental results suddenly changed.",
-              translation: { ru: "Должно быть рациональное объяснение тому, почему результаты эксперимента внезапно изменились.", zh: "实验结果突然改变一定有理性的解释。", es: "Debe haber una explicación racional de por qué los resultados experimentales cambiaron de repente.", fr: "Il doit y avoir une explication rationnelle à la raison pour laquelle les résultats expérimentaux ont soudainement changé.", de: "Es muss eine rationale Erklärung dafür geben, warum sich die experimentellen Ergebnisse plötzlich geändert haben.", tr: "Deneysel sonuçların aniden neden değiştiğinin mantıklı bir açıklaması olmalı.", ja: "実験結果が突然変わったことには、合理的な説明があるはずです。" }
+              sentence: "Our subconscious often processes information while we sleep.",
+              translation: {"ru":"Наше подсознание часто обрабатывает информацию, пока мы спим.","zh":"我们的潜意识经常在我们睡觉时处理信息。","es":"Nuestro subconsciente a menudo procesa información mientras dormimos.","fr":"Notre subconscient traite souvent des informations pendant notre sommeil.","de":"Unser Unterbewusstsein verarbeitet oft Informationen, während wir schlafen.","tr":"Bilinçaltımız genellikle biz uyurken bilgileri işler.","ja":"私たちの潜在意識は、眠っている間に情報を処理することがよくあります。"}
             }
           ]
         }
@@ -66,28 +66,28 @@ export const b2Lesson25: Lesson = {
     },
     {
       id: "w25-3",
-      word: "empathy",
-      pronunciation: "/ˈem.pə.θi/",
-      partOfSpeech: "noun",
+      word: "comprehend",
+      pronunciation: "/ˌkɒm.prɪˈhend/",
+      partOfSpeech: "verb",
       level: "B2",
-      synonyms: ["compassion", "understanding", "sympathy"],
-      collocations: ["feel empathy", "show empathy"],
-      translations: { ru: "эмпатия / сочувствие", zh: "共鸣 / 同理心", es: "empatía", fr: "empathie", de: "Empathie", tr: "empati", ja: "共感" },
+      synonyms: ["understand","grasp","perceive"],
+      collocations: ["fully comprehend","difficult to comprehend"],
+      translations: {"ru":"постигать / понимать","zh":"理解","es":"comprender","fr":"comprendre","de":"begreifen","tr":"idrak etmek / anlamak","ja":"理解する"},
       meanings: [
         {
           id: "w25-3-m1",
-          definition: "the ability to share someone else's feelings or experiences by imagining what it would be like to be in their situation",
-          translation: { ru: "способность разделять чьи-то чувства или переживания, представляя, каково было бы оказаться в его ситуации", zh: "通过想象设身处地来分享他人的感受或经历的能力", es: "la capacidad de compartir los sentimientos o experiencias de otra persona imaginando cómo sería estar en su situación" },
+          definition: "to understand something completely",
+          translation: {"ru":"понять что-то полностью","zh":"完全理解某事","es":"entender algo completamente"},
           examples: [
             {
               id: "w25-3-m1-e1",
-              sentence: "Having empathy allows leaders to connect with their teams and understand their daily struggles.",
-              translation: { ru: "Наличие эмпатии позволяет лидерам находить общий язык со своими командами и понимать их повседневные трудности.", zh: "拥有同理心使领导者能够与团队建立联系并了解他们的日常困境。", es: "Tener empatía permite a los líderes conectar con sus equipos y comprender sus luchas diarias.", fr: "Faire preuve d'empathie permet aux dirigeants de se connecter avec leurs équipes et de comprendre leurs luttes quotidiennes.", de: "Empathie ermöglicht es Führungskräften, sich mit ihren Teams zu verbinden und ihre täglichen Kämpfe zu verstehen.", tr: "Empati kurabilmek, liderlerin ekipleriyle bağ kurmalarını ve günlük zorluklarını anlamalarını sağlar.", ja: "共感を持つことで、リーダーはチームとつながり、彼らの日常的な苦労を理解することができます。" }
+              sentence: "It took me a while to fully comprehend the scale of the problem.",
+              translation: {"ru":"Мне потребовалось некоторое время, чтобы полностью осознать масштаб проблемы.","zh":"我花了一段时间才完全理解问题的严重程度。","es":"Me tomó un tiempo comprender completamente la escala del problema.","fr":"Il m'a fallu un certain temps pour bien comprendre l'ampleur du problème.","de":"Ich brauchte eine Weile, um das Ausmaß des Problems vollständig zu begreifen.","tr":"Sorunun boyutunu tam olarak anlamam biraz zaman aldı.","ja":"問題の規模を完全に理解するのに少し時間がかかりました。"}
             },
             {
               id: "w25-3-m1-e2",
-              sentence: "The nurse showed great empathy while listening to the worried patient in the hospital.",
-              translation: { ru: "Медсестра проявила большую эмпатию, слушая обеспокоенного пациента в больнице.", zh: "护士在医院倾听焦虑的病人时表现出了极大的同理心。", es: "La enfermera mostró gran empatía mientras escuchaba al preocupado paciente en el hospital.", fr: "L'infirmière a fait preuve d'une grande empathie en écoutant le patient inquiet à l'hôpital.", de: "Die Krankenschwester zeigte großes Einfühlungsvermögen, als sie dem besorgten Patienten im Krankenhaus zuhörte.", tr: "Hemşire hastanede endişeli hastayı dinlerken büyük bir empati gösterdi.", ja: "看護師は病院で心配している患者の話を聞いている間、大きな共感を示しました。" }
+              sentence: "The instructions were too complex for anyone to comprehend easily.",
+              translation: {"ru":"Инструкции были слишком сложными, чтобы кто-либо мог их легко понять.","zh":"说明太复杂了，任何人都很难轻易理解。","es":"Las instrucciones eran demasiado complejas para que alguien las comprendiera fácilmente.","fr":"Les instructions étaient trop complexes pour que quiconque puisse les comprendre facilement.","de":"Die Anweisungen waren zu komplex, als dass sie jemand leicht hätte begreifen können.","tr":"Talimatlar herkesin kolayca anlayamayacağı kadar karmaşıktı.","ja":"指示が複雑すぎて、誰も簡単には理解できませんでした。"}
             }
           ]
         }
@@ -95,28 +95,28 @@ export const b2Lesson25: Lesson = {
     },
     {
       id: "w25-4",
-      word: "bias",
-      pronunciation: "/ˈbaɪ.əs/",
-      partOfSpeech: "noun",
+      word: "obsess",
+      pronunciation: "/əbˈses/",
+      partOfSpeech: "verb",
       level: "B2",
-      synonyms: ["prejudice", "favoritism", "partiality"],
-      collocations: ["unconscious bias", "media bias"],
-      translations: { ru: "предвзятость", zh: "偏见", es: "sesgo", fr: "biais", de: "Voreingenommenheit", tr: "ön yargı", ja: "偏見 / バイアス" },
+      synonyms: ["fixate","preoccupy"],
+      collocations: ["obsess about","obsess over"],
+      translations: {"ru":"зацикливаться / быть одержимым","zh":"沉迷 / 痴迷","es":"obsesionar","fr":"obséder","de":"besessen sein","tr":"takıntı yapmak","ja":"執着する"},
       meanings: [
         {
           id: "w25-4-m1",
-          definition: "the action of supporting or opposing a particular person or thing in an unfair way, because of allowing personal opinions to influence your judgment",
-          translation: { ru: "действие по поддержке или противодействию определенному человеку или вещи несправедливым образом из-за того, что личные мнения влияют на ваше суждение", zh: "以不公平的方式支持或反对特定的人或事物的行为，因为允许个人意见影响你的判断", es: "la acción de apoyar u oponerse a una persona o cosa en particular de manera injusta, debido a que permite que las opiniones personales influyan en su juicio" },
+          definition: "to think about something or someone all the time, in a way that is not normal",
+          translation: {"ru":"постоянно думать о чем-то или о ком-то в ненормальной степени","zh":"一直想着某事或某人，以一种不正常的方式","es":"pensar en algo o alguien todo el tiempo, de una manera que no es normal"},
           examples: [
             {
               id: "w25-4-m1-e1",
-              sentence: "The manager tried to remove his unconscious bias before selecting the best candidate for the job.",
-              translation: { ru: "Менеджер попытался избавиться от своей бессознательной предвзятости перед выбором лучшего кандидата на эту работу.", zh: "经理试图在为这项工作选择最佳候选人之前消除自己的潜意识偏见。", es: "El gerente trató de eliminar su sesgo inconsciente antes de seleccionar al mejor candidato para el trabajo.", fr: "Le directeur a essayé de supprimer ses biais inconscients avant de sélectionner le meilleur candidat pour le poste.", de: "Der Manager versuchte, seine unbewusste Voreingenommenheit abzulegen, bevor er den besten Kandidaten für die Stelle auswählte.", tr: "Yönetici iş için en iyi adayı seçmeden önce bilinçsiz ön yargısını ortadan kaldırmaya çalıştı.", ja: "マネージャーは、その仕事に最適な候補者を選ぶ前に、無意識のバイアスを取り除こうとしました。" }
+              sentence: "She used to obsess about her weight constantly.",
+              translation: {"ru":"Раньше она постоянно зацикливалась на своем весе.","zh":"她过去总是不断地为自己的体重感到苦恼。","es":"Solía obsesionarse con su peso constantemente.","fr":"Elle avait l'habitude d'être constamment obsédée par son poids.","de":"Früher war sie ständig von ihrem Gewicht besessen.","tr":"Eskiden kilosu hakkında sürekli takıntı yapardı.","ja":"彼女は以前、常に自分の体重を気に病んでいた。"}
             },
             {
               id: "w25-4-m1-e2",
-              sentence: "Many readers complained about the political bias found in the newspaper's recent articles.",
-              translation: { ru: "Многие читатели жаловались на политическую предвзятость, обнаруженную в недавних статьях газеты.", zh: "许多读者抱怨该报近期文章中存在的政治偏见。", es: "Muchos lectores se quejaron del sesgo político encontrado en los artículos recientes del periódico.", fr: "De nombreux lecteurs se sont plaints du biais politique trouvé dans les articles récents du journal.", de: "Viele Leser beschwerten sich über die politische Voreingenommenheit in den jüngsten Artikeln der Zeitung.", tr: "Pek çok okuyucu, gazetenin son makalelerinde bulunan siyasi ön yargıdan şikayet etti.", ja: "多くの読者が、新聞の最近の記事に見られる政治的偏見について苦情を言いました。" }
+              sentence: "It's not healthy to obsess over every little mistake you make.",
+              translation: {"ru":"Не здорово зацикливаться на каждой маленькой ошибке, которую вы делаете.","zh":"执着于你犯的每一个小错误是不健康的。","es":"No es saludable obsesionarse con cada pequeño error que cometes.","fr":"Il n'est pas sain de s'obséder pour chaque petite erreur que l'on commet.","de":"Es ist nicht gesund, wegen jedes kleinen Fehlers besessen zu sein.","tr":"Yaptığınız her küçük hata üzerinde takıntı yapmak sağlıklı değildir.","ja":"自分の犯した小さな失敗に執着するのは健康的ではありません。"}
             }
           ]
         }
@@ -182,28 +182,28 @@ export const b2Lesson25: Lesson = {
     },
     {
       id: "w25-7",
-      word: "cognitive",
-      pronunciation: "/ˈkɒɡ.nə.tɪv/",
-      partOfSpeech: "adj",
+      word: "psychology",
+      pronunciation: "/saɪˈkɒl.ə.dʒi/",
+      partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["intellectual", "mental", "reasoning"],
-      collocations: ["cognitive development", "cognitive skills"],
-      translations: { ru: "когнитивный / познавательный", zh: "认知的", es: "cognitivo", fr: "cognitif", de: "kognitiv", tr: "bilişsel", ja: "認知の" },
+      synonyms: ["behavioral science"],
+      collocations: ["child psychology","study psychology"],
+      translations: {"ru":"психология","zh":"心理学","es":"psicología","fr":"psychologie","de":"Psychologie","tr":"psikoloji","ja":"心理学"},
       meanings: [
         {
           id: "w25-7-m1",
-          definition: "connected with thinking or conscious mental processes",
-          translation: { ru: "связанный с мышлением или сознательными умственными процессами", zh: "与思考或有意识的心理过程有关", es: "conectado con el pensamiento o los procesos mentales conscientes" },
+          definition: "the scientific study of the way the human mind works and how it influences behaviour",
+          translation: {"ru":"научное изучение того, как работает человеческий разум и как он влияет на поведение","zh":"对人类心理运作方式及其如何影响行为的科学研究","es":"el estudio científico de la forma en que funciona la mente humana y cómo influye en el comportamiento"},
           examples: [
             {
               id: "w25-7-m1-e1",
-              sentence: "Regularly playing chess or solving puzzles can significantly improve a child's cognitive development.",
-              translation: { ru: "Регулярная игра в шахматы или решение головоломок могут значительно улучшить когнитивное развитие ребенка.", zh: "经常下国际象棋或解谜可以显着改善儿童的认知发展。", es: "Jugar al ajedrez regularmente o resolver acertijos puede mejorar significativamente el desarrollo cognitivo de un niño.", fr: "Jouer régulièrement aux échecs ou résoudre des énigmes peut améliorer considérablement le développement cognitif d'un enfant.", de: "Regelmäßiges Schachspielen oder das Lösen von Rätseln kann die kognitive Entwicklung eines Kindes deutlich verbessern.", tr: "Düzenli olarak satranç oynamak veya bulmaca çözmek, bir çocuğun bilişsel gelişimini önemli ölçüde artırabilir.", ja: "定期的にチェスをしたりパズルを解いたりすることで、子どもの認知発達を大幅に改善することができます。" }
+              sentence: "She decided to study psychology at the university.",
+              translation: {"ru":"Она решила изучать психологию в университете.","zh":"她决定在大学学习心理学。","es":"Decidió estudiar psicología en la universidad.","fr":"Elle a décidé d'étudier la psychologie à l'université.","de":"Sie beschloss, Psychologie an der Universität zu studieren.","tr":"Üniversitede psikoloji okumaya karar verdi.","ja":"彼女は大学で心理学を学ぶことに決めました。"}
             },
             {
               id: "w25-7-m1-e2",
-              sentence: "As people grow older, they often experience a gradual decline in certain cognitive abilities.",
-              translation: { ru: "С возрастом люди часто испытывают постепенное снижение определенных когнитивных способностей.", zh: "随着年龄的增长，人们往往会经历某些认知能力的逐渐下降。", es: "A medida que las personas envejecen, a menudo experimentan una disminución gradual en ciertas habilidades cognitivas.", fr: "À mesure que les gens vieillissent, ils connaissent souvent un déclin progressif de certaines capacités cognitives.", de: "Wenn Menschen älter werden, erleben sie oft eine allmähliche Abnahme bestimmter kognitiver Fähigkeiten.", tr: "İnsanlar yaşlandıkça, genellikle belirli bilişsel yeteneklerde kademeli bir düşüş yaşarlar.", ja: "人は年齢を重ねるにつれて、特定の認知能力の緩やかな低下を経験することがよくあります。" }
+              sentence: "You have to use a little reverse psychology when dealing with stubborn teenagers.",
+              translation: {"ru":"Вам нужно использовать немного реверсивной психологии при общении с упрямыми подростками.","zh":"在对待固执的青少年时，你必须使用一点逆反心理学。","es":"Tienes que usar un poco de psicología inversa cuando tratas con adolescentes tercos.","fr":"Il faut faire preuve d'un peu de psychologie inversée pour gérer des adolescents têtus.","de":"Bei sturen Teenagern muss man ein wenig umgekehrte Psychologie anwenden.","tr":"İnatçı gençlerle uğraşırken biraz ters psikoloji kullanmalısınız.","ja":"頑固な10代の若者を扱うときは、逆の心理学を少し使う必要があります。"}
             }
           ]
         }
@@ -269,34 +269,35 @@ export const b2Lesson25: Lesson = {
     },
     {
       id: "w25-10",
-      word: "instinct",
-      pronunciation: "/ˈɪn.stɪŋkt/",
+      word: "delusion",
+      pronunciation: "/dɪˈluː.ʒən/",
       partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["urge", "impulse", "nature"],
-      collocations: ["survival instinct", "natural instinct"],
-      translations: { ru: "инстинкт", zh: "本能", es: "instinto", fr: "instinct", de: "Instinkt", tr: "içgüdü", ja: "本能" },
+      synonyms: ["illusion","misconception","fantasy"],
+      collocations: ["under a delusion","suffer from delusions"],
+      translations: {"ru":"заблуждение / бред","zh":"错觉 / 妄想","es":"delirio / engaño","fr":"illusion / délire","de":"Wahn / Täuschung","tr":"sanrı / kuruntu","ja":"妄想 / 錯覚"},
       meanings: [
         {
           id: "w25-10-m1",
-          definition: "the way people or animals naturally react or behave, without having to think or learn about it",
-          translation: { ru: "способ естественного реагирования или поведения людей или животных без необходимости думать или узнавать об этом", zh: "人或动物自然反应或行为的方式，无需思考或学习", es: "la forma en que las personas o los animales reaccionan o se comportan naturalmente, sin tener que pensar o aprender al respecto" },
+          definition: "belief in something that is not true",
+          translation: {"ru":"вера в то, что не является правдой","zh":"相信不真实的事物","es":"creencia en algo que no es verdad"},
           examples: [
             {
               id: "w25-10-m1-e1",
-              sentence: "When she heard the sudden loud noise, her first instinct was to run towards the nearest exit.",
-              translation: { ru: "Когда она услышала внезапный громкий шум, ее первым инстинктом было бежать к ближайшему выходу.", zh: "当她听到突如其来的巨响时，她的第一本能是跑向最近的出口。", es: "Cuando escuchó el repentino ruido fuerte, su primer instinto fue correr hacia la salida más cercana.", fr: "Lorsqu'elle a entendu ce bruit fort et soudain, son premier instinct a été de courir vers la sortie la plus proche.", de: "Als sie das plötzliche laute Geräusch hörte, war ihr erster Instinkt, zum nächsten Ausgang zu rennen.", tr: "Aniden gelen yüksek sesi duyduğunda, ilk içgüdüsü en yakın çıkışa doğru koşmaktı.", ja: "突然の大きな音を聞いたとき、彼女の最初の本能は最も近い出口に向かって走ることでした。" }
+              sentence: "He is under the delusion that he will be promoted to manager this year.",
+              translation: {"ru":"Он пребывает в заблуждении, что в этом году его повысят до менеджера.","zh":"他有一种错觉，认为今年自己会被提拔为经理。","es":"Tiene la ilusión de que será ascendido a gerente este año.","fr":"Il se fait l'illusion qu'il sera promu directeur cette année.","de":"Er lebt in dem Wahn, dass er dieses Jahr zum Manager befördert wird.","tr":"Bu yıl yönetici olarak terfi ettirileceği yanılgısı içinde.","ja":"彼は今年マネージャーに昇進するという錯覚に陥っています。"}
             },
             {
               id: "w25-10-m1-e2",
-              sentence: "Animals rely entirely on their survival instinct to find food and escape dangerous predators.",
-              translation: { ru: "Животные полностью полагаются на свой инстинкт выживания, чтобы находить пищу и спасаться от опасных хищников.", zh: "动物完全依靠其生存本能来寻找食物并躲避危险的捕食者。", es: "Los animales confían completamente en su instinto de supervivencia para encontrar comida y escapar de depredadores peligrosos.", fr: "Les animaux comptent entièrement sur leur instinct de survie pour trouver de la nourriture et échapper aux dangereux prédateurs.", de: "Tiere verlassen sich ganz auf ihren Überlebensinstinkt, um Nahrung zu finden und gefährlichen Raubtieren zu entkommen.", tr: "Hayvanlar yiyecek bulmak ve tehlikeli yırtıcılardan kaçmak için tamamen hayatta kalma içgüdülerine güvenirler.", ja: "動物は食べ物を見つけ、危険な捕食者から逃れるために、生存本能に完全に依存しています。" }
+              sentence: "The patient suffered from severe paranoid delusions.",
+              translation: {"ru":"Пациент страдал тяжелым параноидальным бредом.","zh":"该患者患有严重的偏执性妄想。","es":"El paciente sufría delirios paranoicos severos.","fr":"Le patient souffrait de graves délires paranoïaques.","de":"Der Patient litt unter schweren paranoiden Wahnvorstellungen.","tr":"Hasta şiddetli paranoid sanrılardan muzdaripti.","ja":"患者は重度のパラノイア妄想に苦しんでいた。"}
             }
           ]
         }
       ]
     }
   ],
+
   reading: {
     id: "r25",
     title: "Understanding the Inner World",

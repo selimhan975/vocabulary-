@@ -81,7 +81,9 @@ export class TranslationEngine {
     
     // 2. Add global dictionary words
     for (const key of Object.keys(globalDictionary)) {
-      addEntry(key, globalDictionary[key]);
+      if (!this.exactMap!.has(cleanToken(key))) {
+        addEntry(key, globalDictionary[key]);
+      }
     }
   }
 

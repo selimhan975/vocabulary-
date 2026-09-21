@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Word, Example } from '../../types';
 import { motion, AnimatePresence } from 'motion/react';
 import { translationEngine } from '../../engine/translation';
+import { useQuizShortcuts } from '../../hooks/useQuizShortcuts';
 
 interface QuizContextProps {
   word: Word;
@@ -15,6 +16,8 @@ export const QuizContext: React.FC<QuizContextProps> = ({ word, distractors, onA
   const [sentenceParts, setSentenceParts] = useState<{ before: string, after: string }>({ before: '', after: '' });
   const [showFeedback, setShowFeedback] = useState(false);
   const [exampleSentence, setExampleSentence] = useState('');
+
+  useQuizShortcuts(options, (id, isCorrect) => handleSelect(id, isCorrect), !!selectedId);
 
   useEffect(() => {
     // Find an example sentence for this word

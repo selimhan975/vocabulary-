@@ -152,29 +152,29 @@ export const b2Lesson26: Lesson = {
       ]
     },
     {
-      id: "w26-6",
-      word: "evacuate",
-      pronunciation: "/ɪˈvæk.ju.eɪt/",
-      partOfSpeech: "verb",
+      id: "w26-2",
+      word: "landslide",
+      pronunciation: "/ˈlænd.slaɪd/",
+      partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["leave", "clear", "abandon"],
-      collocations: ["evacuate the building", "order to evacuate"],
-      translations: { ru: "эвакуировать", zh: "疏散 / 撤离", es: "evacuar", fr: "évacuer", de: "evakuieren", tr: "tahliye etmek", ja: "避難する" },
+      synonyms: ["rockfall","mudslide"],
+      collocations: ["cause a landslide","a massive landslide"],
+      translations: {"ru":"оползень","zh":"山体滑坡","es":"deslizamiento de tierra","fr":"glissement de terrain","de":"Erdrutsch","tr":"heyelan / toprak kayması","ja":"地滑り"},
       meanings: [
         {
-          id: "w26-6-m1",
-          definition: "to move people from a dangerous place to somewhere safe",
-          translation: { ru: "переместить людей из опасного места в безопасное", zh: "将人员从危险的地方转移到安全的地方", es: "mover a las personas de un lugar peligroso a un lugar seguro" },
+          id: "w26-2-m1",
+          definition: "a mass of rock and earth moving suddenly and quickly down a steep slope",
+          translation: {"ru":"масса скальных пород и земли, внезапно и быстро движущаяся вниз по крутому склону","zh":"突然快速地沿着陡坡滑下的大量岩石和泥土","es":"una masa de roca y tierra que se mueve repentina y rápidamente por una pendiente pronunciada"},
           examples: [
             {
-              id: "w26-6-m1-e1",
-              sentence: "The local government ordered everyone to evacuate the coastal town before the tsunami arrived.",
-              translation: { ru: "Местное правительство приказало всем эвакуироваться из прибрежного городка до того, как придет цунами.", zh: "当地政府下令所有人海啸到来前撤离这座沿海小镇。", es: "El gobierno local ordenó a todos evacuar la ciudad costera antes de que llegara el tsunami.", fr: "Le gouvernement local a ordonné à tout le monde d'évacuer la ville côtière avant l'arrivée du tsunami.", de: "Die Lokalregierung befahl allen, die Küstenstadt zu evakuieren, bevor der Tsunami eintraf.", tr: "Yerel yönetim tsunami gelmeden önce herkesin sahil kasabasını tahliye etmesini emretti.", ja: "地元政府は津波が到達する前に、全員に沿岸の町から避難するよう命じました。" }
+              id: "w26-2-m1-e1",
+              sentence: "Heavy rain caused a massive landslide that blocked the main road.",
+              translation: {"ru":"Сильный дождь вызвал массивный оползень, который перекрыл главную дорогу.","zh":"暴雨引发了大规模的山体滑坡，封锁了主要道路。","es":"Las fuertes lluvias provocaron un deslizamiento de tierra masivo que bloqueó la carretera principal.","fr":"De fortes pluies ont provoqué un énorme glissement de terrain qui a bloqué la route principale.","de":"Starker Regen verursachte einen massiven Erdrutsch, der die Hauptstraße blockierte.","tr":"Şiddetli yağmur, ana yolu kapatan devasa bir heyelana neden oldu.","ja":"大雨により大規模な地滑りが発生し、幹線道路が塞がれた。"}
             },
             {
-              id: "w26-6-m1-e2",
-              sentence: "When the fire alarm rang, the teachers helped to quickly evacuate all the students from the school.",
-              translation: { ru: "Когда прозвенела пожарная тревога, учителя помогли быстро эвакуировать всех учеников из школы.", zh: "当火灾警报响起时，老师们协助迅速将所有学生撤离学校。", es: "Cuando sonó la alarma de incendio, los maestros ayudaron a evacuar rápidamente a todos los estudiantes de la escuela.", fr: "Lorsque l'alarme incendie a retenti, les enseignants ont aidé à évacuer rapidement tous les élèves de l'école.", de: "Als der Feueralarm ertönte, halfen die Lehrer dabei, alle Schüler schnell aus der Schule zu evakuieren.", tr: "Yangın alarmı çaldığında öğretmenler tüm öğrencilerin okuldan hızla tahliye edilmesine yardımcı oldular.", ja: "火災報知器が鳴ったとき、教師たちはすべての生徒を学校から迅速に避難させるのを手伝いました。" }
+              id: "w26-2-m1-e2",
+              sentence: "Several houses on the hill were completely destroyed by the landslide.",
+              translation: {"ru":"Несколько домов на холме были полностью разрушены оползнем.","zh":"山上的几栋房屋被山体滑坡完全摧毁。","es":"Varias casas en la colina fueron completamente destruidas por el deslizamiento de tierra.","fr":"Plusieurs maisons sur la colline ont été complètement détruites par le glissement de terrain.","de":"Mehrere Häuser auf dem Hügel wurden durch den Erdrutsch völlig zerstört.","tr":"Tepedeki birkaç ev heyelan nedeniyle tamamen yıkıldı.","ja":"丘の上にある数軒の家が地滑りによって完全に破壊された。"}
             }
           ]
         }
@@ -182,57 +182,57 @@ export const b2Lesson26: Lesson = {
     },
     {
       id: "w26-7",
-      word: "shelter",
-      pronunciation: "/ˈʃel.tər/",
+      word: "blizzard",
+      pronunciation: "/ˈblɪz.əd/",
       partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["refuge", "sanctuary", "protection"],
-      collocations: ["take shelter", "emergency shelter"],
-      translations: { ru: "укрытие / приют", zh: "避难所", es: "refugio", fr: "abri", de: "Zuflucht / Unterkunft", tr: "barınak", ja: "避難所" },
+      synonyms: ["snowstorm"],
+      collocations: ["a severe blizzard","caught in a blizzard"],
+      translations: {"ru":"метель / буран","zh":"暴风雪","es":"tormenta de nieve / ventisca","fr":"blizzard / tempête de neige","de":"Schneesturm","tr":"tipi / kar fırtınası","ja":"吹雪"},
       meanings: [
         {
           id: "w26-7-m1",
-          definition: "(a building designed to give) protection from bad weather, danger, or attack",
-          translation: { ru: "(здание, предназначенное для) защиты от плохой погоды, опасности или нападения", zh: "（旨在提供）躲避恶劣天气、危险或袭击的建筑物", es: "(un edificio diseñado para brindar) protección contra el mal tiempo, el peligro o los ataques" },
+          definition: "a severe snow storm with strong winds",
+          translation: {"ru":"сильная снежная буря с сильными ветрами","zh":"伴有强风的严重暴风雪","es":"una tormenta de nieve severa con vientos fuertes"},
           examples: [
             {
               id: "w26-7-m1-e1",
-              sentence: "During the heavy rainstorm, we had to take shelter under a large bridge.",
-              translation: { ru: "Во время сильного ливня нам пришлось укрыться под большим мостом.", zh: "在暴雨期间，我们不得不在一座大桥下避雨。", es: "Durante la fuerte tormenta, tuvimos que refugiarnos debajo de un gran puente.", fr: "Pendant la forte tempête de pluie, nous avons dû nous abriter sous un grand pont.", de: "Während des starken Regensturms mussten wir unter einer großen Brücke Schutz suchen.", tr: "Şiddetli yağmur fırtınası sırasında büyük bir köprünün altına sığınmak zorunda kaldık.", ja: "激しい暴風雨の間、私たちは大きな橋の下に避難しなければなりませんでした。" }
+              sentence: "We once got stuck in our cabin during a blizzard for three days.",
+              translation: {"ru":"Однажды мы на три дня застряли в нашей хижине во время метели.","zh":"有一次，我们在暴风雪中被困在小屋里三天。","es":"Una vez nos quedamos atrapados en nuestra cabaña durante una ventisca durante tres días.","fr":"Nous sommes restés coincés dans notre cabane pendant un blizzard durant trois jours.","de":"Wir saßen einmal während eines Schneesturms drei Tage in unserer Hütte fest.","tr":"Bir keresinde tipi sırasında kulübemizde üç gün mahsur kalmıştık.","ja":"吹雪の間、私たちは小屋に3日間閉じ込められたことがあります。"}
             },
             {
               id: "w26-7-m1-e2",
-              sentence: "The community set up an emergency shelter in the local gym for people who lost their homes.",
-              translation: { ru: "Община организовала временный приют в местном спортзале для людей, потерявших свои дома.", zh: "社区在当地体育馆为失去家园的人们设立了紧急避难所。", es: "La comunidad instaló un refugio de emergencia en el gimnasio local para las personas que perdieron sus hogares.", fr: "La communauté a mis en place un abri d'urgence dans le gymnase local pour les personnes qui ont perdu leur maison.", de: "Die Gemeinde richtete in der örtlichen Turnhalle eine Notunterkunft für Menschen ein, die ihre Häuser verloren hatten.", tr: "Topluluk, evlerini kaybeden insanlar için yerel spor salonunda acil bir barınak kurdu.", ja: "地域社会は家を失った人々のために地元の体育館に緊急避難所を設置しました。" }
+              sentence: "The blizzard conditions made driving extremely dangerous across the state.",
+              translation: {"ru":"Условия метели сделали вождение крайне опасным по всему штату.","zh":"暴风雪的情况使得整个州的驾驶极其危险。","es":"Las condiciones de ventisca hicieron que conducir fuera extremadamente peligroso en todo el estado.","fr":"Les conditions de blizzard ont rendu la conduite extrêmement dangereuse dans tout l'État.","de":"Die Schneesturmbedingungen machten das Fahren im ganzen Staat extrem gefährlich.","tr":"Tipi koşulları eyalet genelinde araç kullanmayı son derece tehlikeli hale getirdi.","ja":"吹雪のため、州内での車の運転は非常に危険になりました。"}
             }
           ]
         }
       ]
     },
     {
-      id: "w26-8",
-      word: "devastate",
-      pronunciation: "/ˈdev.ə.steɪt/",
-      partOfSpeech: "verb",
+      id: "w26-4",
+      word: "tornado",
+      pronunciation: "/tɔːˈneɪ.dəʊ/",
+      partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["destroy", "ruin", "wreck"],
-      collocations: ["completely devastate", "devastate a region"],
-      translations: { ru: "опустошать / разорять", zh: "毁坏", es: "devastar", fr: "dévaster", de: "verwüsten", tr: "harap etmek / yıkmak", ja: "荒廃させる" },
+      synonyms: ["twister","cyclone"],
+      collocations: ["a massive tornado","struck by a tornado"],
+      translations: {"ru":"торнадо / смерч","zh":"龙卷风","es":"tornado","fr":"tornade","de":"Tornado / Wirbelsturm","tr":"hortum","ja":"竜巻"},
       meanings: [
         {
-          id: "w26-8-m1",
-          definition: "to destroy a place or thing completely or cause great damage",
-          translation: { ru: "полностью разрушить место или вещь или нанести огромный ущерб", zh: "彻底摧毁一个地方或事物，或造成巨大破坏", es: "destruir un lugar o cosa por completo o causar un gran daño" },
+          id: "w26-4-m1",
+          definition: "a strong, dangerous wind that forms itself into an upside-down spinning cone and destroys buildings",
+          translation: {"ru":"сильный, опасный ветер, который образует перевернутый вращающийся конус и разрушает здания","zh":"一种形成倒置旋转锥体并破坏建筑物的强劲、危险的风","es":"un viento fuerte y peligroso que se forma en un cono giratorio invertido y destruye edificios"},
           examples: [
             {
-              id: "w26-8-m1-e1",
-              sentence: "The powerful bomb explosion completely devastated the historical center of the city.",
-              translation: { ru: "Мощный взрыв бомбы полностью опустошил исторический центр города.", zh: "巨大的炸弹爆炸彻底摧毁了这座城市的历史中心。", es: "La poderosa explosión de la bomba devastó por completo el centro histórico de la ciudad.", fr: "La puissante explosion de la bombe a complètement dévasté le centre historique de la ville.", de: "Die gewaltige Bombenexplosion verwüstete das historische Zentrum der Stadt völlig.", tr: "Güçlü bomba patlaması şehrin tarihi merkezini tamamen harap etti.", ja: "強力な爆弾の爆発により、都市の歴史的中心部は完全に破壊されました。" }
+              id: "w26-4-m1-e1",
+              sentence: "The tornado ripped the roof off the local school.",
+              translation: {"ru":"Торнадо сорвал крышу с местной школы.","zh":"龙卷风掀翻了当地学校的屋顶。","es":"El tornado arrancó el techo de la escuela local.","fr":"La tornade a arraché le toit de l'école locale.","de":"Der Tornado riss das Dach der örtlichen Schule ab.","tr":"Hortum yerel okulun çatısını uçurdu.","ja":"竜巻が地元の学校の屋根を吹き飛ばした。"}
             },
             {
-              id: "w26-8-m1-e2",
-              sentence: "If the forest fire spreads, it will devastate the natural habitat of many rare animals.",
-              translation: { ru: "Если лесной пожар распространится, он разорит естественную среду обитания многих редких животных.", zh: "如果森林大火蔓延，将会破坏许多珍稀动物的自然栖息地。", es: "Si el incendio forestal se propaga, devastará el hábitat natural de muchos animales raros.", fr: "Si le feu de forêt se propage, il dévastera l'habitat naturel de nombreux animaux rares.", de: "Wenn sich der Waldbrand ausbreitet, wird er den natürlichen Lebensraum vieler seltener Tiere zerstören.", tr: "Orman yangını yayılırsa, birçok nadir hayvanın doğal yaşam alanını yok edecektir.", ja: "山火事が広がれば、多くの希少動物の自然生息地を破壊することになります。" }
+              id: "w26-4-m1-e2",
+              sentence: "Tornado warnings were issued for the entire county as the dark clouds gathered.",
+              translation: {"ru":"По всему округу были выпущены предупреждения о торнадо, когда сгустились темные тучи.","zh":"随着乌云密布，整个县都发布了龙卷风警告。","es":"Se emitieron advertencias de tornado para todo el condado a medida que se acumulaban las nubes oscuras.","fr":"Des alertes à la tornade ont été émises pour tout le comté alors que de sombres nuages s'amoncelaient.","de":"Als sich dunkle Wolken zusammenzogen, wurden für den gesamten Bezirk Tornadowarnungen herausgegeben.","tr":"Kara bulutlar toplanırken tüm ilçe için hortum uyarıları yayınlandı.","ja":"暗雲が立ち込める中、郡全体に竜巻警報が発令された。"}
             }
           ]
         }
@@ -268,35 +268,36 @@ export const b2Lesson26: Lesson = {
       ]
     },
     {
-      id: "w26-10",
-      word: "severe",
-      pronunciation: "/sɪˈvɪər/",
-      partOfSpeech: "adj",
+      id: "w26-5",
+      word: "avalanche",
+      pronunciation: "/ˈæv.əl.ɑːnʃ/",
+      partOfSpeech: "noun",
       level: "B2",
-      synonyms: ["harsh", "extreme", "serious"],
-      collocations: ["severe weather", "severe pain"],
-      translations: { ru: "суровый / тяжелый", zh: "严重的", es: "severo", fr: "sévère", de: "schwer / ernst", tr: "şiddetli / ciddi", ja: "深刻な / 厳しい" },
+      synonyms: ["snowslide"],
+      collocations: ["trigger an avalanche","caught in an avalanche"],
+      translations: {"ru":"лавина","zh":"雪崩","es":"avalancha / alud","fr":"avalanche","de":"Lawine","tr":"çığ","ja":"雪崩"},
       meanings: [
         {
-          id: "w26-10-m1",
-          definition: "causing very great pain, difficulty, worry, damage, etc.; very serious",
-          translation: { ru: "вызывающий очень сильную боль, трудности, беспокойство, ущерб и т.д.; очень серьезный", zh: "导致非常巨大的痛苦、困难、担忧、损害等；非常严重", es: "que causa un dolor muy grande, dificultad, preocupación, daño, etc.; muy serio" },
+          id: "w26-5-m1",
+          definition: "a large amount of ice, snow, and rock falling quickly down the side of a mountain",
+          translation: {"ru":"большое количество льда, снега и камней, быстро падающих по склону горы","zh":"大量冰雪和岩石从山腰快速落下","es":"una gran cantidad de hielo, nieve y roca que cae rápidamente por la ladera de una montaña"},
           examples: [
             {
-              id: "w26-10-m1-e1",
-              sentence: "The patient was experiencing severe pain in his chest and had to be taken to the emergency room.",
-              translation: { ru: "Пациент испытывал сильную боль в груди и его пришлось доставить в отделение неотложной помощи.", zh: "病人的胸部剧烈疼痛，不得不被送往急诊室。", es: "El paciente estaba experimentando un dolor severo en el pecho y tuvo que ser llevado a la sala de emergencias.", fr: "Le patient ressentait de vives douleurs à la poitrine et a dû être transporté aux urgences.", de: "Der Patient hatte starke Schmerzen in der Brust und musste in die Notaufnahme gebracht werden.", tr: "Hasta göğsünde şiddetli bir ağrı çekiyordu ve acil servise kaldırılması gerekti.", ja: "患者は胸に激しい痛みを経験しており、緊急治療室に運ばれる必要がありました。" }
+              id: "w26-5-m1-e1",
+              sentence: "Two extreme skiers were killed in the avalanche last winter.",
+              translation: {"ru":"Два экстремальных лыжника погибли в лавине прошлой зимой.","zh":"去年冬天，两名极限滑雪者在雪崩中丧生。","es":"Dos esquiadores extremos murieron en la avalancha el invierno pasado.","fr":"Deux skieurs de l'extrême ont été tués dans l'avalanche l'hiver dernier.","de":"Zwei Extrem-Skifahrer kamen im vergangenen Winter bei der Lawine ums Leben.","tr":"Geçen kış iki ekstrem kayakçı çığda öldü.","ja":"昨冬、雪崩により2人のエクストリームスキーヤーが死亡した。"}
             },
             {
-              id: "w26-10-m1-e2",
-              sentence: "Due to the severe weather conditions, all flights departing from the airport were cancelled.",
-              translation: { ru: "Из-за суровых погодных условий все вылеты из аэропорта были отменены.", zh: "由于恶劣的天气条件，所有从该机场起飞的航班均被取消。", es: "Debido a las severas condiciones climáticas, todos los vuelos que salían del aeropuerto fueron cancelados.", fr: "En raison des conditions météorologiques très difficiles, tous les vols au départ de l'aéroport ont été annulés.", de: "Aufgrund der widrigen Wetterbedingungen wurden alle vom Flughafen abfliegenden Flüge gestrichen.", tr: "Şiddetli hava koşulları nedeniyle havalimanından kalkan tüm uçuşlar iptal edildi.", ja: "悪天候のため、空港から出発するすべてのフライトがキャンセルされました。" }
+              id: "w26-5-m1-e2",
+              sentence: "The loud noise triggered a massive avalanche higher up the slope.",
+              translation: {"ru":"Громкий шум спровоцировал сход мощной лавины выше по склону.","zh":"巨大的声响在斜坡高处引发了大规模雪崩。","es":"El fuerte ruido desencadenó una avalancha masiva más arriba en la ladera.","fr":"Le bruit fort a déclenché une énorme avalanche plus haut sur la pente.","de":"Das laute Geräusch löste weiter oben am Hang eine gewaltige Lawine aus.","tr":"Yüksek ses, yamacın daha yükseklerinde devasa bir çığı tetikledi.","ja":"大きな音が斜面上部の巨大な雪崩を引き起こした。"}
             }
           ]
         }
       ]
     }
   ],
+
   reading: {
     id: "r26",
     title: "Nature's Fury",

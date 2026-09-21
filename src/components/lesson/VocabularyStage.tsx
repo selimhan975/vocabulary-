@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Word } from '../../types';
 import { TranslatableText } from '../shared/TranslatableText';
 import { TranslationToggle } from '../shared/TranslationToggle';
@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { SpeakerButton } from '../shared/SpeakerButton';
 import { translationEngine } from '../../engine/translation';
 import { useSwipeNavigation } from '../../hooks/useSwipeNavigation';
+import { useAppContext } from '../../store/AppContext';
 
 interface VocabularyStageProps {
   words: Word[];
@@ -14,12 +15,31 @@ interface VocabularyStageProps {
 }
 
 export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onComplete }) => {
+  const { targetLang } = useAppContext();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [viewedWords, setViewedWords] = useState<Set<number>>(new Set([0]));
   const [showMainTranslation, setShowMainTranslation] = useState(false);
+  const [mainTranslation, setMainTranslation] = useState<string>('');
 
   const currentWord = words[currentIndex];
   const allViewed = viewedWords.size === words.length;
+
+  useEffect(() => {
+    let isMounted = true;
+    const authored = translationEngine.getAuthoredTranslation(currentWord.translations);
+    if (authored) {
+      setMainTranslation(authored);
+      return;
+    }
+    translationEngine.translateWordOffline(currentWord.word).then(res => {
+      if (isMounted) {
+        setMainTranslation(res.translation);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, [currentWord, targetLang]);
 
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -103,14 +123,14 @@ export const VocabularyStage: React.FC<VocabularyStageProps> = ({ words, onCompl
               {/* Reserved space for translation to appear ABOVE the word */}
               <div className="h-6 sm:h-8 flex items-end justify-center md:justify-start w-full mb-1">
                 <AnimatePresence>
-                  {showMainTranslation && (
+                  {showMainTranslation && mainTranslation && (
                     <motion.div
                       initial={{ opacity: 0, y: 5 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 5 }}
                       className="text-slate-600 font-bold text-sm sm:text-base text-center md:text-left"
                     >
-                      {translationEngine.getAuthoredTranslation(currentWord.translations)}
+                      {mainTranslation}
                     </motion.div>
                   )}
                 </AnimatePresence>

@@ -9,7 +9,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w431",
       word: "election",
-      pronunciation: "/.../",
+      pronunciation: "/ɪˈlek.ʃən/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "выборы", zh: "选举", es: "elección", fr: "élection", de: "Wahl", tr: "seçim", ja: "選挙" },
@@ -38,7 +38,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w432",
       word: "parliament",
-      pronunciation: "/.../",
+      pronunciation: "/ˈpɑː.lə.mənt/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "парламент", zh: "议会", es: "parlamento", fr: "parlement", de: "Parlament", tr: "parlamento", ja: "議会" },
@@ -66,28 +66,28 @@ export const b2Lesson44: Lesson = {
     },
     {
       id: "w433",
-      word: "legislation",
-      pronunciation: "/.../",
+      word: "referendum",
+      pronunciation: "/ˌref.əˈren.dəm/",
       partOfSpeech: "noun",
       level: "B2",
-      translations: { ru: "законодательство (закон)", zh: "立法/法律", es: "legislación", fr: "législation", de: "Gesetzgebung", tr: "mevzuat", ja: "法律/立法" },
-      synonyms: ["law", "statute", "rule"],
-      collocations: ["pass legislation", "introduce legislation"],
+      synonyms: ["vote","ballot","poll"],
+      collocations: ["hold a referendum","a national referendum"],
+      translations: {"ru":"референдум","zh":"全民公投","es":"referéndum","fr":"référendum","de":"Referendum / Volksabstimmung","tr":"referandum / halk oylaması","ja":"国民投票"},
       meanings: [
         {
-          id: "m433",
-          definition: "A law or set of laws suggested by a government and made official by a parliament.",
-          translation: { ru: "Закон или набор законов, предложенных правительством и официально принятых парламентом.", zh: "由政府提出并经议会正式批准的法律或一套法律。", es: "Una ley o conjunto de leyes sugeridas por un gobierno y oficializadas por un parlamento.", fr: "Une loi ou un ensemble de lois proposées par un gouvernement et rendues officielles par un parlement.", de: "Ein Gesetz oder eine Reihe von Gesetzen, die von einer Regierung vorgeschlagen und von einem Parlament offiziell gemacht wurden.", tr: "Bir hükümet tarafından önerilen ve bir parlamento tarafından resmileştirilen yasa veya yasalar dizisi.", ja: "政府が提案し、議会で正式に制定された法律や法律の集合。" },
+          id: "w433-m1",
+          definition: "a vote in which all the people in a country or an area are asked to give their opinion about or decide an important political or social question",
+          translation: {"ru":"голосование, в котором всех жителей страны или региона просят высказать свое мнение или решить важный политический или социальный вопрос","zh":"一种投票，要求一个国家或地区的所有人民就一个重要的政治或社会问题发表意见或做出决定","es":"una votación en la que se pide a todas las personas de un país o área que den su opinión sobre o decidan una cuestión política o social importante"},
           examples: [
             {
-              id: "e433_1",
-              sentence: "The government has promised to introduce new legislation to protect the environment.",
-              translation: { ru: "Правительство пообещало ввести новое законодательство для защиты окружающей среды.", zh: "政府承诺出台新的立法来保护环境。", es: "El gobierno ha prometido introducir nueva legislación para proteger el medio ambiente.", fr: "Le gouvernement a promis d'introduire une nouvelle législation pour protéger l'environnement.", de: "Die Regierung hat versprochen, neue Gesetze zum Schutz der Umwelt einzuführen.", tr: "Hükümet çevreyi korumak için yeni mevzuat (yasa) getirme sözü verdi.", ja: "政府は環境を保護するための新しい法律を導入すると約束しました。" }
+              id: "w433-m1-e1",
+              sentence: "The government decided to hold a referendum on the new constitution.",
+              translation: {"ru":"Правительство решило провести референдум по новой конституции.","zh":"政府决定就新宪法举行全民公投。","es":"El gobierno decidió celebrar un referéndum sobre la nueva constitución.","fr":"Le gouvernement a décidé d'organiser un référendum sur la nouvelle constitution.","de":"Die Regierung beschloss, ein Referendum über die neue Verfassung abzuhalten.","tr":"Hükümet yeni anayasa konusunda referandum yapmaya karar verdi.","ja":"政府は新憲法に関する国民投票の実施を決定した。"}
             },
             {
-              id: "e433_2",
-              sentence: "It took years of campaigning before the equal rights legislation was finally passed.",
-              translation: { ru: "Потребовались годы кампаний, прежде чем закон о равных правах был окончательно принят.", zh: "经过多年的争取，平等权利立法终于获得通过。", es: "Tomó años de campaña antes de que finalmente se aprobara la legislación de igualdad de derechos.", fr: "Il a fallu des années de campagne avant que la législation sur l'égalité des droits ne soit finalement adoptée.", de: "Es brauchte jahrelange Kampagnen, bevor die Gesetzgebung zur Gleichberechtigung endlich verabschiedet wurde.", tr: "Eşit haklar mevzuatının nihayet kabul edilmesi yıllarca süren kampanyalar gerektirdi.", ja: "平等権に関する法律が最終的に可決されるまでには、何年ものキャンペーン活動が必要でした。" }
+              id: "w433-m1-e2",
+              sentence: "The results of the nationwide referendum were clear.",
+              translation: {"ru":"Результаты общенационального референдума были ясны.","zh":"全国公投的结果是明确的。","es":"Los resultados del referéndum a nivel nacional fueron claros.","fr":"Les résultats du référendum national ont été clairs.","de":"Die Ergebnisse des landesweiten Referendums waren eindeutig.","tr":"Ülke çapındaki referandumun sonuçları netti.","ja":"全国的な国民投票の結果は明らかであった。"}
             }
           ]
         }
@@ -96,7 +96,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w434",
       word: "minister",
-      pronunciation: "/.../",
+      pronunciation: "/ˈmɪn.ɪ.stər/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "министр", zh: "部长/大臣", es: "ministro", fr: "ministre", de: "Minister", tr: "bakan", ja: "大臣" },
@@ -125,7 +125,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w435",
       word: "democracy",
-      pronunciation: "/.../",
+      pronunciation: "/dɪˈmɒk.rə.si/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "демократия", zh: "民主", es: "democracia", fr: "démocratie", de: "Demokratie", tr: "demokrasi", ja: "民主主義" },
@@ -152,29 +152,29 @@ export const b2Lesson44: Lesson = {
       ]
     },
     {
-      id: "w436",
-      word: "campaign",
-      pronunciation: "/.../",
-      partOfSpeech: "noun",
+      id: "w440",
+      word: "veto",
+      pronunciation: "/ˈviː.təʊ/",
+      partOfSpeech: "verb",
       level: "B2",
-      translations: { ru: "кампания", zh: "运动/竞选活动", es: "campaña", fr: "campagne", de: "Kampagne", tr: "kampanya", ja: "キャンペーン/選挙運動" },
-      synonyms: ["operation", "movement", "drive"],
-      collocations: ["political campaign", "election campaign"],
+      synonyms: ["reject","block","turn down"],
+      collocations: ["veto a bill","power of veto"],
+      translations: {"ru":"накладывать вето","zh":"否决","es":"vetar","fr":"mettre son veto","de":"sein Veto einlegen","tr":"veto etmek","ja":"拒否権を行使する"},
       meanings: [
         {
-          id: "m436",
-          definition: "A planned group of especially political, business, or military activities that are intended to achieve a particular aim.",
-          translation: { ru: "Спланированная группа особенно политических, деловых или военных действий, направленных на достижение определенной цели.", zh: "为实现特定目标而计划的一系列特别是政治、商业或军事活动。", es: "Un grupo planificado de actividades, especialmente políticas, comerciales o militares, que están destinadas a lograr un objetivo particular.", fr: "Un groupe planifié d'activités, en particulier politiques, commerciales ou militaires, destinées à atteindre un objectif particulier.", de: "Eine geplante Gruppe von insbesondere politischen, geschäftlichen oder militärischen Aktivitäten, die ein bestimmtes Ziel erreichen sollen.", tr: "Belirli bir amaca ulaşmayı amaçlayan, özellikle siyasi, ticari veya askeri faaliyetlerden oluşan planlı bir grup.", ja: "特定の目的を達成するために計画された、特に政治的、商業的、または軍事的な一連の活動。" },
+          id: "w440-m1",
+          definition: "to refuse to allow something, especially officially, to refuse to allow a bill to become law",
+          translation: {"ru":"отказаться разрешить что-либо, особенно официально, отказаться разрешить законопроекту стать законом","zh":"拒绝允许某事，尤指正式拒绝允许法案成为法律","es":"negarse a permitir algo, especialmente oficialmente, negarse a permitir que un proyecto de ley se convierta en ley"},
           examples: [
             {
-              id: "e436_1",
-              sentence: "The candidate's election campaign focused heavily on improving public education.",
-              translation: { ru: "Избирательная кампания кандидата была в значительной степени сосредоточена на улучшении государственного образования.", zh: "该候选人的竞选活动主要侧重于改善公共教育。", es: "La campaña electoral del candidato se centró en gran medida en mejorar la educación pública.", fr: "La campagne électorale du candidat s'est fortement concentrée sur l'amélioration de l'éducation publique.", de: "Der Wahlkampf des Kandidaten konzentrierte sich stark auf die Verbesserung der öffentlichen Bildung.", tr: "Adayın seçim kampanyası ağırlıklı olarak halk eğitimini iyileştirmeye odaklandı.", ja: "候補者の選挙運動は、公教育の改善に重点を置いていました。" }
+              id: "w440-m1-e1",
+              sentence: "The president threatened to veto the new tax legislation.",
+              translation: {"ru":"Президент пригрозил наложить вето на новое налоговое законодательство.","zh":"总统威胁要否决新的税收立法。","es":"El presidente amenazó con vetar la nueva legislación fiscal.","fr":"Le président a menacé de mettre son veto à la nouvelle législation fiscale.","de":"Der Präsident drohte, sein Veto gegen das neue Steuergesetz einzulegen.","tr":"Başkan yeni vergi mevzuatını veto etmekle tehdit etti.","ja":"大統領は新たな税法案に拒否権を行使すると脅した。"}
             },
             {
-              id: "e436_2",
-              sentence: "Environmental groups have launched a new campaign to stop plastic pollution in the oceans.",
-              translation: { ru: "Экологические группы начали новую кампанию, чтобы остановить загрязнение океанов пластиком.", zh: "环保团体发起了一项新运动，旨在制止海洋中的塑料污染。", es: "Los grupos ecologistas han lanzado una nueva campaña para detener la contaminación plástica en los océanos.", fr: "Des groupes environnementaux ont lancé une nouvelle campagne pour arrêter la pollution plastique dans les océans.", de: "Umweltgruppen haben eine neue Kampagne gestartet, um die Plastikverschmutzung in den Ozeanen zu stoppen.", tr: "Çevre grupları okyanuslardaki plastik kirliliğini durdurmak için yeni bir kampanya başlattı.", ja: "環境保護団体は、海洋のプラスチック汚染を食い止めるための新しいキャンペーンを開始しました。" }
+              id: "w440-m1-e2",
+              sentence: "The council can veto any building plans that destroy the environment.",
+              translation: {"ru":"Совет может наложить вето на любые планы строительства, которые разрушают окружающую среду.","zh":"理事会可以否决任何破坏环境的建筑计划。","es":"El consejo puede vetar cualquier plan de construcción que destruya el medio ambiente.","fr":"Le conseil peut mettre son veto à tout projet de construction qui détruit l'environnement.","de":"Der Rat kann sein Veto gegen alle Baupläne einlegen, die die Umwelt zerstören.","tr":"Konsey, çevreyi tahrip eden her türlü inşaat planını veto edebilir.","ja":"議会は環境を破壊する建設計画を拒否することができる。"}
             }
           ]
         }
@@ -183,7 +183,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w437",
       word: "citizen",
-      pronunciation: "/.../",
+      pronunciation: "/ˈsɪt.ɪ.zən/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "гражданин", zh: "公民", es: "ciudadano", fr: "citoyen", de: "Bürger", tr: "vatandaş", ja: "市民" },
@@ -212,7 +212,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w438",
       word: "constitution",
-      pronunciation: "/.../",
+      pronunciation: "/ˌkɒn.stɪˈtjuː.ʃən/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "конституция", zh: "宪法", es: "constitución", fr: "constitution", de: "Verfassung", tr: "anayasa", ja: "憲法" },
@@ -241,7 +241,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w439",
       word: "mayor",
-      pronunciation: "/.../",
+      pronunciation: "/meər/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "мэр", zh: "市长", es: "alcalde", fr: "maire", de: "Bürgermeister", tr: "belediye başkanı", ja: "市長" },
@@ -270,7 +270,7 @@ export const b2Lesson44: Lesson = {
     {
       id: "w440",
       word: "policy",
-      pronunciation: "/.../",
+      pronunciation: "/ˈpɒl.ə.si/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "политика (правила, курс)", zh: "政策", es: "política", fr: "politique", de: "Politik/Richtlinie", tr: "politika", ja: "政策/方針" },

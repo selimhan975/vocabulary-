@@ -98,7 +98,7 @@ export const ReadingStage: React.FC<ReadingStageProps> = ({ reading, words, onCo
               onClick={onComplete}
               className="px-8 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 shadow-sm flex items-center space-x-2 transition-all"
             >
-              <span>Continue to Comprehension</span>
+              <span>Complete Lesson</span>
               <CheckCircle2 size={20} />
             </button>
           </div>

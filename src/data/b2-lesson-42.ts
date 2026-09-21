@@ -9,7 +9,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w411",
       word: "campus",
-      pronunciation: "/.../",
+      pronunciation: "/ˈkæm.pəs/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "кампус", zh: "校园", es: "campus", fr: "campus", de: "Campus", tr: "kampüs", ja: "キャンパス" },
@@ -38,7 +38,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w412",
       word: "faculty",
-      pronunciation: "/.../",
+      pronunciation: "/ˈfæk.əl.ti/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "факультет (состав преподавателей)", zh: "全体教员", es: "profesorado", fr: "corps professoral", de: "Fakultät (Lehrkörper)", tr: "öğretim üyeleri", ja: "教職員" },
@@ -67,7 +67,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w413",
       word: "curriculum",
-      pronunciation: "/.../",
+      pronunciation: "/kəˈrɪk.jə.ləm/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "учебная программа", zh: "课程", es: "plan de estudios", fr: "programme d'études", de: "Lehrplan", tr: "müfredat", ja: "カリキュラム" },
@@ -96,7 +96,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w414",
       word: "thesis",
-      pronunciation: "/.../",
+      pronunciation: "/ˈθiː.sɪs/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "диссертация", zh: "论文", es: "tesis", fr: "thèse", de: "Abschlussarbeit", tr: "tez", ja: "論文" },
@@ -125,7 +125,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w415",
       word: "seminar",
-      pronunciation: "/.../",
+      pronunciation: "/ˈsem.ɪ.nɑːr/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "семинар", zh: "研讨会", es: "seminario", fr: "séminaire", de: "Seminar", tr: "seminer", ja: "ゼミ" },
@@ -154,7 +154,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w416",
       word: "scholarship",
-      pronunciation: "/.../",
+      pronunciation: "/ˈskɒl.ə.ʃɪp/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "стипендия", zh: "奖学金", es: "beca", fr: "bourse d'études", de: "Stipendium", tr: "burs", ja: "奨学金" },
@@ -183,7 +183,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w417",
       word: "tuition",
-      pronunciation: "/.../",
+      pronunciation: "/tjuːˈɪʃ.ən/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "плата за обучение", zh: "学费", es: "matrícula", fr: "frais de scolarité", de: "Studiengebühren", tr: "okul harcı", ja: "授業料" },
@@ -212,7 +212,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w418",
       word: "enroll",
-      pronunciation: "/.../",
+      pronunciation: "/ɪnˈrəʊl/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "записываться (на курс)", zh: "注册", es: "inscribirse", fr: "s'inscrire", de: "sich einschreiben", tr: "kaydolmak", ja: "登録する" },
@@ -241,7 +241,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w419",
       word: "academic",
-      pronunciation: "/.../",
+      pronunciation: "/ˌæk.əˈdem.ɪk/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "академический", zh: "学术的", es: "académico", fr: "académique", de: "akademisch", tr: "akademik", ja: "学術的な" },
@@ -270,7 +270,7 @@ export const b2Lesson42: Lesson = {
     {
       id: "w420",
       word: "plagiarism",
-      pronunciation: "/.../",
+      pronunciation: "/ˈpleɪ.dʒər.ɪ.zəm/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "плагиат", zh: "剽窃", es: "plagio", fr: "plagiat", de: "Plagiat", tr: "intihal", ja: "盗作" },

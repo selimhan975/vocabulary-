@@ -9,7 +9,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w401",
       word: "anxiety",
-      pronunciation: "/.../",
+      pronunciation: "/æŋˈzaɪ.ə.ti/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "тревога", zh: "焦虑", es: "ansiedad", fr: "anxiété", de: "Angst", tr: "endişe", ja: "不安" },
@@ -38,7 +38,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w402",
       word: "sympathy",
-      pronunciation: "/.../",
+      pronunciation: "/ˈsɪm.pə.θi/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "сочувствие", zh: "同情", es: "simpatía", fr: "sympathie", de: "Mitgefühl", tr: "sempati", ja: "同情" },
@@ -67,7 +67,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w403",
       word: "frustration",
-      pronunciation: "/.../",
+      pronunciation: "/frʌsˈtreɪ.ʃən/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "разочарование", zh: "挫折感", es: "frustración", fr: "frustration", de: "Frustration", tr: "hüsran", ja: "欲求不満" },
@@ -96,7 +96,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w404",
       word: "eager",
-      pronunciation: "/.../",
+      pronunciation: "/ˈiː.ɡər/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "нетерпеливый", zh: "渴望的", es: "ansioso", fr: "impatient", de: "eifrig", tr: "istekli", ja: "熱望して" },
@@ -125,7 +125,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w405",
       word: "hostile",
-      pronunciation: "/.../",
+      pronunciation: "/ˈhɒs.taɪl/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "враждебный", zh: "敌对的", es: "hostil", fr: "hostile", de: "feindselig", tr: "düşmanca", ja: "敵対的な" },
@@ -154,7 +154,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w406",
       word: "insecure",
-      pronunciation: "/.../",
+      pronunciation: "/ˌɪn.sɪˈkjʊər/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "неуверенный", zh: "缺乏安全的", es: "inseguro", fr: "peu sûr", de: "unsicher", tr: "güvensiz", ja: "不安な" },
@@ -183,7 +183,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w407",
       word: "resent",
-      pronunciation: "/.../",
+      pronunciation: "/rɪˈzent/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "негодовать", zh: "怨恨", es: "resentir", fr: "en vouloir", de: "übelnehmen", tr: "içerlemek", ja: "憤慨する" },
@@ -212,7 +212,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w408",
       word: "content",
-      pronunciation: "/.../",
+      pronunciation: "/kənˈtent/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "довольный", zh: "满足的", es: "contento", fr: "content", de: "zufrieden", tr: "hoşnut", ja: "満足して" },
@@ -241,7 +241,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w409",
       word: "miserable",
-      pronunciation: "/.../",
+      pronunciation: "/ˈmɪz.ər.ə.bəl/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "несчастный", zh: "悲惨的", es: "miserable", fr: "misérable", de: "elend", tr: "sefil", ja: "惨めな" },
@@ -270,7 +270,7 @@ export const b2Lesson41: Lesson = {
     {
       id: "w410",
       word: "suspicious",
-      pronunciation: "/.../",
+      pronunciation: "/səˈspɪʃ.əs/",
       partOfSpeech: "noun",
       level: "B2",
       translations: { ru: "подозрительный", zh: "可疑的", es: "sospechoso", fr: "suspect", de: "verdächtig", tr: "şüpheli", ja: "疑わしい" },

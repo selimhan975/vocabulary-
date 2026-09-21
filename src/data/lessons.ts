@@ -1,20 +1,3 @@
-import { b2Lesson56 } from './b2-lesson-56';
-import { b2Lesson57 } from './b2-lesson-57';
-import { b2Lesson58 } from './b2-lesson-58';
-import { b2Lesson59 } from './b2-lesson-59';
-import { b2Lesson60 } from './b2-lesson-60';
-
-import { b2Lesson55 } from './b2-lesson-55';
-import { b2Lesson54 } from './b2-lesson-54';
-import { b2Lesson53 } from './b2-lesson-53';
-import { b2Lesson52 } from './b2-lesson-52';
-import { b2Lesson51 } from './b2-lesson-51';
-import { b2Lesson50 } from './b2-lesson-50';
-import { b2Lesson49 } from './b2-lesson-49';
-import { b2Lesson48 } from './b2-lesson-48';
-import { b2Lesson47 } from './b2-lesson-47';
-import { b2Lesson46 } from './b2-lesson-46';
-import { b2Lesson45 } from './b2-lesson-45';
 import { Lesson } from "../types";
 import { b2Lesson1 } from "./b2-lesson-1";
 import { b2Lesson2 } from "./b2-lesson-2";
@@ -40,49 +23,44 @@ import { b2Lesson21 } from "./b2-lesson-21";
 import { b2Lesson22 } from "./b2-lesson-22";
 import { b2Lesson23 } from "./b2-lesson-23";
 import { b2Lesson24 } from "./b2-lesson-24";
-import { b2Lesson25 } from './b2-lesson-25';
-import { b2Lesson26 } from './b2-lesson-26';
-import { b2Lesson27 } from './b2-lesson-27';
-import { b2Lesson28 } from './b2-lesson-28';
-import { b2Lesson29 } from './b2-lesson-29';
-import { b2Lesson30 } from './b2-lesson-30';
-import { b2Lesson31 } from './b2-lesson-31';
-import { b2Lesson32 } from './b2-lesson-32';
-import { b2Lesson33 } from './b2-lesson-33';
-import { b2Lesson34 } from './b2-lesson-34';
-import { b2Lesson35 } from './b2-lesson-35';
-import { b2Lesson36 } from './b2-lesson-36';
+import { b2Lesson25 } from "./b2-lesson-25";
+import { b2Lesson26 } from "./b2-lesson-26";
+import { b2Lesson27 } from "./b2-lesson-27";
+import { b2Lesson28 } from "./b2-lesson-28";
+import { b2Lesson29 } from "./b2-lesson-29";
+import { b2Lesson30 } from "./b2-lesson-30";
+import { b2Lesson31 } from "./b2-lesson-31";
+import { b2Lesson32 } from "./b2-lesson-32";
+import { b2Lesson33 } from "./b2-lesson-33";
+import { b2Lesson34 } from "./b2-lesson-34";
+import { b2Lesson35 } from "./b2-lesson-35";
+import { b2Lesson36 } from "./b2-lesson-36";
+import { b2Lesson37 } from "./b2-lesson-37";
+import { b2Lesson38 } from "./b2-lesson-38";
+import { b2Lesson39 } from "./b2-lesson-39";
+import { b2Lesson40 } from "./b2-lesson-40";
+import { b2Lesson41 } from "./b2-lesson-41";
+import { b2Lesson42 } from "./b2-lesson-42";
+import { b2Lesson43 } from "./b2-lesson-43";
+import { b2Lesson44 } from "./b2-lesson-44";
+import { b2Lesson45 } from "./b2-lesson-45";
+import { b2Lesson46 } from "./b2-lesson-46";
+import { b2Lesson47 } from "./b2-lesson-47";
+import { b2Lesson48 } from "./b2-lesson-48";
+import { b2Lesson49 } from "./b2-lesson-49";
+import { b2Lesson50 } from "./b2-lesson-50";
+import { b2Lesson51 } from "./b2-lesson-51";
+import { b2Lesson52 } from "./b2-lesson-52";
+import { b2Lesson53 } from "./b2-lesson-53";
+import { b2Lesson54 } from "./b2-lesson-54";
+import { b2Lesson55 } from "./b2-lesson-55";
+import { b2Lesson56 } from "./b2-lesson-56";
+import { b2Lesson57 } from "./b2-lesson-57";
+import { b2Lesson58 } from "./b2-lesson-58";
+import { b2Lesson59 } from "./b2-lesson-59";
+import { b2Lesson60 } from "./b2-lesson-60";
 
-
-
-
-import { b2Lesson37 } from './b2-lesson-37';
-import { b2Lesson38 } from './b2-lesson-38';
-import { b2Lesson39 } from './b2-lesson-39';
-import { b2Lesson40 } from './b2-lesson-40';
-import { b2Lesson41 } from './b2-lesson-41';
-import { b2Lesson42 } from './b2-lesson-42';
-import { b2Lesson43 } from './b2-lesson-43';
-import { b2Lesson44 } from './b2-lesson-44';
-
-// We will add more lessons here
 export const availableLessons: Lesson[] = [
-  b2Lesson56,
-  b2Lesson57,
-  b2Lesson58,
-  b2Lesson59,
-  b2Lesson60,
-  b2Lesson55,
-  b2Lesson54,
-  b2Lesson53,
-  b2Lesson52,
-  b2Lesson51,
-  b2Lesson50,
-  b2Lesson49,
-  b2Lesson48,
-  b2Lesson47,
-  b2Lesson46,
-  b2Lesson45,
   b2Lesson1,
   b2Lesson2,
   b2Lesson3,
@@ -127,6 +105,22 @@ export const availableLessons: Lesson[] = [
   b2Lesson42,
   b2Lesson43,
   b2Lesson44,
+  b2Lesson45,
+  b2Lesson46,
+  b2Lesson47,
+  b2Lesson48,
+  b2Lesson49,
+  b2Lesson50,
+  b2Lesson51,
+  b2Lesson52,
+  b2Lesson53,
+  b2Lesson54,
+  b2Lesson55,
+  b2Lesson56,
+  b2Lesson57,
+  b2Lesson58,
+  b2Lesson59,
+  b2Lesson60,
 ];
 
 export function getLessonsByLevel(level: string): Lesson[] {
