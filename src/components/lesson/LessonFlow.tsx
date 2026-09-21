@@ -6,6 +6,7 @@ import { ReadingStage } from '../reading/ReadingStage';
 import { CompletionStage } from './CompletionStage';
 import { progressEngine } from '../../engine/progress';
 import { markDailyGoalComplete } from '../../engine/dailyGoal';
+import { recordDailyGoalCompletionForStreak } from '../../engine/streak';
 import { useAppContext } from '../../store/AppContext';
 
 type Stage = 'vocabulary' | 'quiz' | 'reading' | 'completion';
@@ -36,6 +37,7 @@ export const LessonFlow: React.FC<LessonFlowProps> = ({ lesson, onExit }) => {
     progressEngine.saveLessonScore(lesson.id, score);
     progressEngine.markLessonComplete(lesson.id);
     markDailyGoalComplete();
+    recordDailyGoalCompletionForStreak();
     refreshProgress();
 
     setStage('completion');

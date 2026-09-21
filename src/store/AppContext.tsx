@@ -3,6 +3,8 @@ import { LanguageCode } from '../types';
 import { translationEngine } from '../engine/translation';
 import { progressEngine } from '../engine/progress';
 import { getDailyGoal } from '../engine/dailyGoal';
+import { getStreakData } from '../engine/streak';
+import { getWeeklyProgress } from '../engine/weeklyProgress';
 
 interface AppContextType {
   targetLang: LanguageCode;
@@ -11,6 +13,10 @@ interface AppContextType {
   refreshProgress: () => void;
   isDailyGoalCompleted: boolean;
   refreshDailyGoal: () => void;
+  streakCount: number;
+  refreshStreak: () => void;
+  weeklyCompletedDays: number;
+  refreshWeeklyProgress: () => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -19,6 +25,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [targetLang, setTargetLangState] = useState<LanguageCode>(translationEngine.getLanguage());
   const [completedLessons, setCompletedLessons] = useState<string[]>(progressEngine.getProgress().completedLessons);
   const [isDailyGoalCompleted, setIsDailyGoalCompleted] = useState<boolean>(() => getDailyGoal().completed);
+  const [streakCount, setStreakCount] = useState<number>(() => getStreakData().currentStreak);
+  const [weeklyCompletedDays, setWeeklyCompletedDays] = useState<number>(() => getWeeklyProgress().completedDays);
 
   const setTargetLang = (lang: LanguageCode) => {
     translationEngine.setLanguage(lang);
@@ -29,13 +37,36 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     setIsDailyGoalCompleted(getDailyGoal().completed);
   };
 
+  const refreshStreak = () => {
+    setStreakCount(getStreakData().currentStreak);
+  };
+
+  const refreshWeeklyProgress = () => {
+    setWeeklyCompletedDays(getWeeklyProgress().completedDays);
+  };
+
   const refreshProgress = () => {
     setCompletedLessons([...progressEngine.getProgress().completedLessons]);
     refreshDailyGoal();
+    refreshStreak();
+    refreshWeeklyProgress();
   };
 
   return (
-    <AppContext.Provider value={{ targetLang, setTargetLang, completedLessons, refreshProgress, isDailyGoalCompleted, refreshDailyGoal }}>
+    <AppContext.Provider
+      value={{
+        targetLang,
+        setTargetLang,
+        completedLessons,
+        refreshProgress,
+        isDailyGoalCompleted,
+        refreshDailyGoal,
+        streakCount,
+        refreshStreak,
+        weeklyCompletedDays,
+        refreshWeeklyProgress,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

@@ -17,7 +17,7 @@ export const availableLevels: LevelConfig[] = [
     id: 'C1',
     name: 'C1',
     description: 'Advanced',
-    available: false
+    available: true
   },
   {
     id: 'C2',

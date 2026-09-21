@@ -3,6 +3,8 @@ import { Lesson, CEFRLevel, LanguageCode } from '../../types';
 import { getLessonsByLevel } from '../../data/lessons';
 import { useAppContext } from '../../store/AppContext';
 import { DailyGoalIndicator } from './DailyGoalIndicator';
+import { StreakIndicator } from './StreakIndicator';
+import { WeeklyProgressIndicator } from './WeeklyProgressIndicator';
 import { CheckCircle2, Settings, ArrowLeft } from 'lucide-react';
 
 interface LessonListProps {
@@ -65,7 +67,9 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
             <p className="text-slate-500 text-xs sm:text-sm">Select a lesson to begin.</p>
           </div>
           
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-2 shrink-0 flex-wrap sm:flex-nowrap justify-end">
+            <WeeklyProgressIndicator />
+            <StreakIndicator />
             <DailyGoalIndicator />
             <div className="flex items-center gap-1.5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg shadow-sm border border-slate-200 shrink-0">
               <Settings size={14} className="text-slate-400" />

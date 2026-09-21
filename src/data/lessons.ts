@@ -59,6 +59,10 @@ import { b2Lesson57 } from "./b2-lesson-57";
 import { b2Lesson58 } from "./b2-lesson-58";
 import { b2Lesson59 } from "./b2-lesson-59";
 import { b2Lesson60 } from "./b2-lesson-60";
+import { c1Lesson1 } from "./c1-lesson-1";
+import { c1Lesson2 } from "./c1-lesson-2";
+import { c1Lesson3 } from "./c1-lesson-3";
+import { c1Lesson4 } from "./c1-lesson-4";
 
 export const availableLessons: Lesson[] = [
   b2Lesson1,
@@ -121,6 +125,10 @@ export const availableLessons: Lesson[] = [
   b2Lesson58,
   b2Lesson59,
   b2Lesson60,
+  c1Lesson1,
+  c1Lesson2,
+  c1Lesson3,
+  c1Lesson4,
 ];
 
 export function getLessonsByLevel(level: string): Lesson[] {
