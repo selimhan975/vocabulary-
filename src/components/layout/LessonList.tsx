@@ -13,11 +13,17 @@ interface LessonListProps {
   onBack: () => void;
 }
 
-const LESSONS_PER_RANGE = 10;
+const getLessonsPerRange = (level: CEFRLevel): number => {
+  if (level === 'B2') {
+    return 12;
+  }
+  return 10;
+};
 
 export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, onBack }) => {
   const { completedLessons, targetLang, setTargetLang } = useAppContext();
   const availableLessons = getLessonsByLevel(level);
+  const lessonsPerRange = getLessonsPerRange(level);
   
   const [selectedRangeIndex, setSelectedRangeIndex] = useState(() => {
     const saved = sessionStorage.getItem(`vocab_app_range_${level}`);
@@ -29,7 +35,7 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
   }, [selectedRangeIndex, level]);
 
   const maxLessonNumber = availableLessons.reduce((max, lesson) => Math.max(max, lesson.number), 0);
-  const totalRanges = Math.ceil(maxLessonNumber / LESSONS_PER_RANGE);
+  const totalRanges = Math.ceil(maxLessonNumber / lessonsPerRange);
 
   // If the stored index is out of bounds (e.g., lessons were removed), reset to 0
   useEffect(() => {
@@ -39,12 +45,12 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
   }, [totalRanges, selectedRangeIndex]);
 
   const ranges = Array.from({ length: totalRanges }, (_, i) => {
-    const start = i * LESSONS_PER_RANGE + 1;
-    const end = Math.min((i + 1) * LESSONS_PER_RANGE, maxLessonNumber);
+    const start = i * lessonsPerRange + 1;
+    const end = Math.min((i + 1) * lessonsPerRange, maxLessonNumber);
     return { start, end, index: i };
   });
 
-  const activeRange = ranges[selectedRangeIndex] || { start: 1, end: LESSONS_PER_RANGE };
+  const activeRange = ranges[selectedRangeIndex] || { start: 1, end: lessonsPerRange };
 
   const currentRangeLessons = availableLessons
     .filter(lesson => lesson.number >= activeRange.start && lesson.number <= activeRange.end)
