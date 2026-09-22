@@ -61,22 +61,48 @@ export const LessonList: React.FC<LessonListProps> = ({ level, onStartLesson, on
           <span>Back to Levels</span>
         </button>
 
-        <header className="flex flex-row justify-between items-center mb-4 gap-2">
-          <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 leading-tight">{level} Lessons</h1>
-            <p className="text-slate-500 text-xs sm:text-sm">Select a lesson to begin.</p>
+        <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2.5 sm:gap-4">
+          <div className="flex items-center justify-between w-full sm:w-auto gap-2">
+            <div>
+              <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 leading-tight">{level} Lessons</h1>
+              <p className="text-slate-500 text-xs sm:text-sm">Select a lesson to begin.</p>
+            </div>
+            
+            <div className="sm:hidden flex items-center gap-1 bg-white px-2 py-1 rounded-lg shadow-sm border border-slate-200 shrink-0">
+              <Settings size={13} className="text-slate-400" />
+              <select 
+                value={targetLang}
+                onChange={(e) => setTargetLang(e.target.value as LanguageCode)}
+                className="bg-transparent border-none text-xs text-slate-700 font-medium focus:ring-0 cursor-pointer outline-none p-0 pr-1"
+                aria-label="Target translation language"
+              >
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="ru">Russian</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="tr">Turkish</option>
+                <option value="ja">Japanese</option>
+              </select>
+            </div>
           </div>
           
-          <div className="flex items-center gap-2 shrink-0 flex-wrap sm:flex-nowrap justify-end">
-            <WeeklyProgressIndicator />
-            <StreakIndicator />
-            <DailyGoalIndicator />
-            <div className="flex items-center gap-1.5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg shadow-sm border border-slate-200 shrink-0">
+          <div 
+            id="progress-dashboard" 
+            className="grid grid-cols-3 sm:flex items-stretch sm:items-center gap-1.5 sm:gap-2 w-full sm:w-auto justify-end"
+          >
+            <WeeklyProgressIndicator className="flex-1 sm:flex-initial" />
+            <StreakIndicator className="flex-1 sm:flex-initial" />
+            <DailyGoalIndicator className="flex-1 sm:flex-initial" />
+            
+            <div className="hidden sm:flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-slate-200 shrink-0">
               <Settings size={14} className="text-slate-400" />
               <select 
                 value={targetLang}
                 onChange={(e) => setTargetLang(e.target.value as LanguageCode)}
                 className="bg-transparent border-none text-xs sm:text-sm text-slate-700 font-medium focus:ring-0 cursor-pointer outline-none p-0 pr-1"
+                aria-label="Target translation language"
               >
                 <option value="en">English</option>
                 <option value="es">Spanish</option>

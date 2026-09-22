@@ -395,41 +395,41 @@ export const c1Lesson3: Lesson = {
     },
     {
       id: 'c1-w30',
-      word: 'entice',
-      pronunciation: '/ɪnˈtaɪs/',
+      word: 'delve',
+      pronunciation: '/dɛlv/',
       partOfSpeech: 'verb',
       level: 'C1',
-      synonyms: ['lure', 'allure', 'tempt', 'coax'],
-      collocations: ['entice customers', 'entice away', 'entice with promises'],
+      synonyms: ['probe', 'investigate', 'explore', 'burrow'],
+      collocations: ['delve into archives', 'delve deeply into', 'delve into the past'],
       translations: {
-        ru: 'заманивать / соблазнять / прельщать',
-        es: 'atraer / seducir / engatusar',
-        fr: 'attirer / allécher / inciter',
-        de: 'anlocken / verlocken',
-        zh: '诱使 / 吸引',
-        tr: 'cezbetmek / aklını çelmek',
-        ja: '誘惑する / 引き寄せる'
+        ru: 'углубляться / тщательно исследовать / вникать',
+        es: 'ahondar / indagar / profundizar',
+        fr: 'fouiller / approfondir / sonder',
+        de: 'eintauchen / ergründen / nachforschen',
+        zh: '钻研 / 探究 / 钻进',
+        tr: 'derinlemesine araştırmak / kurcalamak',
+        ja: '徹底的に調査する / 掘り下げる'
       },
       meanings: [
         {
           id: 'c1-w30-m1',
-          definition: 'to attract or tempt someone by offering something pleasant or advantageous',
+          definition: 'to reach inside a receptacle and search for something; or to investigate and research a topic deeply',
           translation: {
-            ru: 'привлекать или склонять к действию привлекательными посулами или выгодой'
+            ru: 'глубоко исследовать предмет, погружаться в изучение архивов или докапываться до сути'
           },
           examples: [
             {
               id: 'c1-w30-m1-e1',
-              sentence: 'The research institute launched generous residential fellowships to entice international scholars to its campus.',
+              sentence: 'Sociologists must delve deeply into archival records to understand the structural origins of the policy.',
               translation: {
-                ru: 'Научно-исследовательский институт учредил щедрые стипендии с проживанием, чтобы привлечь зарубежных ученых в свой кампус.'
+                ru: 'Социологи должны глубоко вникнуть в архивные документы, чтобы понять структурные истоки этой политики.'
               }
             },
             {
               id: 'c1-w30-m1-e2',
-              sentence: 'Clever advertisers know how to entice consumers by appealing to unconscious aspirations rather than practical utility.',
+              sentence: 'Before reaching a definitive conclusion, the investigative committee resolved to delve into the company’s financial ledgers.',
               translation: {
-                ru: 'Умелые рекламисты знают, как завлечь потребителей, апеллируя к скрытым стремлениям, а не к практической пользе.'
+                ru: 'Прежде чем прийти к окончательному заключению, следственная комиссия решила тщательно исследовать финансовые гроссбухи компании.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson3: Lesson = {
   reading: {
     id: 'c1-l3-r',
     title: 'The Conservator’s Studio',
-    content: `Deep within the basement laboratories of the antiquities museum, conservators work at the delicate frontier between historical scholarship and material science. To unearth forgotten burial sites is merely the first chapter in an artifact’s modern journey; once removed from protective strata of dry silt, ancient metals and textiles immediately begin to corrode unless stabilized by skilled hands.
+    content: `Deep within the basement laboratories of the antiquities museum, conservators work at the delicate frontier between historical scholarship and material science. To unearth forgotten burial sites is merely the first chapter in an artifact’s modern journey; once removed from protective strata of dry silt, ancient metals and textiles immediately begin to corrode unless stabilized by skilled hands. Before formulating a restoration protocol, researchers must delve into archival expedition notes to understand the exact burial microclimate.
 
 Standing beside an illuminated stereo-microscope, master conservator Elena Silva demonstrated how centuries of oxidization can render fragile funerary heirlooms almost unrecognizable. Before any chemical intervention occurs, specialists must unpick modern repair threads inserted by earlier, less scrupulous collectors who had tried to mold the fragmented relics into preconceived aesthetic shapes. Working millimeter by millimeter, Elena used a rounded tungsten blade to gently incise through mineralized crusts without scratching the underlying copper plate.
 
 Her goal was to expose and accurately depict the original ceremonial iconography. As centuries of encrusted dirt came away, a splendid procession of sacred cranes emerged, with fine silver wires that dangled from hammered celestial rings. Every element of the ancient craftsman’s vision began to mesh into an organic whole, showing a sophisticated understanding of metallurgy that classical historians had long doubted.
 
-Outside museums, commercial auction galleries often attempt to entice private collectors with polished showpieces whose provenance is questionable. Too often, market speculators will pluck precious fragments from unrecorded archaeological contexts, destroying stratigraphic data that can never be recovered. In contrast, scientific conservation prioritizes structural integrity over decorative sheen. By combining spectroscopic analysis with respectful restraint, conservators preserve the tactile memory of past civilizations for generations to come.`,
+Outside museums, commercial auction galleries often trade in polished showpieces whose provenance is questionable. Too often, market speculators will pluck precious fragments from unrecorded archaeological contexts, destroying stratigraphic data that can never be recovered. In contrast, scientific conservation prioritizes structural integrity over decorative sheen. By combining spectroscopic analysis with respectful restraint, conservators preserve the tactile memory of past civilizations for generations to come.`,
     translations: {
-      ru: `В подвальных лабораториях музея древностей реставраторы трудятся на тонкой грани между исторической наукой и материаловедением. Раскопать (unearth) забытые захоронения — это лишь первый этап в современной судьбе артефакта; будучи извлеченными из сухого ила, древние металлы и ткани немедленно начинают разрушаться, если их вовремя не законсервировать.
+      ru: `В подвальных лабораториях музея древностей реставраторы трудятся на тонкой грани между исторической наукой и материаловедением. Раскопать (unearth) забытые захоронения — это лишь первый этап в современной судьбе артефакта; будучи извлеченными из сухого ила, древние металлы и ткани немедленно начинают разрушаться, если их вовремя не законсервировать. Прежде чем составлять протокол консервации, исследователи должны глубоко вникнуть (delve) в архивные дневники экспедиции, чтобы понять погребальный микроклимат.
 
 Стоя у стереомикроскопа, реставратор Елена Силва продемонстрировала, как века коррозии могут привести в состояние (render) полной неузнаваемости погребальные реликвии. Прежде чем проводить обработку, специалистам приходится осторожно распарывать (unpick) следы грубых прежних вмешательств, когда недобросовестные коллекционеры пытались формовать (mold) фрагменты под свои вкусы. Вооружившись вольфрамовым лезвием, Елена сделала аккуратный надрез (incise) по слою минеральных отложений, не задев медь.
 
 Ее цель состояла в том, чтобы точно отобразить (depict) изначальную иконографию. Взору открылась процессия священных журавлей с тонкими серебряными нитями, которые изящно свисали (dangled) с кованых колец. Все детали стали гармонично сцепляться (mesh) в единое полотно, подтверждая высочайшее мастерство древних металлургов.
 
-За стенами музея аукционные дома нередко пытаются заманить (entice) частных покупателей эффектными экспонатами. Ради наживы дельцы готовы выдергивать (pluck) фрагменты из неизученных пластов, навсегда уничтожая археологический контекст. Научная же консервация превыше всего ставит подлинность и сохранность культурной памяти.`
+За стенами музея коммерческие аукционные дома нередко торгуют эффектными экспонатами с сомнительным происхождением. Ради наживы дельцы готовы выдергивать (pluck) фрагменты из неизученных пластов, навсегда уничтожая археологический контекст. Научная же консервация превыше всего ставит подлинность и сохранность культурной памяти.`
     },
     comprehensionQuestions: [
       {

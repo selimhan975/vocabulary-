@@ -1,6 +1,375 @@
 import { TranslationMap } from '../types';
 
 export const globalDictionary: Record<string, TranslationMap> = {
+  "reminisce": {
+      "ru": "предаваться воспоминаниям / вспоминать прошлое",
+      "es": "rememorar / evocar recuerdos",
+      "fr": "se remémorer / évoquer des souvenirs",
+      "de": "in Erinnerungen schwelgen / sich zurückerinnern",
+      "zh": "追忆 / 缅怀往事",
+      "tr": "eski günleri yâd etmek / anıları tazelemek",
+      "ja": "思い出に浸る / 昔を懐かしむ"
+  },
+  "venerate": {
+      "ru": "благоговеть / глубоко почитать",
+      "es": "venerar / reverenciar",
+      "fr": "vénérer / révérer",
+      "de": "verehren / hochachten",
+      "zh": "崇敬 / 崇拜",
+      "tr": "saygı göstermek / hürmet etmek",
+      "ja": "崇拝する / 深く尊敬する"
+  },
+  "anchor": {
+      "ru": "закреплять / служить надежной опорой",
+      "es": "anclar / afianzar / fundamentar",
+      "fr": "ancrer / enraciner / stabiliser",
+      "de": "verankern / festigen",
+      "zh": "扎根 / 使稳固 / 确立基础",
+      "tr": "sağlamlaştırmak / sabitlemek",
+      "ja": "しっかりと固定する / 定着させる"
+  },
+  "relinquish": {
+      "ru": "добровольно отказываться от / уступать / передавать права",
+      "es": "renunciar a / ceder / desprenderse de",
+      "fr": "renoncer à / céder / abandonner",
+      "de": "aufgeben / abtreten / verzichten auf",
+      "zh": "放弃 / 让出 / 交出",
+      "tr": "feragat etmek / vazgeçmek / bırakmak",
+      "ja": "放棄する / 譲渡する / 手放す"
+  },
+  "delineate": {
+      "ru": "точно очерчивать / определять границы / детально излагать",
+      "es": "delinear / delimitar / describir minuciosamente",
+      "fr": "délimiter / tracer / définir avec précision",
+      "de": "präzise abgrenzen / detailliert beschreiben",
+      "zh": "划定界线 / 详细阐述",
+      "tr": "sınırlarını çizmek / ayrıntılarıyla açıklamak",
+      "ja": "輪郭を描く / 明確に区切る / 詳細に述べる"
+  },
+  "withstand": {
+      "ru": "выдерживать / противостоять / стойко переносить",
+      "es": "resistir / soportar / aguantar",
+      "fr": "résister à / supporter / faire face à",
+      "de": "standhalten / widerstehen",
+      "zh": "承受 / 经受住 / 顶住",
+      "tr": "karşı koymak / dayanmak",
+      "ja": "耐える / 持ちこたえる / 抵抗する"
+  },
+  "append": {
+      "ru": "прилагать / прикреплять / добавлять в конец",
+      "es": "anexar / adjuntar / añadir al final",
+      "fr": "annexer / apposer / ajouter en fin",
+      "de": "anfügen / anhängen / beilegen",
+      "zh": "附加 / 附上 / 追加",
+      "tr": "iliştirmek / sonuna eklemek",
+      "ja": "添付する / 付加する / 付け加える"
+  },
+  "deem": {
+      "ru": "считать / признавать / полагать",
+      "es": "considerar / estimar / juzgar",
+      "fr": "juger / estimer / considérer comme",
+      "de": "erachten / halten für",
+      "zh": "认为 / 视作 / 判定",
+      "tr": "saymak / kabul etmek / addetmek",
+      "ja": "〜とみなす / 判断する"
+  },
+  "unveil": {
+      "ru": "торжественно открывать / презентовать / обнародовать",
+      "es": "desvelar / inaugurar / presentar públicamente",
+      "fr": "dévoiler / inaugurer / révéler au public",
+      "de": "enthüllen / vorstellen / einweihen",
+      "zh": "揭幕 / 公布 / 首次展示",
+      "tr": "açılışını yapmak / gün ışığına çıkarmak / duyurmak",
+      "ja": "披露する / 明らかにする / 発表する"
+  },
+  "adjoin": {
+      "ru": "примыкать к / граничить с / прилегать",
+      "es": "colindar con / lindar con / estar contiguo a",
+      "fr": "jouxter / être contigu à / attenant à",
+      "de": "angrenzen an / anstoßen an",
+      "zh": "毗连 / 紧挨着 / 与…接壤",
+      "tr": "bitişik olmak / komşu olmak / sınırdaş olmak",
+      "ja": "隣接する / 接している"
+  },
+  "vituperate": {
+      "ru": "бранить / поносить / яростно обличать",
+      "es": "vituperar / censurar con dureza / increpar",
+      "fr": "vituperer / fustiger / invectiver",
+      "de": "beschimpfen / schmähen / herabwürdigen",
+      "zh": "谩骂 / 痛斥 / 严厉责骂",
+      "tr": "sertçe yermek / azarlamak / küfretmek",
+      "ja": "口汚くののしる / 激しく非難する"
+  },
+  "waver": {
+      "ru": "колебаться / проявлять нерешительность / дрогнуть",
+      "es": "vacilar / tambalearse / titubear",
+      "fr": "hésiter / vaciller / faiblir",
+      "de": "wanken / zögern / unentschlossen sein",
+      "zh": "动摇 / 犹豫不决 / 动摇不定",
+      "tr": "tereddüt etmek / bocalamak / sendelemek",
+      "ja": "揺らぐ / ためらう / ぐらつく"
+  },
+  "conspire": {
+      "ru": "вступать в сговор / тайно замышлять / объединяться (об обстоятельствах)",
+      "es": "conspirar / confabular / conspirar contra",
+      "fr": "conspirer / comploter / s’entendre secrètement",
+      "de": "konspirieren / sich verschwören / intrigieren",
+      "zh": "密谋 / 图谋 / 勾结",
+      "tr": "komplo kurmak / gizlice planlamak",
+      "ja": "共謀する / 企てる / 陰謀を巡らす"
+  },
+  "repine": {
+      "ru": "роптать / жаловаться / сетовать на судьбу",
+      "es": "lamentarse / quejarse / desazonarse",
+      "fr": "se plaindre / gémir sur son sort / récriminer",
+      "de": "hadern / sich grämen / murren",
+      "zh": "抱怨 / 苦恼 / 怨天尤人",
+      "tr": "sızlanmak / yakınmak / şikâyet etmek",
+      "ja": "不平を言う / 愚痴をこぼす / くよくよする"
+  },
+  "forgo": {
+      "ru": "добровольно отказываться от / воздерживаться от / жертвовать",
+      "es": "renunciar a / prescindir de / privarse de",
+      "fr": "renoncer à / s’abstenir de / se priver de",
+      "de": "verzichten auf / entbehren",
+      "zh": "放弃 / 节制 / 放弃享受",
+      "tr": "feragat etmek / vazgeçmek / feda etmek",
+      "ja": "差し控える / 諦める / 見合わせる"
+  },
+  "prophesy": {
+      "ru": "пророчествовать / предрекать / предсказывать",
+      "es": "profetizar / vaticinar / predecir",
+      "fr": "prophétiser / prédire / annoncer",
+      "de": "prophezeien / vorhersagen / weissagen",
+      "zh": "预言 / 预告 / 预示",
+      "tr": "kehanette bulunmak / önceden haber vermek",
+      "ja": "予言する / 前兆となる"
+  },
+  "malign": {
+      "ru": "клеветать на / очернять / порочить имя",
+      "es": "difamar / calumniar / denigrar",
+      "fr": "diffamer / dénigrer / calomnier",
+      "de": "verleumden / schlechtmachen / diffamieren",
+      "zh": "中伤 / 诽谤 / 诋毁",
+      "tr": "iftira atmak / karalamak / kötülemek",
+      "ja": "中傷する / 悪口を言う / けなす"
+  },
+  "infiltrate": {
+      "ru": "внедряться / проникать / просачиваться",
+      "es": "infiltrarse en / penetrar clandestinamente",
+      "fr": "infiltrer / s’infiltrer dans / pénétrer",
+      "de": "infiltrieren / einschleusen / unterwandern",
+      "zh": "渗入 / 潜入 / 渗透",
+      "tr": "sızmak / içine sızmak",
+      "ja": "潜入する / 浸透する / 浸潤する"
+  },
+  "stab": {
+      "ru": "наносить удар ножом / предавать (вонзать нож в спину)",
+      "es": "apuñalar / dar una puñalada / apuñalar por la espalda",
+      "fr": "poignarder / asséner un coup / trahir en traître",
+      "de": "erstechen / erstechen (bildl.: in den Rücken fallen)",
+      "zh": "刺 / 刺伤 / 暗箭伤人",
+      "tr": "bıçaklamak / hançerlemek / arkadan vurmak",
+      "ja": "突き刺す / 刺す / 裏切る"
+  },
+  "hatch": {
+      "ru": "вынашивать (план, заговор) / замышлять",
+      "es": "tramar / urdir / maquinar",
+      "fr": "tramar / concevoir en secret / couver",
+      "de": "ausbrüten / anzetteln / schmieden (Plan)",
+      "zh": "密谋 / 策划 / 孵化",
+      "tr": "plan kurmak / tezgâhlamak / fesat kurmak",
+      "ja": "企む / 密かに企てる / 孵化する"
+  },
+  "rarefy": {
+      "ru": "разрежать / очищать / делать утонченным",
+      "es": "enrarecer / purificar / sutilizar",
+      "fr": "raréfier / purifier / affiner",
+      "de": "verdünnen / verfeinern / vergeistigen",
+      "zh": "使变稀薄 / 净化 / 使精炼",
+      "tr": "seyreltmek / inceltmek / arıtmak",
+      "ja": "希薄にする / 純化する / 洗練させる"
+  },
+  "eradicate": {
+      "ru": "искоренять / уничтожать полностью / ликвидировать",
+      "es": "erradicar / extirpar / eliminar de raíz",
+      "fr": "éradiquer / extirper / éliminer complètement",
+      "de": "ausrotten / ausmerzen / beseitigen",
+      "zh": "根除 / 消灭 / 灭绝",
+      "tr": "kökünü kazımak / yok etmek / ortadan kaldırmak",
+      "ja": "根絶する / 撲滅する / 全滅させる"
+  },
+  "extirpate": {
+      "ru": "выкорчевывать / истреблять под корень / полностью уничтожать",
+      "es": "extirpar / arrancar de cuajo / destruir totalmente",
+      "fr": "extirper / arracher / anéantir",
+      "de": "ausrotten / entwurzeln / vertilgen",
+      "zh": "根除 / 灭绝 / 彻底销毁",
+      "tr": "kökünden sökmek / kökünü kurutmak / yok etmek",
+      "ja": "根絶やしにする / 摘出する / 根こそぎにする"
+  },
+  "ingest": {
+      "ru": "поглощать / заглатывать / принимать внутрь",
+      "es": "ingerir / tragar / absorber",
+      "fr": "ingérer / avaler / absorber",
+      "de": "aufnehmen / verschlucken / verzehren",
+      "zh": "咽下 / 摄入 / 吸收",
+      "tr": "yutmak / içine çekmek / sindirmek",
+      "ja": "摂取する / 飲み込む / 体内に取り入れる"
+  },
+  "propagate": {
+      "ru": "размножать (растения) / распространять (идеи, волны)",
+      "es": "propagar / multiplicar / difundir",
+      "fr": "propager / disséminer / multiplier",
+      "de": "vermehren / verbreiten / fortpflanzen",
+      "zh": "繁殖 / 传播 / 普及",
+      "tr": "çoğaltmak / yaymak / üremek",
+      "ja": "繁殖させる / 普及させる / 伝える"
+  },
+  "terminate": {
+      "ru": "прекращать / расторгать / завершать действие",
+      "es": "rescindir / terminar / dar por finalizado",
+      "fr": "résilier / mettre fin à / clore",
+      "de": "kündigen / beenden / einstellen",
+      "zh": "终止 / 结束 / 解除",
+      "tr": "sona erdirmek / feshetmek / bitirmek",
+      "ja": "終結させる / 打ち切る / 解約する"
+  },
+  "engross": {
+      "ru": "целиком поглощать (внимание) / захватывать",
+      "es": "absorber / acaparar la atención / cautivar",
+      "fr": "absorber / captiver / passionner",
+      "de": "fesseln / in Beschlag nehmen / beanspruchen",
+      "zh": "全神贯注 / 使全神投入 / 吸引",
+      "tr": "bütün dikkatini çekmek / meşgul etmek / dalıp gitmek",
+      "ja": "夢中にさせる / 没頭させる / 専念させる"
+  },
+  "coax": {
+      "ru": "терпеливо добиваться / мягко уговаривать / бережно восстанавливать",
+      "es": "persuadir con maña / engatusar / obtener con paciencia",
+      "fr": "amadouer / cajoler / obtenir par la douceur",
+      "de": "überreden / mit Geduld entlocken / bewegen zu",
+      "zh": "哄诱 / 耐心诱导 / 慢慢促使",
+      "tr": "tatlı dille ikna etmek / sabırla elde etmek",
+      "ja": "根気よく説得する / なだめて〜させる / 巧みに促す"
+  },
+  "swap": {
+      "ru": "обменивать / совершать обмен / переключаться",
+      "es": "intercambiar / canjear / trocar",
+      "fr": "échanger / troquer / permuter",
+      "de": "austauschen / tauschen / wechseln",
+      "zh": "交换 / 调换 / 交易",
+      "tr": "takas etmek / değiş tokuş yapmak",
+      "ja": "交換する / 取り替える / スワップする"
+  },
+  "substitute": {
+      "ru": "заменять / использовать в качестве замены / замещать",
+      "es": "sustituir / reemplazar por / suplir",
+      "fr": "substituer / remplacer par / servir de substitut",
+      "de": "ersetzen / substituieren / austauschen gegen",
+      "zh": "替代 / 取代 / 替换",
+      "tr": "yerine koymak / ikame etmek / yerine geçmek",
+      "ja": "代用する / 置き換える / 代替する"
+  },
+  "sublet": {
+      "ru": "сдавать в субаренду / передавать в поднаем",
+      "es": "subarrendar / realquilar",
+      "fr": "sous-louer / donner en sous-location",
+      "de": "untervermieten / weitervermieten",
+      "zh": "转租 / 分租",
+      "tr": "alt kiraya vermek / kiracıya kiralamak",
+      "ja": "転貸する / また貸しする"
+  },
+  "utter": {
+      "ru": "произносить / вымолвить / озвучивать",
+      "es": "pronunciar / proferir / expresar con palabras",
+      "fr": "prononcer / proférer / articuler",
+      "de": "äußern / aussprechen / von sich geben",
+      "zh": "说出 / 发出声音 / 表明",
+      "tr": "dile getirmek / söylemek / telaffuz etmek",
+      "ja": "口に出す / 発言する / 言葉を発する"
+  },
+  "entail": {
+      "ru": "влечь за собой / предусматривать / быть сопряженным с",
+      "es": "implicar / conllevar / suponer",
+      "fr": "entraîner / comporter / impliquer nécessairement",
+      "de": "mit sich bringen / nach sich ziehen / beinhalten",
+      "zh": "使必需 / 牵涉 / 伴随产生",
+      "tr": "gerektirmek / zorunlu kılmak / yol açmak",
+      "ja": "伴う / 必要とする / 必然的に伴う"
+  },
+  "glance": {
+      "ru": "бросать взгляд / бегло просматривать / взглянуть мельком",
+      "es": "echar un vistazo / ojear / mirar de reojo",
+      "fr": "jeter un coup d’œil / parcourir du regard",
+      "de": "einen Blick werfen / flüchtig hinsehen / überfliegen",
+      "zh": "匆匆一瞥 / 扫视 / 掠过",
+      "tr": "göz atmak / bir bakış fırlatmak / hızla incelemek",
+      "ja": "一瞥する / ちらりと見る / ざっと目を通す"
+  },
+  "surpass": {
+      "ru": "превосходить / перегонять / превышать ожидания",
+      "es": "sobrepasar / superar / exceder",
+      "fr": "surpasser / dépasser / exceller au-delà",
+      "de": "übertreffen / überflügeln / hinter sich lassen",
+      "zh": "超越 / 超过 / 胜过",
+      "tr": "aşmak / geçmek / üstün gelmek",
+      "ja": "上回る / 凌駕する / 超える"
+  },
+  "discard": {
+      "ru": "отбрасывать / отвергать за ненадобностью / списывать со счетов",
+      "es": "descartar / desechar / prescindir de",
+      "fr": "rejeter / se défaire de / jeter au rebut",
+      "de": "verwerfen / ablegen / ausrangieren",
+      "zh": "丢弃 / 抛弃 / 摈弃",
+      "tr": "ıskartaya çıkarmak / elden çıkarmak / terk etmek",
+      "ja": "廃棄する / 捨てる / 見限る"
+  },
+  "overtake": {
+      "ru": "обгонять / перегонять / опережать по показателям",
+      "es": "adelantar / rebasar / sobrepasar en cuota",
+      "fr": "dépasser / rattraper et devancer / doubler",
+      "de": "überholen / überflügeln / hinter sich lassen",
+      "zh": "超过 / 赶超 / 追上并超过",
+      "tr": "sollamak / geride bırakmak / geçmek",
+      "ja": "追い越す / 追い抜く / 引き離す"
+  },
+  "shield": {
+      "ru": "ограждать / защищать / укрывать от удара или проверок",
+      "es": "escudar / proteger / salvaguardar",
+      "fr": "protéger / préserver / faire écran à",
+      "de": "abschirmen / schützen / bewahren vor",
+      "zh": "庇护 / 遮蔽 / 防护",
+      "tr": "korumak / siper olmak / kalkan olmak",
+      "ja": "保護する / 遮る / かばう"
+  },
+  "initiate": {
+      "ru": "инициировать / приводить в действие / класть начало",
+      "es": "iniciar / entablar / incoar",
+      "fr": "initier / entamer / engager",
+      "de": "initiieren / in die Wege leiten / einleiten",
+      "zh": "发起 / 创始 / 开始实施",
+      "tr": "başlatmak / öncülük etmek / girişimde bulunmak",
+      "ja": "創始する / 着手する / 始める"
+  },
+  "manifest": {
+      "ru": "проявлять / выражать / свидетельствовать о",
+      "es": "manifestar / exteriorizar / evidenciar",
+      "fr": "manifester / extérioriser / faire preuve de",
+      "de": "manifestieren / offenbaren / zum Ausdruck bringen",
+      "zh": "显现 / 显露 / 表现出",
+      "tr": "açığa vurmak / belirti göstermek / göstermek",
+      "ja": "明示する / 表れる / 示す"
+  },
+  "delve": {
+    "ru": "углубляться / тщательно исследовать / вникать",
+    "zh": "钻研 / 探究",
+    "es": "ahondar / indagar",
+    "fr": "fouiller / approfondir",
+    "de": "eintauchen / ergründen",
+    "tr": "derinlemesine araştırmak",
+    "ja": "徹底的に調査する"
+  },
   "resilient": {
     "ru": "устойчивый / стойкий",
     "zh": "有韧性的",

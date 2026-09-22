@@ -50,7 +50,7 @@ export interface ReadingText {
   title: string;
   content: string; 
   translations: TranslationMap;
-  comprehensionQuestions: ComprehensionQuestion[];
+  comprehensionQuestions?: ComprehensionQuestion[];
 }
 
 export interface Lesson {

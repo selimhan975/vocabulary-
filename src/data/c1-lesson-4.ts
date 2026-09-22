@@ -395,41 +395,41 @@ export const c1Lesson4: Lesson = {
     },
     {
       id: 'c1-w40',
-      word: 'proscribe',
-      pronunciation: '/prəˈskraɪb/',
+      word: 'entice',
+      pronunciation: '/ɪnˈtaɪs/',
       partOfSpeech: 'verb',
       level: 'C1',
-      synonyms: ['forbid', 'prohibit', 'ban', 'outlaw'],
-      collocations: ['proscribe activities', 'statute proscribes', 'expressly proscribe'],
+      synonyms: ['lure', 'allure', 'tempt', 'coax'],
+      collocations: ['entice contractors', 'entice with bribes', 'entice away'],
       translations: {
-        ru: 'запрещать законом / объявлять вне закона',
-        es: 'proscribir / prohibir formalmente',
-        fr: 'proscrire / interdire',
-        de: 'verbieten / ächten / untersagen',
-        zh: '正式禁止 / 宣布…为非法',
-        tr: 'yasaklamak / kanun dışı ilan etmek',
-        ja: '法的に禁止する / 排斥する'
+        ru: 'заманивать / соблазнять / прельщать',
+        es: 'atraer / seducir / engatusar',
+        fr: 'attirer / allécher / inciter',
+        de: 'anlocken / verlocken',
+        zh: '诱使 / 吸引',
+        tr: 'cezbetmek / aklını çelmek',
+        ja: '誘惑する / 引き寄せる'
       },
       meanings: [
         {
           id: 'c1-w40-m1',
-          definition: 'to forbid or condemn something officially by law or institutional decree',
+          definition: 'to attract or tempt someone by offering something pleasant, lucrative, or advantageous',
           translation: {
-            ru: 'официально налагать законодательный запрет или объявлять деятельность нелегитимной'
+            ru: 'привлекать или склонять к действию заманчивыми предложениями или выгодой'
           },
           examples: [
             {
               id: 'c1-w40-m1-e1',
-              sentence: 'Constitutional jurisprudence explicitly proscribes retroactive criminal penalties imposed without fair trial.',
+              sentence: 'Corrupt syndicates routinely attempt to entice municipal officials with luxury junkets and covert gratuities.',
               translation: {
-                ru: 'Конституционная юриспруденция прямо запрещает назначение уголовных наказаний задним числом без справедливого суда.'
+                ru: 'Коррупционные синдикаты регулярно пытаются соблазнить муниципальных служащих роскошными поездками и тайными вознаграждениями.'
               }
             },
             {
               id: 'c1-w40-m1-e2',
-              sentence: 'The newly ratified international convention sought to strictly proscribe the deployment of autonomous naval mines.',
+              sentence: 'The developer hoped to entice local councillors by promising extensive philanthropic donations to regional charities.',
               translation: {
-                ru: 'Новая ратифицированная международная конвенция была призвана строго запретить применение автономных морских мин.'
+                ru: 'Застройщик надеялся задобрить и привлечь на свою сторону местных советников, обещая крупные благотворительные пожертвования региональным фондам.'
               }
             }
           ]
@@ -440,17 +440,17 @@ export const c1Lesson4: Lesson = {
   reading: {
     id: 'c1-l4-r',
     title: 'The Ethics of Institutional Rectitude',
-    content: `In the aftermath of the municipal corruption scandal, judicial authorities sought to establish enduring reforms rather than merely assign individual blame. For decades, informal patronage systems had allowed senior officials to lease state-owned real estate to commercial cronies at nominal rates, creating transactions that critics characterized as thoroughly ignoble exercises in public betrayal. Such entrenched practices inevitably breed profound public cynicism, corroding citizen faith in constitutional governance.
+    content: `In the aftermath of the municipal corruption scandal, judicial authorities sought to establish enduring reforms rather than merely assign individual blame. For decades, informal patronage systems had allowed senior officials to lease state-owned real estate to commercial cronies at nominal rates, creating transactions that critics characterized as thoroughly ignoble exercises in public betrayal. Corrupt brokers would routinely entice contractors with lucrative concessions in exchange for illicit kickbacks. Such entrenched practices inevitably breed profound public cynicism, corroding citizen faith in constitutional governance.
 
-When the state prosecutor launched formal indictments, the mastermind attempted to abscond aboard a private vessel before border warrants could take effect. Intercepted by maritime police, he was transferred to a high-security detention facility where his legal team fought desperately to banish the taint of criminal culpability. They attempted to dismiss the charges as partisan persecution, hoping to explode the prosecution’s evidentiary timeline. However, meticulous subpoenaed records demonstrated that statutory frameworks proscribe any unauthorized diversion of civil revenues.
+When the state prosecutor launched formal indictments, the mastermind attempted to abscond aboard a private vessel before border warrants could take effect. Intercepted by maritime police, he was transferred to a high-security detention facility where his legal team fought desperately to banish the taint of criminal culpability. They attempted to dismiss the charges as partisan persecution, hoping to explode the prosecution’s evidentiary timeline. However, meticulous subpoenaed records demonstrated systemic financial misconduct across every municipal department.
 
 Wracked by the sudden collapse of his reputation and facing decades of incarceration, the disgraced magistrate realized that denial would no longer suffice. In an attempt to redeem his standing and soften sentencing, he agreed to cooperate fully with investigators, uncovering a network of shadow trusts that had secretly diverted tax revenues for personal enrichment.
 
 Recognizing that integrity cannot rely solely on criminal punishment, civic leaders reorganized city hall. They moved to properly staff oversight commissions with independent compliance ombudsmen, ensuring that municipal bids are audited in real time. The saga served as a sobering reminder that public power is a solemn trust that demands vigilant guardianship.`,
     translations: {
-      ru: `После скандала с муниципальной коррупцией судебные органы стремились заложить долгосрочные основы реформ, а не просто возложить вину на отдельных лиц. На протяжении десятилетий патронажные связи позволяли чиновникам сдавать в аренду (lease) государственную недвижимость своим фаворитам по символическим ставкам — поведение, которое критики справедливо клеймили как постыдный (ignoble) пример злоупотребления властью. Подобные схемы неизбежно порождают (breed) цинизм в обществе и подрывают веру граждан в справедливость.
+      ru: `После скандала с муниципальной коррупцией судебные органы стремились заложить долгосрочные основы реформ, а не просто возложить вину на отдельных лиц. На протяжении десятилетий патронажные связи позволяли чиновникам сдавать в аренду (lease) государственную недвижимость своим фаворитам по символическим ставкам — поведение, которое критики справедливо клеймили как постыдный (ignoble) пример злоупотребления властью. Коррумпированные посредники регулярно заманивали (entice) подрядчиков выгодными преференциями в обмен на откаты. Подобные схемы неизбежно порождают (breed) цинизм в обществе и подрывают веру граждан в справедливость.
 
-Когда прокурор штата подписал обвинительное заключение, главный организатор схемы попытался скрыться (abscond) на частном судне до вступления ордера в силу. Перехваченный морской полицией, он оказался под стражей, где адвокаты безуспешно пытались отвести (banish) подозрения и развенчать (explode) хронологию следствия. Тем не менее документы доказали, что законы прямо запрещают (proscribe) нецелевое расходование общественных средств.
+Когда прокурор штата подписал обвинительное заключение, главный организатор схемы попытался скрыться (abscond) на частном судне до вступления ордера в силу. Перехваченный морской полицией, он оказался под стражей, где адвокаты безуспешно пытались отвести (banish) подозрения и развенчать (explode) хронологию следствия. Тем не менее изъятые документы доказали масштабные системные махинации.
 
 Терзаемый (wracked) крушением репутации перед лицом тюремного срока, обвиняемый понял тщетность запирательств. Чтобы хоть отчасти загладить вину (redeem) и смягчить приговор, он пошел на полное сотрудничество со следствием. Городские власти оперативно укомплектовали штатом (staff) независимые ревизионные комиссии, сделав прозрачными все закупки и подтвердив верховенство общественного блага.`
     },
@@ -479,12 +479,12 @@ Recognizing that integrity cannot rely solely on criminal punishment, civic lead
       },
       {
         id: 'c1-l4-q3',
-        question: 'What legal principle was confirmed by subpoenaed municipal records?',
+        question: 'How did corrupt brokers induce contractors to participate in the kickback schemes?',
         options: [
-          'State real estate leases are exempt from judicial oversight.',
-          'Statutory frameworks proscribe any unauthorized diversion of civil revenues.',
-          'Mayoral decrees supersede regional constitutional protections.',
-          'Magistrates cannot be prosecuted for financial transactions conducted while in office.'
+          'By threatening to revoke their municipal operating licenses immediately.',
+          'By using lucrative commercial concessions to entice contractors in exchange for kickbacks.',
+          'By publishing false balance sheets in local business newspapers.',
+          'By forcing contractors into binding arbitration overseen by municipal judges.'
         ],
         correctAnswerIndex: 1
       },
