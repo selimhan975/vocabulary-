@@ -33,16 +33,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w31-m1-e1',
-              sentence: 'The disgraced treasurer attempted to abscond to an extradition-free archipelago with millions in client deposits.',
+              sentence: 'The accountant absconded with company funds the day before the annual audit.',
               translation: {
-                ru: 'Опозоренный казначей попытался скрыться на архипелаге без соглашения об экстрадиции, прихватив миллионы клиентских депозитов.'
+                ru: 'Бухгалтер скрылся с деньгами компании за день до начала ежегодного аудита.'
               }
             },
             {
               id: 'c1-w31-m1-e2',
-              sentence: 'Fearing immediate preventive detention, several suspects attempted to abscond across the mountain frontier under cover of dusk.',
+              sentence: 'Several inmates managed to abscond from the minimum-security facility during the night.',
               translation: {
-                ru: 'Опасаясь немедленного предварительного ареста, несколько подозреваемых попытались тайно сбежать через горную границу под покровом сумерек.'
+                ru: 'Нескольким заключенным удалось сбежать из колонии-поселения ночью.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w32-m1-e1',
-              sentence: 'Historical records show that the city council decided to banish rebellious factions beyond the defensive ramparts.',
+              sentence: 'She took a few deep breaths to banish self-doubt before walking onto the stage.',
               translation: {
-                ru: 'Исторические хроники свидетельствуют, что городской совет постановил изгнать мятежные фракции за пределы оборонительных валов.'
+                ru: 'Она сделала несколько глубоких вдохов, чтобы прогнать неуверенность в себе перед выходом на сцену.'
               }
             },
             {
               id: 'c1-w32-m1-e2',
-              sentence: 'The defense advocate fought hard to banish any residual prejudices from the minds of the prospective jurors.',
+              sentence: 'In ancient Greece, citizens could vote to banish a politician from the city for ten years.',
               translation: {
-                ru: 'Адвокат защиты упорно боролся за то, чтобы искоренить любые остаточные предубеждения из сознания будущих присяжных.'
+                ru: 'В древней Греции граждане могли проголосовать за изгнание политика из города на десять лет.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w33-m1-e1',
-              sentence: 'Rigorous sociological fieldwork served to explode the comfortable myth of effortless intergenerational social mobility.',
+              sentence: 'The documentary helped to explode the widespread myth that healthy eating is always expensive.',
               translation: {
-                ru: 'Тщательные социологические исследования послужили тому, чтобы вдребезги развенчать утешительный миф о легкой межпоколенческой социальной мобильности.'
+                ru: 'Документальный фильм помог развенчать популярный миф о том, что здоровое питание — это всегда дорого.'
               }
             },
             {
               id: 'c1-w33-m1-e2',
-              sentence: 'New genetic findings decisively explode earlier anthropological assumptions regarding ancient migration routes.',
+              sentence: 'Recent archaeological findings completely explode the old theory about how the monument was built.',
               translation: {
-                ru: 'Новые генетические открытия решительно опровергают прежние антропологические гипотезы о древних путях миграции.'
+                ru: 'Недавние археологические находки полностью опровергают старую теорию о том, как был построен этот памятник.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w34-m1-e1',
-              sentence: 'Persistent systemic opacity will inevitably breed cynicism among ordinary citizens seeking judicial fairness.',
+              sentence: 'Lack of communication between management and staff will only breed suspicion and resentment.',
               translation: {
-                ru: 'Хроническая закрытость системы неизбежно порождает цинизм среди рядовых граждан, ищущих судебной справедливости.'
+                ru: 'Недостаток общения между руководством и сотрудниками только породит подозрительность и обиду.'
               }
             },
             {
               id: 'c1-w34-m1-e2',
-              sentence: 'Unregulated speculative bidding environments tend to breed reckless financial conduct across market participants.',
+              sentence: 'Unclear instructions tend to breed confusion among new team members.',
               translation: {
-                ru: 'Нерегулируемая спекулятивная биржевая среда склонна взращивать безответственное поведение среди участников рынка.'
+                ru: 'Неясные инструкции обычно вызывают путаницу у новых членов команды.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w35-m1-e1',
-              sentence: 'The disgraced politician undertook arduous humanitarian work in an earnest attempt to redeem his public reputation.',
+              sentence: 'After dropping an easy catch earlier, the goalkeeper redeemed himself by saving two penalties.',
               translation: {
-                ru: 'Потерявший доверие политик занялся сложной гуманитарной деятельностью в искренней попытке восстановить свою репутацию.'
+                ru: 'Упустив простой мяч в начале игры, вратарь реабилитировался, отразив два пенальти.'
               }
             },
             {
               id: 'c1-w35-m1-e2',
-              sentence: 'An impassioned performance in the third act was sufficient to redeem what had begun as a mediocre theatrical premiere.',
+              sentence: 'He worked hard for years to redeem his family’s honor after the bankruptcy scandal.',
               translation: {
-                ru: 'Вдохновенная игра в третьем акте спасла постановку, начинавшуюся как заурядная премьера.'
+                ru: 'Он годами упорно трудился, чтобы восстановить доброе имя своей семьи после скандала с банкротством.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w36-m1-e1',
-              sentence: 'Wracked by remorse after misleading the court, the former executive chose to surrender all concealed financial assets.',
+              sentence: 'Wracked by guilt, he finally called his friend to apologize for breaking the promise.',
               translation: {
-                ru: 'Терзаемый раскаянием после обмана суда, бывший топ-менеджер решил добровольно сдать все сокрытые финансовые активы.'
+                ru: 'Мучимый чувством вины, он наконец позвонил другу, чтобы извиниться за нарушение обещания.'
               }
             },
             {
               id: 'c1-w36-m1-e2',
-              sentence: 'Civil conflicts continue to wrack the border province, severely fracturing local transport and schooling networks.',
+              sentence: 'The patient was wracked by severe coughing fits throughout the entire winter night.',
               translation: {
-                ru: 'Гражданские конфликты продолжают сотрясать приграничную провинцию, разрушая местный транспорт и систему образования.'
+                ru: 'Пациента мучили сильные приступы кашля на протяжении всей зимней ночи.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w37-m1-e1',
-              sentence: 'The human rights ombudsman struggled to adequately staff the newly opened regional appellate bureaus.',
+              sentence: 'The hospital had to hire temporary nurses to properly staff the intensive care unit.',
               translation: {
-                ru: 'Уполномоченный по правам человека с трудом находил кадры, чтобы должным образом укомплектовать персоналом открывшиеся региональные апелляционные бюро.'
+                ru: 'Больнице пришлось нанять временных медсестер, чтобы должным образом укомплектовать отделение интенсивной терапии.'
               }
             },
             {
               id: 'c1-w37-m1-e2',
-              sentence: 'Emergency medical centers must staff shifts around the clock to respond promptly during civic disruptions.',
+              sentence: 'Volunteers will staff the information booth throughout the three-day music festival.',
               translation: {
-                ru: 'Центры неотложной помощи обязаны обеспечивать дежурство сотрудников круглосуточно для быстрого реагирования на городские происшествия.'
+                ru: 'Волонтеры будут дежурить на информационной стойке на протяжении всех трех дней музыкального фестиваля.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w38-m1-e1',
-              sentence: 'Cash-conscious startup ventures frequently choose to lease laboratory apparatus rather than purchase it outright.',
+              sentence: 'Instead of buying a new car, they decided to lease one for three years.',
               translation: {
-                ru: 'Экономные стартапы нередко предпочитают брать лабораторное оборудование в аренду, чем выкупать его сразу.'
+                ru: 'Вместо покупки нового автомобиля они решили взять машину в лизинг на три года.'
               }
             },
             {
               id: 'c1-w38-m1-e2',
-              sentence: 'The municipality agreed to lease municipal docklands to civic environmental cooperatives for public recreation.',
+              sentence: 'The bookstore owner leases the ground-floor space from a retired teacher.',
               translation: {
-                ru: 'Муниципалитет согласился сдать городские доки в аренду экологическим кооперативам для организации общественного отдыха.'
+                ru: 'Владелец книжного магазина арендует помещение на первом этаже у учительницы на пенсии.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w39-m1-e1',
-              sentence: 'Subordinating public welfare to immediate partisan gain is an ignoble betrayal of democratic trusteeship.',
+              sentence: 'Blaming an intern for your own mistake is an ignoble thing to do.',
               translation: {
-                ru: 'Подчинение общественного блага сиюминутным партийным интересам — это постыдное предательство идеалов демократического доверия.'
+                ru: 'Сваливать собственную ошибку на стажера — это низкий поступок.'
               }
             },
             {
               id: 'c1-w39-m1-e2',
-              sentence: 'The general met an ignoble end, deserted by the mercenaries he had paid to usurp control of the citadel.',
+              sentence: 'He left politics after realizing his colleagues were motivated solely by ignoble personal greed.',
               translation: {
-                ru: 'Генерал встретил бесчестный конец, покинутый наемниками, которых он нанял для захвата цитадели.'
+                ru: 'Он ушел из политики, поняв, что его коллегами движет исключительно низменная личная корысть.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson4: Lesson = {
           examples: [
             {
               id: 'c1-w40-m1-e1',
-              sentence: 'Corrupt syndicates routinely attempt to entice municipal officials with luxury junkets and covert gratuities.',
+              sentence: 'The smell of freshly baked bread was enough to entice customers into the bakery.',
               translation: {
-                ru: 'Коррупционные синдикаты регулярно пытаются соблазнить муниципальных служащих роскошными поездками и тайными вознаграждениями.'
+                ru: 'Запаха свежеиспеченного хлеба было достаточно, чтобы заманить покупателей в булочную.'
               }
             },
             {
               id: 'c1-w40-m1-e2',
-              sentence: 'The developer hoped to entice local councillors by promising extensive philanthropic donations to regional charities.',
+              sentence: 'The tech company offered flexible hours and free gym passes to entice top developers.',
               translation: {
-                ru: 'Застройщик надеялся задобрить и привлечь на свою сторону местных советников, обещая крупные благотворительные пожертвования региональным фондам.'
+                ru: 'Технологическая компания предложила гибкий график и бесплатные абонементы в спортзал, чтобы привлечь лучших разработчиков.'
               }
             }
           ]
@@ -440,19 +440,19 @@ export const c1Lesson4: Lesson = {
   reading: {
     id: 'c1-l4-r',
     title: 'The Ethics of Institutional Rectitude',
-    content: `In the aftermath of the municipal corruption scandal, judicial authorities sought to establish enduring reforms rather than merely assign individual blame. For decades, informal patronage systems had allowed senior officials to lease state-owned real estate to commercial cronies at nominal rates, creating transactions that critics characterized as thoroughly ignoble exercises in public betrayal. Corrupt brokers would routinely entice contractors with lucrative concessions in exchange for illicit kickbacks. Such entrenched practices inevitably breed profound public cynicism, corroding citizen faith in constitutional governance.
+    content: `In the aftermath of the city hall corruption scandal, authorities focused on long-term systemic reforms rather than just individual blame. For decades, dishonest officials had used informal connections to lease state-owned real estate to commercial cronies at nominal rates—an ignoble abuse of power that cost taxpayers millions. In addition, corrupt brokers would routinely use lucrative commercial concessions to entice contractors in exchange for secret kickbacks. Such entrenched practices inevitably breed profound public cynicism, corroding citizen faith in constitutional governance.
 
-When the state prosecutor launched formal indictments, the mastermind attempted to abscond aboard a private vessel before border warrants could take effect. Intercepted by maritime police, he was transferred to a high-security detention facility where his legal team fought desperately to banish the taint of criminal culpability. They attempted to dismiss the charges as partisan persecution, hoping to explode the prosecution’s evidentiary timeline. However, meticulous subpoenaed records demonstrated systemic financial misconduct across every municipal department.
+When the state prosecutor launched formal indictments, the mastermind attempted to abscond aboard a private vessel before border warrants could take effect. Intercepted by maritime police at the harbor, he was transferred to a high-security detention facility where his legal team fought desperately to banish any suspicion of fraud. They attempted to dismiss the charges as political bias, hoping to explode the prosecution’s evidentiary timeline. However, meticulous bank records and subpoenaed documents clearly proved systematic financial misconduct across every municipal department.
 
-Wracked by the sudden collapse of his reputation and facing decades of incarceration, the disgraced magistrate realized that denial would no longer suffice. In an attempt to redeem his standing and soften sentencing, he agreed to cooperate fully with investigators, uncovering a network of shadow trusts that had secretly diverted tax revenues for personal enrichment.
+Wracked by the sudden collapse of his reputation and facing decades of incarceration, the disgraced magistrate realized that denial would no longer suffice. In an attempt to redeem his standing and soften sentencing, he agreed to cooperate fully with investigators, uncovering a network of shadow trusts that had secretly diverted public funds.
 
-Recognizing that integrity cannot rely solely on criminal punishment, civic leaders reorganized city hall. They moved to properly staff oversight commissions with independent compliance ombudsmen, ensuring that municipal bids are audited in real time. The saga served as a sobering reminder that public power is a solemn trust that demands vigilant guardianship.`,
+Recognizing that integrity cannot rely solely on punishment, civic leaders reorganized city hall. They established strict bidding rules and moved to properly staff oversight commissions with independent compliance ombudsmen, ensuring that municipal bids are audited in real time. The saga served as a sobering reminder that public power is a solemn trust that demands vigilant guardianship.`,
     translations: {
-      ru: `После скандала с муниципальной коррупцией судебные органы стремились заложить долгосрочные основы реформ, а не просто возложить вину на отдельных лиц. На протяжении десятилетий патронажные связи позволяли чиновникам сдавать в аренду (lease) государственную недвижимость своим фаворитам по символическим ставкам — поведение, которое критики справедливо клеймили как постыдный (ignoble) пример злоупотребления властью. Коррумпированные посредники регулярно заманивали (entice) подрядчиков выгодными преференциями в обмен на откаты. Подобные схемы неизбежно порождают (breed) цинизм в обществе и подрывают веру граждан в справедливость.
+      ru: `После скандала в мэрии судебные органы стремились заложить долгосрочные основы реформ, а не просто наказать виновных. На протяжении десятилетий связи позволяли чиновникам сдавать в аренду (lease) государственную недвижимость своим фаворитам по символическим ставкам — постыдный (ignoble) пример злоупотребления властью, стоивший бюджету миллионов. Коррумпированные посредники регулярно использовали выгодные условия, чтобы заманивать (entice) подрядчиков в обмен на откаты. Подобные схемы неизбежно порождают (breed) цинизм в обществе и подрывают веру граждан в справедливость.
 
-Когда прокурор штата подписал обвинительное заключение, главный организатор схемы попытался скрыться (abscond) на частном судне до вступления ордера в силу. Перехваченный морской полицией, он оказался под стражей, где адвокаты безуспешно пытались отвести (banish) подозрения и развенчать (explode) хронологию следствия. Тем не менее изъятые документы доказали масштабные системные махинации.
+Когда прокурор подписал обвинительное заключение, главный организатор схемы попытался скрыться (abscond) на частном судне до вступления ордера в силу. Перехваченный морской полицией, он оказался под стражей, где адвокаты безуспешно пытались отвести (banish) подозрения и развенчать (explode) хронологию следствия. Тем не менее изъятые финансовые документы доказали масштабные махинации.
 
-Терзаемый (wracked) крушением репутации перед лицом тюремного срока, обвиняемый понял тщетность запирательств. Чтобы хоть отчасти загладить вину (redeem) и смягчить приговор, он пошел на полное сотрудничество со следствием. Городские власти оперативно укомплектовали штатом (staff) независимые ревизионные комиссии, сделав прозрачными все закупки и подтвердив верховенство общественного блага.`
+Терзаемый (wracked) крушением репутации перед лицом тюремного срока, обвиняемый понял тщетность запирательств. Чтобы хоть отчасти загладить вину (redeem) и смягчить приговор, он пошел на полное сотрудничество со следствием. Городские власти оперативно укомплектовали штатом (staff) независимые ревизионные комиссии, сделав прозрачными все закупки и восстановив верховенство закона.`
     },
     comprehensionQuestions: [
       {

@@ -33,16 +33,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w41-m1-e1',
-              sentence: 'During the university centenary dinner, retired faculty members gathered on the terrace to reminisce about their formative research years.',
+              sentence: 'At the family reunion, my grandparents loved to reminisce about their youth in the village.',
               translation: {
-                ru: 'Во время юбилейного ужина в честь столетия университета вышедшие на пенсию преподаватели собрались на террасе, чтобы предаться воспоминаниям о годах становления своих исследований.'
+                ru: 'На встрече семьи мои дедушка и бабушка с удовольствием вспоминали свою юность в деревне.'
               }
             },
             {
               id: 'c1-w41-m1-e2',
-              sentence: 'Biographers often invite elder statesmen to reminisce about high-stakes negotiations that took place behind closed doors.',
+              sentence: 'We sat by the fireplace for hours, reminiscing about our college road trips.',
               translation: {
-                ru: 'Биографы часто приглашают старейших государственных деятелей вспомнить о переговорах с высокими ставками, проходивших за закрытыми дверями.'
+                ru: 'Мы часами сидели у камина, вспоминая наши студенческие поездки на машине.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w42-m1-e1',
-              sentence: 'Scholars in comparative jurisprudence venerate the magistrate whose landmark rulings safeguarded judicial independence.',
+              sentence: 'In many cultures, people venerate their ancestors through traditional annual rituals.',
               translation: {
-                ru: 'Ученые в области сравнительного правоведения глубоко почитают судью, чьи эпохальные постановления защитили судебную независимость.'
+                ru: 'Во многих культурах люди почитают своих предков посредством традиционных ежегодных ритуалов.'
               }
             },
             {
               id: 'c1-w42-m1-e2',
-              sentence: 'While older conservatives venerate established constitutional doctrines, reformist scholars advocate systemic modern revisions.',
+              sentence: 'The young musician deeply venerated the classical masters who came before him.',
               translation: {
-                ru: 'В то время как пожилые консерваторы благоговеют перед устоявшимися конституционными доктринами, ученые-реформаторы ратуют за системные современные пересмотры.'
+                ru: 'Молодой музыкант глубоко почитал классических мастеров, творивших до него.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w43-m1-e1',
-              sentence: 'The central bank sought to anchor inflationary expectations by establishing a binding statutory interest rate corridor.',
+              sentence: 'A strong core of experienced teachers helped anchor the school through years of rapid change.',
               translation: {
-                ru: 'Центральный банк стремился закрепить инфляционные ожидания, установив обязательный нормативный коридор процентных ставок.'
+                ru: 'Крепкое ядро опытных учителей помогло удержать школу на плаву в годы быстрых перемен.'
               }
             },
             {
               id: 'c1-w43-m1-e2',
-              sentence: 'Architects designed a massive subterranean cantilever intended to anchor the glass atrium against gale-force seismic tremors.',
+              sentence: 'The captain made sure to anchor the boat firmly before the storm hit the bay.',
               translation: {
-                ru: 'Архитекторы спроектировали массивную подземную консоль, призванную надежно закрепить стеклянный атриум против сейсмических толчков штормовой силы.'
+                ru: 'Капитан позаботился о том, чтобы надежно поставить лодку на якорь до того, как шторм обрушился на бухту.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w44-m1-e1',
-              sentence: 'After thirty turbulent years heading the industrial conglomerate, the founder agreed to relinquish managerial veto power to an independent board.',
+              sentence: 'He decided to relinquish his role as team captain so he could focus on his studies.',
               translation: {
-                ru: 'После тридцати бурных лет руководства промышленным конгломератом основатель согласился передать право управленческого вето независимому совету директоров.'
+                ru: 'Он решил отказаться от роли капитана команды, чтобы сосредоточиться на учебе.'
               }
             },
             {
               id: 'c1-w44-m1-e2',
-              sentence: 'Under the peace treaty provisions, both sovereign nations agreed to relinquish disputed maritime claims in the neutral strait.',
+              sentence: 'She refused to relinquish control of the family business until she found a worthy successor.',
               translation: {
-                ru: 'Согласно положениям мирного договора, оба суверенных государства согласились отказаться от спорных морских претензий в нейтральном проливе.'
+                ru: 'Она отказывалась передавать управление семейным бизнесом, пока не нашла достойного преемника.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w45-m1-e1',
-              sentence: 'The regulatory charter must clearly delineate jurisdictional lines between federal inspectors and regional authorities.',
+              sentence: 'The contract should clearly delineate the duties of each business partner.',
               translation: {
-                ru: 'Нормативный устав должен четко разграничить сферы юрисдикции между федеральными инспекторами и региональными властями.'
+                ru: 'Договор должен четко определять обязанности каждого делового партнера.'
               }
             },
             {
               id: 'c1-w45-m1-e2',
-              sentence: 'In her monograph, the political philosopher sought to delineate the exact moral frontier between civil liberties and statutory security duties.',
+              sentence: 'A low wooden fence was built to delineate the property line between the two gardens.',
               translation: {
-                ru: 'В своей монографии политический философ попыталась точно очертить этическую границу между гражданскими свободами и законными обязанностями по обеспечению безопасности.'
+                ru: 'Невысокий деревянный забор был построен, чтобы обозначить границу между двумя садами.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w46-m1-e1',
-              sentence: 'Only transparent, scientifically verified research hypotheses can withstand severe academic cross-examination during peer review.',
+              sentence: 'These heavy winter boots are designed to withstand freezing temperatures and deep snow.',
               translation: {
-                ru: 'Только прозрачные, научно верифицированные исследовательские гипотезы могут выдержать жесткую академическую проверку в ходе рецензирования.'
+                ru: 'Эти теплые зимние ботинки рассчитаны на то, чтобы выдерживать мороз и глубокий снег.'
               }
             },
             {
               id: 'c1-w46-m1-e2',
-              sentence: 'The medieval fortification had been engineered to withstand protracted artillery bombardments during long winter sieges.',
+              sentence: 'The candidate had to withstand harsh criticism from reporters during the televised debate.',
               translation: {
-                ru: 'Средневековое укрепление было спроектировано таким образом, чтобы выдерживать затяжные артиллерийские обстрелы в период долгих зимних осад.'
+                ru: 'Кандидату пришлось выдержать жесткую критику со стороны журналистов во время телевизионных дебатов.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w47-m1-e1',
-              sentence: 'The chief legal counsel instructed the envoys to append a confidentiality clause to the bilateral research protocol.',
+              sentence: 'Please append a short cover letter to your job application before sending it.',
               translation: {
-                ru: 'Главный юрисконсульт поручил посланникам приложить пункт о конфиденциальности к протоколу двусторонних исследований.'
+                ru: 'Пожалуйста, приложите короткое сопроводительное письмо к вашей заявке на работу перед отправкой.'
               }
             },
             {
               id: 'c1-w47-m1-e2',
-              sentence: 'Before transmitting the institutional dossier, researchers decided to append comprehensive raw meteorological datasets for open verification.',
+              sentence: 'The author decided to append an updated bibliography to the new edition of the book.',
               translation: {
-                ru: 'Перед отправкой институционального досье исследователи решили прикрепить полные исходные метеорологические наборы данных для открытой проверки.'
+                ru: 'Автор решил добавить обновленный список литературы в конец нового издания книги.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w48-m1-e1',
-              sentence: 'The parliamentary ombudsman may intervene whenever official administrative delays are deemed arbitrary or punitive.',
+              sentence: 'The building was deemed unsafe for residents after the earthquake cracked the foundation.',
               translation: {
-                ru: 'Парламентский омбудсмен вправе вмешаться всякий раз, когда официальные административные проволочки признаются произвольными или карательными.'
+                ru: 'Здание было признано небезопасным для жильцов после того, как землетрясение повредило фундамент.'
               }
             },
             {
               id: 'c1-w48-m1-e2',
-              sentence: 'If archival documents are deemed of paramount historical significance, state curators must preserve them under climate-controlled safeguards.',
+              sentence: 'The committee will take whatever action it deems necessary to protect student privacy.',
               translation: {
-                ru: 'Если архивные документы признаются имеющими первостепенное историческое значение, государственные хранители обязаны сберегать их при строгом климат-контроле.'
+                ru: 'Комитет примет любые меры, которые сочтет необходимыми для защиты конфиденциальности студентов.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w49-m1-e1',
-              sentence: 'The municipal urban planning bureau assembled international delegates to unveil an extensive urban renewal master plan.',
+              sentence: 'The museum will unveil a newly discovered painting by Rembrandt next Tuesday.',
               translation: {
-                ru: 'Муниципальное бюро градостроительства собрало международных делегатов, чтобы торжественно представить масштабный генеральный план обновления города.'
+                ru: 'В следующий вторник музей представит публике недавно обнаруженную картину Рембрандта.'
               }
             },
             {
               id: 'c1-w49-m1-e2',
-              sentence: 'The chancellor prepared to unveil a comprehensive endowment policy aimed at funding doctoral fellowships across maritime biology.',
+              sentence: 'The mayor held a press conference to unveil plans for a new public park downtown.',
               translation: {
-                ru: 'Канцлер приготовился обнародовать комплексную политику эндаумента, направленную на финансирование докторских стипендий в области морской биологии.'
+                ru: 'Мэр провел пресс-конференцию, чтобы представить проект нового городского парка в центре города.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson5: Lesson = {
           examples: [
             {
               id: 'c1-w50-m1-e1',
-              sentence: 'The newly endowed botanical conservatory will adjoin the historic library cloisters on the university campus perimeter.',
+              sentence: 'Our hotel room adjoined a quiet garden courtyard where guests could read in the shade.',
               translation: {
-                ru: 'Новая ботаническая оранжерея будет непосредственно примыкать к историческим монастырским галереям библиотеки на территории университетского кампуса.'
+                ru: 'Наш номер в отеле примыкал к тихому садовому дворику, где гости могли читать в тени.'
               }
             },
             {
               id: 'c1-w50-m1-e2',
-              sentence: 'Property surveyors verified that several private timber estates adjoin the state wildlife reserve without clear fence posts.',
+              sentence: 'The garage adjoins the kitchen, making it easy to bring groceries directly inside.',
               translation: {
-                ru: 'Земельные инспекторы подтвердили, что несколько частных лесных владений непосредственно примыкают к государственному природному заповеднику без четких пограничных столбов.'
+                ru: 'Гараж примыкает к кухне, благодаря чему продукты удобно заносить прямо в дом.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson5: Lesson = {
   reading: {
     id: 'c1-l5-reading',
     title: 'Custodians of Heritage: The Centennial Charter',
-    content: `When the board of regents assembled for their centennial convocation in the grand convocation hall, senior academicians took the opportunity to reminisce about the modest seminar rooms in which their institution first took root. Decades of intellectual toil, sacrifice, and visionary patronage had transformed what was once an impoverished provincial academy into an internationally venerated research sanctuary. Even in a modern higher-education marketplace obsessed with short-term revenue streams and immediate commercial metrics, the faculty scholars continue to venerate the pioneering foundational figures whose unflinching ethical integrity created an unshakeable scholarly tradition.
+    content: `When professors and alumni gathered for the university's hundredth anniversary, older faculty members took time to reminisce about the early days of the campus. Decades ago, the university was just a cluster of drafty classrooms with very few books. Over generations, dedicated scholars built it into an internationally recognized institution. Even today, students and teachers venerate the founders whose hard work established the university's tradition of academic honesty.
 
-Yet mere preservation of memories cannot ensure long-term institutional vitality. The governing senate recognized that timeless scholarly principles must actively anchor contemporary governance if the university hopes to navigate modern geopolitical instability and rapid economic volatility. During an intense plenary session, the rector took the historic step to relinquish arbitrary executive oversight, voluntarily transferring discretionary tenure evaluations and disciplinary reviews to an elected faculty assembly. The newly ratified statutes carefully delineate the exact jurisdictions of departmental chairs, eradicating ambiguous administrative grey areas that had previously spawned chronic friction between researchers and financial administrators.
+Yet celebrating history was only part of the event. Campus leaders recognized that timeless values must anchor the university as it faces modern challenges like rising tuition costs and changing technology. During the meeting, the university president made a surprising announcement: he decided to relinquish his veto over curriculum choices, handing that authority to an elected council of professors. New guidelines were introduced to clearly delineate the roles of administrators and researchers, ending years of confusion over who made hiring decisions.
 
-Academic integrity, the provost solemnly argued, remains hollow rhetoric unless an institution can withstand intense external political headwinds, public controversies, and coordinated corporate lobbying pressures. Independent funding trusts were permanently established to guarantee that no commercial benefactor could ever dictate curriculum design or suppress inconvenient scientific discoveries. To ensure utmost transparency across all financial dealings, the regents resolved to append comprehensive balance sheets, audited endowment investments, and donor registers to every annual public report. Any administrative expenditure that failed to meet these rigorous statutory standards was promptly deemed inappropriate for university sponsorship.
+The provost reminded the audience that an honest institution must withstand outside pressures, including political interference and corporate demands. To ensure complete openness, the administration agreed to append detailed financial statements and lists of donors to every annual report. Any proposed expense that did not directly support teaching or research was deemed unacceptable for university funding.
 
-The climax of the centenary ceremony arrived when the provost gathered civic leaders, international alumni, and research fellows to unveil an ambitious architectural expansion for the faculty of humanities. The avant-garde glass research laboratories will directly adjoin the sandstone walls of the original Victorian archives. By seamlessly linking modern experimental digital seminar spaces with the quiet cloistered courtyards that adjoin the library, the university established a tangible physical dialogue between venerable heritage and relentless forward exploration.`,
+At the close of the ceremony, the architect stepped onto the stage to unveil plans for a new campus arts center. The modern glass facility will adjoin the historic brick library, connecting classrooms directly with exhibition spaces. By linking the old structures with the new, the university showed its commitment to honoring the past while investing boldly in the future.`,
     translations: {
-      ru: `Когда совет попечителей собрался на свое столетнее торжественное заседание в большом актовом зале, старшие академики воспользовались возможностью предаться воспоминаниям о скромных семинарских аудиториях, в которых университет только начинал пускать корни. Десятилетия интеллектуального труда, самопожертвования и дальновидного покровительства превратили некогда бедную провинциальную академию в международно признанный исследовательский центр. Даже на современном рынке высшего образования, одержимом сиюминутными доходами и коммерческими показателями, преподаватели продолжают глубоко почитать основоположников, чья непреклонная этическая честность заложила нерушимую академическую традицию.
+      ru: `Когда преподаватели и выпускники собрались на столетний юбилей университета, пожилые профессора с теплотой вспоминали (reminisce) первые дни кампуса. Десятилетия назад университет представлял собой лишь несколько продуваемых ветром аудиторий со скромной библиотекой. За прошедшие поколения преданные своему делу ученые превратили его во всемирно признанный центр науки. И сегодня студенты и преподаватели глубоко почитают (venerate) основателей, чей труд заложил традицию академической честности.
 
-Однако одно лишь сохранение воспоминаний не способно обеспечить долгосрочную жизнеспособность института. Ученый совет признал, что непреходящие научные принципы должны надежно служить опорой современному управлению, если университет рассчитывает успешно преодолевать геополитическую нестабильность и экономическую турбулентность. В ходе напряженного пленарного заседания ректор пошел на исторический шаг и согласился добровольно отказаться от единоличного надзора, передав оценку бессрочных профессорских контрактов и дисциплинарные разбирательства выборной ассамблее преподавателей. Недавно утвержденный устав призван детально очерчивать сферы ответственности заведующих кафедрами, устраняя двусмысленные административные серые зоны, которые ранее порождали хронические трения между исследователями и финансовыми управляющими.
+Однако праздник не ограничился воспоминаниями. Руководство понимало, что фундаментальные ценности должны служить надежной опорой (anchor) перед лицом современных вызовов — от роста стоимости обучения до стремительного развития технологий. В ходе встречи ректор сделал неожиданное заявление: он решил добровольно отказаться (relinquish) от права вето на учебные программы, передав эти полномочия выборному совету профессоров. Новые правила призваны четко разграничить (delineate) обязанности администрации и исследователей, положив конец спорам о кадровых решениях.
 
-Академическая честность, торжественно подчеркнул проректор, остается пустой риторикой, если институт не способен стойко выдерживать внешнее политическое давление, общественные бури и нажим корпоративных лоббистов. Были созданы независимые эндаумент-фонды, гарантирующие, что ни один коммерческий донор никогда не сможет диктовать структуру учебных программ или замалчивать неудобные научные открытия. Для обеспечения абсолютной прозрачности совет постановил прикреплять полные финансовые балансы, проверенные инвестиционные отчеты и реестры дарителей к каждому открытому годовому отчету. Любые административные расходы, не отвечавшие строгим нормативным стандартам, безотлагательно признавались недопустимыми для финансирования за счет университетской казны.
+Проректор напомнил присутствующим, что университет обязан стойко выдерживать (withstand) внешнее давление, включая политическое вмешательство и требования спонсоров. Ради полной прозрачности руководство постановило прикреплять (append) подробные финансовые отчеты и списки дарителей к каждому годовому докладу. Любые расходы, не связанные напрямую с обучением или наукой, признавались (deem) недопустимыми для бюджета.
 
-Кульминацией юбилейной церемонии стал момент, когда проректор пригласил городских лидеров, выпускников и ученых торжественно представить масштабный архитектурный проект расширения гуманитарного факультета. Новые авангардные стеклянные лаборатории будут непосредственно примыкать к песчаниковым стенам викторианских архивов. Органично соединив современные цифровые семинарские залы с тихими монастырскими дворами, которые примыкают к библиотеке, университет создал осязаемый архитектурный диалог между почитаемым наследием и смелым научным поиском.`
+В завершение церемонии архитектор вышел на сцену, чтобы представить (unveil) проект нового университетского центра искусств. Современное стеклянное здание будет непосредственно примыкать (adjoin) к исторической кирпичной библиотеке, связывая учебные аудитории с выставочными залами. Объединив старинные стены с новыми пространствами, университет подчеркнул стремление уважать прошлое и смело двигаться вперед.`
     }
   }
 };

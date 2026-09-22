@@ -33,16 +33,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w51-m1-e1',
-              sentence: 'Rather than addressing structural economic deficits, demagogues prefer to vituperate against migrant workers on prime-time television.',
+              sentence: 'The furious customer began to vituperate the young cashier over a minor pricing mistake.',
               translation: {
-                ru: 'Вместо решения структурных проблем в экономике демагоги предпочитают яростно поносить трудящихся-мигрантов в эфире вечерних телешоу.'
+                ru: 'Разъяренный покупатель принялся осыпать бранью молодого кассира из-за незначительной ошибки в чеке.'
               }
             },
             {
               id: 'c1-w51-m1-e2',
-              sentence: 'The defense attorney warned his client that attempting to vituperate the presiding magistrate would trigger an immediate contempt charge.',
+              sentence: 'Critics frequently vituperate the director whenever he releases an unconventional movie.',
               translation: {
-                ru: 'Адвокат предупредил подзащитного, что любая попытка оскорблять или поносить председательствующего судью повлечет немедленное обвинение в неуважении к суду.'
+                ru: 'Критики часто резко поносят режиссера всякий раз, когда тот выпускает нестандартный фильм.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w52-m1-e1',
-              sentence: 'Despite mounting partisan criticism and dipping poll numbers, the foreign minister did not waver in her defense of the multilateral accord.',
+              sentence: 'His resolve did not waver even when the training grew exhausting.',
               translation: {
-                ru: 'Несмотря на нарастающую партийную критику и падающие рейтинги, министр иностранных дел ни на йоту не поколебалась в защите многостороннего соглашения.'
+                ru: 'Его решимость не дрогнула, даже когда тренировки стали изнурительными.'
               }
             },
             {
               id: 'c1-w52-m1-e2',
-              sentence: 'Investors began to waver as contradictory macroeconomic data clouded the long-term sovereign bond outlook.',
+              sentence: 'She wavered between ordering the grilled salmon or the homemade pasta.',
               translation: {
-                ru: 'Инвесторы начали колебаться, поскольку противоречивые макроэкономические данные омрачили долгосрочные перспективы суверенных облигаций.'
+                ru: 'Она колебалась между заказом лосося на гриле или домашней пасты.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w53-m1-e1',
-              sentence: 'Special prosecutors presented encrypted digital transcripts proving that senior executives met in Geneva to conspire to rig commodity prices.',
+              sentence: 'Rain, heavy traffic, and a flat tire seemed to conspire to make him late for the interview.',
               translation: {
-                ru: 'Специальные прокуроры представили зашифрованные цифровые стенограммы, доказывающие, что топ-менеджеры встречались в Женеве для сговора с целью манипулирования ценами на сырье.'
+                ru: 'Дождь, глухие пробки и спущенное колесо словно сговорились, чтобы заставить его опоздать на собеседование.'
               }
             },
             {
               id: 'c1-w53-m1-e2',
-              sentence: 'Torrential floods and chronic logistical shortages seemed to conspire to derail the international famine relief mission.',
+              sentence: 'Two former employees conspired to steal client data before launching their own company.',
               translation: {
-                ru: 'Проливные дожди и хроническая нехватка транспорта словно сговорились сорвать международную гуманитарную миссию по ликвидации голода.'
+                ru: 'Двое бывших сотрудников вступили в сговор с целью кражи клиентской базы перед открытием собственной компании.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w54-m1-e1',
-              sentence: 'The stoic Antarctic explorer advised his crew not to repine over frozen rations but to focus on calculating meteorological coordinates.',
+              sentence: 'Instead of repining over missed opportunities, she focused on preparing for the next audition.',
               translation: {
-                ru: 'Стойкий исследователь Антарктики посоветовал команде не сетовать на замерзший провиант, а сосредоточиться на расчете метеорологических координат.'
+                ru: 'Вместо того чтобы сокрушаться об упущенных возможностях, она сосредоточилась на подготовке к следующему прослушиванию.'
               }
             },
             {
               id: 'c1-w54-m1-e2',
-              sentence: 'Rather than repine at unfair election redistricting, grassroots organizers launched nationwide voter mobilization clinics.',
+              sentence: 'It is useless to repine against bad weather when planning an outdoor wedding.',
               translation: {
-                ru: 'Вместо того чтобы роптать на несправедливую перенарезку избирательных округов, гражданские активисты развернули общенациональные штабы по мобилизации избирателей.'
+                ru: 'Бессмысленно сетовать на плохую погоду при планировании свадьбы на открытом воздухе.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w55-m1-e1',
-              sentence: 'To secure broad cross-party consensus on health legislation, the shadow minister agreed to forgo several contentious fiscal amendments.',
+              sentence: 'He decided to forgo dessert in an effort to cut down on sugar.',
               translation: {
-                ru: 'Чтобы заручиться широким межпартийным консенсусом по закону о здравоохранении, теневой министр согласился отказаться от ряда спорных налоговых поправок.'
+                ru: 'Он решил отказаться от десерта, стараясь снизить потребление сахара.'
               }
             },
             {
               id: 'c1-w55-m1-e2',
-              sentence: 'Young researchers often forgo lucrative private-sector salaries in order to pursue fundamental scientific breakthroughs in university laboratories.',
+              sentence: 'Due to budget constraints, the university had to forgo purchasing new laboratory equipment.',
               translation: {
-                ru: 'Молодые исследователи нередко отказываются от высоких зарплат в частном секторе ради фундаментальных научных открытий в университетских лабораториях.'
+                ru: 'Из-за бюджетных ограничений университету пришлось отказаться от покупки нового лабораторного оборудования.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w56-m1-e1',
-              sentence: 'Gloomy financial columnists were quick to prophesy the imminent insolvency of the tech unicorn after its disastrous quarterly filing.',
+              sentence: 'Ancient oracles claimed they could prophesy the outcome of great wars.',
               translation: {
-                ru: 'Пессимистично настроенные финансовые обозреватели поспешили предречь неизбежное банкротство технологического гиганта после публикации его провального квартального отчета.'
+                ru: 'Древние оракулы утверждали, что способны предрекать исходы великих войн.'
               }
             },
             {
               id: 'c1-w56-m1-e2',
-              sentence: 'Climatologists do not merely prophesy catastrophic weather patterns; they substantiate their models with rigorous satellite telemetry.',
+              sentence: 'Some economists continue to prophesy a sharp market downturn before the end of the year.',
               translation: {
-                ru: 'Климатологи не просто пророчествуют катастрофические климатические сдвиги; они подкрепляют свои модели строгой спутниковой телеметрией.'
+                ru: 'Некоторые экономисты продолжают предсказывать резкий спад рынка до конца года.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w57-m1-e1',
-              sentence: 'Tabloid outlets orchestrated a coordinated smear campaign to malign the integrity of the lead environmental investigator.',
+              sentence: 'It is unfair to malign an entire profession because of a few bad individuals.',
               translation: {
-                ru: 'Бульварные издания организовали скоординированную кампанию очернения, чтобы опорочить честность ведущего экологического инспектора.'
+                ru: 'Несправедливо очернять целую профессию из-за нескольких недобросовестных людей.'
               }
             },
             {
               id: 'c1-w57-m1-e2',
-              sentence: 'It is unethical for a reviewing committee to malign a candidate’s academic credentials without citing verifiable factual deficiencies.',
+              sentence: 'The anonymous blog post attempted to malign the candidate with baseless rumors.',
               translation: {
-                ru: 'Для аттестационной комиссии неэтично порочить научную квалификацию соискателя, не приводя проверяемых фактических замечаний.'
+                ru: 'Анонимная публикация в блоге попыталась опорочить кандидата беспочвенными слухами.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w58-m1-e1',
-              sentence: 'Undercover intelligence operatives managed to infiltrate the transnational syndicate by masquerading as bespoke logistics brokers.',
+              sentence: 'Water began to infiltrate the basement walls during the heavy spring rains.',
               translation: {
-                ru: 'Оперативники под прикрытием сумели внедриться в транснациональный синдикат, выдав себя за брокеров специализированной логистики.'
+                ru: 'Вода начала просачиваться сквозь стены подвала во время сильных весенних дождей.'
               }
             },
             {
               id: 'c1-w58-m1-e2',
-              sentence: 'Malicious firmware was designed to infiltrate server clusters during regular off-peak maintenance updates.',
+              sentence: 'An undercover detective managed to infiltrate the car theft ring.',
               translation: {
-                ru: 'Вредоносное микропрограммное обеспечение было разработано для проникновения в серверные кластеры во время плановых ночных обновлений.'
+                ru: 'Детективу под прикрытием удалось внедриться в банду автоугонщиков.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w59-m1-e1',
-              sentence: 'Political commentators observed that the deputy leader waited until the eve of parliament to stab his party chief in the back with a public resignation.',
+              sentence: 'He was devastated when his trusted colleague stabbed him in the back by taking credit for his project.',
               translation: {
-                ru: 'Политические комментаторы отметили, что заместитель лидера дождался кануна открытия парламента, чтобы нанести своему шефу удар в спину публичной отставкой.'
+                ru: 'Он был раздавлен, когда надежный коллега нанес ему удар в спину, присвоив себе авторство его проекта.'
               }
             },
             {
               id: 'c1-w59-m1-e2',
-              sentence: 'The whistleblower feared that rogue operatives might stab him in an unmonitored alleyway before he could reach the consular haven.',
+              sentence: 'She decided to take a stab at fixing the leaky faucet herself before calling a plumber.',
               translation: {
-                ru: 'Осведомитель опасался, что наемники могут нанести ему удар в неохраняемом переулке до того, как он доберется до консульского убежища.'
+                ru: 'Она решила сама попробовать починить подтекающий кран, прежде чем вызывать сантехника.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson6: Lesson = {
           examples: [
             {
               id: 'c1-w60-m1-e1',
-              sentence: 'Behind closed boardroom doors, dissident shareholders met late into the night to hatch a hostile takeover campaign.',
+              sentence: 'The children watched eagerly as the robin’s eggs began to hatch in the nest.',
               translation: {
-                ru: 'За закрытыми дверями совета директоров недовольные акционеры заседали допоздна, вынашивая план враждебного поглощения компании.'
+                ru: 'Дети с нетерпением наблюдали, как в гнезде начали вылупляться птенцы малиновки.'
               }
             },
             {
               id: 'c1-w60-m1-e2',
-              sentence: 'Diplomats suspected that the belligerent state was working to hatch a proxy provocation along the contested border corridor.',
+              sentence: 'The two brothers stayed up late to hatch a surprise plan for their mother’s birthday.',
               translation: {
-                ru: 'Дипломаты подозревали, что агрессивное государство разрабатывает провокацию с использованием марионеточных сил вдоль спорного приграничного коридора.'
+                ru: 'Два брата засиделись допоздна, вынашивая план сюрприза на день рождения мамы.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson6: Lesson = {
   reading: {
     id: 'c1-l6-reading',
     title: 'The Machinery of Factional Intrigue',
-    content: `In the deeply polarized arena of modern parliamentary politics, high-minded ideological debates frequently degenerate into weaponized personal grievance and bitter factional retribution. When charismatic populists take the podium before roaring assembly galleries, they rarely seek to deliberate on dry policy white papers or fiscal compromises; instead, they aggressively vituperate against impartial judicial magistrates and institutional watchdogs to energize their most militant base. Outside observers might assume that disciplined veteran statesmen would instantly unite to counter such hostility, but when election margins tighten and party donors voice anxiety, even the most seasoned parliamentarians begin to waver in their defense of foundational constitutional norms.
+    content: `In politics, disagreements about policy often turn into bitter personal feuds. During televised debates, angry candidates frequently vituperate against their opponents instead of discussing practical solutions like public transit or school funding. Even when leaders start with good intentions, their principles can waver when poll numbers drop and re-election is at risk.
 
-Behind the theatrical public vitriol broadcast on rolling cable news lies a far more calculated subterranean game played out in mahogany-lined backrooms. Factional leaders frequently conspire to manipulate arcane procedural rules, ensuring that independent investigation committees into procurement kickbacks remain perpetually underfunded, unstaffed, and delayed. Rather than repine at their diminishing administrative clout in quiet defeat, marginalized backbenchers often seek asymmetric leverage through clandestine alliances. Some intensely ambitious deputies choose to forgo individual committee appointments and prestigious international junkets, pooling their political capital behind an uncompromising ideological caucus that can suddenly disrupt critical budgetary votes.
+Behind closed doors, the pressure is even higher. At times, bad luck and unforeseen events seem to conspire against a political campaign—an unexpected economic downturn and bad weather on voting day can ruin months of hard work. Successful leaders do not repine over such setbacks; instead, they adapt quickly. To keep a coalition united, politicians often have to forgo pet projects and compromise with rival factions.
 
-Pundits on evening broadcast panels are always eager to prophesy the imminent collapse of the governing coalition, sensationalizing every procedural dispute into an existential governance crisis for ratings. Yet the most destructive warfare rarely occurs under bright studio lights. Ruthless party whips deploy anonymous digital networks to malign internal dissidents, leaking cherry-picked confidential emails designed to obliterate moral credibility. Hostile campaign strategists even recruit tech-savvy whistleblowers to infiltrate internal caucus communication servers, scraping sensitive draft policy position papers to neutralize reformist initiatives before launch.
+Meanwhile, commentators on the evening news constantly prophesy political disaster, turning every disagreement into a historic crisis. Tabloid blogs routinely try to malign the character of reform-minded officials, spreading false rumors to distract the public. In extreme cases, rival campaigns even hire insiders to infiltrate private meetings and leak draft proposals to the press.
 
-The climax of such factional warfare is seldom honorable or dignified. Having spent weeks whispering pledges of unwavering fraternal solidarity to senior colleagues in secluded corridors, an ambitious faction chief will unhesitatingly stab his closest political mentor in the back if an unexpected cabinet vacancy arises. The true machinery of party factionalism is neither eloquence nor visionary statesmanship, but the ruthless capacity to hatch intricate parliamentary rebellions while presenting an untroubled public demeanor of serene collegial unity.`,
+Workplace politics can be just as ruthless. An ambitious deputy may smile warmly at staff meetings while secretly waiting for the right moment to stab a supervisor in the back to seize their job. While pretending to work for the team, rival managers often meet in private to hatch plans that advance their own careers. Understanding these interpersonal tensions is essential for anyone trying to lead an organization with integrity.`,
     translations: {
-      ru: `На глубоко поляризованной арене современной парламентской политики возвышенные идеологические дебаты нередко скатываются к изощренному сведению личных счетов и ожесточенной фракционной вендетте. Поднимаясь на трибуну перед ревущими трибунами ассамблеи, харизматичные популисты редко стремятся обсуждать сухие программные документы или бюджетные компромиссы; вместо этого они яростно поносят беспристрастных судей и надзорные органы, чтобы взбодрить свой наиболее радикальный электорат. Сторонние наблюдатели могли бы ожидать, что опытные государственные мужи дадут решительный отпор такой враждебности, однако при сокращении предвыборных разрывов и беспокойстве спонсоров даже ветераны парламента начинают колебаться в защите фундаментальных конституционных норм.
+      ru: `В политике споры о законах нередко перерастают в сведение личных счетов. Во время теледебатов рассерженные кандидаты часто яростно поносят (vituperate) соперников вместо обсуждения практических тем, таких как общественный транспорт или школы. Даже когда лидеры начинают с благими намерениями, их решимость может дрогнуть (waver), как только падают рейтинги и переизбрание оказывается под угрозой.
 
-За показной публичной яростью, транслируемой круглосуточными телеканалами, скрывается куда более расчетливая подковерная игра в тиши закрытых кабинетов. Лидеры фракций регулярно вступают в сговор ради манипулирования замысловатыми процедурными регламентами, добиваясь того, чтобы независимые комиссии по расследованию откатов оставались без штата и финансирования. Вместо того чтобы сетовать на судьбу и роптать на потерю административного веса, оказавшиеся на обочине рядовые депутаты ищут асимметричные рычаги влияния через тайные союзы. Некоторые амбициозные политики сознательно решают отказаться от персональных постов в комитетах и престижных зарубежных поездок, объединяя капитал внутри бескомпромиссной коалиции, способной срывать ключевые голосования по бюджету.
+За закрытыми дверями давление еще сильнее. Порой кажется, что обстоятельства объединяются (conspire) против избирательной кампании — спад в экономике и плохая погода в день голосования могут свести на нет месяцы труда. Опытные лидеры не сетуют (repine) на судьбу, а быстро подстраиваются под ситуацию. Ради сохранения коалиции политикам часто приходится отказываться (forgo) от любимых инициатив и идти на компромисс.
 
-Телевизионные обозреватели в вечернем эфире всегда готовы предрекать скорый крах правящей коалиции, раздувая любую процедурную заминку до масштабов экзистенциального кризиса ради рейтингов. Однако наиболее разрушительные баталии разворачиваются отнюдь не под светом студийных софитов. Беспощадные партийные организаторы задействуют анонимные сетевые каналы, чтобы очернять внутренних оппонентов и сливать специально подобранную переписку для уничтожения репутации. Враждующие политтехнологи даже вербуют хакеров, чтобы тайно внедриться на закрытые серверы и похитить проекты реформ до их официального старта.
+Тем временем комментаторы в новостях охотно предрекают (prophesy) скорый крах правительства, раздувая любой рабочий спор в катастрофу. Бульварные блоги пытаются очернять (malign) порядочных чиновников, распространяя сплетни. В крайних случаях конкуренты даже подсылают информаторов, чтобы внедриться (infiltrate) на закрытые встречи и слить черновики документов прессе.
 
-Кульминация подобных аппаратных войн редко бывает благородной. Потратив недели на шепотные заверения в вечной преданности в кулуарах, амбициозный партийный функционер без колебаний нанесет вероломный удар в спину собственному наставнику, как только забрезжит вакансия в правительстве. Подлинная механика фракционной борьбы заключается не в красноречии или государственном видении, а в беспощадном умении тайно вынашивать парламентские заговоры, сохраняя на публике невозмутимую маску безмятежного согласия.`
+Офисная борьба бывает не менее жесткой. Амбициозный заместитель может мило улыбаться на планерках, выжидая удобного момента, чтобы нанести удар в спину (stab) начальнику и занять его место. На словах радея за общее дело, недобросовестные менеджеры тайком вынашивают (hatch) планы карьерного продвижения. Понимание этих скрытых мотивов необходимо каждому, кто стремится честно руководить людьми.`
     }
   }
 };

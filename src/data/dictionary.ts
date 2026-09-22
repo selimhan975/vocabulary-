@@ -6743,4 +6743,275 @@ export const globalDictionary: Record<string, TranslationMap> = {
     "ja": "抵抗する / 抵抗力がある"
   },
 
+
+  "alleviate": {
+      "ru": "облегчать / смягчать (боль, симптомы)",
+      "es": "aliviar / mitigar",
+      "fr": "soulager / atténuer",
+      "de": "lindern / mildern",
+      "zh": "减轻 / 缓解",
+      "tr": "hafifletmek / dindirmek",
+      "ja": "和らげる / 軽減する"
+  },
+  "prognosis": {
+      "ru": "прогноз (течения заболевания)",
+      "es": "pronóstico médico",
+      "fr": "pronostic médical",
+      "de": "ärztliche Prognose",
+      "zh": "预后 / 病情预测",
+      "tr": "tıbbi prognoz / hastalık seyri tahmini",
+      "ja": "予後 / 治療の見通し"
+  },
+  "regimen": {
+      "ru": "режим лечения / предписанный курс",
+      "es": "régimen de tratamiento",
+      "fr": "régime thérapeutique",
+      "de": "Therapieschema / Behandlungsplan",
+      "zh": "治疗方案 / 养生方案",
+      "tr": "tedavi rejimi / reçeteli plan",
+      "ja": "治療計画 / 養生法"
+  },
+  "adherence": {
+      "ru": "соблюдение схемы лечения / приверженность лечению",
+      "es": "adherencia al tratamiento",
+      "fr": "adhésion thérapeutique / observance",
+      "de": "Therapietreue / Beachtung von Anweisungen",
+      "zh": "依从性 / 遵循医嘱",
+      "tr": "tedaviye uyum / talimatlara bağlılık",
+      "ja": "服薬遵守 / 治療計画への忠実さ"
+  },
+  "contraindication": {
+      "ru": "противопоказание",
+      "es": "contraindicación",
+      "fr": "contre-indication",
+      "de": "Kontraindikation / Gegenanzeige",
+      "zh": "禁忌症 / 禁忌事项",
+      "tr": "kontrendikasyon / tıbbi sakınca",
+      "ja": "禁忌 / 使用不可の条件"
+  },
+  "recurrence": {
+      "ru": "рецидив / повторное возникновение",
+      "es": "recurrencia / recaída",
+      "fr": "récidive / réapparition",
+      "de": "Rückfall / Wiederauftreten",
+      "zh": "复发 / 再次发作",
+      "tr": "nüks / tekrarlama",
+      "ja": "再発 / 再燃"
+  },
+  "remission": {
+      "ru": "ремиссия",
+      "es": "remisión",
+      "fr": "rémission",
+      "de": "Remission / Abklingen von Symptomen",
+      "zh": "缓解期 / 缓解",
+      "tr": "remisyon / hafifleme dönemi",
+      "ja": "寛解 / 症状の軽快"
+  },
+  "convalesce": {
+      "ru": "выздоравливать / восстанавливать силы после болезни",
+      "es": "convalecer / restablecerse",
+      "fr": "convalescer / récupérer des forces",
+      "de": "genesen / sich erholen",
+      "zh": "疗养 / 恢复期康复",
+      "tr": "nekahat dönemi geçirmek / iyileşmek",
+      "ja": "療養する / 病後回復する"
+  },
+  "debilitating": {
+      "ru": "изнурительный / подтачивающий силы",
+      "es": "debilitante / extenuante",
+      "fr": "débilitant / épuisant",
+      "de": "schwächend / kräfteraubend",
+      "zh": "使人衰弱的 / 消耗体力的",
+      "tr": "güçten düşürücü / takatsiz bırakan",
+      "ja": "衰弱させる / 体力を奪う"
+  },
+  "palliative": {
+      "ru": "паллиативный / облегчающий симптомы",
+      "es": "paliativo",
+      "fr": "palliatif",
+      "de": "palliativ / lindernd",
+      "zh": "姑息的 / 缓解性的",
+      "tr": "palyatif / semptom giderici",
+      "ja": "緩和的な / 症状緩和の"
+  },
+  "dissertation": {
+      "ru": "диссертация / квалификационная научная работа",
+      "es": "disertación / tesis doctoral",
+      "fr": "thèse de doctorat / mémoire de recherche",
+      "de": "Dissertation / Doktorarbeit",
+      "zh": "学术论文 / 博士论文",
+      "tr": "akademik tez / doktora tezi",
+      "ja": "学位論文 / 博士論文"
+  },
+  "empirical": {
+      "ru": "эмпирический / основанный на опыте и данных",
+      "es": "empírico / basado en la evidencia",
+      "fr": "empirique / fondé sur les faits",
+      "de": "empirisch / erfahrungsbasiert",
+      "zh": "实证的 / 经验主义的",
+      "tr": "ampirik / deney ve gözleme dayalı",
+      "ja": "実証的な / 経験に基づく"
+  },
+  "rigorous": {
+      "ru": "строгий / тщательный / скрупулезный",
+      "es": "riguroso / minucioso",
+      "fr": "rigoureux / méthodique",
+      "de": "akribisch / streng wissenschaftlich",
+      "zh": "严谨的 / 缜密的",
+      "tr": "titiz / son derece özenli",
+      "ja": "厳密な / 厳格な"
+  },
+  "corroborate": {
+      "ru": "подтверждать / подкреплять доказательствами",
+      "es": "corroborar / confirmar",
+      "fr": "corroborer / confirmer",
+      "de": "bekräftigen / bestätigen",
+      "zh": "证实 / 确证",
+      "tr": "doğrulamak / kanıtlarla teyit etmek",
+      "ja": "裏付ける / 確証する"
+  },
+  "scrutiny": {
+      "ru": "пристальное внимание / тщательное рассмотрение",
+      "es": "escrutinio / examen minucioso",
+      "fr": "examen minutieux / examen critique",
+      "de": "eingehende Prüfung / genaue Untersuchung",
+      "zh": "严密的审查 / 细致的检视",
+      "tr": "yakın inceleme / titiz denetim",
+      "ja": "綿密な調査 / 精査"
+  },
+  "paradigm": {
+      "ru": "парадигма / устоявшаяся система взглядов",
+      "es": "paradigma / modelo conceptual",
+      "fr": "paradigme / modèle théorique",
+      "de": "Paradigma / Denkmodell",
+      "zh": "范式 / 典范",
+      "tr": "paradigma / düşünce modeli",
+      "ja": "パラダイム / 認識の枠組み"
+  },
+  "synthesis": {
+      "ru": "синтез / обобщение",
+      "es": "síntesis / integración",
+      "fr": "synthèse / intégration",
+      "de": "Synthese / Zusammenführung",
+      "zh": "综合 / 归纳提炼",
+      "tr": "sentez / birleştirme",
+      "ja": "統合 / 総合"
+  },
+  "longitudinal": {
+      "ru": "лонгитюдный / долговременный (об исследовании)",
+      "es": "longitudinal / a largo plazo",
+      "fr": "longitudinal / sur le long terme",
+      "de": "longitudinal / längsschnittlich",
+      "zh": "追踪的 / 纵向的",
+      "tr": "boylamsal / uzun vadeli takip",
+      "ja": "追跡調査の / 縦断的な"
+  },
+  "substantiate": {
+      "ru": "обосновывать / доказывать состоятельность",
+      "es": "sustentar / fundamentar",
+      "fr": "étayer / corroborer avec preuves",
+      "de": "untermauern / belegen",
+      "zh": "证实 / 证明……属实",
+      "tr": "gerekçelendirmek / delillerle desteklemek",
+      "ja": "立証する / 根拠を示す"
+  },
+  "postulate": {
+      "ru": "постулировать / принимать за исходное положение",
+      "es": "postular / proponer como premisa",
+      "fr": "postuler / poser en principe",
+      "de": "postulieren / als Prämisse annehmen",
+      "zh": "假设 / 假定……为前提",
+      "tr": "varsaymak / öncül olarak kabul etmek",
+      "ja": "仮定する / 前提とする"
+  },
+  "remuneration": {
+      "ru": "вознаграждение за труд / заработная плата",
+      "es": "remuneración / retribución",
+      "fr": "rémunération / rétribution",
+      "de": "Vergütung / Entlohnung",
+      "zh": "薪酬 / 报酬",
+      "tr": "ücret / maaş ve yan haklar",
+      "ja": "報酬 / 給与"
+  },
+  "probationary": {
+      "ru": "испытательный (о сроке или периоде работы)",
+      "es": "período de prueba / provisional",
+      "fr": "période d’essai / probatoire",
+      "de": "Probezeit- / auf Probe",
+      "zh": "试用期的 / 见习的",
+      "tr": "deneme süresine tabi / stajyer",
+      "ja": "試用期間の / 仮採用の"
+  },
+  "grievance": {
+      "ru": "трудовая жалоба / официальная претензия",
+      "es": "queja formal / reclamación laboral",
+      "fr": "grief / réclamation professionnelle",
+      "de": "Beschwerde / Missstand",
+      "zh": "劳资申诉 / 职场怨诉",
+      "tr": "resmi şikayet / işyeri yakınması",
+      "ja": "苦情申し立て / 労働上の不服"
+  },
+  "redundancy": {
+      "ru": "сокращение штата / увольнение по сокращению",
+      "es": "despido por reducción de plantilla",
+      "fr": "licenciement économique / suppression de poste",
+      "de": "betriebsbedingte Kündigung / Stellenabbau",
+      "zh": "裁员 / 岗位精简",
+      "tr": "kadro fazlalığı nedeniyle işten çıkarma",
+      "ja": "人員整理 / 役職廃止による解雇"
+  },
+  "appraisal": {
+      "ru": "аттестация / ежегодная оценка результатов работы",
+      "es": "evaluación de desempeño",
+      "fr": "évaluation professionnelle / entretien annuel",
+      "de": "Mitarbeiterbeurteilung / Leistungsbewertung",
+      "zh": "绩效考核 / 业绩评估",
+      "tr": "performans değerlendirmesi",
+      "ja": "勤務評定 / 人事考課"
+  },
+  "prerequisite": {
+      "ru": "обязательное условие / необходимое требование",
+      "es": "requisito previo / prerrequisito",
+      "fr": "condition préalable / prérequis",
+      "de": "Grundvoraussetzung / Vorbedingung",
+      "zh": "前提条件 / 先决条件",
+      "tr": "önkoşul / zorunlu şart",
+      "ja": "必要条件 / 前提条件"
+  },
+  "compliance": {
+      "ru": "соответствие нормативным требованиям / соблюдение правил",
+      "es": "cumplimiento normativo",
+      "fr": "conformité réglementaire",
+      "de": "Regelkonformität / Compliance",
+      "zh": "合规 / 依规守则",
+      "tr": "uyumluluk / mevzuata uygunluk",
+      "ja": "法令遵守 / コンプライアンス"
+  },
+  "disciplinary": {
+      "ru": "дисциплинарный",
+      "es": "disciplinario",
+      "fr": "disciplinaire",
+      "de": "disziplinarisch / dienststrafrechtlich",
+      "zh": "纪律的 / 惩戒性的",
+      "tr": "disiplinle ilgili / cezai",
+      "ja": "懲戒の / 規律上の"
+  },
+  "entitlement": {
+      "ru": "законное право на льготы или выплаты",
+      "es": "derecho adquirido / prestación legal",
+      "fr": "droit légal / prestation garantie",
+      "de": "gesetzlicher Anspruch / Leistungsanspruch",
+      "zh": "应得权益 / 法定待遇",
+      "tr": "yasal hak / hak ediş",
+      "ja": "受給権 / 法的権利"
+  },
+  "negligence": {
+      "ru": "халатность / служебная небрежность",
+      "es": "negligencia laboral",
+      "fr": "négligence professionnelle",
+      "de": "Fahrlässigkeit / Pflichtverletzung",
+      "zh": "玩忽职守 / 疏忽大意",
+      "tr": "ihmal / mesleki savsaklama",
+      "ja": "過失 / 怠慢"
+  },
 };

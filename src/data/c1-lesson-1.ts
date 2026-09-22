@@ -33,16 +33,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w1-m1-e1',
-              sentence: 'Under severe political pressure, the dissident refused to abjure his core philosophical convictions.',
+              sentence: 'Even when threatened with expulsion from the university, the young activist refused to abjure his beliefs.',
               translation: {
-                ru: 'Под жестким политическим давлением диссидент отказался отрекаться от своих фундаментальных философских убеждений.'
+                ru: 'Даже под угрозой отчисления из университета молодой активист отказался отрекаться от своих убеждений.'
               }
             },
             {
               id: 'c1-w1-m1-e2',
-              sentence: 'As part of the naturalization ceremony, immigrants were traditionally asked to abjure prior sovereign allegiances.',
+              sentence: 'To prove his commitment to his family, he decided to abjure his reckless lifestyle and focus on his career.',
               translation: {
-                ru: 'В рамках церемонии натурализации от иммигрантов традиционно требовалось отречься от прежней верности иностранным монархам.'
+                ru: 'Чтобы доказать преданность семье, он решил отречься от беспутного образа жизни и сосредоточиться на карьере.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w2-m1-e1',
-              sentence: 'The defense attorney quickly disabused the jury of the notion that the transfer had been purely accidental.',
+              sentence: 'A quick look at the company’s declining sales was enough to disabuse Mark of the notion that everything was fine.',
               translation: {
-                ru: 'Адвокат защиты быстро разуверил присяжных во мнении, что денежный перевод носил сугубо случайный характер.'
+                ru: 'Одного взгляда на падающие продажи компании было достаточно, чтобы избавить Марка от заблуждения, будто все идет хорошо.'
               }
             },
             {
               id: 'c1-w2-m1-e2',
-              sentence: 'Empirical research should promptly disabuse policymakers of the belief that austerity alone sparks innovation.',
+              sentence: 'Her mentor gently disabused her of the idea that writing a successful novel would happen overnight.',
               translation: {
-                ru: 'Эмпирические исследования должны немедленно избавить законодателей от заблуждения, что жесткая экономия сама по себе стимулирует инновации.'
+                ru: 'Наставник мягко разуверил ее в мысли о том, что написать успешный роман удастся в одночасье.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w3-m1-e1',
-              sentence: 'When pressed by investigative journalists about campaign donations, the senator began to equivocate.',
+              sentence: 'When the manager asked who was responsible for the accounting error, the supervisor began to equivocate.',
               translation: {
-                ru: 'Когда журналисты-расследователи прижали сенатора вопросами о спонсорских пожертвованиях, он стал увиливать от прямого ответа.'
+                ru: 'Когда менеджер спросил, кто отвечает за бухгалтерскую ошибку, руководитель начал увиливать от прямого ответа.'
               }
             },
             {
               id: 'c1-w3-m1-e2',
-              sentence: 'A chief executive must state facts plainly rather than equivocate when fiscal forecasts turn negative.',
+              sentence: 'Instead of answering whether she supported the new policy, the director continued to equivocate.',
               translation: {
-                ru: 'Генеральный директор обязан прямо излагать факты, а не говорить двусмысленно, когда финансовые прогнозы ухудшаются.'
+                ru: 'Вместо прямого ответа на вопрос, поддерживает ли она новую политику, директор продолжала говорить двусмысленно.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w4-m1-e1',
-              sentence: 'The witness chose to prevaricate rather than reveal his employer’s direct role in the fraud scheme.',
+              sentence: 'Suspecting that his son had broken the window, the father asked him plainly and told him not to prevaricate.',
               translation: {
-                ru: 'Свидетель предпочел кривить душой, нежели раскрыть непосредственную роль своего нанимателя в мошеннической схеме.'
+                ru: 'Подозревая, что сын разбил окно, отец прямо спросил его и велел не кривить душой.'
               }
             },
             {
               id: 'c1-w4-m1-e2',
-              sentence: 'The committee chairperson warned the director to stop prevaricating and provide exact spending numbers.',
+              sentence: 'Whenever reporters brought up the missing funds, the spokesperson would prevaricate and change the topic.',
               translation: {
-                ru: 'Председатель комиссии предупредил директора, чтобы тот прекратил уклоняться от истины и предоставил точные данные по расходам.'
+                ru: 'Всякий раз, когда журналисты поднимали вопрос о пропавших средствах, представитель уклонялся от правды и переводил тему.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w5-m1-e1',
-              sentence: 'Several key witnesses later recanted their testimonies, claiming that investigators had coerced them.',
+              sentence: 'Under intense pressure from his colleagues, the researcher refused to recant the findings of his study.',
               translation: {
-                ru: 'Несколько ключевых свидетелей позже отказались от своих показаний, заявив, что следователи принудили их.'
+                ru: 'Несмотря на сильное давление со стороны коллег, исследователь отказался взять назад выводы своей научной работы.'
               }
             },
             {
               id: 'c1-w5-m1-e2',
-              sentence: 'Refusing to recant his scientific thesis, the astronomer faced censure from ecclesiastical authorities.',
+              sentence: 'After realizing he had misread the laboratory data, the chemist publicly recanted his previous statement.',
               translation: {
-                ru: 'Отказавшись отречься от своей научной гипотезы, астроном столкнулся с осуждением со стороны церковных властей.'
+                ru: 'Поняв, что неверно истолковал лабораторные данные, химик публично отказался от своего прежнего заявления.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w6-m1-e1',
-              sentence: 'The administration issued an urgent communique to repudiate allegations of election interference.',
+              sentence: 'The artist publicly repudiated the controversial statements made by the gallery owner.',
               translation: {
-                ru: 'Администрация выпустила экстренное коммюнике, чтобы решительно отвергнуть обвинения во вмешательстве в выборы.'
+                ru: 'Художник публично отверг скандальные заявления, сделанные владельцем галереи.'
               }
             },
             {
               id: 'c1-w6-m1-e2',
-              sentence: 'The newly elected government took immediate steps to repudiate the illicit national debt.',
+              sentence: 'After finding evidence of fraud, the company moved to repudiate the agreement signed by the former manager.',
               translation: {
-                ru: 'Новоизбранное правительство предприняло незамедлительные шаги, чтобы отказаться признавать незаконный государственный долг.'
+                ru: 'Обнаружив признаки мошенничества, компания решила аннулировать договор, подписанный бывшим управляющим.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w7-m1-e1',
-              sentence: 'The party leaders moved swiftly to disavow the offensive remarks posted by the regional candidate.',
+              sentence: 'The tech company was quick to disavow any connection to the rogue marketing campaign.',
               translation: {
-                ru: 'Руководство партии поспешило откреститься от оскорбительных высказываний, опубликованных кандидатом от региона.'
+                ru: 'Технологическая компания поспешила откреститься от какой-либо связи с несогласованной рекламной кампанией.'
               }
             },
             {
               id: 'c1-w7-m1-e2',
-              sentence: 'Intelligence officials were ordered to disavow all knowledge of the covert overseas mission.',
+              sentence: 'He chose to disavow the harsh comments he had posted on social media several years earlier.',
               translation: {
-                ru: 'Офицерам разведки было приказано полностью отрицать какую-либо осведомленность о тайной зарубежной операции.'
+                ru: 'Он решил публично отречься от резких комментариев, которые публиковал в социальных сетях несколько лет назад.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w8-m1-e1',
-              sentence: 'International treaties often stipulate that arbitration must precede any unilateral sanctions.',
+              sentence: 'The apartment lease clearly stipulates that tenants cannot keep large pets without written permission.',
               translation: {
-                ru: 'Международные договоры часто обусловливают, что арбитражное разбирательство должно предшествовать любым односторонним санкциям.'
+                ru: 'Договор аренды квартиры четко оговаривает, что жильцы не могут держать крупных домашних животных без письменного разрешения.'
               }
             },
             {
               id: 'c1-w8-m1-e2',
-              sentence: 'The employment clause expressly stipulates that all intellectual property belongs to the firm.',
+              sentence: 'Our contract stipulates that the freelance designer must be paid within thirty days of project delivery.',
               translation: {
-                ru: 'Пункт трудового договора прямо оговаривает, что вся интеллектуальная собственность принадлежит фирме.'
+                ru: 'Наш контракт обусловливает, что работа дизайнера-фрилансера должна быть оплачена в течение тридцати дней после сдачи проекта.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w9-m1-e1',
-              sentence: 'The constitutional court can decree that an emergency statute violates civil liberties.',
+              sentence: 'The local council decreed that all public parks would close at sundown during the winter months.',
               translation: {
-                ru: 'Конституционный суд правомочен постановить, что закон о чрезвычайном положении нарушает гражданские свободы.'
+                ru: 'Местный совет постановил, что в зимние месяцы все городские парки будут закрываться на закате.'
               }
             },
             {
               id: 'c1-w9-m1-e2',
-              sentence: 'The supreme magistrate decreed that all confiscated documents be made accessible to public archivists.',
+              sentence: 'The judge decreed that the contested property must be sold and the profits divided equally between the heirs.',
               translation: {
-                ru: 'Верховный судья постановил сделать все конфискованные документы доступными для государственных архивариусов.'
+                ru: 'Судья постановил, что спорное имущество должно быть продано, а вырученные средства поделены поровну между наследниками.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson1: Lesson = {
           examples: [
             {
               id: 'c1-w10-m1-e1',
-              sentence: 'Constitutional scholars expressed confidence that democratic institutional norms would eventually prevail.',
+              sentence: 'Despite numerous setbacks and budget cuts, the small team’s determination allowed them to prevail.',
               translation: {
-                ru: 'Ученые-конституционалисты выразили уверенность в том, что демократические институциональные нормы в итоге возьмут верх.'
+                ru: 'Несмотря на многочисленные трудности и сокращения бюджета, целеустремленность маленькой команды позволила ей одержать верх.'
               }
             },
             {
               id: 'c1-w10-m1-e2',
-              sentence: 'Despite fierce lobbying from energy conglomerates, the environmental faction managed to prevail in parliament.',
+              sentence: 'We all hoped that common sense would prevail during the heated family argument.',
               translation: {
-                ru: 'Несмотря на яростный лоббизм со стороны энергетических конгломератов, экологической фракции удалось восторжествовать в парламенте.'
+                ru: 'Мы все надеялись, что здравый смысл восторжествует во время жаркого семейного спора.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson1: Lesson = {
   reading: {
     id: 'c1-l1-r',
     title: 'The Tribulations of the Special Inquiry',
-    content: `When the parliamentary ethics commission convened to investigate procurement anomalies inside the defense ministry, public expectations ran high across the capital. For months, leaked communiqués had caused political commentators to speculate wildly on television roundtables, yet the initial hearings seemed designed more to obfuscate than enlighten. Witnesses brought before the bench would routinely equivocate whenever pressed on specific ledgers, giving evasive answers to sidestep legal and administrative liability.
+    content: `When the parliamentary ethics commission met to investigate financial irregularities in the defense department, expectations ran high. For months, leaked reports had dominated the news, but the initial hearings offered few clear answers. Witnesses called to testify would routinely equivocate whenever asked about specific bank transactions, giving evasive answers to sidestep liability.
 
-Counsel for the inquiry knew that establishing culpability required dismantling these orchestrated defenses systematically. One senior undersecretary attempted to prevaricate under direct examination, claiming that lost correspondence and corrupted electronic archives had prevented him from verifying payments. However, subpoenaed financial records soon emerged from overseas bank branches, allowing the magistrate to disabuse him of the delusion that such excuses would shield his department from prosecution. Faced with unassailable forensic accounting, the official was compelled to repudiate earlier sworn filings and acknowledge irregularities that he had formerly dismissed as trivial clerical oversights.
+The inquiry’s legal counsel knew that discovering the truth required patience and clear evidence. One senior official attempted to prevaricate under direct examination, claiming that lost correspondence and corrupted archives made it impossible to verify the payments. However, subpoenaed financial records soon arrived from overseas bank branches, allowing the panel to disabuse him of the delusion that such excuses would shield him from prosecution. Faced with undeniable financial records, the official was compelled to repudiate earlier sworn filings and acknowledge irregularities he had previously dismissed.
 
-The proceedings intensified when an embattled minister chose to disavow actions taken by his closest subordinates, insisting that regional procurement decisions had occurred without executive knowledge or authorization. In response, independent whistleblowers produced internal memoranda showing that ministerial guidelines explicitly stipulate oversight obligations that could not be legally delegated away. Sensing that the tribunal's findings were becoming insurmountable, several junior officers elected to recant initial testimonies and provide unredacted correspondence instead.
+The proceedings intensified when an embattled minister chose to disavow actions taken by his closest subordinates, insisting that the purchases had occurred without his authorization. In response, independent investigators produced internal memoranda showing that ministerial guidelines explicitly stipulate oversight obligations that could not be legally delegated away. Sensing that their defense was falling apart, several junior officers elected to recant their initial testimonies and provide unredacted correspondence instead.
 
-As civic outrage mounted, legal advocates urged the presiding chancellor to decree an extraordinary review of all related corporate concessions. A vocal minority of defense lobbyists still pressured the committee to abjure long-standing disclosure protocols in the name of confidential state affairs, warning that full revelation might harm industrial stability. The chancellor, however, rejected that expedient argument. Delivering his interim ruling, he affirmed that transparent accountability must prevail over bureaucratic secrecy whenever public funds are compromised. Through methodological discipline and evidentiary rigor, the inquiry demonstrated that institutional rectitude can resist political intimidation.`,
+As public pressure mounted, legal advocates urged the presiding chancellor to decree an extraordinary review of all related contracts. While a minority of lobbyists still pressured the committee to abjure long-standing disclosure protocols in the name of secrecy, the chancellor firmly rejected that argument. Delivering his interim ruling, he affirmed that transparent accountability must prevail over bureaucratic secrecy whenever public funds are compromised. Through careful inquiry and firm resolve, the panel demonstrated that institutional integrity could not be compromised.`,
     translations: {
-      ru: `Когда парламентская комиссия по этике собралась для расследования аномалий в закупках министерства обороны, ожидания общественности по всей столице были чрезвычайно высоки. В течение месяцев утечки коммюнике заставляли политических комментаторов строить догадки на телевизионных круглых столах, однако первые слушания, казалось, были призваны скорее запутать дело, чем пролить свет. Свидетели, вызванные в коллегию, регулярно начинали двусмысленничать (equivocate), стоило затронуть конкретные бухгалтерские книги, уклоняясь от прямых ответов во избежание юридической и административной ответственности.
+      ru: `Когда парламентская комиссия по этике собралась для расследования финансовых нарушений в министерстве обороны, ожидания общественности были чрезвычайно высоки. Месяцами утечки отчетов заполняли выпуски новостей, однако первые слушания давали мало ясных ответов. Свидетели, вызванные для дачи показаний, регулярно начинали двусмысленничать (equivocate), стоило затронуть конкретные банковские операции, давая уклончивые ответы, чтобы избежать ответственности.
 
-Советник комиссии понимал, что установление вины требует методичного разрушения этих срежиссированных линий защиты. Один из высокопоставленных заместителей попытался кривить душой (prevaricate) в ходе прямого допроса, ссылаясь на то, что утерянная переписка и поврежденные электронные архивы помешали ему проверить платежи. Тем не менее вскоре были представлены истребованные финансовые отчеты из зарубежных банков, позволившие судье быстро вывести его из заблуждения (disabuse) относительно того, что подобные оправдания уберегут ведомство от уголовного преследования. Столкнувшись с неопровержимыми результатами экспертизы, чиновник был вынужден отвергнуть (repudiate) ранее поданные заверенные заявления и признать нарушения, которые он прежде списывал на незначительные канцелярские оплошности.
+Юрист комиссии понимал, что установление истины требует терпения и неопровержимых улик. Один высокопоставленный чиновник попытался кривить душой (prevaricate) в ходе прямого допроса, заявляя, будто утерянная переписка и поврежденные архивы помешали ему проверить платежи. Однако вскоре поступили финансовые документы из зарубежных банков, позволившие комиссии быстро вывести его из заблуждения (disabuse) относительно того, что подобные отговорки спасут его от преследования. Столкнувшись с очевидными банковскими выписками, чиновник был вынужден отвергнуть (repudiate) ранее поданные показания и признать нарушения, от которых прежде отмахивался.
 
-Разбирательство обострилось, когда попавший под огонь критики министр решил откреститься (disavow) от действий своих ближайших подчиненных, утверждая, что региональные закупки проводились без ведома или санкции руководства. В ответ независимые информаторы предоставили внутренние служебные записки, доказывающие, что министерские инструкции прямо обусловливают (stipulate) контрольные обязательства, которые невозможно делегировать. Чувствуя неизбежность выводов трибунала, несколько младших офицеров предпочли взять свои слова обратно (recant) и передать неотредактированную переписку.
+Разбирательство обострилось, когда министр решил откреститься (disavow) от действий своих ближайших помощников, уверяя, что сомнительные закупки производились без его ведома. В ответ следователи представили служебные записки, доказывающие, что министерские инструкции прямо обусловливают (stipulate) контрольные обязательства, которые министр не вправе перекладывать на других. Поняв, что их позиция безнадежна, несколько младших сотрудников предпочли взять свои слова обратно (recant) и передать подлинную переписку.
 
-По мере нарастания гражданского возмущения юристы призвали председательствующего канцлера постановить (decree) провести внеочередную проверку всех связанных корпоративных концессий. Отдельные лоббисты все еще убеждали комиссию отречься (abjure) от традиционных протоколов открытости под предлогом защиты государственной тайны. Однако канцлер отверг этот довод. Оглашая промежуточный вердикт, он подчеркнул, что прозрачная подотчетность должна восторжествовать (prevail) над чиновничьей тайной при любых подозрениях в растрате казенных средств.`
+По мере нарастания общественного давления юристы призвали председательствующего канцлера постановить (decree) провести внеочередную проверку всех связанных контрактов. И хотя отдельные лоббисты настаивали на том, чтобы комиссия отреклась (abjure) от правил открытости ради сохранения секретности, канцлер твердо отклонил этот довод. Оглашая вердикт, он подчеркнул, что прозрачная подотчетность должна восторжествовать (prevail) над чиновничьей тайной при любых подозрениях в растрате казенных средств.`
     },
     comprehensionQuestions: [
       {

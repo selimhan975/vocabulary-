@@ -33,16 +33,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w71-m1-e1',
-              sentence: 'Facing cash flow constraints during the market downturn, the biotechnology startup decided to sublet its surplus laboratory floor to an analytical testing firm.',
+              sentence: 'While studying abroad for a semester, Sarah decided to sublet her apartment to a quiet medical student.',
               translation: {
-                ru: 'Столкнувшись с нехваткой ликвидности во время спада на рынке, биотехнологический стартап решил сдать лишний лабораторный этаж в субаренду фирме по аналитическому тестированию.'
+                ru: 'Уезжая на учебу за границу на семестр, Сара решила сдать свою квартиру в субаренду спокойному студенту-медику.'
               }
             },
             {
               id: 'c1-w71-m1-e2',
-              sentence: 'Commercial tenancy contracts stipulate that lessees may not sublet any portion of the flagship retail atrium without written landlord authorization.',
+              sentence: 'Before you sublet your room, make sure your landlord allows it in the rental agreement.',
               translation: {
-                ru: 'Договоры коммерческой аренды предусматривают, что арендаторы не вправе сдавать какую-либо часть флагманского торгового атриума в субаренду без письменного согласия арендодателя.'
+                ru: 'Прежде чем сдать свою комнату в субаренду, убедитесь, что арендодатель разрешает это в договоре аренды.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w72-m1-e1',
-              sentence: 'The corporate spokesperson was strictly cautioned not to utter any comment regarding the pending antitrust litigation before the official press briefing.',
+              sentence: 'Shocked by the surprising news, he sat silently and could not utter a single word.',
               translation: {
-                ru: 'Официальному представителю корпорации строго запретили произносить какие-либо комментарии относительно предстоящего антимонопольного разбирательства до начала официального брифинга.'
+                ru: 'Потрясенный неожиданной новостью, он сидел молча и не мог вымолвить ни единого слова.'
               }
             },
             {
               id: 'c1-w72-m1-e2',
-              sentence: 'Stunned by the scale of the accounting irregularities uncovered by the forensic audit, the board members could scarcely utter a reply.',
+              sentence: 'She was so exhausted that she could barely utter a greeting when she walked through the door.',
               translation: {
-                ru: 'Ошеломленные масштабом бухгалтерских нарушений, выявленных судебно-финансовым аудитом, члены правления едва могли вымолвить хоть слово в ответ.'
+                ru: 'Она настолько устала, что едва смогла выговорить приветствие, переступив порог дома.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w73-m1-e1',
-              sentence: 'Relocating the global operations center will inevitably entail substantial logistical overhead and transitional workforce disruption.',
+              sentence: 'Starting a small business will inevitably entail long working hours and financial uncertainty.',
               translation: {
-                ru: 'Перенос глобального операционного центра неизбежно повлечет за собой существенные логистические издержки и временные перебои в работе персонала.'
+                ru: 'Открытие малого бизнеса неизбежно повлечет за собой долгие рабочие часы и финансовую неопределенность.'
               }
             },
             {
               id: 'c1-w73-m1-e2',
-              sentence: 'The venture capitalist demanded a precise explanation of what the experimental cloud migration architecture would entail in terms of security risks.',
+              sentence: 'The job sounded exciting, but he wanted to know exactly what the daily duties would entail.',
               translation: {
-                ru: 'Венчурный инвестор потребовал четкого объяснения того, какие риски безопасности повлечет за собой экспериментальная архитектура миграции в облако.'
+                ru: 'Работа звучала многообещающе, но он хотел точно знать, что именно будут предусматривать ежедневные обязанности.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w74-m1-e1',
-              sentence: 'The acquisition strategist needed only to glance at the quarterly balance sheet to detect disguised contingent liabilities.',
+              sentence: 'He glanced at his wristwatch and realized he had only five minutes to catch the train.',
               translation: {
-                ru: 'Стратегу по слияниям и поглощениям было достаточно лишь бегло взглянуть на квартальный баланс, чтобы выявить замаскированные условные обязательства.'
+                ru: 'Он взглянул на наручные часы и понял, что у него осталось всего пять минут, чтобы успеть на поезд.'
               }
             },
             {
               id: 'c1-w74-m1-e2',
-              sentence: 'During the tense cross-examination, the chief witness could not help but glance nervous looks toward the defense bench.',
+              sentence: 'She glanced through the menu before deciding on the vegetable soup.',
               translation: {
-                ru: 'Во время напряженного перекрестного допроса главный свидетель не мог не бросать нервные взгляды в сторону скамьи защиты.'
+                ru: 'Она бегло просмотрела меню, прежде чем остановить выбор на овощном супе.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w75-m1-e1',
-              sentence: 'Third-quarter subscription revenues managed to surpass even the most optimistic forecasts prepared by Wall Street analysts.',
+              sentence: 'The student’s exam results managed to surpass all his teacher’s expectations.',
               translation: {
-                ru: 'Выручка от подписок за третий квартал сумела превзойти даже самые оптимистичные прогнозы аналитиков с Уолл-стрит.'
+                ru: 'Результаты экзамена ученика сумели превзойти все ожидания его учителя.'
               }
             },
             {
               id: 'c1-w75-m1-e2',
-              sentence: 'Engineers designed aerodynamic turbine blades whose thermal efficiency can surpass legacy metal alloy counterparts by twenty percent.',
+              sentence: 'With dedicated practice, she was able to surpass her previous personal best in the marathon.',
               translation: {
-                ru: 'Инженеры спроектировали аэродинамические лопасти турбин, чья термическая эффективность способна превзойти традиционные металлические сплавы на двадцать процентов.'
+                ru: 'Благодаря упорным тренировкам она смогла превзойти свой прежний личный рекорд в марафоне.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w76-m1-e1',
-              sentence: 'To maintain competitive manufacturing velocity, the electronics giant was forced to discard legacy assembly platforms.',
+              sentence: 'Please discard your empty coffee cups and snack wrappers in the recycling bin.',
               translation: {
-                ru: 'Чтобы сохранить конкурентную скорость производства, электронный гигант был вынужден отбросить устаревшие сборочные платформы.'
+                ru: 'Пожалуйста, выбрасывайте пустые кофейные стаканчики и фантики от снеков в урну для переработки.'
               }
             },
             {
               id: 'c1-w76-m1-e2',
-              sentence: 'Modern epistemologists frequently discard unprovable metaphysical conjectures in favor of empirical verifiability.',
+              sentence: 'The scientist had to discard her initial hypothesis when the laboratory test results disproved it.',
               translation: {
-                ru: 'Современные эпистемологи зачастую отбрасывают недоказуемые метафизические домыслы в пользу эмпирической проверяемости.'
+                ru: 'Ученому пришлось отбросить свою первоначальную гипотезу, когда результаты лабораторных тестов опровергли ее.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w77-m1-e1',
-              sentence: 'Within two fiscal years of launch, the domestic electric vehicle manufacturer managed to overtake entrenched overseas rivals.',
+              sentence: 'On the highway, the red sports car accelerated to overtake a slow-moving delivery truck.',
               translation: {
-                ru: 'Всего за два финансовых года с момента запуска отечественный производитель электромобилей сумел обогнать укоренившихся зарубежных конкурентов.'
+                ru: 'На шоссе красный спортивный автомобиль разогнался, чтобы обогнать медленно едущий грузовик доставки.'
               }
             },
             {
               id: 'c1-w77-m1-e2',
-              sentence: 'Technological stagnation caused the legacy publishing house to be swiftly overtaken by nimble algorithmic media aggregators.',
+              sentence: 'Within a few years, the small online startup managed to overtake older, traditional retail chains.',
               translation: {
-                ru: 'Технологический застой привел к тому, что старейший издательский дом был стремительно опережен гибкими алгоритмическими медиаагрегаторами.'
+                ru: 'За несколько лет маленький онлайн-стартап сумел опередить старые традиционные торговые сети.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w78-m1-e1',
-              sentence: 'Wealth management holding structures are frequently engineered to shield client family assets from foreign currency devaluations.',
+              sentence: 'A sturdy pair of sunglasses will help shield your eyes from bright sunlight.',
               translation: {
-                ru: 'Холдинговые структуры управления частным капиталом нередко создаются для того, чтобы защитить семейные активы клиентов от девальвации иностранных валют.'
+                ru: 'Хорошие солнцезащитные очки помогут защитить ваши глаза от яркого солнечного света.'
               }
             },
             {
               id: 'c1-w78-m1-e2',
-              sentence: 'Bureaucrats worked behind the scenes to shield the regulatory agency from parliamentary scrutiny during the audit.',
+              sentence: 'Parents often try to shield their children from stressful family financial worries.',
               translation: {
-                ru: 'Чиновники действовали за кулисами, стремясь оградить надзорное ведомство от парламентских проверок во время аудита.'
+                ru: 'Родители часто стараются оградить своих детей от тревог, связанных с финансовыми трудностями семьи.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w79-m1-e1',
-              sentence: 'The antitrust commissioner decided to initiate a formal probe into anticompetitive pricing practices within the cloud infrastructure sector.',
+              sentence: 'The project manager called a team meeting to initiate discussions about the new website design.',
               translation: {
-                ru: 'Комиссар по антимонопольной политике принял решение инициировать официальное расследование антиконкурентного ценообразования в секторе облачной инфраструктуры.'
+                ru: 'Менеджер проекта собрал команду, чтобы начать обсуждение нового дизайна веб-сайта.'
               }
             },
             {
               id: 'c1-w79-m1-e2',
-              sentence: 'Disgruntled creditors resolved to initiate insolvency proceedings after three consecutive debt restructuring meetings collapsed without agreement.',
+              sentence: 'Customers can initiate a return directly through the online store’s mobile application.',
               translation: {
-                ru: 'Недовольные кредиторы решили инициировать процедуру банкротства после того, как три раунда переговоров о реструктуризации долга закончились безрезультатно.'
+                ru: 'Покупатели могут оформить возврат товара прямо через мобильное приложение интернет-магазина.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson8: Lesson = {
           examples: [
             {
               id: 'c1-w80-m1-e1',
-              sentence: 'Financial strain within regional development banks began to manifest in sudden credit rationing across the commercial property market.',
+              sentence: 'Chronic stress can often manifest as frequent headaches, fatigue, and poor sleep.',
               translation: {
-                ru: 'Финансовое напряжение в региональных банках развития начало отчетливо проявляться в виде внезапного ограничения кредитования коммерческой недвижимости.'
+                ru: 'Хронический стресс часто проявляется в виде частых головных болей, усталости и плохого сна.'
               }
             },
             {
               id: 'c1-w80-m1-e2',
-              sentence: 'Employee dissatisfaction under the authoritarian restructuring began to manifest through silent walkouts and plummeting output.',
+              sentence: 'His passion for photography began to manifest when he was given his first camera at age ten.',
               translation: {
-                ru: 'Недовольство сотрудников авторитарной реструктуризацией стало проявляться через молчаливые забастовки и резкое падение производительности.'
+                ru: 'Его страсть к фотографии начала проявляться, когда в возрасте десяти лет ему подарили первый фотоаппарат.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson8: Lesson = {
   reading: {
     id: 'c1-l8-reading',
     title: 'The Real Estate Hegemon: Commercial Strategy & Market Ascendancy',
-    content: `In the cutthroat arena of metropolitan commercial real estate, corporate survival requires rapid strategic adaptation, immense capital reserves, and disciplined operational stamina. When tenant demand shifted dramatically following consecutive macroeconomic interest rate hikes, corporate downsizing, and remote-work migrations, premier enterprise tenants began rigorously reassessing massive urban square footage across prime business districts. Rather than terminating long-term master commercial leases prematurely and paying ruinous liquidated damages and penalty fees, savvy multinational corporate tenants frequently negotiate statutory contractual rights to sublet unutilized upper-floor office suites to burgeoning venture-backed technology accelerators and specialized financial advisory boutiques.
+    content: `Managing commercial property and running a business both require practical planning and clear foresight. When economic conditions shift, companies often find themselves with empty office space. To cut monthly expenses without breaking their lease, many firms look for creative ways to sublet unused desks or entire floors to smaller local teams.
 
-During tense quarterly executive board deliberations, prudent chief financial officers consistently refuse to utter premature reassurances regarding annual profitability until audited closing statements confirm steady secondary rental receipts. Experienced commercial developers understand all too well that expanding physical operations into competitive overseas financial capitals will inevitably entail immense upfront underwriting capital, volatile foreign currency hedging costs, and formidable regulatory compliance hurdles. A seasoned institutional lender needs only to glance over a leasing asset-liability schedule to separate durable rental cash-flows from precarious, overleveraged speculative debt vehicles.
+In any corporate setting, clear and honest communication is vital. When serious business problems arise, leaders should not remain silent or wait until the last minute to utter difficult truths to their employees. Every major company reorganization will naturally entail temporary confusion and a steep learning curve for the staff. A good manager does not simply glance at a financial report during a crowded elevator ride; instead, they take time to examine the numbers carefully with their accountants.
 
-Long-term competitive dominance across modern skylines depends on continuous architectural and technological modernization. To decisively surpass sluggish domestic competitors whose operational paradigms remained stubbornly anchored in rigid pre-digital workspace arrangements, forward-looking real estate developers systematically discard obsolete single-tenant lease structures. By architecting modular, flexible co-working ecosystems equipped with intelligent climate infrastructure and sustainable energy microgrids, innovative asset managers managed to swiftly overtake legacy commercial landlords across dense downtown business corridors.
+To build a thriving business that can surpass tough market competitors, founders must stay adaptable. Successful entrepreneurs know when to discard outdated sales routines and adopt modern digital tools. If a business moves too slowly, agile young competitors will quickly overtake it and capture valuable customers.
 
-True commercial mastery, however, involves managing credit risk just as aggressively as pursuing top-line portfolio growth. Astute corporate boards construct robust multi-jurisdictional insolvency covenants specifically designed to shield parent holding entities from regional property market contagion and unexpected tenant bankruptcies. When persistent economic downturns cause delinquent corporate lessees to default on scheduled payments, proactive asset recovery teams move with surgical speed to initiate rigorous formal restructuring and debt enforcement proceedings before losses metastasize. Ultimately, sustainable enterprise resilience never emerges from optimistic marketing projections; it will manifest only when uncompromising fiscal discipline, proactive leasing administration, and ruthless market realism guide every high-stakes boardroom decision.`,
+At the same time, protecting the health of the organization is essential. Experienced business owners set aside emergency cash reserves to shield their companies against sudden economic downturns. When growth opportunities appear, managers must know how to initiate new partnerships smoothly and guide their teams through change. Ultimately, true leadership will manifest in how calmly a team navigates uncertainty and works together toward a shared goal.`,
     translations: {
-      ru: `На беспощадной арене столичной коммерческой недвижимости выживание корпораций требует мгновенной стратегической адаптации, колоссальных резервов капитала и строгой операционной выдержки. Когда спрос арендаторов резко изменился вслед за серией повышений процентных ставок и переходом на удаленную работу, ведущие корпоративные клиенты начали жестко пересматривать потребность в площадях в деловых центрах. Вместо досрочного расторжения сорокалетних генеральных договоров аренды с выплатой разорительных неустоек и штрафов, опытные международные компании часто добиваются права сдавать неиспользуемые офисные блоки верхних этажей в субаренду растущим венчурным технологическим акселераторам и консалтинговым бутикам.
+      ru: `Управление коммерческой недвижимостью и ведение бизнеса требуют практичного планирования и дальновидности. При изменении ситуации в экономике компании часто остаются с пустующими офисными площадями. Чтобы сократить ежемесячные расходы без расторжения договора, многие фирмы ищут возможность сдать в субаренду (sublet) лишние рабочие места или целые этажи небольшим местным командам.
 
-В ходе напряженных заседаний совета директоров осмотрительные финансовые директора неизменно отказываются вслух произносить преждевременные заверения о годовой прибыли до тех пор, пока аудиторские отчеты не подтвердят стабильность вторичных арендных поступлений. Опытные коммерческие девелоперы отлично понимают, что экспансия в зарубежные финансовые столицы неизбежно повлечет за собой огромные стартовые расходы на андеррайтинг, затраты на хеджирование валютных рисков и серьезные регуляторные барьеры. Квалифицированному институциональному кредитору достаточно лишь бегло взглянуть на график активов и обязательств по аренде, чтобы отличить устойчивые денежные потоки от рискованных, перегруженных долгами спекуляций.
+В любой деловой среде открытое общение имеет решающее значение. Когда возникают серьезные трудности, руководителям не стоит отмалчиваться или откладывать момент, чтобы вымолвить (utter) подчиненным непростую правду. Любая крупная реорганизация неизбежно влечет за собой (entail) временную неразбериху и период адаптации для сотрудников. Хороший руководитель не станет бегло бросать взгляд (glance) на финансовый отчет в спешке между встречами, а выделит время, чтобы спокойно разобрать цифры с бухгалтерией.
 
-Долгосрочное лидерство на рынке недвижимости зависит от непрерывной архитектурной и технологической модернизации. Чтобы решительно превзойти консервативных конкурентов, чьи операционные модели упрямо опирались на жесткие доцифровые форматы офисов, дальновидные девелоперы системно отбрасывают устаревшие моноарендные контракты. Проектируя модульные, гибкие коворкинг-пространства с интеллектуальным климат-контролем и микросетями возобновляемой энергии, передовые управляющие компании сумели быстро опередить традиционных арендодателей в ключевых деловых кварталах.
+Чтобы построить сильный бизнес, способный превзойти (surpass) сильных конкурентов, основателям необходимо сохранять гибкость. Успешные предприниматели вовремя отбрасывают (discard) устаревшие методы продаж и внедряют современные цифровые сервисы. Если компания медлит, более расторопные конкуренты быстро обгонят (overtake) ее и переманят клиентов.
 
-Однако подлинное искусство управления заключается в столь же агрессивном контроле рисков, как и в расширении инвестиционного портфеля. Дальновидные советы директоров формируют многоуровневые защитные ковенанты, призванные оградить материнские холдинги от кризисов на региональных рынках и банкротств контрагентов. Когда затяжной экономический спад приводит к неплатежам арендаторов, команды по возврату активов действуют с хирургической точностью, оперативно инициируя процедуры реструктуризации и принудительного взыскания долгов до разрастания убытков. В конечном счете корпоративная устойчивость никогда не рождается из оптимистичных маркетинговых буклетов: она начинает наглядно проявляться лишь тогда, когда бескомпромиссная финансовая дисциплина, проактивное управление и беспощадный реализм определяют каждое решение в совете директоров.`
+В то же время важно позаботиться о финансовой стабильности. Опытные владельцы бизнеса создают резервные фонды, чтобы защитить (shield) компанию от неожиданных экономических спадов. Когда открываются новые перспективы, лидеры должны уметь вовремя запустить (initiate) партнерские проекты и направить коллектив. В конечном счете подлинный профессионализм наглядно проявляется (manifest) в том, как спокойно команда справляется с трудностями и идет к общей цели.`
     }
   }
 };

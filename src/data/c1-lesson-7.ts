@@ -33,16 +33,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w61-m1-e1',
-              sentence: 'As mountaineers ascend past eight thousand meters, atmospheric pressures rarefy oxygen levels to life-threatening extremes.',
+              sentence: 'As climbers hike higher up the mountain, the air begins to rarefy, making every breath more difficult.',
               translation: {
-                ru: 'Когда альпинисты поднимаются выше восьми тысяч метров, падение атмосферного давления разрежает кислород до опасных для жизни пределов.'
+                ru: 'По мере того как альпинисты поднимаются выше в гору, воздух начинает разрежаться, затрудняя каждый вдох.'
               }
             },
             {
               id: 'c1-w61-m1-e2',
-              sentence: 'Academic seminars often rarefy urgent environmental dilemmas into dense theoretical disputes detached from grassroots conservation.',
+              sentence: 'Philosophers sometimes rarefy practical everyday problems into abstract debates that confuse ordinary readers.',
               translation: {
-                ru: 'Академические семинары нередко утончают насущные экологические дилеммы до отвлеченных теоретических споров, оторванных от реальной природоохранной работы.'
+                ru: 'Философы иногда усложняют практические житейские проблемы до абстрактных споров, сбивающих с толку обычных читателей.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w62-m1-e1',
-              sentence: 'Global epidemiological programs orchestrated by the health agency succeeded in helping to eradicate smallpox in the wild.',
+              sentence: 'Vaccination campaigns helped humanity eradicate smallpox across the globe.',
               translation: {
-                ru: 'Глобальные эпидемиологические программы агентства здравоохранения позволили окончательно искоренить оспу в естественной среде.'
+                ru: 'Кампании по вакцинации помогли человечеству искоренить оспу по всему миру.'
               }
             },
             {
               id: 'c1-w62-m1-e2',
-              sentence: 'The agriculture ministry launched targeted biocontrol regimens to eradicate invasive beetle infestations before harvesting began.',
+              sentence: 'The city launched a community program to eradicate poverty in neglected neighborhoods.',
               translation: {
-                ru: 'Министерство сельского хозяйства ввело целевые методы биоконтроля, чтобы полностью искоренить нашествие инвазивных жуков до начала сбора урожая.'
+                ru: 'Город запустил общественную программу по ликвидации бедности в неблагополучных районах.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w63-m1-e1',
-              sentence: 'Unregulated oceanic trawling threatened to extirpate deep-sea benthic coral ecosystems that required millennia to form.',
+              sentence: 'Park rangers worked through the summer to extirpate the invasive weed before it choked native wildflowers.',
               translation: {
-                ru: 'Неконтролируемое глубоководное траление грозило под корень уничтожить глубоководные донные коралловые рифы, формировавшиеся тысячелетиями.'
+                ru: 'Смотрители парка все лето трудились, чтобы выкорчевать сорняк-захватчик, пока тот не заглушил местные полевые цветы.'
               }
             },
             {
               id: 'c1-w63-m1-e2',
-              sentence: 'Ecologists warned that predatory rodents introduced to the oceanic atoll would soon extirpate flightless endemic bird colonies.',
+              sentence: 'The new principal vowed to extirpate bullying from the school culture.',
               translation: {
-                ru: 'Экологи предупреждали, что завезенные на атолл хищные грызуны вскоре полностью истребят колонии эндемичных нелетающих птиц.'
+                ru: 'Новый директор пообещал с корнем искоренить травлю из школьной среды.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w64-m1-e1',
-              sentence: 'Marine biologists discovered that pelagic seabirds frequently ingest synthetic polymer fragments mistaken for bioluminescent squid.',
+              sentence: 'Young children often ingest small objects by accident, so parents must keep small toys out of reach.',
               translation: {
-                ru: 'Морские биологи обнаружили, что океанические птицы регулярно заглатывают синтетические обломки полимеров, принимая их за светящихся кальмаров.'
+                ru: 'Маленькие дети часто случайно проглатывают мелкие предметы, поэтому родителям следует держать мелкие игрушки в недоступном месте.'
               }
             },
             {
               id: 'c1-w64-m1-e2',
-              sentence: 'Public health authorities cautioned residents never to ingest groundwater contaminated by industrial chemical leachates.',
+              sentence: 'Sea turtles mistakenly ingest floating plastic bags, thinking they are jellyfish.',
               translation: {
-                ru: 'Органы здравоохранения предостерегли жителей от употребления грунтовых вод, загрязненных промышленными химическими инфильтратами.'
+                ru: 'Морские черепахи по ошибке заглатывают плавающие пластиковые пакеты, принимая их за медуз.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w65-m1-e1',
-              sentence: 'Horticulturists at the alpine nursery managed to propagate endangered mountain orchids using sterile tissue culture micropropagation.',
+              sentence: 'Gardening enthusiasts often propagate houseplants by cutting stems and placing them in fresh water.',
               translation: {
-                ru: 'Селекционеры в альпийском питомнике сумели размножить исчезающие горные орхидеи методом стерильного микроклонального размножения тканей.'
+                ru: 'Любители садоводства часто размножают комнатные растения, срезая черенки и помещая их в свежую воду.'
               }
             },
             {
               id: 'c1-w65-m1-e2',
-              sentence: 'Social media algorithms tend to propagate sensational climate denialism faster than dry peer-reviewed environmental assessments.',
+              sentence: 'Conspiracy theorists used private message groups to propagate false claims about the election.',
               translation: {
-                ru: 'Алгоритмы социальных сетей имеют свойство распространять сенсационные опровержения климатических изменений быстрее, чем сухие академические отчеты.'
+                ru: 'Сторонники теорий заговора использовали закрытые группы в мессенджерах, чтобы распространять ложные утверждения о выборах.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w66-m1-e1',
-              sentence: 'The environmental ministry exercised its executive authority to terminate the mining license after catastrophic tailings dam breaches.',
+              sentence: 'The company decided to terminate the supplier contract after repeated delivery delays.',
               translation: {
-                ru: 'Министерство экологии воспользовалось своими полномочиями, чтобы расторгнуть лицензию на добычу ископаемых после катастрофического прорыва хвостохранилища.'
+                ru: 'Компания решила расторгнуть контракт с поставщиком после неоднократных задержек поставок.'
               }
             },
             {
               id: 'c1-w66-m1-e2',
-              sentence: 'Municipal transit authorities decided to terminate diesel bus contracts in favor of zero-emission hydrogen fuel cells.',
+              sentence: 'He chose to terminate his gym membership when he moved to a different city.',
               translation: {
-                ru: 'Муниципальные транспортные службы приняли решение расторгнуть контракты на дизельные автобусы в пользу водородных двигателей с нулевым выбросом.'
+                ru: 'Он решил прекратить действие абонемента в спортзал, когда переехал в другой город.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w67-m1-e1',
-              sentence: 'The intricate biological puzzle of coral calcification began to engross marine biogeochemists for over two decades.',
+              sentence: 'A thrilling mystery novel can engross a reader so completely that hours pass unnoticed.',
               translation: {
-                ru: 'Сложная биологическая загадка кальцификации кораллов целиком захватила внимание морских биогеохимиков более чем на два десятилетия.'
+                ru: 'Захватывающий детективный роман может настолько поглотить внимание читателя, что часы пролетят незаметно.'
               }
             },
             {
               id: 'c1-w67-m1-e2',
-              sentence: 'Field data detailing the sudden migration of polar bear pods continues to engross environmental policy analysts in the Arctic.',
+              sentence: 'The complicated coding problem engrossed the programmer throughout the entire weekend.',
               translation: {
-                ru: 'Полевые данные о внезапных миграциях полярных медведей продолжают полностью занимать аналитиков арктической экологической политики.'
+                ru: 'Сложная задача по программированию целиком захватила внимание разработчика на все выходные.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w68-m1-e1',
-              sentence: 'Soil ecologists worked for five seasons to coax microbial diversity back into desertified farmland stripped by intensive fertilizers.',
+              sentence: 'She gently used a warm bowl of milk to coax the frightened kitten out from behind the sofa.',
               translation: {
-                ru: 'Почвенные экологи трудились на протяжении пяти сезонов, чтобы бережно вернуть микробное разнообразие на истощенные интенсивной химией пашни.'
+                ru: 'Она ласково использовала миску с теплым молоком, чтобы выманить испуганного котенка из-за дивана.'
               }
             },
             {
               id: 'c1-w68-m1-e2',
-              sentence: 'Diplomats attempted to coax reluctant industrial conglomerates into signing binding carbon emissions disclosure protocols.',
+              sentence: 'The teacher managed to coax a shy student into speaking in front of the whole class.',
               translation: {
-                ru: 'Дипломаты пытались терпеливо убедить несговорчивые промышленные конгломераты подписать обязательные протоколы о раскрытии углеродных выбросов.'
+                ru: 'Учительнице удалось мягко подбодрить застенчивого ученика и убедить его выступить перед всем классом.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w69-m1-e1',
-              sentence: 'Under the bilateral cap-and-trade agreement, developing nations can swap surplus reforestation allowances for advanced renewable technology.',
+              sentence: 'The two coworkers agreed to swap shifts so that Maria could attend her sister’s graduation.',
               translation: {
-                ru: 'В рамках двустороннего соглашения о квотах развивающиеся страны могут обменивать излишки квот на лесовосстановление на передовые технологии возобновляемой энергии.'
+                ru: 'Двое коллег договорились поменяться сменами, чтобы Мария смогла пойти на выпускной сестры.'
               }
             },
             {
               id: 'c1-w69-m1-e2',
-              sentence: 'Agronomists recommended that farmers swap thirsty maize crops for drought-resilient sorghum varieties during prolonged heatwaves.',
+              sentence: 'During the break, the students gathered around the table to swap lunch snacks and stories.',
               translation: {
-                ru: 'Агрономы рекомендовали фермерам заменить влаголюбивую кукурузу на засухоустойчивые сорта сорго в периоды продолжительной жары.'
+                ru: 'На перемене ученики собрались вокруг стола, чтобы поменяться перекусами и поделиться историями.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson7: Lesson = {
           examples: [
             {
               id: 'c1-w70-m1-e1',
-              sentence: 'Biochemical engineers succeeded in formulating mycelium-based packaging capable to substitute for non-biodegradable polystyrene foam.',
+              sentence: 'In baking, you can substitute applesauce for oil to make healthier muffins.',
               translation: {
-                ru: 'Инженеры-биохимики разработали упаковку на основе мицелия, способную заменить небиоразлагаемый пенополистирол.'
+                ru: 'В выпечке можно заменить растительное масло яблочным пюре, чтобы кексы были полезнее.'
               }
             },
             {
               id: 'c1-w70-m1-e2',
-              sentence: 'The urban energy transition aims to substitute geothermal district heating for obsolete coal-fired power boilers by the end of the decade.',
+              sentence: 'When the primary teacher fell ill, an experienced substitute took over the class for two weeks.',
               translation: {
-                ru: 'Городской энергетический переход нацелен на то, чтобы к концу десятилетия заменить устаревшие угольные котлы геотермальным отоплением.'
+                ru: 'Когда основной учитель заболел, опытный преподаватель на замену вел уроки в течение двух недель.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson7: Lesson = {
   reading: {
     id: 'c1-l7-reading',
     title: 'The Resilient Biosphere: Battling Ecological Collapse',
-    content: `High on the windswept alpine plateaus of the Southern Alps, environmental researchers monitor atmospheric trends that foreshadow the global biosphere’s turbulent future. As rising average temperatures systematically alter barometric pressure gradients, arid downdraft winds rarefy the protective moisture envelope that once buffered delicate high-altitude mosses, lichens, and subalpine wetlands against intense solar ultraviolet radiation. Glacial meltwater streams that sustained regional river systems and agricultural valleys for millennia are diminishing at unprecedented rates, triggering cascading ecological imbalances across entire continental drainage basins.
+    content: `High in the mountains, hikers often notice how quickly the air begins to rarefy as they climb toward the summit. While the thin air tests their stamina, conservation teams working on these peaks face much bigger challenges. Decades of pollution and climate shifts have damaged delicate alpine meadows, putting rare species at risk.
 
-Faced with these accelerating planetary emergencies, conservation biologists and wildlife authorities are pursuing unprecedented, aggressive interventions. International environmental conventions have pledged binding commitments to eradicate pesticide runoff and heavy-metal contaminants from agricultural plains, while forestry marshals work relentlessly across rugged terrain to extirpate destructive feral swine that uproot ancient subalpine beech forests. These aggressive introduced predators decimate endemic plant root structures and consume endangered alpine amphibians, destabilizing fragile food webs that evolved over centuries in geographic isolation.
+To protect the local ecology, wildlife officers are taking direct action. Their first goal is to eradicate harmful invasive insects that attack native pine trees. In several valleys, teams of volunteers hike steep ridges to extirpate destructive weeds before the plants can choke the ground and destroy wildlife habitats. Another growing concern is plastic waste: birds and small mammals frequently ingest bright plastic wrappers left behind by careless tourists, causing serious health problems.
 
-Pervasive chemical pollution further compounds the physiological strain on native wildlife. Toxic airborne particulates and industrial debris settle into pristine mountain lakes, where endemic trout and waterfowl mistakenly ingest synthetic microfibers shed from synthetic trekking gear and airborne consumer waste. To prevent total reproductive collapse and permanent biodiversity loss, specialized conservationists have established high-security captive breeding sanctuaries to propagate native finch and freshwater mussel populations before their wild habitats vanish entirely. When industrial manufacturing conglomerates deliberately violate pollution caps, environmental enforcement agencies no longer hesitate to terminate operating licenses and seize offending commercial infrastructure.
+Restoration efforts are also underway. At a botanical nursery at the foot of the mountain, scientists propagate rare wildflowers and shrubs to replant barren hillsides. Environmental inspectors also monitor nearby industrial sites closely, ready to terminate the operating permit of any factory that dumps toxic waste into mountain streams.
 
-Such multidimensional ecological emergencies increasingly engross the focus of interdisciplinary scientific panels and international policy summits. Rather than imposing rigid, costly, top-down civil engineering schemes that frequently disrupt local hydrology, field researchers prefer to partner with natural ecological succession. They deploy innovative regenerative planting techniques to patiently coax fragile pioneer shrubs and native nitrogen-fixing flora into reclaiming barren, erosion-prone landslide scars. Meanwhile, market-based mechanisms allow municipal water authorities to swap conservation easements across adjacent watersheds, encouraging regional utilities to substitute sustainable vegetated bio-swales for impervious concrete flood barriers. Through methodical science and adaptive ecological stewardship, the fragile alpine wilderness is given a fighting chance to endure.`,
+The sheer scale of nature often continues to engross biologists who spend whole seasons conducting field research in the wilderness. When replanting damaged soil, researchers do not use heavy bulldozers; instead, they coax natural grass seeds into taking root by spreading organic compost. In mountain towns, local communities are learning to adapt as well. Families swap tips on composting, and schools substitute reusable metal bottles for single-use plastic containers. Through these practical daily steps, people and nature are learning to live together sustainably.`,
     translations: {
-      ru: `Высоко на обдуваемых ветрами альпийских плато Южных Альп ученые-экологи отслеживают атмосферные тенденции, предвещающие турбулентное будущее всей глобальной биосферы. По мере того как рост средних температур системно изменяет барометрические градиенты, засушливые нисходящие ветры разрежают защитную влажную оболочку, некогда уберегавшую нежные высокогорные мхи, лишайники и водно-болотные угодья от жесткого солнечного ультрафиолетового излучения. Ледниковые ручьи, тысячелетиями питавшие региональные речные системы и сельскохозяйственные долины, мелеют с беспрецедентной скоростью, вызывая каскадные экологические сбои по всему речному бассейну.
+      ru: `Высоко в горах туристы быстро замечают, как по мере подъема к вершине воздух начинает разрежаться (rarefy). Пока разреженный воздух испытывает их выносливость, команды экологов на горных склонах сталкиваются с куда более серьезными вызовами. Годы загрязнения и изменения климата нанесли ущерб альпийским лугам, поставив редкие виды под угрозу.
 
-Столкнувшись с этими нарастающими планетарными угрозами, биологи и природоохранные ведомства применяют беспрецедентные, решительные меры вмешательства. Международные экологические конвенции закрепили обязательства полностью искоренить сбросы пестицидов и тяжелых металлов с сельскохозяйственных равнин, в то время как лесные инспекторы неустанно трудятся в труднодоступной местности, чтобы под корень истребить одичавших кабанов, уничтожающих реликтовые субальпийские буковые леса. Эти агрессивные завезенные хищники губят корневые структуры растений и поедают исчезающих амфибий, подрывая хрупкие пищевые цепи, развивавшиеся веками в географической изоляции.
+Чтобы защитить местную природу, защитники животных предпринимают решительные меры. Их главная цель — полностью искоренить (eradicate) вредных насекомых, уничтожающих хвойные леса. В нескольких долинах добровольцы поднимаются по крутым склонам, чтобы выкорчевать (extirpate) сорняки-захватчики, пока те не заглушили почву и не разрушили среду обитания диких животных. Еще одной растущей проблемой стал пластик: птицы и мелкие зверьки часто заглатывают (ingest) яркие обертки от еды, оставленные туристами, что приводит к тяжелым болезням.
 
-Повсеместное химическое загрязнение лишь усугубляет физиологический стресс дикой фауны. Токсичные микрочастицы и промышленные выбросы оседают в высокогорных озерах, где эндемичная форель и водоплавающие птицы по ошибке поглощают синтетические микроволокна туристского снаряжения и бытовых отходов. Чтобы не допустить полной репродуктивной катастрофы и безвозвратной утраты биоразнообразия, специалисты создали питомники, призванные искусственно размножать популяции редких птиц и моллюсков до того, как их естественная среда обитания исчезнет навсегда. Когда промышленные конгломераты нарушают нормы выбросов, надзорные органы без колебаний прекращают действие их лицензий и арестовывают инфраструктуру.
+Параллельно идет восстановление растительности. В ботаническом питомнике у подножия гор ученые размножают (propagate) редкие полевые цветы и кустарники для высадки на склонах. Инспекторы строго следят за предприятиями неподалеку, готовые немедленно прекратить (terminate) действие лицензии любой фабрики, сбрасывающей отходы в горные ручьи.
 
-Подобные многомерные экологические кризисы все глубже захватывают внимание междисциплинарных научных коллегий и международных саммитов. Вместо навязывания жестких и дорогостоящих техногенных дамб, нарушающих гидрологию, полевые исследователи предпочитают опираться на естественную природную сукцессию. Они внедряют методы регенеративного посева, чтобы терпеливо помогать выносливым кустарникам и азотфиксирующим травам возвращаться на бесплодные оползневые склоны. Одновременно рыночные механизмы позволяют коммунальным службам обменивать природоохранные сервитуты и заменять монолитные бетонные волнорезы зелеными биодренажными каналами. Благодаря методичному научному подходу и бережному управлению хрупкая альпийская природа получает реальный шанс на выживание.`
+Величие дикой природы продолжает целиком захватывать внимание (engross) биологов, проводящих целые сезоны в полевых экспедициях. Восстанавливая поврежденную почву, они не используют тяжелые бульдозеры, а терпеливо помогают (coax) семенам трав прижиться с помощью органического компоста. В горных городках жители тоже меняют привычки. Семьи делятся (swap) полезными советами по утилизации отходов, а школы заменяют (substitute) одноразовый пластик многоразовыми бутылками. Благодаря этим простым шагам люди и природа находят путь к согласию.`
     }
   }
 };

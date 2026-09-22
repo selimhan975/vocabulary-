@@ -33,16 +33,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w21-m1-e1',
-              sentence: 'Rival venture funds continued to dangle lavish equity stakes before the lead machine-learning researchers.',
+              sentence: 'The startup tried to dangle a higher salary to convince the engineer to join them.',
               translation: {
-                ru: 'Конкурирующие венчурные фонды продолжали манить ведущих исследователей машинного обучения щедрыми долями в акционерном капитале.'
+                ru: 'Стартап попытался поманить инженера более высокой зарплатой, чтобы убедить его перейти к ним.'
               }
             },
             {
               id: 'c1-w21-m1-e2',
-              sentence: 'Intricate glass prisms dangled gracefully from the restoration hall’s eighteenth-century bronze chandeliers.',
+              sentence: 'Colorful paper lanterns dangled from the porch ceiling during the summer party.',
               translation: {
-                ru: 'Искусные хрустальные призмы изящно свисали с бронзовых люстр восемнадцатого века в зале реставрации.'
+                ru: 'Разноцветные бумажные фонарики свисали с потолка веранды во время летней вечеринки.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w22-m1-e1',
-              sentence: 'Master goldsmiths used diamond-tipped styluses to incise delicate botanical motifs along the ceremonial urn.',
+              sentence: 'The craftsman used a sharp chisel to incise the family name into the wooden bench.',
               translation: {
-                ru: 'Мастера-ювелиры использовали резцы с алмазными наконечниками, чтобы вырезать изящные растительные мотивы по периметру церемониальной урны.'
+                ru: 'Мастер использовал острое долото, чтобы вырезать фамилию семьи на деревянной скамье.'
               }
             },
             {
               id: 'c1-w22-m1-e2',
-              sentence: 'The surgeon used a precision scalpel to incise the outer dermal layer cleanly without tearing surrounding tissues.',
+              sentence: 'The surgeon made a small cut to incise the tissue and relieve the pressure.',
               translation: {
-                ru: 'Хирург использовал высокоточный скальпель, чтобы аккуратно надрезать наружный слой кожи, не повреждая прилегающие ткани.'
+                ru: 'Хирург сделал небольшой надрез, чтобы вскрыть ткань и снять внутреннее давление.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w23-m1-e1',
-              sentence: 'Archaeological teams worked tirelessly to unearth the foundations of a Roman defensive fort buried near the estuary.',
+              sentence: 'While digging in the backyard garden, the children unearthed an old iron key.',
               translation: {
-                ru: 'Археологические бригады неустанно трудились, чтобы раскопать фундаменты римского оборонительного форта, погребенного возле устья реки.'
+                ru: 'Перекапывая огород на заднем дворе, дети откопали старый железный ключ.'
               }
             },
             {
               id: 'c1-w23-m1-e2',
-              sentence: 'Archivists managed to unearth forgotten diplomatic dispatches that explained the sudden territorial annexations.',
+              sentence: 'Investigative reporters managed to unearth documents revealing how the money was spent.',
               translation: {
-                ru: 'Архивистам удалось извлечь на свет забытые дипломатические депеши, проливающие свет на внезапные территориальные аннексии.'
+                ru: 'Журналистам-расследователям удалось обнаружить документы, раскрывающие, как именно были потрачены деньги.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w24-m1-e1',
-              sentence: 'The Renaissance fresco sought to depict celestial harmony through geometrically calculated perspective.',
+              sentence: 'The mural on the library wall depicts scenes of daily life in the town a century ago.',
               translation: {
-                ru: 'Фреска эпохи Возрождения стремилась отобразить небесную гармонию посредством геометрически выверенной перспективы.'
+                ru: 'Фреска на стене библиотеки изображает сцены повседневной жизни городка вековой давности.'
               }
             },
             {
               id: 'c1-w24-m1-e2',
-              sentence: 'Modern historical biographers strive to depict political rulers as multifaceted figures with real frailties.',
+              sentence: 'Her latest novel depicts the honest struggles of a family adapting to life in a foreign country.',
               translation: {
-                ru: 'Современные биографы стремятся описывать правителей прошлого как многогранных личностей со своими слабостями.'
+                ru: 'Ее последний роман правдиво описывает непростую адаптацию семьи к жизни в чужой стране.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w25-m1-e1',
-              sentence: 'Textile conservators spent weeks using micro-tweezers to carefully unpick damaged silk linings from the tapestry.',
+              sentence: 'She had to patiently unpick the crooked stitches along the collar before sewing it again.',
               translation: {
-                ru: 'Реставраторы тканей провели недели с микропинцетами, аккуратно распуская и распарывая поврежденную шелковую подкладку шпалеры.'
+                ru: 'Ей пришлось терпеливо распороть кривые стежки на воротнике, прежде чем пришить его заново.'
               }
             },
             {
               id: 'c1-w25-m1-e2',
-              sentence: 'Legal theorists proceeded to unpick the contentious constitutional verdict paragraph by paragraph.',
+              sentence: 'The lawyer took his time to unpick the opposing team’s argument during the trial.',
               translation: {
-                ru: 'Теоретики права принялись скрупулезно разбирать спорное конституционное решение абзац за абзацем.'
+                ru: 'Адвокат не спеша разобрал по косточкам аргументацию противоположной стороны в суде.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w26-m1-e1',
-              sentence: 'The visionary theater director plucked the young cellist from obscurity after attending a student recital.',
+              sentence: 'A scout plucked the teenage striker from a local amateur league and offered him a trial.',
               translation: {
-                ru: 'Дальновидный театральный режиссер выдернул молодого виолончелиста из неизвестности, случайно посетив студенческий концерт.'
+                ru: 'Скаут заметил юного нападающего в местной любительской лиге и пригласил его на просмотр.'
               }
             },
             {
               id: 'c1-w26-m1-e2',
-              sentence: 'She had to pluck up courage before challenging the editorial board’s verdict on her manuscript.',
+              sentence: 'It took him several days to pluck up the courage to admit his mistake to his manager.',
               translation: {
-                ru: 'Ей пришлось набраться смелости, прежде чем оспорить решение редакционной коллегии относительно ее рукописи.'
+                ru: 'Ему потребовалось несколько дней, чтобы набраться смелости и признаться начальнику в своей ошибке.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w27-m1-e1',
-              sentence: 'Ceramists used wooden paddles to mold wet porcelain into graceful, paper-thin vessels.',
+              sentence: 'The art teacher showed the children how to mold soft clay into small bowls.',
               translation: {
-                ru: 'Мастера-керамисты деревянными лопатками формовали влажный фарфор в изящные, тонкие как бумага сосуды.'
+                ru: 'Учитель рисования показал детям, как лепить из мягкой глины небольшие чаши.'
               }
             },
             {
               id: 'c1-w27-m1-e2',
-              sentence: 'Rigorous university debates helped to mold her approach to institutional diplomacy.',
+              sentence: 'Growing up in a busy family restaurant helped mold her strong work ethic.',
               translation: {
-                ru: 'Острые университетские дебаты помогли сформировать ее подход к институциональной дипломатии.'
+                ru: 'Взросление в оживленном семейном ресторане помогло сформировать у нее сильную трудовую этику.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w28-m1-e1',
-              sentence: 'A single severe programming flaw was sufficient to render the navigation module completely unresponsive.',
+              sentence: 'A sudden power outage rendered the digital payment system completely useless.',
               translation: {
-                ru: 'Единственной серьезной ошибки в коде оказалось достаточно, чтобы сделать навигационный модуль полностью неработоспособным.'
+                ru: 'Внезапное отключение электричества сделало цифровую платежную систему совершенно бесполезной.'
               }
             },
             {
               id: 'c1-w28-m1-e2',
-              sentence: 'The painter managed to render the dramatic reflection of stormy coastal sunlight with extraordinary subtlety.',
+              sentence: 'The artist managed to render the evening light over the ocean with stunning realism.',
               translation: {
-                ru: 'Художнику удалось передать драматичный отблеск штормового прибрежного солнца с необычайной тонкостью.'
+                ru: 'Художнику удалось передать вечерний свет над океаном с поразительным реализмом.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w29-m1-e1',
-              sentence: 'The brass cogs must mesh with micrometric precision to keep the nautical astrolabe functioning reliably.',
+              sentence: 'His flexible work style did not always mesh well with the company’s rigid corporate culture.',
               translation: {
-                ru: 'Латунные шестерни должны сцепляться с микрометрической точностью, чтобы морская астролябия работала надежно.'
+                ru: 'Его гибкий стиль работы не всегда хорошо сочетался с жесткой корпоративной культурой компании.'
               }
             },
             {
               id: 'c1-w29-m1-e2',
-              sentence: 'Her empirical fieldwork did not mesh neatly with the theoretical models proposed by classical sociologists.',
+              sentence: 'To run smoothly, the small gears inside the clock must mesh without any friction.',
               translation: {
-                ru: 'Ее полевые эмпирические изыскания не вполне согласовывались с теоретическими моделями классических социологов.'
+                ru: 'Чтобы часы шли плавно, мелкие шестеренки внутри механизма должны сцепляться без малейшего трения.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson3: Lesson = {
           examples: [
             {
               id: 'c1-w30-m1-e1',
-              sentence: 'Sociologists must delve deeply into archival records to understand the structural origins of the policy.',
+              sentence: 'Before writing the biography, the author spent months delving into personal letters and diaries.',
               translation: {
-                ru: 'Социологи должны глубоко вникнуть в архивные документы, чтобы понять структурные истоки этой политики.'
+                ru: 'Прежде чем писать биографию, автор провел месяцы, углубляясь в личные письма и дневники.'
               }
             },
             {
               id: 'c1-w30-m1-e2',
-              sentence: 'Before reaching a definitive conclusion, the investigative committee resolved to delve into the company’s financial ledgers.',
+              sentence: 'We decided not to delve into past disagreements and focus on the current task instead.',
               translation: {
-                ru: 'Прежде чем прийти к окончательному заключению, следственная комиссия решила тщательно исследовать финансовые гроссбухи компании.'
+                ru: 'Мы решили не вдаваться в прошлые разногласия, а сосредоточиться на текущей задаче.'
               }
             }
           ]
@@ -440,21 +440,21 @@ export const c1Lesson3: Lesson = {
   reading: {
     id: 'c1-l3-r',
     title: 'The Conservator’s Studio',
-    content: `Deep within the basement laboratories of the antiquities museum, conservators work at the delicate frontier between historical scholarship and material science. To unearth forgotten burial sites is merely the first chapter in an artifact’s modern journey; once removed from protective strata of dry silt, ancient metals and textiles immediately begin to corrode unless stabilized by skilled hands. Before formulating a restoration protocol, researchers must delve into archival expedition notes to understand the exact burial microclimate.
+    content: `Deep within the basement laboratories of the museum, conservators work where history meets material science. To unearth forgotten burial sites is only the first step in protecting an artifact. Once removed from protective layers of dry silt, ancient metals and textiles begin to corrode rapidly in the open air unless treated by skilled hands. Before formulating a restoration protocol, researchers must delve into archival expedition notes to understand the exact burial microclimate.
 
-Standing beside an illuminated stereo-microscope, master conservator Elena Silva demonstrated how centuries of oxidization can render fragile funerary heirlooms almost unrecognizable. Before any chemical intervention occurs, specialists must unpick modern repair threads inserted by earlier, less scrupulous collectors who had tried to mold the fragmented relics into preconceived aesthetic shapes. Working millimeter by millimeter, Elena used a rounded tungsten blade to gently incise through mineralized crusts without scratching the underlying copper plate.
+Standing beside an illuminated stereo-microscope, master conservator Elena Silva demonstrated how centuries of exposure can render fragile funerary heirlooms almost unrecognizable. Before any chemical intervention occurs, specialists must unpick modern repair threads inserted by earlier collectors who had tried to mold the fragmented relics into preconceived aesthetic shapes. Working millimeter by millimeter, Elena used a rounded tungsten blade to gently incise through mineralized crusts without scratching the underlying copper plate.
 
-Her goal was to expose and accurately depict the original ceremonial iconography. As centuries of encrusted dirt came away, a splendid procession of sacred cranes emerged, with fine silver wires that dangled from hammered celestial rings. Every element of the ancient craftsman’s vision began to mesh into an organic whole, showing a sophisticated understanding of metallurgy that classical historians had long doubted.
+Her goal was to expose and accurately depict the original ceremonial iconography. As layers of encrusted dirt came away, a splendid procession of sacred cranes emerged, with fine silver wires that dangled from hammered celestial rings. Every element of the craftsman’s vision began to mesh into an organic whole, showing a sophisticated understanding of metallurgy that classical historians had long doubted.
 
-Outside museums, commercial auction galleries often trade in polished showpieces whose provenance is questionable. Too often, market speculators will pluck precious fragments from unrecorded archaeological contexts, destroying stratigraphic data that can never be recovered. In contrast, scientific conservation prioritizes structural integrity over decorative sheen. By combining spectroscopic analysis with respectful restraint, conservators preserve the tactile memory of past civilizations for generations to come.`,
+Outside museums, commercial auction galleries often trade in showpieces whose provenance is questionable. When market speculators pluck precious fragments from unrecorded archaeological contexts, they irrevocably destroy irreplaceable stratigraphic and archaeological contexts. In contrast, scientific conservation prioritizes structural integrity over decorative sheen. By combining spectroscopic analysis with patient care, conservators preserve the tactile memory of past civilizations for generations to come.`,
     translations: {
-      ru: `В подвальных лабораториях музея древностей реставраторы трудятся на тонкой грани между исторической наукой и материаловедением. Раскопать (unearth) забытые захоронения — это лишь первый этап в современной судьбе артефакта; будучи извлеченными из сухого ила, древние металлы и ткани немедленно начинают разрушаться, если их вовремя не законсервировать. Прежде чем составлять протокол консервации, исследователи должны глубоко вникнуть (delve) в архивные дневники экспедиции, чтобы понять погребальный микроклимат.
+      ru: `В подвальных лабораториях музея реставраторы трудятся на стыке истории и материаловедения. Раскопать (unearth) забытые захоронения — лишь первый шаг на пути к спасению артефакта. Будучи извлеченными из сухого ила, древние металлы и ткани быстро разрушаются на открытом воздухе, если их вовремя не обработать. Прежде чем составлять протокол консервации, исследователи должны глубоко вникнуть (delve) в архивные дневники экспедиции, чтобы понять погребальный микроклимат.
 
-Стоя у стереомикроскопа, реставратор Елена Силва продемонстрировала, как века коррозии могут привести в состояние (render) полной неузнаваемости погребальные реликвии. Прежде чем проводить обработку, специалистам приходится осторожно распарывать (unpick) следы грубых прежних вмешательств, когда недобросовестные коллекционеры пытались формовать (mold) фрагменты под свои вкусы. Вооружившись вольфрамовым лезвием, Елена сделала аккуратный надрез (incise) по слою минеральных отложений, не задев медь.
+Стоя у стереомикроскопа, реставратор Елена Силва продемонстрировала, как века коррозии могут привести в состояние (render) полной неузнаваемости погребальные реликвии. До начала химической обработки специалистам приходится осторожно распарывать (unpick) следы грубых прежних вмешательств, когда коллекционеры пытались формовать (mold) фрагменты под свои вкусы. Вооружившись вольфрамовым лезвием, Елена сделала аккуратный надрез (incise) по слою минеральных отложений, не задев медь.
 
-Ее цель состояла в том, чтобы точно отобразить (depict) изначальную иконографию. Взору открылась процессия священных журавлей с тонкими серебряными нитями, которые изящно свисали (dangled) с кованых колец. Все детали стали гармонично сцепляться (mesh) в единое полотно, подтверждая высочайшее мастерство древних металлургов.
+Ее цель состояла в том, чтобы точно отобразить (depict) изначальную иконографию. Взору открылась процессия священных журавлей с тонкими серебряными нитями, которые изящно свисали (dangled) с кованых колец. Все детали стали гармонично сцепляться (mesh) в единое целое, подтверждая высочайшее мастерство древних металлургов.
 
-За стенами музея коммерческие аукционные дома нередко торгуют эффектными экспонатами с сомнительным происхождением. Ради наживы дельцы готовы выдергивать (pluck) фрагменты из неизученных пластов, навсегда уничтожая археологический контекст. Научная же консервация превыше всего ставит подлинность и сохранность культурной памяти.`
+За стенами музея коммерческие аукционные дома нередко торгуют экспонатами с сомнительным происхождением. Когда дельцы выдергивают (pluck) фрагменты из неизученных пластов, они навсегда уничтожают археологический контекст. Научная же консервация превыше всего ставит подлинность и бережное отношение к нашему общему наследию.`
     },
     comprehensionQuestions: [
       {

@@ -14,7 +14,7 @@ interface LessonListProps {
 }
 
 const getLessonsPerRange = (level: CEFRLevel): number => {
-  if (level === 'B2') {
+  if (level === 'B2' || level === 'C1') {
     return 12;
   }
   return 10;

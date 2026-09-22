@@ -33,16 +33,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w11-m1-e1',
-              sentence: 'Economists observed that inflationary pressures began to abate following consecutive rate adjustments.',
+              sentence: 'After hours of heavy wind and rain, the storm finally began to abate around midnight.',
               translation: {
-                ru: 'Экономисты отметили, что инфляционное давление начало ослабевать после череды корректировок ключевой ставки.'
+                ru: 'После нескольких часов сильного ветра и дождя буря наконец начала утихать около полуночи.'
               }
             },
             {
               id: 'c1-w11-m1-e2',
-              sentence: 'The fierce public controversy showed no signs of readying to abate despite municipal apologies.',
+              sentence: 'As the medication took effect, the throbbing pain in her knee started to abate.',
               translation: {
-                ru: 'Ожесточенная общественная дискуссия не обнаруживала никаких признаков затухания, невзирая на извинения муниципалитета.'
+                ru: 'Когда лекарство подействовало, пульсирующая боль в ее колене стала спадать.'
               }
             }
           ]
@@ -76,16 +76,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w12-m1-e1',
-              sentence: 'The central bank president held an impromptu briefing to assuage investor anxieties regarding liquidity.',
+              sentence: 'The doctor spent extra time explaining the test results to assuage the mother’s fears.',
               translation: {
-                ru: 'Глава центрального банка провел внеплановый брифинг, чтобы развеять опасения инвесторов по поводу ликвидности.'
+                ru: 'Врач уделил дополнительное время объяснению результатов анализов, чтобы успокоить страхи матери.'
               }
             },
             {
               id: 'c1-w12-m1-e2',
-              sentence: 'Offering compensation packages did little to assuage the anger felt by displaced community residents.',
+              sentence: 'A cup of warm chamomile tea helped assuage his nervousness before the job interview.',
               translation: {
-                ru: 'Предложение компенсационных пакетов мало способствовало тому, чтобы успокоить гнев переселенных жителей района.'
+                ru: 'Чашка теплого ромашкового чая помогла унять его нервозность перед собеседованием.'
               }
             }
           ]
@@ -119,16 +119,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w13-m1-e1',
-              sentence: 'Repeated administrative blunders threatened to diminish the university department’s international stature.',
+              sentence: 'His enthusiasm for the project did not diminish even after facing several initial rejections.',
               translation: {
-                ru: 'Неоднократные административные промахи угрожали умалить международный авторитет университетской кафедры.'
+                ru: 'Его энтузиазм по поводу проекта не уменьшился даже после нескольких первых отказов.'
               }
             },
             {
               id: 'c1-w13-m1-e2',
-              sentence: 'Available water reserves began to diminish alarmingly as prolonged summer heatwaves settled over the valley.',
+              sentence: 'Failing to credit team members can quickly diminish a manager’s authority in the office.',
               translation: {
-                ru: 'Доступные запасы воды начали угрожающе сокращаться, когда над долиной установилась затяжная летняя жара.'
+                ru: 'Если не отмечать вклад членов команды, это может быстро умалить авторитет руководителя в коллективе.'
               }
             }
           ]
@@ -162,16 +162,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w14-m1-e1',
-              sentence: 'Hasty revisions to laboratory protocols might jeopardize the statistical validity of the entire study.',
+              sentence: 'Missing another crucial deadline could jeopardize our chances of securing the contract.',
               translation: {
-                ru: 'Поспешные изменения в протоколах лабораторных испытаний могут поставить под угрозу статистическую достоверность всего исследования.'
+                ru: 'Срыв очередного важного дедлайна может поставить под угрозу наши шансы получить контракт.'
               }
             },
             {
               id: 'c1-w14-m1-e2',
-              sentence: 'Leaking confidential negotiation terms would severely jeopardize ongoing diplomatic dialogues.',
+              sentence: 'Driving in such heavy snow without winter tires will seriously jeopardize your safety.',
               translation: {
-                ru: 'Утечка конфиденциальных условий переговоров серьезно поставила бы под удар продолжающийся дипломатический диалог.'
+                ru: 'Поездка в такой сильный снегопад без зимней резины серьезно подвергнет опасности вашу безопасность.'
               }
             }
           ]
@@ -205,16 +205,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w15-m1-e1',
-              sentence: 'Digital analytical tools rapidly superseded the manual ledger calculations formerly relied upon by auditors.',
+              sentence: 'The new wireless payment system will soon supersede cash registers across the store chain.',
               translation: {
-                ru: 'Цифровые аналитические инструменты быстро вытеснили ручные расчеты в гроссбухах, на которые ранее опирались аудиторы.'
+                ru: 'Новая система беспроводных платежей вскоре вытеснит кассовые аппараты по всей сети магазинов.'
               }
             },
             {
               id: 'c1-w15-m1-e2',
-              sentence: 'The new European safety directive will officially supersede all previous national manufacturing standards.',
+              sentence: 'This updated safety manual will supersede all guidelines published last year.',
               translation: {
-                ru: 'Новая европейская директива по безопасности официально заменит все предшествующие национальные стандарты производства.'
+                ru: 'Это обновленное руководство по безопасности заменит собой все правила, опубликованные в прошлом году.'
               }
             }
           ]
@@ -248,16 +248,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w16-m1-e1',
-              sentence: 'A subtle sense of disillusionment seemed to pervade the graduate seminars after budget cuts were announced.',
+              sentence: 'A warm sense of relief pervaded the living room when the phone call confirmed grandma was safe.',
               translation: {
-                ru: 'Тонкое ощущение разочарования, казалось, пронизывало аспирантские семинары после объявления о сокращении бюджета.'
+                ru: 'Теплое чувство облегчения наполнило гостиную, когда телефонный звонок подтвердил, что с бабушкой все в порядке.'
               }
             },
             {
               id: 'c1-w16-m1-e2',
-              sentence: 'The nostalgic aroma of ground coffee and cedar wood pervaded every corner of the historic library.',
+              sentence: 'The comforting smell of fresh cinnamon rolls pervaded the entire bakery.',
               translation: {
-                ru: 'Ностальгический аромат молотого кофе и кедровой древесины наполнял каждый угол старинной библиотеки.'
+                ru: 'Уютный аромат свежих булочек с корицей наполнил всю пекарню.'
               }
             }
           ]
@@ -291,16 +291,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w17-m1-e1',
-              sentence: 'Many modern principles of administrative law originally originated in medieval merchant guild customs.',
+              sentence: 'The tradition of exchanging gifts during the holiday season is thought to originate in ancient winter festivals.',
               translation: {
-                ru: 'Многие современные принципы административного права изначально зародились в обычаях средневековых купеческих гильдий.'
+                ru: 'Считается, что традиция обмениваться подарками в сезон праздников берет начало в древних зимних обрядах.'
               }
             },
             {
               id: 'c1-w17-m1-e2',
-              sentence: 'Engineers demonstrated that the unusual vibrational glitch did not originate within the main turbine rotor.',
+              sentence: 'Medical investigators determined that the food poisoning did not originate from the local dairy farm.',
               translation: {
-                ru: 'Инженеры продемонстрировали, что необычный вибрационный сбой возник вовсе не в роторе главной турбины.'
+                ru: 'Медицинские эксперты установили, что пищевое отравление возникло вовсе не из-за местной молочной фермы.'
               }
             }
           ]
@@ -334,16 +334,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w18-m1-e1',
-              sentence: 'Despite tight financial constraints, the project architect contrived to maintain all environmental certifications.',
+              sentence: 'Despite having very little money for travel, the students contrived to visit four countries in two weeks.',
               translation: {
-                ru: 'Несмотря на жесткие финансовые ограничения, архитектор проекта исхитрился сохранить все экологические сертификаты.'
+                ru: 'Несмотря на скромный бюджет на поездки, студенты умудрились посетить четыре страны за две недели.'
               }
             },
             {
               id: 'c1-w18-m1-e2',
-              sentence: 'The defense team contrived a persuasive narrative that highlighted contradictory testimonies from the state.',
+              sentence: 'The clever dog contrived a way to open the pantry door whenever everyone was asleep.',
               translation: {
-                ru: 'Сторона защиты искусно выстроила убедительную линию, которая подчеркнула противоречия в показаниях обвинения.'
+                ru: 'Умный пес исхитрился открывать дверь кладовой всякий раз, когда все спали.'
               }
             }
           ]
@@ -377,16 +377,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w19-m1-e1',
-              sentence: 'Over four decades of research, the paleontologist managed to amass an unmatched collection of marine fossils.',
+              sentence: 'Over thirty years of weekend visits to flea markets, Clara managed to amass an impressive collection of antique clocks.',
               translation: {
-                ru: 'За четыре десятилетия изысканий палеонтолог сумел накопить непревзойденную коллекцию морских окаменелостей.'
+                ru: 'За тридцать лет походов по блошиным рынкам по выходным Кларе удалось собрать внушительную коллекцию старинных часов.'
               }
             },
             {
               id: 'c1-w19-m1-e2',
-              sentence: 'Venture funds often amass substantial capital reserves before committing to emerging infrastructure sectors.',
+              sentence: 'The defense lawyer worked late every night to amass evidence that would prove his client’s innocence.',
               translation: {
-                ru: 'Венчурные фонды часто аккумулируют значительные запасы капитала перед тем, как инвестировать в развивающиеся отрасли.'
+                ru: 'Адвокат работал допоздна каждый вечер, чтобы собрать доказательства, подтверждающие невиновность его подзащитного.'
               }
             }
           ]
@@ -420,16 +420,16 @@ export const c1Lesson2: Lesson = {
           examples: [
             {
               id: 'c1-w20-m1-e1',
-              sentence: 'Experienced leaders do not shrink from difficult restructuring choices when operational margins begin to collapse.',
+              sentence: 'A true leader should never shrink from giving honest and constructive feedback to their team.',
               translation: {
-                ru: 'Опытные руководители не уклоняются от трудных решений по реструктуризации, когда операционная маржа начинает рушиться.'
+                ru: 'Настоящий лидер никогда не должен уклоняться от того, чтобы давать честную и конструктивную обратную связь своей команде.'
               }
             },
             {
               id: 'c1-w20-m1-e2',
-              sentence: 'As consumer spending cooled, domestic retail revenues were forecast to shrink by four percent.',
+              sentence: 'Be careful washing that wool sweater in hot water, or it will shrink significantly.',
               translation: {
-                ru: 'По мере охлаждения потребительских расходов прогнозировалось, что доходы розничной торговли внутри страны сократятся на четыре процента.'
+                ru: 'Будьте осторожны при стирке этого шерстяного свитера в горячей воде, иначе он сильно сядет.'
               }
             }
           ]
@@ -440,19 +440,21 @@ export const c1Lesson2: Lesson = {
   reading: {
     id: 'c1-l2-r',
     title: 'Anatomy of an Industrial Turnaround',
-    content: `When the heritage aerospace supplier entered insolvency negotiations, skepticism pervaded the executive suite. Decades of institutional complacency had allowed overhead expenses to expand while technological relevance began to diminish at an alarming rate. Several competitors had moved decisively to amass market share by adopting automated fabrication methods that threatened to completely supersede the firm's traditional production lines.
+    content: `When the family-owned aerospace workshop entered financial restructuring, worry pervaded every corner of the facility. Years of complacency and timid management had allowed costs to rise while the factory’s technological edge began to diminish. Meanwhile, aggressive competitors moved quickly to amass market share by adopting automated fabrication methods that threatened to completely supersede the workshop’s traditional production lines.
 
-Market analysts projected that customer orders would shrink further over the coming fiscal cycle, a trend that would undoubtedly jeopardize thousands of unionized engineering jobs. The crisis did not originate overnight; rather, years of deferred capital investment and timid managerial oversight had created a systemic shortfall. Recognizing that cosmetic adjustments would fail, the newly installed interim board acted boldly. Rather than shrink from contentious structural reforms, they resolved to dismantle obsolete product lines and redirect remaining resources into cutting-edge composites.
+Industry analysts warned that client orders would shrink over the coming year, which would jeopardize the livelihoods of hundreds of skilled machinists. The crisis did not originate overnight; it was the result of years of deferred capital investments and ignored warnings. The newly appointed director knew that quick fixes would not work. Refusing to shrink from difficult structural reforms, she retired outdated product lines and redirected remaining resources into cutting-edge composites.
 
-To assuage nervous lenders, the restructuring team contrived an austere debt-refinancing framework that tied repayment milestones directly to verified output metrics. Communication with suppliers was completely overhauled: executive leaders hosted weekly transparent forums to ensure that rumors of insolvency would abate before destabilizing component pipelines. Instead of resting on legacy prestige, company engineers initiated collaborative research partnerships with technical universities to develop patentable avionics.
+To assuage nervous lenders, the restructuring team contrived an austere debt-refinancing framework that tied repayment milestones directly to verified output metrics. Communication with suppliers was completely revamped: executive leaders hosted weekly transparent forums to ensure that rumors of insolvency would abate before destabilizing component pipelines. Instead of resting on legacy prestige, company engineers initiated collaborative research partnerships with technical universities to develop patentable avionics.
 
-Within eighteen months, the radical reorganization bore tangible fruit. Factory lead times decreased by forty percent, quality assurance rejects fell to historic lows, and operating cash flows turned reliably positive. The turnaround proved that corporate distress, when approached with rigorous candor and disciplined execution, can revitalize organizations that once seemed destined for obsolescence.`,
+Within eighteen months, the honest approach and disciplined reorganization paid off. Factory lead times decreased by forty percent, quality assurance rejects fell to historic lows, and operating cash flows turned reliably positive. The turnaround proved that corporate distress, when approached with rigorous candor and disciplined execution, can revitalize organizations that once seemed destined for obsolescence.`,
     translations: {
-      ru: `Когда старейший поставщик аэрокосмических компонентов вступил в переговоры о банкротстве, скептицизм пронизывал (pervaded) весь совет директоров. Десятилетия самоуспокоенности привели к росту накладных расходов, в то время как технологическая конкурентоспособность предприятия стала умаляться (diminish) с пугающей скоростью. Конкуренты решительно копили и наращивали (amass) долю рынка, внедряя методы автоматизированного производства, грозившие полностью вытеснить (supersede) традиционные производственные линии завода.
+      ru: `Когда в семейной аэрокосмической мастерской началась финансовая реструктуризация, тревога наполнила (pervaded) каждый уголок предприятия. Годы самоуспокоенности и нерешительного руководства привели к росту расходов, тогда как технологическое преимущество завода стало умаляться (diminish). Тем временем агрессивные конкуренты быстро наращивали (amass) долю рынка, внедряя автоматизированные методы производства, которые грозили полностью вытеснить (supersede) традиционные производственные линии мастерской.
 
-Рыночные аналитики прогнозировали, что портфель заказов продолжит сокращаться (shrink) в наступающем финансовом году, что могло поставить под угрозу (jeopardize) тысячи рабочих мест высококлассных инженеров. Этот кризис возник (originate) не в одночасье: систематический дефицит складывался годами отложенных инвестиций и нерешительного руководства. Понимая бесперспективность косметических правок, новое руководство не стало уклоняться (shrink) от жестких структурных реформ, закрыв устаревшие линейки и перенаправив ресурсы на композитные материалы.
+Отраслевые аналитики предупреждали, что объем заказов продолжит сокращаться (shrink), что могло поставить под угрозу (jeopardize) благополучие сотен квалифицированных рабочих. Кризис возник (originate) не в один день: он стал итогом многолетней отсрочки инвестиций и нерешительного управления. Новый директор понимала, что полумерами не обойтись. Отказавшись уклоняться (shrink) от жестких структурных реформ, она закрыла устаревшие линейки и перенаправила оставшиеся ресурсы на передовые композитные материалы.
 
-Чтобы успокоить (assuage) обеспокоенных кредиторов, антикризисная команда исхитрилась разработать (contrived) жесткую программу рефинансирования с привязкой выплат к реальным показателям выработки. Были организованы регулярные открытые форумы с поставщиками, благодаря чему паника смогла утихнуть (abate) до того, как пострадали цепочки поставок. В результате время сборки сократилось почти наполовину, а денежные потоки вышли в стабильный плюс, доказав жизнеспособность смелых стратегических мер.`
+Чтобы успокоить (assuage) обеспокоенных кредиторов, антикризисная команда исхитрилась разработать (contrived) строгую программу рефинансирования с привязкой выплат к реальным показателям выработки. Были организованы регулярные открытые форумы с поставщиками, благодаря чему паника смогла утихнуть (abate) до того, как пострадали цепочки поставок.
+
+Спустя полтора года честный подход и строгая дисциплина принесли свои плоды. Время сборки сократилось на сорок процентов, брак упал до минимума, а денежные потоки вышли в надежный плюс, доказав жизнеспособность смелых стратегических мер.`
     },
     comprehensionQuestions: [
       {
